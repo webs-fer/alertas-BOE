@@ -4,6 +4,11 @@
   ],
   "dias_revision_por_defecto": 7,
   "modo_estricto_generacion": true,
+
+  "incluir_concursos_age_sin_provincia_confirmada": false,
+  "validar_provincia_en_documento_completo": true,
+  "incluir_municipios_provincia": true,
+
   "entidades_prioritarias": [
     "Ayuntamiento de Albacete",
     "Diputación Provincial de Albacete",
@@ -15,6 +20,7 @@
     "SEPE",
     "Servicio Público de Empleo Estatal"
   ],
+
   "departamentos_age_interes": [
     "Ministerio",
     "Subsecretaría",
@@ -28,6 +34,5 @@
     "Instituto Nacional",
     "Consejo Superior de Investigaciones Científicas",
     "Agencia Española"
-  ],
-  "nota": "Filtro fino: el script solo genera alertas de Sección II.B, convocatorias/provisión de personal, entidades de Albacete/CLM y concursos AGE revisables por anexo. Excluye subvenciones, sentencias, recursos, licitaciones, concesiones y fases posteriores de procesos selectivos."
+  ]
 }
