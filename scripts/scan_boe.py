@@ -2,16 +2,13 @@
 """
 Escáner BOE para GitHub Actions / uso local.
 
-Versión afinada para alertas de:
-- Concursos AGE de provisión de puestos de trabajo, marcados como revisar anexo si no aparece la provincia.
-- Libre designación / comisión de servicios solo cuando son convocatorias/provisión de puestos.
-- Convocatorias de empleo público de entidades locales/autonómicas en la provincia vigilada.
-
-Evita ruido habitual del BOE:
-- Secciones 3 y 5B.
-- Subvenciones, ayudas, licitaciones, concesiones, premios, sentencias y recursos.
-- Fases posteriores de oposiciones: admitidos, nombramientos, tribunales, resoluciones, correcciones, etc.
-- Concursos/procesos jurídicos no útiles para TAI/C1 administrativo: Carrera Fiscal, Letrados, Carrera Judicial y Fiscal.
+Filtro v3.2:
+- Sección II.B.
+- Convocatorias/provisión de personal.
+- Albacete directo: Ayuntamiento, Diputación, municipios/provincia.
+- Concursos AGE: solo se muestran si el documento completo BOE contiene la provincia vigilada,
+  salvo que config.json permita expresamente los AGE sin confirmar.
+- Excluye ruido: subvenciones, ayudas, licitaciones, recursos, sentencias, carrera fiscal, letrados, etc.
 """
 from __future__ import annotations
 
@@ -20,7 +17,6 @@ import datetime as dt
 import hashlib
 import json
 import re
-import sys
 import time
 import unicodedata
 import urllib.error
@@ -40,6 +36,8 @@ NEW_COUNT_PATH = DOCS_DIR / "new_alert_count.txt"
 BOE_API = "https://www.boe.es/datosabiertos/api/boe/sumario/{fecha}"
 BOE_BASE = "https://www.boe.es"
 
+URL_TEXT_CACHE: Dict[str, str] = {}
+
 ALL_PROVINCES = [
     "Albacete", "Alicante", "Almería", "Ávila", "Badajoz", "Barcelona", "Burgos", "Cáceres", "Cádiz",
     "Castellón", "Ciudad Real", "Córdoba", "Cuenca", "Girona", "Granada", "Guadalajara", "Huelva", "Huesca",
@@ -52,6 +50,9 @@ DEFAULT_CONFIG = {
     "provincias_vigiladas": ["Albacete"],
     "dias_revision_por_defecto": 7,
     "modo_estricto_generacion": True,
+    "incluir_concursos_age_sin_provincia_confirmada": False,
+    "validar_provincia_en_documento_completo": True,
+    "incluir_municipios_provincia": True,
     "entidades_prioritarias": [
         "Ayuntamiento de Albacete",
         "Diputación Provincial de Albacete",
@@ -79,11 +80,9 @@ DEFAULT_CONFIG = {
     ]
 }
 
-# Solo queremos sección II.B para convocatorias/oposiciones/concursos.
-# Las resoluciones de destinos y nombramientos suelen estar en II.A y no sirven para apuntarse.
+# Solo sección II.B. Es donde están Oposiciones y concursos.
 ALLOWED_SECTION_CODES = {"2b", "iib"}
 
-# Palabras que suelen indicar que NO es una convocatoria útil para inscribirse o concursar.
 EXCLUDE_PATTERNS = [
     r"\bcorreccion(?:es)? de errores\b",
     r"\bse corrigen errores\b",
@@ -115,7 +114,7 @@ EXCLUDE_PATTERNS = [
     r"\brecurso de amparo\b",
     r"\brecursos\b",
 
-    # Exclusión jurídica/fiscal: no sirve para TAI, Administrativo C1/C1-A2 ni informática.
+    # Jurídico/fiscal que no encaja con TAI/C1 administrativo/informática.
     r"\bcarrera fiscal\b",
     r"\bcarreras judicial y fiscal\b",
     r"\bcarrera judicial\b",
@@ -130,7 +129,6 @@ EXCLUDE_PATTERNS = [
     r"\bmagistrad[oa]s?\b",
 ]
 
-# Palabras que indican que el BOE no es de personal/empleo sino subvenciones, concesiones, contratos, etc.
 NO_PERSONAL_PATTERNS = [
     r"\bsubvencion(?:es)?\b",
     r"\bayuda(?:s)?\b",
@@ -156,7 +154,6 @@ NO_PERSONAL_PATTERNS = [
     r"\btitulaciones nauticas\b",
 ]
 
-# Convocatorias reales o provisión de puestos.
 OPENING_PATTERNS = [
     r"\bse convoca\b",
     r"\bconvoca\b",
@@ -179,12 +176,12 @@ CONCURSO_PUESTOS_PATTERNS = [
 
 LIBRE_DESIGNACION_PATTERNS = [
     r"\blibre designacion\b",
-    r"\bprovision de puesto(?:s)? de trabajo por el sistema de libre designacion\b"
+    r"\bprovision de puesto(?:s)? de trabajo por el sistema de libre designacion\b",
 ]
 
 COMISION_SERVICIO_PATTERNS = [
     r"\bcomision de servicio(?:s)?\b",
-    r"\bcomisiones de servicio(?:s)?\b"
+    r"\bcomisiones de servicio(?:s)?\b",
 ]
 
 OPOSICION_PATTERNS = [
@@ -193,7 +190,7 @@ OPOSICION_PATTERNS = [
     r"\bproceso selectivo\b",
     r"\bconvocatoria para proveer\b",
     r"\breferente a la convocatoria para proveer\b",
-    r"\bbolsa de trabajo\b"
+    r"\bbolsa de trabajo\b",
 ]
 
 PROFILE_REGEX = {
@@ -209,7 +206,7 @@ PROFILE_REGEX = {
         r"\bofimatica\b",
         r"\bdesarrollo de aplicaciones\b",
         r"\btecnico auxiliar de informatica\b",
-        r"\btecnico especialista en ofimatica\b"
+        r"\btecnico especialista en ofimatica\b",
     ],
     "administrativo": [
         r"\bcuerpo administrativo\b",
@@ -218,7 +215,7 @@ PROFILE_REGEX = {
         r"\bgestion administrativa\b",
         r"\bplaza(?:s)? de administrativo\b",
         r"\badministrativo/a\b",
-        r"\badministrativos?\b"
+        r"\badministrativos?\b",
     ],
     "c1a2": [
         r"\bc1/a2\b",
@@ -228,8 +225,8 @@ PROFILE_REGEX = {
         r"\bc1\b",
         r"\ba2\b",
         r"\bnivel\s+1[6-9]\b",
-        r"\bnivel\s+2[0-2]\b"
-    ]
+        r"\bnivel\s+2[0-2]\b",
+    ],
 }
 
 
@@ -258,13 +255,12 @@ def daterange(start: dt.date, end: dt.date) -> Iterable[dt.date]:
 
 
 def load_config() -> Dict[str, Any]:
+    merged = dict(DEFAULT_CONFIG)
     if CONFIG_PATH.exists():
         with CONFIG_PATH.open("r", encoding="utf-8") as f:
-            merged = DEFAULT_CONFIG.copy()
             loaded = json.load(f)
             merged.update(loaded)
-            return merged
-    return DEFAULT_CONFIG
+    return merged
 
 
 def load_existing() -> Dict[str, Any]:
@@ -281,7 +277,7 @@ def fetch_sumario(fecha: dt.date, retries: int = 2) -> Optional[bytes]:
     url = BOE_API.format(fecha=fecha.strftime("%Y%m%d"))
     headers = {
         "Accept": "application/xml",
-        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.2 (+https://pages.github.com/)"
+        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.3 (+https://pages.github.com/)",
     }
     request = urllib.request.Request(url, headers=headers)
 
@@ -300,6 +296,64 @@ def fetch_sumario(fecha: dt.date, retries: int = 2) -> Optional[bytes]:
         time.sleep(1.5 * (attempt + 1))
 
     return None
+
+
+def fetch_url_text(url: str, retries: int = 2) -> str:
+    """
+    Lee XML/HTML de la disposición concreta. Se usa para comprobar si dentro del
+    documento completo aparece la provincia vigilada.
+    """
+    if not url:
+        return ""
+
+    if url in URL_TEXT_CACHE:
+        return URL_TEXT_CACHE[url]
+
+    headers = {
+        "Accept": "application/xml,text/html,text/plain,*/*",
+        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.3 (+https://pages.github.com/)",
+    }
+    request = urllib.request.Request(url, headers=headers)
+
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                raw = response.read()
+                text = raw.decode("utf-8", errors="ignore")
+                URL_TEXT_CACHE[url] = text
+                return text
+        except Exception as exc:
+            print(f"[WARN] No se pudo leer documento completo {url}: {exc!r}")
+            time.sleep(1.5 * (attempt + 1))
+
+    URL_TEXT_CACHE[url] = ""
+    return ""
+
+
+def document_target_provinces(item: Dict[str, Any], provincias_vigiladas: List[str]) -> List[str]:
+    """
+    Devuelve provincias vigiladas encontradas dentro del documento BOE completo.
+    Primero intenta XML, luego HTML. No busca en el PDF binario.
+    """
+    text = ""
+
+    xml_url = item.get("enlaceXml", "")
+    html_url = item.get("enlaceBoeHtml", "")
+
+    if xml_url:
+        text = fetch_url_text(xml_url)
+
+    if not text and html_url:
+        text = fetch_url_text(html_url)
+
+    text_norm = norm(text)
+
+    found = []
+    for provincia in provincias_vigiladas:
+        if re.search(rf"\b{re.escape(norm(provincia))}\b", text_norm):
+            found.append(provincia)
+
+    return found
 
 
 def tag_name(element: ET.Element) -> str:
@@ -407,7 +461,7 @@ def extract_item(element: ET.Element, fecha: dt.date, ctx: Dict[str, str]) -> Di
         "enlaceXml": abs_url(url_xml),
         "enlaceSumario": sumario_url(fecha),
         "enlaceApi": api_url(fecha),
-        "fuente": "BOE"
+        "fuente": "BOE",
     }
 
 
@@ -482,8 +536,8 @@ def is_opening_or_provision(text_norm: str, tipo: str) -> bool:
                 [
                     r"\bconvoca\b",
                     r"\bprovision de puesto(?:s)? de trabajo\b",
-                    r"\bpuestos de trabajo\b"
-                ]
+                    r"\bpuestos de trabajo\b",
+                ],
             )
         )
 
@@ -500,7 +554,7 @@ def is_age_concurso_revisable(
     item: Dict[str, Any],
     text_norm: str,
     tipo: str,
-    config: Dict[str, Any]
+    config: Dict[str, Any],
 ) -> bool:
     if tipo != "concurso" or not is_allowed_section(item):
         return False
@@ -531,7 +585,7 @@ def is_age_concurso_revisable(
 def classify(
     item: Dict[str, Any],
     config: Dict[str, Any],
-    provincias_vigiladas: List[str]
+    provincias_vigiladas: List[str],
 ) -> Optional[Dict[str, Any]]:
     full_norm = norm(
         " ".join(
@@ -540,12 +594,11 @@ def classify(
         )
     )
 
-    # Filtro duro: evitar secciones que generan muchísimo ruido.
-    # Las convocatorias útiles suelen estar en II.B.
+    # 1. Solo sección II.B.
     if not is_allowed_section(item):
         return None
 
-    # Filtro duro: no-personal/empleo.
+    # 2. Fuera ruido claro de no-personal.
     if re_any(full_norm, NO_PERSONAL_PATTERNS):
         return None
 
@@ -554,7 +607,8 @@ def classify(
     if tipo == "otros":
         return None
 
-    # Los concursos AGE se tratan aparte porque pueden tener la provincia dentro del anexo.
+    # 3. Concursos AGE se tratan aparte, pero ya no se muestran
+    #    si no aparece la provincia dentro del documento completo.
     age_revisable = is_age_concurso_revisable(item, full_norm, tipo, config)
 
     if not age_revisable:
@@ -565,13 +619,18 @@ def classify(
             return None
 
     perfiles = detect_perfiles(full_norm)
-    provincias = detect_provincias(full_norm)
+    provincias_titulo = detect_provincias(full_norm)
     entidad = detect_entidad(full_norm)
 
     target_provinces_norm = [norm(p) for p in provincias_vigiladas]
-    target_province_hit = any(norm(p) in target_provinces_norm for p in provincias)
+    target_province_hit_title = any(norm(p) in target_provinces_norm for p in provincias_titulo)
 
-    target_local_entity_hit = (
+    incluir_municipios_provincia = bool(config.get("incluir_municipios_provincia", True))
+    incluir_age_sin_confirmar = bool(config.get("incluir_concursos_age_sin_provincia_confirmada", False))
+    validar_doc = bool(config.get("validar_provincia_en_documento_completo", True))
+
+    # Entidades explícitas de máximo interés.
+    target_main_entity_hit = (
         "ayuntamiento de albacete" in full_norm
         or "diputacion provincial de albacete" in full_norm
         or "diputacion de albacete" in full_norm
@@ -580,24 +639,58 @@ def classify(
         or "junta de comunidades" in full_norm
     )
 
+    # Municipio de la provincia: "Ayuntamiento de X (Albacete)".
+    # Se puede desactivar desde config.json.
+    target_province_hit = target_province_hit_title and incluir_municipios_provincia
+
+    confirmed_doc_provinces: List[str] = []
+
+    # Para concursos AGE sin provincia visible en título, confirmamos mirando XML/HTML.
+    if age_revisable and not target_province_hit_title and not target_main_entity_hit:
+        if validar_doc:
+            confirmed_doc_provinces = document_target_provinces(item, provincias_vigiladas)
+
+        if not confirmed_doc_provinces and not incluir_age_sin_confirmar:
+            return None
+
+    # Si el título ya trae Albacete o es entidad directa, no hace falta validar documento.
+    if target_province_hit_title:
+        confirmed_doc_provinces = list(set(confirmed_doc_provinces + [p for p in provincias_titulo if norm(p) in target_provinces_norm]))
+
     # Núcleo fino:
-    # 1) Todo lo de la provincia vigilada en II.B que sea convocatoria/provisión.
-    # 2) Entidades prioritarias de Albacete/CLM.
-    # 3) Concursos AGE de puestos: revisar anexo aunque no aparezca provincia.
-    if not (target_province_hit or target_local_entity_hit or age_revisable):
+    # - Entidad directa Albacete/CLM.
+    # - Provincia en título si se permiten municipios.
+    # - AGE confirmado en documento.
+    # - AGE sin confirmar solo si config lo permite.
+    age_accepted = age_revisable and (bool(confirmed_doc_provinces) or incluir_age_sin_confirmar)
+
+    if not (target_main_entity_hit or target_province_hit or age_accepted):
         return None
 
-    if target_province_hit or target_local_entity_hit:
+    if target_main_entity_hit:
         precision = "alta"
         prioridad = 1
-        motivo = "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal."
+        motivo = "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal."
 
-    elif age_revisable:
+    elif target_province_hit:
+        precision = "alta"
+        prioridad = 1
+        motivo = "Coincidencia directa con la provincia vigilada en una convocatoria/provisión de personal."
+
+    elif age_revisable and confirmed_doc_provinces:
         precision = "revisar_anexo"
         prioridad = 2
         motivo = (
-            "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; "
-            "abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo."
+            "Concurso AGE de provisión de puestos en el que aparece la provincia vigilada dentro del documento BOE. "
+            "Abre el PDF/anexo y comprueba localidad, cuerpo, nivel y requisitos: C1, C1/A2, nivel 16 o superior, informática/administrativo."
+        )
+
+    elif age_revisable and incluir_age_sin_confirmar:
+        precision = "age_sin_confirmar"
+        prioridad = 4
+        motivo = (
+            "Concurso AGE general sin provincia confirmada dentro del documento. "
+            "Se muestra porque config.json permite incluir concursos AGE sin confirmar."
         )
 
     else:
@@ -605,9 +698,11 @@ def classify(
         prioridad = 3
         motivo = "Coincidencia indirecta; revisar manualmente."
 
+    provincias_detectadas = sorted(set(provincias_titulo + confirmed_doc_provinces), key=lambda x: norm(x))
+
     tags = sorted(
         set(
-            provincias
+            provincias_detectadas
             + perfiles
             + ([entidad] if entidad else [])
             + ([tipo] if tipo else [])
@@ -618,12 +713,13 @@ def classify(
     result.update({
         "tipo": tipo,
         "perfiles": sorted(set(perfiles)),
-        "provinciasDetectadas": provincias,
+        "provinciasDetectadas": provincias_detectadas,
+        "provinciasConfirmadasDocumento": confirmed_doc_provinces,
         "entidadDetectada": entidad,
         "precision": precision,
         "prioridad": prioridad,
         "motivo": motivo,
-        "tags": tags
+        "tags": tags,
     })
 
     return result
@@ -643,13 +739,12 @@ def unique_key(item: Dict[str, Any]) -> str:
 
 def merge_alerts(
     existing: List[Dict[str, Any]],
-    new: List[Dict[str, Any]]
+    new: List[Dict[str, Any]],
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     by_key: Dict[str, Dict[str, Any]] = {}
 
     for item in existing:
-        key = unique_key(item)
-        by_key[key] = item
+        by_key[unique_key(item)] = item
 
     added = []
 
@@ -663,22 +758,20 @@ def merge_alerts(
 
     merged = list(by_key.values())
 
-    # Primero ordena por prioridad.
     merged.sort(
         key=lambda x: (
             x.get("prioridad", 9),
             x.get("fechaPublicacion", ""),
-            x.get("titulo", "")
+            x.get("titulo", ""),
         )
     )
 
-    # Después deja lo más reciente arriba, manteniendo prioridad.
     merged.sort(
         key=lambda x: (
             x.get("fechaPublicacion", ""),
-            -int(x.get("prioridad", 9))
+            -int(x.get("prioridad", 9)),
         ),
-        reverse=True
+        reverse=True,
     )
 
     return merged, added
@@ -694,26 +787,28 @@ def build_issue_markdown(added: List[Dict[str, Any]], args: argparse.Namespace) 
         f"Provincia/filtro principal: **{args.provincia or 'configuración'}**",
         f"Rango revisado: **{args.desde or 'auto'} → {args.hasta or 'auto'}**",
         "",
-        "> En concursos AGE, abre el PDF/anexo y busca: Albacete, C1, C1/A2, nivel 16, informática, TIC, administrativo.",
-        ""
+        "> En concursos AGE solo se avisa si el documento BOE contiene la provincia vigilada, salvo que config.json permita concursos AGE sin confirmar.",
+        "",
     ]
 
     for item in sorted(added, key=lambda x: (x.get("prioridad", 9), x.get("fechaPublicacion", "")))[:30]:
         title = item.get("titulo", "Sin título")
+        provincias_confirmadas = item.get("provinciasConfirmadasDocumento") or []
 
         lines.extend([
             f"## {item.get('fechaPublicacion')} · {title}",
             f"- Prioridad: **{item.get('prioridad', 'N/D')}**",
             f"- Tipo: **{item.get('tipo', 'sin tipo')}**",
             f"- Precisión: **{item.get('precision', 'pendiente')}**",
-            f"- Provincia detectada: {', '.join(item.get('provinciasDetectadas') or []) or 'No visible en el título'}",
+            f"- Provincia detectada: {', '.join(item.get('provinciasDetectadas') or []) or 'No visible'}",
+            f"- Provincia confirmada en documento: {', '.join(provincias_confirmadas) or 'No aplica'}",
             f"- Entidad: {item.get('entidadDetectada') or 'No disponible'}",
             f"- Departamento: {item.get('departamento') or 'No disponible'}",
             f"- Motivo: {item.get('motivo') or 'Coincidencia detectada.'}",
             f"- BOE: {item.get('enlaceBoeHtml') or item.get('enlaceSumario')}",
             f"- PDF: {item.get('enlacePdf') or 'No disponible'}",
             f"- Sumario: {item.get('enlaceSumario')}",
-            ""
+            "",
         ])
 
     if len(added) > 30:
@@ -746,13 +841,13 @@ def parse_args() -> argparse.Namespace:
         "--max-dias",
         type=int,
         default=90,
-        help="Límite de días por ejecución para evitar workflows excesivos"
+        help="Límite de días por ejecución para evitar workflows excesivos",
     )
 
     parser.add_argument(
         "--reiniciar",
         action="store_true",
-        help="No conserva alertas antiguas; reescribe data/alertas.json solo con el rango actual"
+        help="No conserva alertas antiguas; reescribe data/alertas.json solo con el rango actual",
     )
 
     return parser.parse_args()
@@ -788,6 +883,8 @@ def main() -> int:
     provincias = [p for p in provincias if p]
 
     print(f"[INFO] Revisando BOE desde {desde} hasta {hasta}. Provincias: {', '.join(provincias)}")
+    print(f"[INFO] AGE sin provincia confirmada: {config.get('incluir_concursos_age_sin_provincia_confirmada', False)}")
+    print(f"[INFO] Validar provincia en documento completo: {config.get('validar_provincia_en_documento_completo', True)}")
 
     found: List[Dict[str, Any]] = []
     errors: List[str] = []
@@ -826,19 +923,19 @@ def main() -> int:
     payload = {
         "metadata": {
             "generatedBy": "scripts/scan_boe.py",
-            "versionFiltro": "v3.1-fino-juridico-excluido",
+            "versionFiltro": "v3.2-provincia-confirmada-documento",
             "lastRun": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "rangoUltimaRevision": {
                 "desde": desde.isoformat(),
-                "hasta": hasta.isoformat()
+                "hasta": hasta.isoformat(),
             },
             "provinciasVigiladas": provincias,
             "fuente": "BOE Datos Abiertos - sumario diario",
             "totalAlertas": len(merged),
             "nuevasAlertas": len(added),
-            "errores": errors
+            "errores": errors,
         },
-        "alertas": merged
+        "alertas": merged,
     }
 
     write_outputs(payload, added, args)
