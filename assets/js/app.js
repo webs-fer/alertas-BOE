@@ -23,9 +23,9 @@ const labelTipo = {
 };
 
 const perfilPalabras = {
-  informatica: ['informatica','informático','informaticos','sistemas','tic','tecnologias de la informacion','tecnologías de la información','programador','desarrollo','microinformatica','administracion de sistemas','técnico auxiliar de informática','tecnico auxiliar de informatica'],
-  administrativo: ['administrativo','administrativa','auxiliar administrativo','gestión administrativa','gestion administrativa'],
-  c1a2: ['c1','c2','a2','c1/a2','c1-a2','grupo c','subgrupo c1','subgrupo a2','nivel 16','nivel 17','nivel 18','nivel 19','nivel 20','nivel 21','nivel 22']
+  informatica: ['informatica','informatico','informaticos','tecnologias de la informacion','tecnologías de la información','tic','sistemas informaticos','administracion de sistemas','microinformatica','programador','programadora','ofimatica','desarrollo de aplicaciones','tecnico auxiliar de informatica','técnico auxiliar de informática'],
+  administrativo: ['cuerpo administrativo','escala administrativa','auxiliar administrativo','gestion administrativa','gestión administrativa','plaza de administrativo','administrativos'],
+  c1a2: ['c1','a2','c1/a2','c1-a2','subgrupo c1','subgrupo a2','nivel 16','nivel 17','nivel 18','nivel 19','nivel 20','nivel 21','nivel 22']
 };
 
 function normalize(text = '') {
@@ -302,7 +302,7 @@ async function tryDirectApi() {
     for (const iso of dates) {
       const xmlText = await fetchBoeXml(iso);
       const items = parseBoeXml(xmlText, iso);
-      state.directResults.push(...items.map(classifyItem));
+      state.directResults.push(...items.map(classifyItem).filter((item) => item.tipo !== 'otros'));
     }
     $('#apiAviso').textContent = `Consulta directa completada: ${state.directResults.length} posibles avisos leídos. Si no aparece nada, abre el sumario del día.`;
     applyFilters();
@@ -379,26 +379,65 @@ function closestSection(node) {
   return '';
 }
 
+function hasAnyPattern(full, patterns) {
+  return patterns.some((pattern) => pattern.test(full));
+}
+
+function simpleSection(value = '') {
+  return normalize(value).replace(/[^0-9a-z]/g, '');
+}
+
 function classifyItem(item) {
   const full = normalize(`${item.titulo} ${item.departamento} ${item.seccion}`);
-  const provincias = DEFAULT_PROVINCES.filter((p) => full.includes(normalize(p)));
-  let tipo = 'otros';
-  if (/(concurso|provision de puestos|provisión de puestos|puesto de trabajo|puestos de trabajo)/.test(full)) tipo = 'concurso';
-  if (/(libre designacion|libre designación)/.test(full)) tipo = 'libre_designacion';
-  if (/(comision de servicios|comisión de servicios|comision de servicio|comisión de servicio)/.test(full)) tipo = 'comision_servicio';
-  if (/(oposicion|oposición|convocatoria|proceso selectivo|pruebas selectivas|bolsa de trabajo)/.test(full)) tipo = 'oposicion';
+  const section = simpleSection(item.seccion || '');
+  const provincias = DEFAULT_PROVINCES.filter((p) => new RegExp(`\\b${normalize(p)}\\b`).test(full));
 
-  const perfiles = [];
-  for (const [perfil, words] of Object.entries(perfilPalabras)) {
-    if (words.some((w) => full.includes(normalize(w)))) perfiles.push(perfil);
-  }
+  const noPersonal = [
+    /\bsubvencion(es)?\b/, /\bayuda(s)?\b/, /\bpremio(s)?\b/, /\bconcesion administrativa\b/,
+    /\blicitacion\b/, /\bcontratacion\b/, /\badjudicacion\b/, /\bexplotacion\b/, /\bquiosco\b/,
+    /\bhosteleria\b/, /\bvivienda\b/, /\btesoro publico\b/, /\bsubasta\b/, /\bsentencia\b/, /\brecurso de amparo\b/
+  ];
+  const excluirFases = [
+    /\bcorreccion(es)? de errores\b/, /\brelacion provisional\b/, /\brelacion definitiva\b/,
+    /\badmitid[oa]s? y excluid[oa]s?\b/, /\baspirantes que han superado\b/, /\btribunal calificador\b/,
+    /\bse resuelve\b/, /\bresuelve la convocatoria\b/, /\bdeclara desiert[ao]\b/, /\bnombra funcionari[oa]\b/,
+    /\bnombramiento\b/, /\bejecucion de sentencia\b/, /\bemplaza\b/
+  ];
+  const apertura = [
+    /\bse convoca\b/, /\bconvoca\b/, /\bconvocatoria para proveer\b/, /\breferente a la convocatoria para proveer\b/,
+    /\bpruebas selectivas para ingreso\b/, /\bproceso selectivo para ingreso\b/, /\bprovision de puesto(s)? de trabajo\b/
+  ];
+
+  let tipo = 'otros';
+  if (/\bcomision de servicio(s)?\b/.test(full)) tipo = 'comision_servicio';
+  else if (/\blibre designacion\b/.test(full)) tipo = 'libre_designacion';
+  else if ((/\bconcurso general\b/.test(full) || /\bconcurso especifico\b/.test(full) || /\bconcurso de traslados\b/.test(full) || (/\bconcurso\b/.test(full) && /\bpuesto(s)? de trabajo\b/.test(full)))) tipo = 'concurso';
+  else if (/\boposicion\b|\bpruebas selectivas\b|\bproceso selectivo\b|\bconvocatoria para proveer\b|\bbolsa de trabajo\b/.test(full)) tipo = 'oposicion';
 
   const entidad = detectEntidad(full);
-  const revisarAnexo = tipo === 'concurso' && !provincias.length;
+  const revisarAnexo = tipo === 'concurso' && section === '2b' && !provincias.length && !hasAnyPattern(full, noPersonal) && !hasAnyPattern(full, excluirFases);
+
+  if (section !== '2b' || tipo === 'otros' || hasAnyPattern(full, noPersonal)) {
+    return { ...item, tipo: 'otros', perfiles: [], provinciasDetectadas: provincias, entidadDetectada: entidad, precision: 'descartado', motivo: 'Descartado por filtro fino.' };
+  }
+  if (!revisarAnexo && (hasAnyPattern(full, excluirFases) || !hasAnyPattern(full, apertura))) {
+    return { ...item, tipo: 'otros', perfiles: [], provinciasDetectadas: provincias, entidadDetectada: entidad, precision: 'descartado', motivo: 'Descartado por no ser convocatoria/provisión inicial.' };
+  }
+
+  const perfiles = [];
+  const perfilRegex = {
+    informatica: [/\binformatica\b/, /\binformatic[oa]s?\b/, /\btecnologias? de la informacion\b/, /\btic\b/, /\bsistemas informaticos\b/, /\badministracion de sistemas\b/, /\bmicroinformatica\b/, /\bprogramador(a|es)?\b/, /\bofimatica\b/],
+    administrativo: [/\bcuerpo administrativo\b/, /\bescala administrativa\b/, /\bauxiliar administrativo\b/, /\bgestion administrativa\b/, /\bplaza(s)? de administrativo\b/, /\badministrativos?\b/],
+    c1a2: [/\bc1\b/, /\ba2\b/, /\bc1\/a2\b/, /\bc1-a2\b/, /\bsubgrupo c1\b/, /\bsubgrupo a2\b/, /\bnivel 1[6-9]\b/, /\bnivel 2[0-2]\b/]
+  };
+  for (const [perfil, patterns] of Object.entries(perfilRegex)) {
+    if (hasAnyPattern(full, patterns)) perfiles.push(perfil);
+  }
+
   const precision = provincias.length || entidad ? 'alta' : revisarAnexo ? 'revisar_anexo' : 'media';
   const motivo = revisarAnexo
-    ? 'Concurso/provisión detectado. La provincia puede venir dentro del anexo PDF, por eso conviene abrir la disposición y revisar los puestos.'
-    : 'Coincidencia detectada en título, departamento o sección del BOE.';
+    ? 'Concurso AGE de provisión de puestos. La provincia puede venir dentro del anexo PDF; busca Albacete, C1/C1-A2, nivel 16 o informática/administrativo.'
+    : 'Coincidencia detectada en una convocatoria/provisión de personal de la Sección II.B.';
 
   return {
     ...item,
@@ -407,18 +446,21 @@ function classifyItem(item) {
     provinciasDetectadas: provincias,
     entidadDetectada: entidad,
     precision,
+    prioridad: precision === 'alta' ? 1 : revisarAnexo ? 2 : 3,
     motivo,
-    tags: perfiles
+    tags: [...new Set([...perfiles, ...provincias, entidad, tipo].filter(Boolean))]
   };
 }
 
 function detectEntidad(full) {
   if (full.includes('ayuntamiento de albacete')) return 'Ayuntamiento de Albacete';
-  if (full.includes('diputacion provincial de albacete') || full.includes('diputación provincial de albacete')) return 'Diputación de Albacete';
+  if (full.includes('diputacion provincial de albacete') || full.includes('diputacion de albacete')) return 'Diputación de Albacete';
   if (full.includes('castilla-la mancha') || full.includes('castilla la mancha') || full.includes('junta de comunidades')) return 'Castilla-La Mancha';
-  if (full.includes('administracion general del estado') || full.includes('administración general del estado')) return 'AGE';
+  if (full.includes('servicio publico de empleo estatal') || /\bsepe\b/.test(full)) return 'SEPE';
+  if (full.includes('administracion general del estado')) return 'AGE';
   return '';
 }
+
 
 function enumerateDates(desde, hasta) {
   const out = [];
