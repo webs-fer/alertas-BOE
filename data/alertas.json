@@ -1,8 +1,8 @@
 {
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
-    "versionFiltro": "v3.1-fino-juridico-excluido",
-    "lastRun": "2026-04-29T19:16:13+00:00",
+    "versionFiltro": "v3.2-provincia-confirmada-documento",
+    "lastRun": "2026-04-29T19:35:04+00:00",
     "rangoUltimaRevision": {
       "desde": "2026-04-01",
       "hasta": "2026-04-29"
@@ -11,61 +11,11 @@
       "Albacete"
     ],
     "fuente": "BOE Datos Abiertos - sumario diario",
-    "totalAlertas": 20,
-    "nuevasAlertas": 20,
+    "totalAlertas": 10,
+    "nuevasAlertas": 10,
     "errores": []
   },
   "alertas": [
-    {
-      "id": "BOE-A-2026-9309",
-      "boeId": "BOE-A-2026-9309",
-      "fechaPublicacion": "2026-04-29",
-      "titulo": "Resolución de 22 de abril de 2026, de la Agencia Española de Protección de Datos, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "1011",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9309",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9309.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9309",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9303",
-      "boeId": "BOE-A-2026-9303",
-      "fechaPublicacion": "2026-04-29",
-      "titulo": "Resolución de 23 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "9587",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9303",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9303.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9303",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
     {
       "id": "BOE-A-2026-9255",
       "boeId": "BOE-A-2026-9255",
@@ -85,63 +35,16 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con la provincia vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9232",
-      "boeId": "BOE-A-2026-9232",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 16 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Agencia Española de Medicamentos y Productos Sanitarios.",
-      "departamento": "4335",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9232",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9232.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9232",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9059",
-      "boeId": "BOE-A-2026-9059",
-      "fechaPublicacion": "2026-04-25",
-      "titulo": "Resolución de 17 de abril de 2026, del Servicio Español para la Internacionalización de la Educación, por la que se convoca concurso específico para la provisión de puesto de trabajo.",
-      "departamento": "9565",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9059",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/25/pdfs/BOE-A-2026-9059.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9059",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260425",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
       ]
     },
     {
@@ -163,10 +66,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con la provincia vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "oposicion"
@@ -191,10 +97,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Ayuntamiento de Albacete",
@@ -220,164 +129,17 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Ayuntamiento de Albacete",
         "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8613",
-      "boeId": "BOE-A-2026-8613",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Resolución de 8 de abril de 2026, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se convoca concurso general para la provisión de puestos de trabajo.",
-      "departamento": "9562",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8613",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8613.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8613",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8438",
-      "boeId": "BOE-A-2026-8438",
-      "fechaPublicacion": "2026-04-17",
-      "titulo": "Resolución de 15 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8438",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/17/pdfs/BOE-A-2026-8438.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8438",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260417",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8388",
-      "boeId": "BOE-A-2026-8388",
-      "fechaPublicacion": "2026-04-16",
-      "titulo": "Resolución de 8 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Organismo Estatal Inspección de Trabajo y Seguridad Social.",
-      "departamento": "9573",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8388",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/16/pdfs/BOE-A-2026-8388.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8388",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/16/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260416",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8229",
-      "boeId": "BOE-A-2026-8229",
-      "fechaPublicacion": "2026-04-14",
-      "titulo": "Resolución de 6 de abril de 2026, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se convoca concurso general para la provisión de puestos de trabajo.",
-      "departamento": "9565",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8229",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8229.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8229",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/14/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260414",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8222",
-      "boeId": "BOE-A-2026-8222",
-      "fechaPublicacion": "2026-04-14",
-      "titulo": "Resolución de 8 de abril de 2026, de la Presidencia de la Autoridad Independiente de Responsabilidad Fiscal, AAI, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "5140",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8222",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8222.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8222",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/14/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260414",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8141",
-      "boeId": "BOE-A-2026-8141",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 8 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Abogacía General del Estado.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8141",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8141.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8141",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
       ]
     },
     {
@@ -399,10 +161,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "Diputación de Albacete",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Diputación de Albacete",
@@ -428,10 +193,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con la provincia vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "oposicion"
@@ -456,10 +224,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "Diputación de Albacete",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Diputación de Albacete",
@@ -485,10 +256,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con la provincia vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "oposicion"
@@ -513,10 +287,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "Diputación de Albacete",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Diputación de Albacete",
@@ -542,10 +319,13 @@
       "provinciasDetectadas": [
         "Albacete"
       ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
       "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
       "prioridad": 1,
-      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
+      "motivo": "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Ayuntamiento de Albacete",
