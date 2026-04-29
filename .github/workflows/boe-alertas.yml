@@ -1,0 +1,87 @@
+name: Revisar BOE alertas C1
+
+on:
+  schedule:
+    # El BOE se publica normalmente de lunes a sábado.
+    # GitHub Actions usa horario UTC.
+    # En España será aproximadamente 08:20 en invierno / 09:20 en verano.
+    - cron: "20 7 * * 1-6"
+
+  workflow_dispatch:
+    inputs:
+      fecha_desde:
+        description: "Fecha inicial YYYY-MM-DD. Déjalo vacío para revisar los últimos días."
+        required: false
+        type: string
+      fecha_hasta:
+        description: "Fecha final YYYY-MM-DD. Déjalo vacío para hoy."
+        required: false
+        type: string
+      provincia:
+        description: "Provincia a vigilar"
+        required: false
+        default: "Albacete"
+        type: string
+      dias:
+        description: "Días hacia atrás si no indicas fecha_desde"
+        required: false
+        default: "30"
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  revisar-boe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ejecutar escáner BOE
+        run: |
+          set -e
+          ARGS=""
+          if [ -n "${{ github.event.inputs.fecha_desde }}" ]; then ARGS="$ARGS --desde ${{ github.event.inputs.fecha_desde }}"; fi
+          if [ -n "${{ github.event.inputs.fecha_hasta }}" ]; then ARGS="$ARGS --hasta ${{ github.event.inputs.fecha_hasta }}"; fi
+          if [ -n "${{ github.event.inputs.provincia }}" ]; then ARGS="$ARGS --provincia '${{ github.event.inputs.provincia }}'"; fi
+          if [ -n "${{ github.event.inputs.dias }}" ]; then ARGS="$ARGS --dias ${{ github.event.inputs.dias }}"; fi
+          echo "python scripts/scan_boe.py $ARGS"
+          eval "python scripts/scan_boe.py $ARGS"
+
+      - name: Guardar cambios en JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alertas.json docs/last_issue.md docs/new_alert_count.txt
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar"
+          else
+            git commit -m "Actualizar alertas BOE"
+            git push
+          fi
+
+      - name: Crear issue si hay alertas nuevas
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COUNT=$(cat docs/new_alert_count.txt 2>/dev/null || echo 0)
+          echo "Nuevas alertas: $COUNT"
+          if [ "$COUNT" -gt 0 ]; then
+            gh issue create \
+              --title "Nuevas alertas BOE detectadas ($COUNT)" \
+              --body-file docs/last_issue.md \
+              --label "boe,alerta" || \
+            gh issue create \
+              --title "Nuevas alertas BOE detectadas ($COUNT)" \
+              --body-file docs/last_issue.md
+          else
+            echo "No se crea issue porque no hay alertas nuevas."
+          fi
