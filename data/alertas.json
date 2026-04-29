@@ -1,7 +1,8 @@
 {
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
-    "lastRun": "2026-04-29T18:25:01+00:00",
+    "versionFiltro": "v3-fino",
+    "lastRun": "2026-04-29T19:07:49+00:00",
     "rangoUltimaRevision": {
       "desde": "2026-04-01",
       "hasta": "2026-04-29"
@@ -10,90 +11,11 @@
       "Albacete"
     ],
     "fuente": "BOE Datos Abiertos - sumario diario",
-    "totalAlertas": 84,
-    "nuevasAlertas": 84,
+    "totalAlertas": 21,
+    "nuevasAlertas": 21,
     "errores": []
   },
   "alertas": [
-    {
-      "id": "BOE-A-2026-9303",
-      "boeId": "BOE-A-2026-9303",
-      "fechaPublicacion": "2026-04-29",
-      "titulo": "Resolución de 23 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "9587",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9303",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9303.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9303",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9307",
-      "boeId": "BOE-A-2026-9307",
-      "fechaPublicacion": "2026-04-29",
-      "titulo": "Resolución de 23 de abril de 2026, de la Secretaría de Estado de Función Pública, por la que se corrigen errores en la de 13 de marzo de 2026, por la que se publica la relación definitiva de aspirantes que han superado los procesos selectivos para ingreso, por el sistema de concurso, para la estabilización de empleo temporal en Cuerpos y Escalas de la Administración General del Estado para el cupo de reserva de personas con discapacidad, convocado por Resolución de 17 de diciembre de 2024.",
-      "departamento": "9595",
-      "seccion": "2B",
-      "epigrafe": "Cuerpos y escalas de la Administración General del Estado",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9307",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9307.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9307",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "AGE",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "AGE",
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9310",
-      "boeId": "BOE-A-2026-9310",
-      "fechaPublicacion": "2026-04-29",
-      "titulo": "Resolución de 23 de abril de 2026, de la Dirección General de Recursos Humanos, de la Consejería de Educación, Ciencia y Universidades, por la que se publica la convocatoria del procedimiento selectivo de acceso al Cuerpo de Catedráticos de Música y Artes Escénicas vinculado a las enseñanzas de Arte Dramático en la Comunidad de Madrid.",
-      "departamento": "8131",
-      "seccion": "2B",
-      "epigrafe": "Cuerpos de funcionarios docentes",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9310",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9310.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9310",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Madrid"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Madrid",
-        "informatica",
-        "oposicion"
-      ]
-    },
     {
       "id": "BOE-A-2026-9309",
       "boeId": "BOE-A-2026-9309",
@@ -113,197 +35,35 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
       ]
     },
     {
-      "id": "BOE-A-2026-9301",
-      "boeId": "BOE-A-2026-9301",
+      "id": "BOE-A-2026-9303",
+      "boeId": "BOE-A-2026-9303",
       "fechaPublicacion": "2026-04-29",
-      "titulo": "Orden PJC/402/2026, de 21 de abril, por la que se aprueba la relación provisional de personas admitidas y excluidas en el proceso selectivo para ingreso, por el sistema general de acceso libre y por el sistema de promoción interna, en el Cuerpo de Letradas y Letrados de la Administración de Justicia, convocado por Orden PJC/144/2026, de 24 de febrero.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Letrados de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9301",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9301.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9301",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9287",
-      "boeId": "BOE-A-2026-9287",
-      "fechaPublicacion": "2026-04-29",
-      "titulo": "Corrección de errores de la Resolución de 23 de abril de 2026, de la Secretaría de Estado de Justicia, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 28 de enero de 2026.",
-      "departamento": "9585",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9287",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9287.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9287",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9236",
-      "boeId": "BOE-A-2026-9236",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 8 de abril de 2026, de la Dirección General de Relaciones con la Administración de Justicia, de la Consejería de Presidencia, Administraciones Públicas, Justicia y Seguridad, por la que se publica la relación de plazas correspondientes al ámbito de la Comunidad Autónoma de Canarias que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso por el sistema general de acceso libre, en el Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "8030",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9236",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9236.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9236",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9206",
-      "boeId": "BOE-A-2026-9206",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 25 de abril de 2026, de la Secretaría de Estado de Justicia, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 28 de enero de 2026.",
-      "departamento": "9585",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9206",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9206.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9206",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9227",
-      "boeId": "BOE-A-2026-9227",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 24 de abril de 2026, de la Subsecretaría, por la que se declara desierto el concurso general, convocado por Resolución de 26 de febrero de 2026.",
-      "departamento": "9585",
+      "titulo": "Resolución de 23 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
+      "departamento": "9587",
       "seccion": "2B",
       "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9227",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9227.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9227",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9303",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/29/pdfs/BOE-A-2026-9303.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9303",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260429",
       "fuente": "BOE",
       "tipo": "concurso",
       "perfiles": [],
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9204",
-      "boeId": "BOE-A-2026-9204",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 23 de abril de 2026, de la Secretaría de Estado de Justicia, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 27 de enero de 2026.",
-      "departamento": "9585",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9204",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9204.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9204",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9228",
-      "boeId": "BOE-A-2026-9228",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 21 de abril de 2026, de la Secretaría de Estado de Justicia, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Procedimientos de libre designación",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9228",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9228.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9228",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
       ]
     },
     {
@@ -327,63 +87,11 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9232",
-      "boeId": "BOE-A-2026-9232",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 16 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Agencia Española de Medicamentos y Productos Sanitarios.",
-      "departamento": "4335",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9232",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9232.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9232",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9235",
-      "boeId": "BOE-A-2026-9235",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Resolución de 14 de abril de 2026, de la Secretaría General de Servicios Judiciales, de la Consejería de Justicia, Administración Local y Función Pública, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación, en la Oficina Fiscal de la Comunidad Autónoma de Andalucía.",
-      "departamento": "8010",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9235",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9235.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9235",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "libre_designacion"
       ]
     },
     {
@@ -405,193 +113,35 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
       ]
     },
     {
-      "id": "BOE-B-2026-13395",
-      "boeId": "BOE-B-2026-13395",
+      "id": "BOE-A-2026-9232",
+      "boeId": "BOE-A-2026-9232",
       "fechaPublicacion": "2026-04-28",
-      "titulo": "Extracto de la Resolución de 17 de abril de la Dirección Provincial del Servicio Público de Empleo Estatal de Santa Cruz de Tenerife por la que se anuncia convocatoria para subvencionar, en régimen de concesión directa, la ejecución de proyectos de obras y servicios de interés general y social de Garantía de Rentas con cargo a los fondos del Programa de Fomento de Empleo Agrario del ejercicio 2026.",
-      "departamento": "9573",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-13395",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-B-2026-13395.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-13395",
+      "titulo": "Resolución de 16 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Agencia Española de Medicamentos y Productos Sanitarios.",
+      "departamento": "4335",
+      "seccion": "2B",
+      "epigrafe": "Personal funcionario. Concursos",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9232",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9232.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9232",
       "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
       "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "SEPE",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "SEPE",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9150",
-      "boeId": "BOE-A-2026-9150",
-      "fechaPublicacion": "2026-04-27",
-      "titulo": "Resolución de 29 de diciembre de 2025, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación del registrador de la propiedad de Marbella n.º 4, por la que se suspende la inscripción de una instancia solicitando la inscripción de la representación gráfica georreferenciada de una finca, por haber concurrido la oposición de un colindante en el curso del procedimiento regulado en el artículo 199.2 de la Ley Hipotecaria.",
-      "departamento": "9585",
-      "seccion": "3",
-      "epigrafe": "Recursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9150",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9150.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9150",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260427",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9145",
-      "boeId": "BOE-A-2026-9145",
-      "fechaPublicacion": "2026-04-27",
-      "titulo": "Resolución de 26 de diciembre de 2025, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación del registrador de la propiedad de Mazarrón, por la que se suspende la inscripción de una escritura de declaración de obra nueva, por haber concurrido la oposición de titulares colindantes en el curso del procedimiento regulado en el artículo 199.2 de la Ley Hipotecaria.",
-      "departamento": "9585",
-      "seccion": "3",
-      "epigrafe": "Recursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9145",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9145.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9145",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260427",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9178",
-      "boeId": "BOE-A-2026-9178",
-      "fechaPublicacion": "2026-04-27",
-      "titulo": "Resolución de 22 de abril de 2026, de la Dirección General del Tesoro y Política Financiera, de convocatoria de subasta de liquidez del Tesoro Público: operaciones de compraventa doble con vencimiento a plazo.",
-      "departamento": "9589",
-      "seccion": "3",
-      "epigrafe": "Operaciones de tesorería",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9178",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9178.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9178",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260427",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9122",
-      "boeId": "BOE-A-2026-9122",
-      "fechaPublicacion": "2026-04-27",
-      "titulo": "Resolución de 20 de abril de 2026, de la Subsecretaría, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación, en el Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas.",
-      "departamento": "9565",
-      "seccion": "2B",
-      "epigrafe": "Procedimientos de libre designación",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9122",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9122.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9122",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260427",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9097",
-      "boeId": "BOE-A-2026-9097",
-      "fechaPublicacion": "2026-04-27",
-      "titulo": "Resolución de 15 de abril de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 15 de septiembre de 2025, en el Instituto Nacional de la Seguridad Social.",
-      "departamento": "9579",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9097",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9097.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9097",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260427",
       "fuente": "BOE",
       "tipo": "concurso",
       "perfiles": [],
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9162",
-      "boeId": "BOE-A-2026-9162",
-      "fechaPublicacion": "2026-04-27",
-      "titulo": "Resolución de 13 de abril de 2026, de la Dirección General de la Marina Mercante, por la que se convocan los tribunales para los exámenes teóricos ordinarios para la obtención de titulaciones náuticas para el gobierno de embarcaciones de recreo, para la convocatoria de junio de 2026.",
-      "departamento": "9586",
-      "seccion": "3",
-      "epigrafe": "Marina mercante. Titulaciones de recreo",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9162",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9162.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9162",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260427",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
       ]
     },
     {
@@ -613,256 +163,10 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9064",
-      "boeId": "BOE-A-2026-9064",
-      "fechaPublicacion": "2026-04-25",
-      "titulo": "Resolución de 15 de abril de 2026, de la Universidad Miguel Hernández de Elche, referente a la convocatoria para proveer plazas de Escalas de los Subgrupos A2 y C1.",
-      "departamento": "310",
-      "seccion": "2B",
-      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9064",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/25/pdfs/BOE-A-2026-9064.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9064",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260425",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "c1a2"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "c1a2",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-12564",
-      "boeId": "BOE-B-2026-12564",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Resolución de la Autoridad Portuaria de la Bahía de Algeciras por la que se convoca concurso para la selección de oferta para la tramitación de una concesión administrativa para la instalación y explotación de un quiosco desmontable en la Playa Chica de Tarifa.",
-      "departamento": "9586",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-12564",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-B-2026-12564.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-12564",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8820",
-      "boeId": "BOE-A-2026-8820",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Resolución de 8 de abril de 2026, del Departamento de Justicia y Calidad Democrática, por la que se publica la relación de plazas correspondientes al ámbito de Cataluña, que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por la Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "8070",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8820",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-A-2026-8820.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8820",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8794",
-      "boeId": "BOE-A-2026-8794",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Resolución de 15 de abril de 2026, conjunta de las Presidencias del Congreso de los Diputados y del Senado, por la que se nombra funcionaria del Cuerpo Técnico-Administrativo de las Cortes Generales, a la aspirante que ha superado la oposición, convocada por Resolución de 18 de marzo de 2025.",
-      "departamento": "1220",
-      "seccion": "2A",
-      "epigrafe": "Nombramientos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8794",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-A-2026-8794.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8794",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8818",
-      "boeId": "BOE-A-2026-8818",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Resolución de 14 de abril de 2026, de la Secretaría de Estado de Justicia, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Procedimientos de libre designación",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8818",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-A-2026-8818.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8818",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-12566",
-      "boeId": "BOE-B-2026-12566",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Extracto de la Resolución de 20 de abril de 2026, del Servicio Público de Empleo Estatal, por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a la financiación de planes de formación de ámbito estatal, dirigidos a la capacitación para el desarrollo de las funciones relacionadas con el diálogo social y la negociación colectiva.",
-      "departamento": "9573",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-12566",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-B-2026-12566.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-12566",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "SEPE",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "SEPE",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-12565",
-      "boeId": "BOE-B-2026-12565",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Extracto de la Resolución de 15 de abril de 2026 de la Dirección Provincial del Servicio Público de Empleo Estatal de Badajoz por la que se efectúa convocatoria de subvenciones a Corporaciones locales, en procedimiento de concesión directa, para la realización de proyectos de interés general y social y de garantía de rentas, dentro del programa de fomento del empleo agrario. Ejercicio 2026.",
-      "departamento": "9573",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-12565",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-B-2026-12565.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-12565",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Badajoz"
-      ],
-      "entidadDetectada": "SEPE",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "Badajoz",
-        "SEPE",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8817",
-      "boeId": "BOE-A-2026-8817",
-      "fechaPublicacion": "2026-04-22",
-      "titulo": "Acuerdo de 20 de abril de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se modifica el Acuerdo de 19 de febrero de 2026, por el que se publica la relación de aspirantes que han superado el primer ejercicio del proceso selectivo convocado por Acuerdo de 29 de octubre de 2025, y se dispone lo necesario para que dé comienzo el segundo ejercicio.",
-      "departamento": "1820",
-      "seccion": "2B",
-      "epigrafe": "Carreras Judicial y Fiscal",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8817",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/22/pdfs/BOE-A-2026-8817.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8817",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/22/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260422",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8710",
-      "boeId": "BOE-A-2026-8710",
-      "fechaPublicacion": "2026-04-21",
-      "titulo": "Resolución de 8 de abril de 2026, de la Secretaría General de Servicios Judiciales, de la Consejería de Justicia, Administración Local y Función Pública, por la que se resuelve el concurso específico, convocado por Resolución de 19 de enero de 2026, en la Oficina Fiscal de la Fiscalía Provincial de Córdoba.",
-      "departamento": "8010",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8710",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/21/pdfs/BOE-A-2026-8710.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8710",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/21/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260421",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Córdoba"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Córdoba",
-        "concurso",
-        "informatica"
       ]
     },
     {
@@ -886,151 +190,10 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-12493",
-      "boeId": "BOE-B-2026-12493",
-      "fechaPublicacion": "2026-04-21",
-      "titulo": "Extracto de la Resolución de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales por la que se convocan ayudas para participantes directos en el Proyecto Importante de Interés Común Europeo de Nueva Generación de Servicios e Infraestructuras en la Nube (IPCEI CIS) del programa UNICO IPCEI (IPCEI CIS 2026 - Tercera convocatoria), en el marco del Plan de Recuperación, Transformación y Resiliencia - Financiado por la Unión Europea-NextGenerationEU",
-      "departamento": "9595",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-12493",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/21/pdfs/BOE-B-2026-12493.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-12493",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/21/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260421",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8712",
-      "boeId": "BOE-A-2026-8712",
-      "fechaPublicacion": "2026-04-21",
-      "titulo": "Acuerdo de 12 de marzo de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se aprueba la relación definitiva de aspirantes admitidos/as y excluidos/as para participar en el concurso para provisión de plaza de Letrado/a coordinador titular del Gabinete Técnico, al servicio del Tribunal Supremo, convocado por Acuerdo de 11 de noviembre de 2025.",
-      "departamento": "1820",
-      "seccion": "2B",
-      "epigrafe": "Letrados al servicio del Tribunal Supremo",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8712",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/21/pdfs/BOE-A-2026-8712.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8712",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/21/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260421",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "concurso",
-        "informatica"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8613",
-      "boeId": "BOE-A-2026-8613",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Resolución de 8 de abril de 2026, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se convoca concurso general para la provisión de puestos de trabajo.",
-      "departamento": "9562",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8613",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8613.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8613",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8633",
-      "boeId": "BOE-A-2026-8633",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Resolución de 8 de abril de 2026, de la Dirección General de Recursos Humanos y Relaciones con la Administración de Justicia, por la que se publica la relación de plazas correspondientes al ámbito de la Comunidad de Madrid, que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "8131",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8633",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8633.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8633",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Madrid"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Madrid",
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8632",
-      "boeId": "BOE-A-2026-8632",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Resolución de 8 de abril de 2026, de la Dirección General de Justicia y Autogobierno, de la Consellería de Justicia, Transparencia y Participación, por la que se publica la relación de plazas correspondientes al ámbito de la Comunitat Valenciana, que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso por el sistema general de acceso libre, en el Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "8162",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8632",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8632.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8632",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Valencia"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Valencia",
-        "administrativo",
-        "informatica",
         "oposicion"
       ]
     },
@@ -1055,7 +218,8 @@
       ],
       "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Ayuntamiento de Albacete",
@@ -1083,7 +247,8 @@
       ],
       "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Ayuntamiento de Albacete",
@@ -1091,147 +256,28 @@
       ]
     },
     {
-      "id": "BOE-A-2026-8630",
-      "boeId": "BOE-A-2026-8630",
+      "id": "BOE-A-2026-8613",
+      "boeId": "BOE-A-2026-8613",
       "fechaPublicacion": "2026-04-20",
-      "titulo": "Orden de 8 de abril de 2026, del Departamento de Justicia y Derechos Humanos, por la que se publica la relación de plazas correspondientes al ámbito de la Comunidad Autónoma del País Vasco que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "8140",
+      "titulo": "Resolución de 8 de abril de 2026, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se convoca concurso general para la provisión de puestos de trabajo.",
+      "departamento": "9562",
       "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8630",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8630.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8630",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8617",
-      "boeId": "BOE-A-2026-8617",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Orden PJC/360/2026, de 8 de abril, por la que se publica la relación de plazas correspondientes al ámbito del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes que se ofrecen a las personas aprobadas en el proceso selectivo extraordinario para acceso, por el sistema general de acceso libre, por el sistema de concurso, al Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8617",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8617.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8617",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8616",
-      "boeId": "BOE-A-2026-8616",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Orden PJC/359/2026, de 8 de abril, por la que se modifica la Orden PJC/1329/2025, de 5 de noviembre, en relación con la publicación de la relación de aspirantes que han superado el proceso selectivo extraordinario para acceso, por el sistema general de acceso libre, por el sistema de concurso, al Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8616",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8616.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8616",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-12337",
-      "boeId": "BOE-B-2026-12337",
-      "fechaPublicacion": "2026-04-20",
-      "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se hace público adjudicación del concurso de selección de oferta para tramitar expediente de concesión administrativa para la explotación de un local con destino a hostelería en el edificio social de las instalaciones pesqueras de El Puerto de Santa María, zona de servicio del Puerto de la Bahía de Cádiz.",
-      "departamento": "9586",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-12337",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-B-2026-12337.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-12337",
+      "epigrafe": "Personal funcionario. Concursos",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8613",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/20/pdfs/BOE-A-2026-8613.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8613",
       "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/20/",
       "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260420",
       "fuente": "BOE",
       "tipo": "concurso",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [
-        "Cádiz"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Cádiz",
-        "administrativo",
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8545",
-      "boeId": "BOE-A-2026-8545",
-      "fechaPublicacion": "2026-04-18",
-      "titulo": "Resolución de 10 de abril de 2026, de la Universidad de Cantabria, por la que se convocan pruebas selectivas para ingreso, por el sistema general de acceso libre, en la Escala Administrativa.",
-      "departamento": "310",
-      "seccion": "2B",
-      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8545",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/18/pdfs/BOE-A-2026-8545.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8545",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/18/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260418",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo"
-      ],
+      "perfiles": [],
       "provinciasDetectadas": [],
       "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
+      "precision": "revisar_anexo",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
-        "administrativo",
-        "oposicion"
+        "concurso"
       ]
     },
     {
@@ -1253,65 +299,10 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8426",
-      "boeId": "BOE-A-2026-8426",
-      "fechaPublicacion": "2026-04-17",
-      "titulo": "Resolución de 13 de abril de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 11 de febrero de 2026, en la Carrera Diplomática.",
-      "departamento": "9562",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8426",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/17/pdfs/BOE-A-2026-8426.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8426",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260417",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8435",
-      "boeId": "BOE-A-2026-8435",
-      "fechaPublicacion": "2026-04-17",
-      "titulo": "Resolución 491/2026, de 30 de marzo, de la Dirección General de Justicia e Interior, de la Consejería de Salud y Políticas Sociales, por la que se otorga destino a funcionario del Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, incluido, en ejecución de sentencia, en la relación de aprobados del proceso selectivo convocado por Orden JUS/242/2022, de 24 de marzo.",
-      "departamento": "8110",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8435",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/17/pdfs/BOE-A-2026-8435.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8435",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260417",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
       ]
     },
     {
@@ -1333,177 +324,8 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
-      "tags": [
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8387",
-      "boeId": "BOE-A-2026-8387",
-      "fechaPublicacion": "2026-04-16",
-      "titulo": "Orden PJC/342/2026, de 9 de abril, por la que se aprueba la relación provisional de personas admitidas y excluidas, se publican el Tribunal calificador único y los Tribunales delegados, y se fija fecha para la realización del ejercicio de la fase de oposición del proceso selectivo para acceso, por promoción interna, al Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia, convocado por Orden PJC/1550/2025, de 22 de diciembre.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8387",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/16/pdfs/BOE-A-2026-8387.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8387",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/16/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260416",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8386",
-      "boeId": "BOE-A-2026-8386",
-      "fechaPublicacion": "2026-04-16",
-      "titulo": "Orden PJC/341/2026, de 9 de abril, por la que se aprueba la relación provisional de personas admitidas y excluidas, se publican el Tribunal calificador único y los Tribunales delegados, y se fija fecha para la realización del ejercicio de la fase de oposición del proceso selectivo para acceso, por promoción interna, al Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, convocado por Orden PJC/1572/2025, de 22 de diciembre.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8386",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/16/pdfs/BOE-A-2026-8386.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8386",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/16/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260416",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-11741",
-      "boeId": "BOE-B-2026-11741",
-      "fechaPublicacion": "2026-04-16",
-      "titulo": "Extracto de la Resolución de 15 de abril de 2026 de la Dirección Provincial del Servicio Público de Empleo Estatal en Badajoz por la que se efectúa convocatoria de subvenciones a las Corporaciones Locales, en procedimiento de concurrencia competitiva, para la realización de proyectos de interés general y social generadores de empleo estable, dentro del programa de fomento del empleo agrario. Ejercicio 2026.",
-      "departamento": "9573",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-11741",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/16/pdfs/BOE-B-2026-11741.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-11741",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/16/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260416",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Badajoz"
-      ],
-      "entidadDetectada": "SEPE",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "Badajoz",
-        "SEPE",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-11625",
-      "boeId": "BOE-B-2026-11625",
-      "fechaPublicacion": "2026-04-15",
-      "titulo": "Extracto de Resolución de 9 de abril de 2026 de la Comisión Ejecutiva del Consorcio de la Ciudad de Cuenca por la que se aprueba la Convocatoria de las subvenciones a conceder en régimen de concurrencia competitiva para el desarrollo y potenciación de las actividades culturales y turísticas del casco antiguo de Cuenca, en el año 2026.",
-      "departamento": "5140",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-11625",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/15/pdfs/BOE-B-2026-11625.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-11625",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260415",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Cuenca"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Cuenca",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-11624",
-      "boeId": "BOE-B-2026-11624",
-      "fechaPublicacion": "2026-04-15",
-      "titulo": "Extracto de Resolución de 9 de abril de 2026 de la Comisión Ejecutiva del Consorcio de la Ciudad de Cuenca por la que se aprueba la Convocatoria de las subvenciones a conceder en régimen de concurrencia competitiva para el desarrollo de las actividades culturales y turísticas en la ciudad de Cuenca a instituciones públicas y a entidades privadas participadas de las administraciones públicas, ambas en el ámbito de la ciudad de Cuenca",
-      "departamento": "5140",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-11624",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/15/pdfs/BOE-B-2026-11624.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-11624",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260415",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Cuenca"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Cuenca",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8222",
-      "boeId": "BOE-A-2026-8222",
-      "fechaPublicacion": "2026-04-14",
-      "titulo": "Resolución de 8 de abril de 2026, de la Presidencia de la Autoridad Independiente de Responsabilidad Fiscal, AAI, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "5140",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario. Concursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8222",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8222.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8222",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/14/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260414",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
       ]
@@ -1527,122 +349,35 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
       ]
     },
     {
-      "id": "BOE-A-2026-8230",
-      "boeId": "BOE-A-2026-8230",
+      "id": "BOE-A-2026-8222",
+      "boeId": "BOE-A-2026-8222",
       "fechaPublicacion": "2026-04-14",
-      "titulo": "Resolución de 30 de marzo de 2026, de la Subsecretaría, por la que se publica la relación complementaria de aspirantes que han superado el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo Administrativo de la Administración de la Seguridad Social, convocado por Resolución de 23 de diciembre de 2024.",
-      "departamento": "9579",
+      "titulo": "Resolución de 8 de abril de 2026, de la Presidencia de la Autoridad Independiente de Responsabilidad Fiscal, AAI, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
+      "departamento": "5140",
       "seccion": "2B",
-      "epigrafe": "Cuerpo Administrativo de la Administración de la Seguridad Social",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8230",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8230.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8230",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/14/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260414",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8231",
-      "boeId": "BOE-A-2026-8231",
-      "fechaPublicacion": "2026-04-14",
-      "titulo": "Resolución de 10 de abril de 2026, de la Secretaría General de Servicios Judiciales, de la Consejería de Justicia, Administración Local y Función Pública, por la que se corrigen errores en la de 20 de marzo de 2026, por la que se convoca concurso específico para la provisión de puesto de trabajo en el Servicio Común de Tramitación del partido judicial de Dos Hermanas.",
-      "departamento": "8010",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8231",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8231.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8231",
+      "epigrafe": "Personal funcionario. Concursos",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8222",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8222.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8222",
       "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/14/",
       "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260414",
       "fuente": "BOE",
       "tipo": "concurso",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
+      "perfiles": [],
       "provinciasDetectadas": [],
       "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
+      "precision": "revisar_anexo",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
-        "administrativo",
-        "concurso",
-        "informatica"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8277",
-      "boeId": "BOE-A-2026-8277",
-      "fechaPublicacion": "2026-04-14",
-      "titulo": "Pleno. Sentencia 22/2026, de 11 de marzo de 2026. Recurso de amparo 5996-2021. Promovido por doña Hana Jalloul Muro y otros integrantes del Grupo Parlamentario Socialista en la Asamblea de Madrid respecto del acuerdo de la mesa de la Cámara que elevó al Pleno, para su tramitación por el procedimiento de lectura única, una proposición de reforma de la Ley de la Asamblea de Madrid 8/2015, de 28 de diciembre, de Radio Televisión Madrid. Vulneración del derecho al ejercicio de las funciones representativas: propuesta fundada en una inadecuada interpretación de la legalidad parlamentaria que privó a los diputados de su derecho de enmienda (SSTC 27/2000 y 139/2017). Votos particulares.",
-      "departamento": "1410",
-      "seccion": "T",
-      "epigrafe": "Sentencias",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8277",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/14/pdfs/BOE-A-2026-8277.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8277",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/14/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260414",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Madrid"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Madrid",
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8209",
-      "boeId": "BOE-A-2026-8209",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 9 de abril de 2026, de la Dirección General del Tesoro y Política Financiera, de convocatoria de subasta de liquidez del Tesoro Público: operaciones de compraventa doble con vencimiento diario.",
-      "departamento": "9589",
-      "seccion": "3",
-      "epigrafe": "Operaciones de tesorería",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8209",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8209.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8209",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
+        "concurso"
       ]
     },
     {
@@ -1664,208 +399,38 @@
       "provinciasDetectadas": [],
       "entidadDetectada": "",
       "precision": "revisar_anexo",
-      "motivo": "Concurso/provisión detectado en BOE. La provincia concreta puede venir dentro del anexo PDF o del listado de puestos; conviene abrir la disposición y buscar la provincia vigilada.",
+      "prioridad": 2,
+      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
       "tags": [
         "concurso"
       ]
     },
     {
-      "id": "BOE-A-2026-8177",
-      "boeId": "BOE-A-2026-8177",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 7 de abril de 2026, de la Universidad de Alcalá, por la que, en estimación de recurso, se modifica la de 6 de octubre de 2025, por la que se convocan pruebas selectivas para ingreso, por el sistema general de acceso libre, en la Escala Auxiliar Administrativa.",
-      "departamento": "310",
-      "seccion": "2B",
-      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8177",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8177.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8177",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8173",
-      "boeId": "BOE-A-2026-8173",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 7 de abril de 2026, de la Universidad Autónoma de Madrid, por la que se publica la convocatoria de pruebas selectivas para ingreso, por el sistema general de acceso libre, en la Escala de Gestión Administrativa.",
-      "departamento": "310",
-      "seccion": "2B",
-      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8173",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8173.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8173",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [
-        "Madrid"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Madrid",
-        "administrativo",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8174",
-      "boeId": "BOE-A-2026-8174",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 7 de abril de 2026, de la Universidad Autónoma de Madrid, por la que se publica la convocatoria de pruebas selectivas para ingreso, por el sistema general de acceso libre, en la Escala Auxiliar Administrativa.",
-      "departamento": "310",
-      "seccion": "2B",
-      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8174",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8174.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8174",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [
-        "Madrid"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Madrid",
-        "administrativo",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8153",
-      "boeId": "BOE-A-2026-8153",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 23 de marzo de 2026, la Dirección General de Recursos Humanos y Relaciones con la Administración de Justicia, de la Consejería de Presidencia, Justicia y Administración Local, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación en Oficinas Judiciales.",
-      "departamento": "8131",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8153",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8153.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8153",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8152",
-      "boeId": "BOE-A-2026-8152",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 23 de marzo de 2026, de la Dirección General de Recursos Humanos y Relaciones con la Administración de Justicia, de la Consejería de Presidencia, Justicia y Administración Local, por la que se convoca concurso específico para la provisión de puestos de trabajo en Oficinas Judiciales.",
-      "departamento": "8131",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Auxilio Judicial de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8152",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8152.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8152",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "concurso",
-        "informatica"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8172",
-      "boeId": "BOE-A-2026-8172",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Resolución de 1 de abril de 2026, de la Universidad de Oviedo, por la que se modifica la de 12 de diciembre de 2025, por la que se convoca proceso selectivo para la provisión, por el sistema general de acceso libre, de plaza de personal laboral con la categoría de Técnico Especialista en Ofimática.",
-      "departamento": "310",
-      "seccion": "2B",
-      "epigrafe": "Personal técnico, de gestión y de administración y servicios",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8172",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-A-2026-8172.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8172",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-11385",
-      "boeId": "BOE-B-2026-11385",
-      "fechaPublicacion": "2026-04-13",
-      "titulo": "Anuncio de la Diputación Provincial de Alicante sobre la aprobación de la Convocatoria anticipada de los Premios Fernando Albi. Anualidad 2026.",
+      "id": "BOE-A-2026-8095",
+      "boeId": "BOE-A-2026-8095",
+      "fechaPublicacion": "2026-04-11",
+      "titulo": "Resolución de 1 de abril de 2026, de la Diputación Provincial de Albacete, referente a la convocatoria para proveer una plaza.",
       "departamento": "9525",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-11385",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/13/pdfs/BOE-B-2026-11385.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-11385",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260413",
+      "seccion": "2B",
+      "epigrafe": "Personal funcionario y laboral",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8095",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/11/pdfs/BOE-A-2026-8095.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8095",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/11/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260411",
       "fuente": "BOE",
       "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
+      "perfiles": [],
       "provinciasDetectadas": [
-        "Alicante"
+        "Albacete"
       ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
+      "entidadDetectada": "Diputación de Albacete",
+      "precision": "alta",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
-        "Alicante",
-        "informatica",
+        "Albacete",
+        "Diputación de Albacete",
         "oposicion"
       ]
     },
@@ -1890,208 +455,10 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8095",
-      "boeId": "BOE-A-2026-8095",
-      "fechaPublicacion": "2026-04-11",
-      "titulo": "Resolución de 1 de abril de 2026, de la Diputación Provincial de Albacete, referente a la convocatoria para proveer una plaza.",
-      "departamento": "9525",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario y laboral",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8095",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/11/pdfs/BOE-A-2026-8095.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8095",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260411",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Diputación de Albacete",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "Albacete",
-        "Diputación de Albacete",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-11028",
-      "boeId": "BOE-B-2026-11028",
-      "fechaPublicacion": "2026-04-10",
-      "titulo": "Resolución de 7 de abril de 2026, de la Agencia de la Vivienda de Cataluña, por la que se da publicidad al concurso público para la transmisión de un derecho real de superficie o una concesión administrativa sobre suelos públicos inscritos en la reserva pública de solares.",
-      "departamento": "8070",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-11028",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/10/pdfs/BOE-B-2026-11028.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-11028",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260410",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [
-        "administrativo"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "concurso"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-8052",
-      "boeId": "BOE-A-2026-8052",
-      "fechaPublicacion": "2026-04-10",
-      "titulo": "Resolución de 30 de marzo de 2026, de la Secretaría de Estado de Justicia, por la que se declara desierta la convocatoria de libre designación, efectuada por Resolución de 12 de febrero de 2026.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Procedimientos de libre designación",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8052",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/10/pdfs/BOE-A-2026-8052.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-8052",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260410",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-10998",
-      "boeId": "BOE-B-2026-10998",
-      "fechaPublicacion": "2026-04-10",
-      "titulo": "Extracto de la Resolución de 08 de abril de 2026, de la Dirección del Centro de Estudios Jurídicos, O.A., por la que se convocan en el ejercicio 2026 ayudas para la preparación de oposiciones para el ingreso en las Carreras Judicial y Fiscal, en el Cuerpo de Letrados de la Administración de Justicia y al Cuerpo de Abogados del Estado.",
-      "departamento": "9585",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10998",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/10/pdfs/BOE-B-2026-10998.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-10998",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260410",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-B-2026-10889",
-      "boeId": "BOE-B-2026-10889",
-      "fechaPublicacion": "2026-04-09",
-      "titulo": "Extracto de Resolución de 7 de abril de 2026 de la Dirección General del Servicio Público de Empleo Estatal, por la que la que se realiza la reasignación de los fondos asignados por Resolución de 6 de agosto de 2024, por la que se aprueba la convocatoria para la concesión de subvenciones públicas para la ejecución de programas de formación de ámbito estatal, dirigidos prioritariamente a las personas ocupadas.",
-      "departamento": "9573",
-      "seccion": "5B",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10889",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/09/pdfs/BOE-B-2026-10889.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-10889",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/09/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260409",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "SEPE",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "SEPE",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-7848",
-      "boeId": "BOE-A-2026-7848",
-      "fechaPublicacion": "2026-04-07",
-      "titulo": "Resolución de 30 de marzo de 2026, del Departamento de Justicia y Calidad Democrática, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación en las Oficinas Judiciales de Barcelona, Lleida y Tarragona.",
-      "departamento": "8070",
-      "seccion": "2B",
-      "epigrafe": "Cuerpos de Gestión Procesal y Administrativa y Tramitación Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7848",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/07/pdfs/BOE-A-2026-7848.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7848",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260407",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [
-        "Barcelona",
-        "Lleida",
-        "Tarragona"
-      ],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "Barcelona",
-        "Lleida",
-        "Tarragona",
-        "administrativo",
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-7844",
-      "boeId": "BOE-A-2026-7844",
-      "fechaPublicacion": "2026-04-07",
-      "titulo": "Orden PJC/321/2026, de 26 de marzo, por la que, en ejecución de sentencia, se nombra Tribunal calificador en relación con el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, convocado por Orden JUS/2293/2015, de 19 de octubre.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7844",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/07/pdfs/BOE-A-2026-7844.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7844",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260407",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
         "oposicion"
       ]
     },
@@ -2116,7 +483,8 @@
       ],
       "entidadDetectada": "Diputación de Albacete",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Diputación de Albacete",
@@ -2144,123 +512,11 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-7461",
-      "boeId": "BOE-A-2026-7461",
-      "fechaPublicacion": "2026-04-02",
-      "titulo": "Resolución de 20 de marzo de 2026, de la Secretaría General de Servicios Judiciales, de la Consejería de Justicia, Administración Local y Función Pública, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 2 de febrero de 2026, en la Unidad Administrativa de Apoyo a la Administración de Justicia.",
-      "departamento": "8010",
-      "seccion": "2A",
-      "epigrafe": "Destinos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7461",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/02/pdfs/BOE-A-2026-7461.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7461",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260402",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "informatica",
-        "libre_designacion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-7476",
-      "boeId": "BOE-A-2026-7476",
-      "fechaPublicacion": "2026-04-02",
-      "titulo": "Resolución de 20 de marzo de 2026, de la Secretaría General de Servicios Judiciales, de la Consejería de Justicia, Administración Local y Función Pública, por la que se convoca concurso específico para la provisión de puesto de trabajo en el Servicio Común de Tramitación del partido judicial de Dos Hermanas.",
-      "departamento": "8010",
-      "seccion": "2B",
-      "epigrafe": "Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7476",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/02/pdfs/BOE-A-2026-7476.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7476",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260402",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [
-        "administrativo",
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "administrativo",
-        "concurso",
-        "informatica"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-7448",
-      "boeId": "BOE-A-2026-7448",
-      "fechaPublicacion": "2026-04-02",
-      "titulo": "Real Decreto 270/2026, de 1 de abril, por el que se regula la concesión directa de ayudas a proyectos de investigación seleccionados en las convocatorias competitivas internacionales de la Empresa Común de Chips de la Unión Europea (Chips JU), programa «UNICO Chips JU-Líneas Piloto Cuánticas», en el marco del Plan de Recuperación, Transformación y Resiliencia -Financiado por la Unión Europea- Next Generation EU.",
-      "departamento": "9595",
-      "seccion": "1",
-      "epigrafe": "Ayudas",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7448",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/02/pdfs/BOE-A-2026-7448.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7448",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260402",
-      "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "informatica"
-      ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
-      "tags": [
-        "informatica",
-        "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-7388",
-      "boeId": "BOE-A-2026-7388",
-      "fechaPublicacion": "2026-04-01",
-      "titulo": "Resolución de 25 de marzo de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer puesto de trabajo por el sistema de libre designación.",
-      "departamento": "9525",
-      "seccion": "2B",
-      "epigrafe": "Personal funcionario",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7388",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/01/pdfs/BOE-A-2026-7388.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7388",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/01/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260401",
-      "fuente": "BOE",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "libre_designacion"
       ]
     },
     {
@@ -2284,7 +540,8 @@
       ],
       "entidadDetectada": "Diputación de Albacete",
       "precision": "alta",
-      "motivo": "Coincidencia directa con provincia, entidad o ámbito vigilado.",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
         "Albacete",
         "Diputación de Albacete",
@@ -2292,32 +549,32 @@
       ]
     },
     {
-      "id": "BOE-A-2026-7408",
-      "boeId": "BOE-A-2026-7408",
+      "id": "BOE-A-2026-7388",
+      "boeId": "BOE-A-2026-7388",
       "fechaPublicacion": "2026-04-01",
-      "titulo": "Acuerdo de 25 de marzo de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se emplaza a las personas interesadas en el recurso contencioso-administrativo 2/35/2026, interpuesto ante el Tribunal Supremo, Sala de lo Contencioso-Administrativo, contra el Acuerdo de 1 de diciembre de 2025, por la que se aprueba la relación provisional de personas admitidas y excluidas para tomar parte en las pruebas selectivas para la provisión de plazas de alumnos y alumnas de la Escuela Judicial y del Centro de Estudios Jurídicos, para su posterior acceso a la Carrera Judicial por la categoría de Juez/a y a la Carrera Fiscal por la categoría de Abogado/a Fiscal, convocadas por Acuerdo de 29 de octubre de 2025.",
-      "departamento": "1820",
-      "seccion": "3",
-      "epigrafe": "Recursos",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7408",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/01/pdfs/BOE-A-2026-7408.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7408",
+      "titulo": "Resolución de 25 de marzo de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer puesto de trabajo por el sistema de libre designación.",
+      "departamento": "9525",
+      "seccion": "2B",
+      "epigrafe": "Personal funcionario",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7388",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/01/pdfs/BOE-A-2026-7388.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-7388",
       "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/01/",
       "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260401",
       "fuente": "BOE",
-      "tipo": "oposicion",
-      "perfiles": [
-        "administrativo",
-        "informatica"
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
       ],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "media",
-      "motivo": "Coincidencia por perfil C1/TIC/administrativo o palabras clave; revisar el documento BOE.",
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "prioridad": 1,
+      "motivo": "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal.",
       "tags": [
-        "administrativo",
-        "informatica",
-        "oposicion"
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "libre_designacion"
       ]
     }
   ]
