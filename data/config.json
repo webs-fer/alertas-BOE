@@ -1,0 +1,92 @@
+{
+  "provincias_vigiladas": ["Albacete"],
+  "perfil_principal": "informatica",
+  "dias_revision_por_defecto": 30,
+  "entidades_prioritarias": [
+    "Ayuntamiento de Albacete",
+    "Diputación Provincial de Albacete",
+    "Junta de Comunidades de Castilla-La Mancha",
+    "Comunidad Autónoma de Castilla-La Mancha",
+    "Administración General del Estado",
+    "SEPE"
+  ],
+  "tipos": {
+    "concurso": [
+      "concurso",
+      "concurso específico",
+      "concurso general",
+      "provisión de puestos",
+      "puestos de trabajo"
+    ],
+    "libre_designacion": [
+      "libre designación"
+    ],
+    "comision_servicio": [
+      "comisión de servicios",
+      "comision de servicios",
+      "comisión de servicio",
+      "comision de servicio"
+    ],
+    "oposicion": [
+      "oposición",
+      "oposicion",
+      "convocatoria",
+      "proceso selectivo",
+      "pruebas selectivas",
+      "bolsa de trabajo"
+    ]
+  },
+  "perfiles": {
+    "informatica": [
+      "informática",
+      "informatico",
+      "informáticos",
+      "tecnologías de la información",
+      "tecnologias de la informacion",
+      "TIC",
+      "sistemas",
+      "programador",
+      "administración de sistemas",
+      "microinformática",
+      "técnico auxiliar de informática",
+      "tecnico auxiliar de informatica",
+      "TAI",
+      "técnico auxiliar informático",
+      "tecnico auxiliar informatico"
+    ],
+    "administrativo": [
+      "administrativo",
+      "administrativa",
+      "auxiliar administrativo",
+      "gestión administrativa",
+      "gestion administrativa"
+    ],
+    "c1a2": [
+      "C1",
+      "C1/A2",
+      "C1-A2",
+      "A2",
+      "subgrupo C1",
+      "subgrupo A2",
+      "nivel 16",
+      "nivel 17",
+      "nivel 18",
+      "nivel 19",
+      "nivel 20",
+      "nivel 21",
+      "nivel 22"
+    ]
+  },
+  "departamentos_age_interes": [
+    "Ministerio",
+    "Delegación del Gobierno",
+    "Subdelegación del Gobierno",
+    "Servicio Público de Empleo Estatal",
+    "SEPE",
+    "Seguridad Social",
+    "Ministerio de Justicia",
+    "Ministerio de Cultura",
+    "Ministerio de Hacienda",
+    "Ministerio para la Transformación Digital"
+  ]
+}

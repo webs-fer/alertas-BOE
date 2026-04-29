@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alertas BOE C1 Informática · Concursos y oposiciones</title>
+  <meta name="description" content="Panel estático para vigilar concursos, libres designaciones, comisiones y oposiciones C1 de informática en el BOE, con foco en Albacete y GitHub Pages." />
+  <meta name="theme-color" content="#0f3d5e" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar" aria-label="Navegación principal">
+      <a class="brand" href="#">
+        <span class="brand-icon">🧭</span>
+        <span>BOE Alertas C1</span>
+      </a>
+      <div class="nav-links">
+        <a href="#panel">Panel</a>
+        <a href="#fechas">Buscar por fecha</a>
+        <a href="#configuracion">Configurar</a>
+        <a href="https://www.boe.es/boe/dias/" target="_blank" rel="noopener">BOE</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div>
+        <p class="eyebrow">GitHub Pages + BOE + alertas</p>
+        <h1>Vigilancia de concursos, comisiones y oposiciones C1</h1>
+        <p class="hero-text">
+          Proyecto estático para revisar plazas de informática C1, administrativos C1/C1-A2 y convocatorias locales/autonómicas. Por defecto viene orientado a <strong>Albacete</strong>, pero puedes cambiar la provincia y las fechas.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#fechas">Buscar por fecha</a>
+          <button class="btn secondary" id="btnNotificaciones" type="button">Activar avisos del navegador</button>
+        </div>
+      </div>
+      <aside class="status-card" aria-label="Estado de actualización">
+        <span class="status-dot"></span>
+        <p>Última revisión</p>
+        <strong id="ultimaRevision">Cargando…</strong>
+        <small id="origenDatos">data/alertas.json</small>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="summary-grid" id="panel" aria-label="Resumen de alertas">
+      <article class="metric-card">
+        <span>📌</span>
+        <p>Total visible</p>
+        <strong id="metricTotal">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>🏛️</span>
+        <p>Concursos / provisión</p>
+        <strong id="metricConcursos">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>💻</span>
+        <p>Informática / TIC</p>
+        <strong id="metricTic">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>📍</span>
+        <p>Provincia actual</p>
+        <strong id="metricProvincia">Albacete</strong>
+      </article>
+    </section>
+
+    <section class="workspace">
+      <aside class="filters" id="fechas">
+        <div class="section-heading compact">
+          <p class="eyebrow">Filtros</p>
+          <h2>Buscar por fecha, provincia y tipo</h2>
+        </div>
+
+        <form id="filtrosForm">
+          <label>
+            Provincia
+            <input id="provincia" name="provincia" list="provinciasList" value="Albacete" autocomplete="off" />
+            <datalist id="provinciasList"></datalist>
+          </label>
+
+          <div class="two-cols">
+            <label>
+              Fecha desde
+              <input id="fechaDesde" name="fechaDesde" type="date" />
+            </label>
+            <label>
+              Fecha hasta
+              <input id="fechaHasta" name="fechaHasta" type="date" />
+            </label>
+          </div>
+
+          <label>
+            Fecha exacta rápida
+            <input id="fechaExacta" name="fechaExacta" type="date" />
+            <small>Al poner una fecha aquí, se rellena desde/hasta con el mismo día.</small>
+          </label>
+
+          <label>
+            Días hacia atrás si no indicas rango
+            <input id="dias" name="dias" type="number" min="1" max="365" value="30" />
+          </label>
+
+          <label>
+            Perfil
+            <select id="perfil" name="perfil">
+              <option value="todos">Todos los perfiles</option>
+              <option value="informatica" selected>Informática / TIC C1</option>
+              <option value="administrativo">Administrativo C1</option>
+              <option value="c1a2">C1 / C1-A2 / A2</option>
+            </select>
+          </label>
+
+          <fieldset>
+            <legend>Tipo de aviso</legend>
+            <label class="check"><input type="checkbox" name="tipo" value="concurso" checked /> Concurso / provisión</label>
+            <label class="check"><input type="checkbox" name="tipo" value="libre_designacion" checked /> Libre designación</label>
+            <label class="check"><input type="checkbox" name="tipo" value="comision_servicio" checked /> Comisión de servicio</label>
+            <label class="check"><input type="checkbox" name="tipo" value="oposicion" checked /> Oposición / convocatoria</label>
+          </fieldset>
+
+          <label class="check prominent">
+            <input id="modoEstricto" type="checkbox" checked />
+            Modo estricto recomendado
+          </label>
+          <small class="hint">Si lo desactivas, verás también concursos AGE que no mencionan provincia en el título, marcados como “revisar anexo”.</small>
+
+          <label>
+            Palabras extra separadas por coma
+            <input id="palabrasExtra" placeholder="SEPE, justicia, sistemas, técnico auxiliar" />
+          </label>
+
+          <div class="button-row">
+            <button class="btn primary" type="submit">Aplicar filtros</button>
+            <button class="btn ghost" id="btnLimpiar" type="button">Limpiar</button>
+          </div>
+        </form>
+
+        <div class="boe-shortcuts">
+          <h3>Consulta directa en BOE</h3>
+          <p>Usa estos botones para ir al BOE aunque todavía no haya resultados en el JSON.</p>
+          <div class="button-row vertical">
+            <button class="btn secondary" id="btnAbrirSumario" type="button">Abrir sumario BOE de la fecha</button>
+            <button class="btn secondary" id="btnConsultarApi" type="button">Intentar consultar API desde navegador</button>
+            <a class="btn ghost" href="https://www.boe.es/rss/" target="_blank" rel="noopener">Ver RSS oficiales BOE</a>
+          </div>
+          <p class="hint" id="apiAviso"></p>
+        </div>
+      </aside>
+
+      <section class="results" aria-live="polite">
+        <div class="results-toolbar">
+          <div>
+            <p class="eyebrow">Resultados</p>
+            <h2 id="tituloResultados">Alertas encontradas</h2>
+          </div>
+          <div class="button-row">
+            <button class="btn secondary" id="btnExportar" type="button">Exportar CSV</button>
+            <button class="btn ghost" id="btnCopiar" type="button">Copiar enlaces</button>
+          </div>
+        </div>
+
+        <div class="notice important">
+          <strong>Importante:</strong> en los concursos de AGE la provincia concreta suele aparecer dentro de anexos PDF o listados de puestos. Por eso el sistema no descarta concursos estatales aunque el título no ponga “Albacete”; los marca como <em>revisar anexo</em>.
+        </div>
+
+        <div id="chipsActivos" class="chips"></div>
+        <div id="resultados" class="cards"></div>
+        <div id="sinResultados" class="empty" hidden>
+          <span>🔎</span>
+          <h3>No hay resultados con esos filtros</h3>
+          <p>Prueba a desactivar el modo estricto o abre el sumario del BOE de esa fecha para revisar manualmente.</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="config" id="configuracion">
+      <div class="section-heading">
+        <p class="eyebrow">Automatización</p>
+        <h2>Cómo se actualiza solo en GitHub Pages</h2>
+        <p>
+          La web es estática, pero el workflow de GitHub Actions revisa el BOE, actualiza <code>data/alertas.json</code> y crea una issue si detecta avisos nuevos.
+        </p>
+      </div>
+
+      <div class="steps">
+        <article>
+          <strong>1</strong>
+          <h3>Sube el proyecto</h3>
+          <p>Publica la carpeta en un repositorio y activa GitHub Pages desde la rama principal.</p>
+        </article>
+        <article>
+          <strong>2</strong>
+          <h3>Activa Actions</h3>
+          <p>El archivo <code>.github/workflows/boe-alertas.yml</code> revisará el BOE de lunes a sábado y también permite ejecución manual con fechas.</p>
+        </article>
+        <article>
+          <strong>3</strong>
+          <h3>Recibe avisos</h3>
+          <p>Activa las notificaciones del repositorio. Si hay novedades, el workflow puede crear una issue con los enlaces del BOE.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto personal de vigilancia de empleo público. Fuente principal: BOE Datos Abiertos y enlaces oficiales del BOE.</p>
+    <p><a href="https://www.boe.es/datosabiertos/api/api.php" target="_blank" rel="noopener">API oficial BOE</a> · <a href="https://www.boe.es/rss/" target="_blank" rel="noopener">RSS oficial BOE</a></p>
+  </footer>
+
+  <template id="cardTemplate">
+    <article class="alert-card">
+      <div class="card-top">
+        <div>
+          <span class="badge tipo"></span>
+          <span class="badge precision"></span>
+        </div>
+        <time></time>
+      </div>
+      <h3></h3>
+      <p class="dept"></p>
+      <p class="motivo"></p>
+      <div class="tags"></div>
+      <div class="card-actions"></div>
+    </article>
+  </template>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

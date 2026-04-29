@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "generatedBy": "scripts/scan_boe.py",
+    "lastRun": null,
+    "nota": "Este archivo se actualiza automáticamente con GitHub Actions. Puedes probar la web aunque esté vacío."
+  },
+  "alertas": []
+}
