@@ -2,8 +2,8 @@ name: Revisar BOE alertas C1
 
 on:
   schedule:
-    # El BOE se publica normalmente de lunes a sábado.
-    # GitHub Actions usa UTC: en España será aprox. 08:20 invierno / 09:20 verano.
+    # GitHub Actions usa UTC.
+    # En España peninsular será aproximadamente 08:20 en invierno / 09:20 en verano.
     - cron: "20 7 * * 1-6"
 
   workflow_dispatch:
@@ -27,7 +27,7 @@ on:
         default: "7"
         type: string
       reiniciar_datos:
-        description: "Borrar alertas antiguas y dejar solo el resultado de esta revisión"
+        description: "Borrar alertas antiguas y recalcular solo el rango indicado"
         required: false
         default: false
         type: boolean
@@ -50,22 +50,47 @@ jobs:
           python-version: "3.12"
 
       - name: Ejecutar escáner BOE
+        shell: bash
         run: |
           set -e
+
           ARGS=""
-          if [ -n "${{ github.event.inputs.fecha_desde }}" ]; then ARGS="$ARGS --desde ${{ github.event.inputs.fecha_desde }}"; fi
-          if [ -n "${{ github.event.inputs.fecha_hasta }}" ]; then ARGS="$ARGS --hasta ${{ github.event.inputs.fecha_hasta }}"; fi
-          if [ -n "${{ github.event.inputs.provincia }}" ]; then ARGS="$ARGS --provincia '${{ github.event.inputs.provincia }}'"; fi
-          if [ -n "${{ github.event.inputs.dias }}" ]; then ARGS="$ARGS --dias ${{ github.event.inputs.dias }}"; fi
-          if [ "${{ github.event.inputs.reiniciar_datos }}" = "true" ]; then ARGS="$ARGS --reiniciar"; fi
+
+          if [ -n "${{ github.event.inputs.fecha_desde }}" ]; then
+            ARGS="$ARGS --desde ${{ github.event.inputs.fecha_desde }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.fecha_hasta }}" ]; then
+            ARGS="$ARGS --hasta ${{ github.event.inputs.fecha_hasta }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.provincia }}" ]; then
+            ARGS="$ARGS --provincia '${{ github.event.inputs.provincia }}'"
+          else
+            ARGS="$ARGS --provincia 'Albacete'"
+          fi
+
+          if [ -n "${{ github.event.inputs.dias }}" ]; then
+            ARGS="$ARGS --dias ${{ github.event.inputs.dias }}"
+          else
+            ARGS="$ARGS --dias 7"
+          fi
+
+          if [ "${{ github.event.inputs.reiniciar_datos }}" = "true" ]; then
+            ARGS="$ARGS --reiniciar"
+          fi
+
           echo "python scripts/scan_boe.py $ARGS"
           eval "python scripts/scan_boe.py $ARGS"
 
       - name: Guardar cambios en JSON
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/alertas.json docs/last_issue.md docs/new_alert_count.txt
+
           if git diff --cached --quiet; then
             echo "No hay cambios para guardar"
           else
@@ -76,9 +101,11 @@ jobs:
       - name: Crear issue si hay alertas nuevas
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
         run: |
           COUNT=$(cat docs/new_alert_count.txt 2>/dev/null || echo 0)
           echo "Nuevas alertas: $COUNT"
+
           if [ "$COUNT" -gt 0 ]; then
             gh issue create \
               --title "Nuevas alertas BOE detectadas ($COUNT)" \
