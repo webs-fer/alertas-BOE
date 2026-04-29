@@ -11,6 +11,7 @@ Evita ruido habitual del BOE:
 - Secciones 3 y 5B.
 - Subvenciones, ayudas, licitaciones, concesiones, premios, sentencias y recursos.
 - Fases posteriores de oposiciones: admitidos, nombramientos, tribunales, resoluciones, correcciones, etc.
+- Concursos/procesos jurídicos no útiles para TAI/C1 administrativo: Carrera Fiscal, Letrados, Carrera Judicial y Fiscal.
 """
 from __future__ import annotations
 
@@ -35,6 +36,7 @@ CONFIG_PATH = DATA_DIR / "config.json"
 ALERTAS_PATH = DATA_DIR / "alertas.json"
 ISSUE_PATH = DOCS_DIR / "last_issue.md"
 NEW_COUNT_PATH = DOCS_DIR / "new_alert_count.txt"
+
 BOE_API = "https://www.boe.es/datosabiertos/api/boe/sumario/{fecha}"
 BOE_BASE = "https://www.boe.es"
 
@@ -62,9 +64,18 @@ DEFAULT_CONFIG = {
         "Servicio Público de Empleo Estatal"
     ],
     "departamentos_age_interes": [
-        "Ministerio", "Subsecretaría", "Secretaría de Estado", "Delegación del Gobierno", "Subdelegación del Gobierno",
-        "Servicio Público de Empleo Estatal", "SEPE", "Seguridad Social", "Agencia Estatal", "Instituto Nacional",
-        "Consejo Superior de Investigaciones Científicas", "Agencia Española"
+        "Ministerio",
+        "Subsecretaría",
+        "Secretaría de Estado",
+        "Delegación del Gobierno",
+        "Subdelegación del Gobierno",
+        "Servicio Público de Empleo Estatal",
+        "SEPE",
+        "Seguridad Social",
+        "Agencia Estatal",
+        "Instituto Nacional",
+        "Consejo Superior de Investigaciones Científicas",
+        "Agencia Española"
     ]
 }
 
@@ -74,66 +85,150 @@ ALLOWED_SECTION_CODES = {"2b", "iib"}
 
 # Palabras que suelen indicar que NO es una convocatoria útil para inscribirse o concursar.
 EXCLUDE_PATTERNS = [
-    r"\bcorreccion(?:es)? de errores\b", r"\bse corrigen errores\b", r"\bcorrigen errores\b",
-    r"\brelacion provisional\b", r"\brelacion definitiva\b", r"\badmitid[oa]s? y excluid[oa]s?\b",
-    r"\baspirantes que han superado\b", r"\bpersonas que han superado\b",
-    r"\btribunal calificador\b", r"\btribunales delegados\b", r"\bfija fecha\b",
-    r"\bse resuelve\b", r"\bresuelve la convocatoria\b", r"\bresuelve el concurso\b",
-    r"\bdeclara desiert[ao]\b", r"\botorga destino\b", r"\bnombra funcionari[oa]\b", r"\bnombramiento\b",
-    r"\bejecuta sentencia\b", r"\bejecucion de sentencia\b", r"\brecurso contencioso\b", r"\bemplaza\b",
-    r"\bsentencia\b", r"\brecurso de amparo\b", r"\brecursos\b",
+    r"\bcorreccion(?:es)? de errores\b",
+    r"\bse corrigen errores\b",
+    r"\bcorrigen errores\b",
+
+    r"\brelacion provisional\b",
+    r"\brelacion definitiva\b",
+    r"\badmitid[oa]s? y excluid[oa]s?\b",
+    r"\baspirantes que han superado\b",
+    r"\bpersonas que han superado\b",
+
+    r"\btribunal calificador\b",
+    r"\btribunales delegados\b",
+    r"\bfija fecha\b",
+
+    r"\bse resuelve\b",
+    r"\bresuelve la convocatoria\b",
+    r"\bresuelve el concurso\b",
+    r"\bdeclara desiert[ao]\b",
+    r"\botorga destino\b",
+    r"\bnombra funcionari[oa]\b",
+    r"\bnombramiento\b",
+
+    r"\bejecuta sentencia\b",
+    r"\bejecucion de sentencia\b",
+    r"\brecurso contencioso\b",
+    r"\bemplaza\b",
+    r"\bsentencia\b",
+    r"\brecurso de amparo\b",
+    r"\brecursos\b",
+
+    # Exclusión jurídica/fiscal: no sirve para TAI, Administrativo C1/C1-A2 ni informática.
+    r"\bcarrera fiscal\b",
+    r"\bcarreras judicial y fiscal\b",
+    r"\bcarrera judicial\b",
+    r"\bministerio fiscal\b",
+    r"\bletrados al servicio del tribunal supremo\b",
+    r"\bletrad[oa]s? de la administracion de justicia\b",
+    r"\bcuerpo de letrad[oa]s?\b",
+    r"\bletradas y letrados\b",
+    r"\babogad[oa] fiscal\b",
+    r"\bjuez/a\b",
+    r"\bjueces\b",
+    r"\bmagistrad[oa]s?\b",
 ]
 
 # Palabras que indican que el BOE no es de personal/empleo sino subvenciones, concesiones, contratos, etc.
 NO_PERSONAL_PATTERNS = [
-    r"\bsubvencion(?:es)?\b", r"\bayuda(?:s)?\b", r"\bpremio(?:s)?\b",
-    r"\bconcesion administrativa\b", r"\bconcesiones administrativas\b", r"\bderecho real de superficie\b",
-    r"\blicitacion\b", r"\bcontratacion\b", r"\badjudicacion\b", r"\bexplotacion\b",
-    r"\bquiosco\b", r"\bhosteleria\b", r"\bvivienda\b", r"\blocal\b",
-    r"\btesoro publico\b", r"\bsubasta\b", r"\bmarina mercante\b", r"\btitulaciones nauticas\b",
+    r"\bsubvencion(?:es)?\b",
+    r"\bayuda(?:s)?\b",
+    r"\bpremio(?:s)?\b",
+
+    r"\bconcesion administrativa\b",
+    r"\bconcesiones administrativas\b",
+    r"\bderecho real de superficie\b",
+
+    r"\blicitacion\b",
+    r"\bcontratacion\b",
+    r"\badjudicacion\b",
+    r"\bexplotacion\b",
+
+    r"\bquiosco\b",
+    r"\bhosteleria\b",
+    r"\bvivienda\b",
+    r"\blocal\b",
+
+    r"\btesoro publico\b",
+    r"\bsubasta\b",
+    r"\bmarina mercante\b",
+    r"\btitulaciones nauticas\b",
 ]
 
 # Convocatorias reales o provisión de puestos.
 OPENING_PATTERNS = [
-    r"\bse convoca\b", r"\bconvoca\b", r"\bconvocatoria para proveer\b", r"\breferente a la convocatoria para proveer\b",
-    r"\bpruebas selectivas para ingreso\b", r"\bproceso selectivo para ingreso\b", r"\bproceso selectivo para la provision\b",
-    r"\bprovision de puesto(?:s)? de trabajo\b", r"\bprovision de puesto(?:s)?\b",
+    r"\bse convoca\b",
+    r"\bconvoca\b",
+    r"\bconvocatoria para proveer\b",
+    r"\breferente a la convocatoria para proveer\b",
+    r"\bpruebas selectivas para ingreso\b",
+    r"\bproceso selectivo para ingreso\b",
+    r"\bproceso selectivo para la provision\b",
+    r"\bprovision de puesto(?:s)? de trabajo\b",
+    r"\bprovision de puesto(?:s)?\b",
 ]
 
 CONCURSO_PUESTOS_PATTERNS = [
-    r"\bconcurso general\b", r"\bconcurso especifico\b", r"\bconcurso de traslados\b",
+    r"\bconcurso general\b",
+    r"\bconcurso especifico\b",
+    r"\bconcurso de traslados\b",
     r"\bconcurso\b.*\bprovision de puesto(?:s)? de trabajo\b",
     r"\bconcurso\b.*\bpuesto(?:s)? de trabajo\b",
 ]
 
 LIBRE_DESIGNACION_PATTERNS = [
-    r"\blibre designacion\b", r"\bprovision de puesto(?:s)? de trabajo por el sistema de libre designacion\b"
+    r"\blibre designacion\b",
+    r"\bprovision de puesto(?:s)? de trabajo por el sistema de libre designacion\b"
 ]
 
 COMISION_SERVICIO_PATTERNS = [
-    r"\bcomision de servicio(?:s)?\b", r"\bcomisiones de servicio(?:s)?\b"
+    r"\bcomision de servicio(?:s)?\b",
+    r"\bcomisiones de servicio(?:s)?\b"
 ]
 
 OPOSICION_PATTERNS = [
-    r"\boposicion\b", r"\bpruebas selectivas\b", r"\bproceso selectivo\b",
-    r"\bconvocatoria para proveer\b", r"\breferente a la convocatoria para proveer\b", r"\bbolsa de trabajo\b"
+    r"\boposicion\b",
+    r"\bpruebas selectivas\b",
+    r"\bproceso selectivo\b",
+    r"\bconvocatoria para proveer\b",
+    r"\breferente a la convocatoria para proveer\b",
+    r"\bbolsa de trabajo\b"
 ]
 
 PROFILE_REGEX = {
     "informatica": [
-        r"\binformatica\b", r"\binformatic[oa]s?\b", r"\btecnologias? de la informacion\b", r"\btic\b",
-        r"\bsistemas informaticos\b", r"\badministracion de sistemas\b", r"\bmicroinformatica\b",
-        r"\bprogramador(?:a|es)?\b", r"\bofimatica\b", r"\bdesarrollo de aplicaciones\b",
-        r"\btecnico auxiliar de informatica\b", r"\btecnico especialista en ofimatica\b"
+        r"\binformatica\b",
+        r"\binformatic[oa]s?\b",
+        r"\btecnologias? de la informacion\b",
+        r"\btic\b",
+        r"\bsistemas informaticos\b",
+        r"\badministracion de sistemas\b",
+        r"\bmicroinformatica\b",
+        r"\bprogramador(?:a|es)?\b",
+        r"\bofimatica\b",
+        r"\bdesarrollo de aplicaciones\b",
+        r"\btecnico auxiliar de informatica\b",
+        r"\btecnico especialista en ofimatica\b"
     ],
     "administrativo": [
-        r"\bcuerpo administrativo\b", r"\bescala administrativa\b", r"\bauxiliar administrativo\b",
-        r"\bgestion administrativa\b", r"\bplaza(?:s)? de administrativo\b", r"\badministrativo/a\b",
+        r"\bcuerpo administrativo\b",
+        r"\bescala administrativa\b",
+        r"\bauxiliar administrativo\b",
+        r"\bgestion administrativa\b",
+        r"\bplaza(?:s)? de administrativo\b",
+        r"\badministrativo/a\b",
         r"\badministrativos?\b"
     ],
     "c1a2": [
-        r"\bc1/a2\b", r"\bc1-a2\b", r"\bsubgrupo\s+c1\b", r"\bsubgrupo\s+a2\b",
-        r"\bc1\b", r"\ba2\b", r"\bnivel\s+1[6-9]\b", r"\bnivel\s+2[0-2]\b"
+        r"\bc1/a2\b",
+        r"\bc1-a2\b",
+        r"\bsubgrupo\s+c1\b",
+        r"\bsubgrupo\s+a2\b",
+        r"\bc1\b",
+        r"\ba2\b",
+        r"\bnivel\s+1[6-9]\b",
+        r"\bnivel\s+2[0-2]\b"
     ]
 }
 
@@ -186,9 +281,10 @@ def fetch_sumario(fecha: dt.date, retries: int = 2) -> Optional[bytes]:
     url = BOE_API.format(fecha=fecha.strftime("%Y%m%d"))
     headers = {
         "Accept": "application/xml",
-        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.1 (+https://pages.github.com/)"
+        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.2 (+https://pages.github.com/)"
     }
     request = urllib.request.Request(url, headers=headers)
+
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
@@ -200,7 +296,9 @@ def fetch_sumario(fecha: dt.date, retries: int = 2) -> Optional[bytes]:
             print(f"[WARN] {fecha}: HTTP {exc.code} en intento {attempt + 1}")
         except Exception as exc:
             print(f"[WARN] {fecha}: {exc!r} en intento {attempt + 1}")
+
         time.sleep(1.5 * (attempt + 1))
+
     return None
 
 
@@ -227,18 +325,22 @@ def first_attr(element: ET.Element, names: Iterable[str]) -> str:
 def ctx_update(element: ET.Element, ctx: Dict[str, str]) -> Dict[str, str]:
     new = dict(ctx)
     t = norm(tag_name(element))
+
     if "seccion" in t:
         value = first_attr(element, ["num", "codigo", "nombre"]) or child_text(element, ["nombre", "titulo"])
         if value:
             new["seccion"] = value
+
     elif "departamento" in t:
         value = first_attr(element, ["nombre", "codigo"]) or child_text(element, ["nombre", "titulo"])
         if value:
             new["departamento"] = value
+
     elif "epigrafe" in t or "subseccion" in t:
         value = first_attr(element, ["nombre", "codigo"]) or child_text(element, ["nombre", "titulo"])
         if value:
             new["epigrafe"] = value
+
     return new
 
 
@@ -246,8 +348,10 @@ def walk_items(element: ET.Element, fecha: dt.date, ctx: Optional[Dict[str, str]
     ctx = ctx or {}
     ctx = ctx_update(element, ctx)
     t = norm(tag_name(element))
+
     if t == "item" or child_text(element, ["titulo"]) and (first_attr(element, ["id"]) or child_text(element, ["identificador"])):
         yield extract_item(element, fecha, ctx)
+
     for child in list(element):
         yield from walk_items(child, fecha, ctx)
 
@@ -289,6 +393,7 @@ def extract_item(element: ET.Element, fecha: dt.date, ctx: Dict[str, str]) -> Di
         url_pdf = f"/boe/dias/{fecha:%Y/%m/%d}/pdfs/{item_id}.pdf"
 
     stable_id = item_id or hashlib.sha1(f"{fecha.isoformat()}|{titulo}".encode("utf-8")).hexdigest()[:16]
+
     return {
         "id": stable_id,
         "boeId": item_id,
@@ -312,6 +417,7 @@ def parse_sumario(xml_bytes: bytes, fecha: dt.date) -> List[Dict[str, Any]]:
     except ET.ParseError as exc:
         print(f"[WARN] {fecha}: XML no válido: {exc}")
         return []
+
     return list(walk_items(root, fecha))
 
 
@@ -351,64 +457,110 @@ def detect_provincias(text_norm: str) -> List[str]:
 def detect_entidad(text_norm: str) -> str:
     if "ayuntamiento de albacete" in text_norm:
         return "Ayuntamiento de Albacete"
+
     if "diputacion provincial de albacete" in text_norm or "diputacion de albacete" in text_norm:
         return "Diputación de Albacete"
+
     if "castilla-la mancha" in text_norm or "castilla la mancha" in text_norm or "junta de comunidades" in text_norm:
         return "Castilla-La Mancha"
+
     if "servicio publico de empleo estatal" in text_norm or re.search(r"\bsepe\b", text_norm):
         return "SEPE"
+
     if "administracion general del estado" in text_norm:
         return "AGE"
+
     return ""
 
 
 def is_opening_or_provision(text_norm: str, tipo: str) -> bool:
     if tipo == "concurso":
-        return re_any(text_norm, CONCURSO_PUESTOS_PATTERNS) and re_any(text_norm, [r"\bconvoca\b", r"\bprovision de puesto(?:s)? de trabajo\b", r"\bpuestos de trabajo\b"])
+        return (
+            re_any(text_norm, CONCURSO_PUESTOS_PATTERNS)
+            and re_any(
+                text_norm,
+                [
+                    r"\bconvoca\b",
+                    r"\bprovision de puesto(?:s)? de trabajo\b",
+                    r"\bpuestos de trabajo\b"
+                ]
+            )
+        )
+
     if tipo in {"libre_designacion", "comision_servicio"}:
         return re_any(text_norm, OPENING_PATTERNS) or "provision de puesto" in text_norm
+
     if tipo == "oposicion":
         return re_any(text_norm, OPENING_PATTERNS)
+
     return False
 
 
-def is_age_concurso_revisable(item: Dict[str, Any], text_norm: str, tipo: str, config: Dict[str, Any]) -> bool:
+def is_age_concurso_revisable(
+    item: Dict[str, Any],
+    text_norm: str,
+    tipo: str,
+    config: Dict[str, Any]
+) -> bool:
     if tipo != "concurso" or not is_allowed_section(item):
         return False
+
     if not re_any(text_norm, CONCURSO_PUESTOS_PATTERNS):
         return False
+
     if re_any(text_norm, NO_PERSONAL_PATTERNS):
         return False
+
     if re_any(text_norm, EXCLUDE_PATTERNS):
         return False
 
     epigrafe = norm(item.get("epigrafe", ""))
     dep_words = config.get("departamentos_age_interes", [])
+
     dep_hit = any(norm(word) in text_norm for word in dep_words)
     epigrafe_hit = "personal funcionario" in epigrafe and "concurso" in epigrafe
-    return dep_hit or epigrafe_hit or "ministerio" in text_norm or "agencia estatal" in text_norm
+
+    return (
+        dep_hit
+        or epigrafe_hit
+        or "ministerio" in text_norm
+        or "agencia estatal" in text_norm
+    )
 
 
-def classify(item: Dict[str, Any], config: Dict[str, Any], provincias_vigiladas: List[str]) -> Optional[Dict[str, Any]]:
-    full_norm = norm(" ".join(str(item.get(k, "")) for k in ["titulo", "departamento", "seccion", "epigrafe"]))
+def classify(
+    item: Dict[str, Any],
+    config: Dict[str, Any],
+    provincias_vigiladas: List[str]
+) -> Optional[Dict[str, Any]]:
+    full_norm = norm(
+        " ".join(
+            str(item.get(k, ""))
+            for k in ["titulo", "departamento", "seccion", "epigrafe"]
+        )
+    )
 
-    # Filtro duro: evitar secciones que generan muchísimo ruido. Las convocatorias están en II.B.
+    # Filtro duro: evitar secciones que generan muchísimo ruido.
+    # Las convocatorias útiles suelen estar en II.B.
     if not is_allowed_section(item):
         return None
 
-    # Filtro duro: no-personal/empleo y fases posteriores.
+    # Filtro duro: no-personal/empleo.
     if re_any(full_norm, NO_PERSONAL_PATTERNS):
         return None
 
     tipo = detect_tipo(full_norm)
+
     if tipo == "otros":
         return None
 
-    # En principio solo alertamos de convocatorias/provisión. Los concursos AGE se tratan aparte por anexos.
+    # Los concursos AGE se tratan aparte porque pueden tener la provincia dentro del anexo.
     age_revisable = is_age_concurso_revisable(item, full_norm, tipo, config)
+
     if not age_revisable:
         if re_any(full_norm, EXCLUDE_PATTERNS):
             return None
+
         if not is_opening_or_provision(full_norm, tipo):
             return None
 
@@ -423,7 +575,9 @@ def classify(item: Dict[str, Any], config: Dict[str, Any], provincias_vigiladas:
         "ayuntamiento de albacete" in full_norm
         or "diputacion provincial de albacete" in full_norm
         or "diputacion de albacete" in full_norm
-        or ("castilla-la mancha" in full_norm or "castilla la mancha" in full_norm or "junta de comunidades" in full_norm)
+        or "castilla-la mancha" in full_norm
+        or "castilla la mancha" in full_norm
+        or "junta de comunidades" in full_norm
     )
 
     # Núcleo fino:
@@ -437,6 +591,7 @@ def classify(item: Dict[str, Any], config: Dict[str, Any], provincias_vigiladas:
         precision = "alta"
         prioridad = 1
         motivo = "Coincidencia directa con provincia o entidad vigilada en una convocatoria/provisión de personal."
+
     elif age_revisable:
         precision = "revisar_anexo"
         prioridad = 2
@@ -444,12 +599,21 @@ def classify(item: Dict[str, Any], config: Dict[str, Any], provincias_vigiladas:
             "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; "
             "abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo."
         )
+
     else:
         precision = "media"
         prioridad = 3
         motivo = "Coincidencia indirecta; revisar manualmente."
 
-    tags = sorted(set(provincias + perfiles + ([entidad] if entidad else []) + ([tipo] if tipo else [])))
+    tags = sorted(
+        set(
+            provincias
+            + perfiles
+            + ([entidad] if entidad else [])
+            + ([tipo] if tipo else [])
+        )
+    )
+
     result = dict(item)
     result.update({
         "tipo": tipo,
@@ -461,50 +625,69 @@ def classify(item: Dict[str, Any], config: Dict[str, Any], provincias_vigiladas:
         "motivo": motivo,
         "tags": tags
     })
+
     return result
-
-
-def merge_alerts(existing: List[Dict[str, Any]], new: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    by_key: Dict[str, Dict[str, Any]] = {}
-    for item in existing:
-        key = unique_key(item)
-        by_key[key] = item
-
-    added = []
-    for item in new:
-        key = unique_key(item)
-        if key not in by_key:
-            added.append(item)
-        by_key[key] = {**by_key.get(key, {}), **item}
-
-    merged = list(by_key.values())
-    merged.sort(key=lambda x: (x.get("prioridad", 9), x.get("fechaPublicacion", ""), x.get("titulo", "")), reverse=False)
-    merged.sort(key=lambda x: (x.get("fechaPublicacion", ""), -int(x.get("prioridad", 9))), reverse=True)
-    return merged, added
 
 
 def unique_key(item: Dict[str, Any]) -> str:
     if item.get("boeId"):
         return str(item["boeId"])
+
     if item.get("id"):
         return str(item["id"])
-    return hashlib.sha1(f"{item.get('fechaPublicacion')}|{item.get('titulo')}".encode("utf-8")).hexdigest()
+
+    return hashlib.sha1(
+        f"{item.get('fechaPublicacion')}|{item.get('titulo')}".encode("utf-8")
+    ).hexdigest()
 
 
-def write_outputs(payload: Dict[str, Any], added: List[Dict[str, Any]], args: argparse.Namespace) -> None:
-    DATA_DIR.mkdir(exist_ok=True)
-    DOCS_DIR.mkdir(exist_ok=True)
-    with ALERTAS_PATH.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+def merge_alerts(
+    existing: List[Dict[str, Any]],
+    new: List[Dict[str, Any]]
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    by_key: Dict[str, Dict[str, Any]] = {}
 
-    NEW_COUNT_PATH.write_text(str(len(added)), encoding="utf-8")
-    ISSUE_PATH.write_text(build_issue_markdown(added, args), encoding="utf-8")
+    for item in existing:
+        key = unique_key(item)
+        by_key[key] = item
+
+    added = []
+
+    for item in new:
+        key = unique_key(item)
+
+        if key not in by_key:
+            added.append(item)
+
+        by_key[key] = {**by_key.get(key, {}), **item}
+
+    merged = list(by_key.values())
+
+    # Primero ordena por prioridad.
+    merged.sort(
+        key=lambda x: (
+            x.get("prioridad", 9),
+            x.get("fechaPublicacion", ""),
+            x.get("titulo", "")
+        )
+    )
+
+    # Después deja lo más reciente arriba, manteniendo prioridad.
+    merged.sort(
+        key=lambda x: (
+            x.get("fechaPublicacion", ""),
+            -int(x.get("prioridad", 9))
+        ),
+        reverse=True
+    )
+
+    return merged, added
 
 
 def build_issue_markdown(added: List[Dict[str, Any]], args: argparse.Namespace) -> str:
     if not added:
         return "No se han detectado alertas nuevas en esta revisión.\n"
+
     lines = [
         "# Nuevas alertas BOE detectadas",
         "",
@@ -514,8 +697,10 @@ def build_issue_markdown(added: List[Dict[str, Any]], args: argparse.Namespace) 
         "> En concursos AGE, abre el PDF/anexo y busca: Albacete, C1, C1/A2, nivel 16, informática, TIC, administrativo.",
         ""
     ]
+
     for item in sorted(added, key=lambda x: (x.get("prioridad", 9), x.get("fechaPublicacion", "")))[:30]:
         title = item.get("titulo", "Sin título")
+
         lines.extend([
             f"## {item.get('fechaPublicacion')} · {title}",
             f"- Prioridad: **{item.get('prioridad', 'N/D')}**",
@@ -530,25 +715,53 @@ def build_issue_markdown(added: List[Dict[str, Any]], args: argparse.Namespace) 
             f"- Sumario: {item.get('enlaceSumario')}",
             ""
         ])
+
     if len(added) > 30:
-        lines.append(f"Se han omitido {len(added)-30} alertas más en esta issue. Revisa data/alertas.json.")
+        lines.append(f"Se han omitido {len(added) - 30} alertas más en esta issue. Revisa data/alertas.json.")
+
     return "\n".join(lines).strip() + "\n"
+
+
+def write_outputs(payload: Dict[str, Any], added: List[Dict[str, Any]], args: argparse.Namespace) -> None:
+    DATA_DIR.mkdir(exist_ok=True)
+    DOCS_DIR.mkdir(exist_ok=True)
+
+    with ALERTAS_PATH.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    NEW_COUNT_PATH.write_text(str(len(added)), encoding="utf-8")
+    ISSUE_PATH.write_text(build_issue_markdown(added, args), encoding="utf-8")
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Escáner de alertas BOE para GitHub Pages")
+
     parser.add_argument("--desde", help="Fecha inicial YYYY-MM-DD")
     parser.add_argument("--hasta", help="Fecha final YYYY-MM-DD")
     parser.add_argument("--provincia", help="Provincia a vigilar, por defecto la del config")
     parser.add_argument("--dias", type=int, help="Días hacia atrás si no hay desde/hasta")
-    parser.add_argument("--max-dias", type=int, default=90, help="Límite de días por ejecución para evitar workflows excesivos")
-    parser.add_argument("--reiniciar", action="store_true", help="No conserva alertas antiguas; reescribe data/alertas.json solo con el rango actual")
+
+    parser.add_argument(
+        "--max-dias",
+        type=int,
+        default=90,
+        help="Límite de días por ejecución para evitar workflows excesivos"
+    )
+
+    parser.add_argument(
+        "--reiniciar",
+        action="store_true",
+        help="No conserva alertas antiguas; reescribe data/alertas.json solo con el rango actual"
+    )
+
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
     config = load_config()
+
     today = dt.date.today()
     default_days = int(args.dias or config.get("dias_revision_por_defecto", 7))
 
@@ -558,12 +771,15 @@ def main() -> int:
         desde = today - dt.timedelta(days=max(0, default_days - 1))
 
     hasta = parse_date(args.hasta) if args.hasta else today
+
     if desde > hasta:
         desde, hasta = hasta, desde
+
     if hasta > today:
         hasta = today
 
     total_days = (hasta - desde).days + 1
+
     if total_days > args.max_dias:
         print(f"[WARN] Rango demasiado amplio ({total_days} días). Se limita a {args.max_dias} días desde la fecha final.")
         desde = hasta - dt.timedelta(days=args.max_dias - 1)
@@ -572,23 +788,31 @@ def main() -> int:
     provincias = [p for p in provincias if p]
 
     print(f"[INFO] Revisando BOE desde {desde} hasta {hasta}. Provincias: {', '.join(provincias)}")
+
     found: List[Dict[str, Any]] = []
     errors: List[str] = []
 
     for fecha in daterange(desde, hasta):
         xml = fetch_sumario(fecha)
+
         if not xml:
             continue
+
         try:
             items = parse_sumario(xml, fecha)
             print(f"[INFO] {fecha}: {len(items)} items en sumario")
+
             day_found = 0
+
             for item in items:
                 classified = classify(item, config, provincias)
+
                 if classified:
                     found.append(classified)
                     day_found += 1
+
             print(f"[INFO] {fecha}: {day_found} alertas útiles tras filtros finos")
+
         except Exception as exc:
             msg = f"{fecha}: {exc!r}"
             print(f"[ERROR] {msg}")
@@ -596,14 +820,18 @@ def main() -> int:
 
     existing_payload = load_existing()
     existing_alerts = [] if args.reiniciar else existing_payload.get("alertas", [])
+
     merged, added = merge_alerts(existing_alerts, found)
 
     payload = {
         "metadata": {
             "generatedBy": "scripts/scan_boe.py",
-            "versionFiltro": "v3-fino",
+            "versionFiltro": "v3.1-fino-juridico-excluido",
             "lastRun": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-            "rangoUltimaRevision": {"desde": desde.isoformat(), "hasta": hasta.isoformat()},
+            "rangoUltimaRevision": {
+                "desde": desde.isoformat(),
+                "hasta": hasta.isoformat()
+            },
             "provinciasVigiladas": provincias,
             "fuente": "BOE Datos Abiertos - sumario diario",
             "totalAlertas": len(merged),
@@ -614,9 +842,11 @@ def main() -> int:
     }
 
     write_outputs(payload, added, args)
+
     print(f"[INFO] Alertas encontradas en ejecución: {len(found)}")
     print(f"[INFO] Nuevas alertas: {len(added)}")
     print(f"[INFO] Total acumulado: {len(merged)}")
+
     return 0
 
 
