@@ -3,8 +3,7 @@ name: Revisar BOE alertas C1
 on:
   schedule:
     # El BOE se publica normalmente de lunes a sábado.
-    # GitHub Actions usa horario UTC.
-    # En España será aproximadamente 08:20 en invierno / 09:20 en verano.
+    # GitHub Actions usa UTC: en España será aprox. 08:20 invierno / 09:20 verano.
     - cron: "20 7 * * 1-6"
 
   workflow_dispatch:
@@ -25,8 +24,13 @@ on:
       dias:
         description: "Días hacia atrás si no indicas fecha_desde"
         required: false
-        default: "30"
+        default: "7"
         type: string
+      reiniciar_datos:
+        description: "Borrar alertas antiguas y dejar solo el resultado de esta revisión"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -53,6 +57,7 @@ jobs:
           if [ -n "${{ github.event.inputs.fecha_hasta }}" ]; then ARGS="$ARGS --hasta ${{ github.event.inputs.fecha_hasta }}"; fi
           if [ -n "${{ github.event.inputs.provincia }}" ]; then ARGS="$ARGS --provincia '${{ github.event.inputs.provincia }}'"; fi
           if [ -n "${{ github.event.inputs.dias }}" ]; then ARGS="$ARGS --dias ${{ github.event.inputs.dias }}"; fi
+          if [ "${{ github.event.inputs.reiniciar_datos }}" = "true" ]; then ARGS="$ARGS --reiniciar"; fi
           echo "python scripts/scan_boe.py $ARGS"
           eval "python scripts/scan_boe.py $ARGS"
 
