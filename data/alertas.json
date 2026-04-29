@@ -1,8 +1,8 @@
 {
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
-    "versionFiltro": "v3-fino",
-    "lastRun": "2026-04-29T19:07:49+00:00",
+    "versionFiltro": "v3.1-fino-juridico-excluido",
+    "lastRun": "2026-04-29T19:16:13+00:00",
     "rangoUltimaRevision": {
       "desde": "2026-04-01",
       "hasta": "2026-04-29"
@@ -11,8 +11,8 @@
       "Albacete"
     ],
     "fuente": "BOE Datos Abiertos - sumario diario",
-    "totalAlertas": 21,
-    "nuevasAlertas": 21,
+    "totalAlertas": 20,
+    "nuevasAlertas": 20,
     "errores": []
   },
   "alertas": [
@@ -92,31 +92,6 @@
       "tags": [
         "Albacete",
         "oposicion"
-      ]
-    },
-    {
-      "id": "BOE-A-2026-9223",
-      "boeId": "BOE-A-2026-9223",
-      "fechaPublicacion": "2026-04-28",
-      "titulo": "Orden PJC/387/2026, de 26 de abril, por la que se convoca concurso de traslados para la cobertura de plazas en el Ministerio Fiscal.",
-      "departamento": "9585",
-      "seccion": "2B",
-      "epigrafe": "Carrera Fiscal",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9223",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9223.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9223",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260428",
-      "fuente": "BOE",
-      "tipo": "concurso",
-      "perfiles": [],
-      "provinciasDetectadas": [],
-      "entidadDetectada": "",
-      "precision": "revisar_anexo",
-      "prioridad": 2,
-      "motivo": "Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.",
-      "tags": [
-        "concurso"
       ]
     },
     {

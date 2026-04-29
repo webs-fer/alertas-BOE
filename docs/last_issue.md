@@ -209,18 +209,6 @@ Rango revisado: **2026-04-01 → 2026-04-29**
 - PDF: https://www.boe.es/boe/dias/2026/04/25/pdfs/BOE-A-2026-9059.pdf
 - Sumario: https://www.boe.es/boe/dias/2026/04/25/
 
-## 2026-04-28 · Orden PJC/387/2026, de 26 de abril, por la que se convoca concurso de traslados para la cobertura de plazas en el Ministerio Fiscal.
-- Prioridad: **2**
-- Tipo: **concurso**
-- Precisión: **revisar_anexo**
-- Provincia detectada: No visible en el título
-- Entidad: No disponible
-- Departamento: 9585
-- Motivo: Concurso AGE de provisión de puestos detectado. La provincia, nivel y cuerpo pueden venir dentro del anexo PDF; abre la disposición y busca Albacete, C1, C1/A2, nivel 16 o informática/administrativo.
-- BOE: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9223
-- PDF: https://www.boe.es/boe/dias/2026/04/28/pdfs/BOE-A-2026-9223.pdf
-- Sumario: https://www.boe.es/boe/dias/2026/04/28/
-
 ## 2026-04-28 · Resolución de 16 de abril de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Agencia Española de Medicamentos y Productos Sanitarios.
 - Prioridad: **2**
 - Tipo: **concurso**
