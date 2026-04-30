@@ -2,17 +2,17 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v3.2-provincia-confirmada-documento",
-    "lastRun": "2026-04-29T19:35:04+00:00",
+    "lastRun": "2026-04-30T09:31:16+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-04-01",
-      "hasta": "2026-04-29"
+      "desde": "2026-04-24",
+      "hasta": "2026-04-30"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE Datos Abiertos - sumario diario",
     "totalAlertas": 10,
-    "nuevasAlertas": 10,
+    "nuevasAlertas": 0,
     "errores": []
   },
   "alertas": [
