@@ -99,7 +99,6 @@ KEYWORDS_INFORMATICA_FUERTES = [
     "redes y sistemas",
     "ciberseguridad",
     "seguridad informatica",
-    "telecomunicaciones",
 
     # Desarrollo / datos
     "programador",
