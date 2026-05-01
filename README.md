@@ -1,44 +1,209 @@
-# Radar BOE Albacete
+# BOE Alertas Informática v5
 
-Web estática para GitHub Pages con tres bloques separados:
+Proyecto preparado para vigilar el BOE y detectar alertas útiles para tu perfil:
 
-1. **Concursos AGE**: bloque principal. Solo muestra concursos donde el documento BOE/XML/HTML/PDF contiene la provincia vigilada.
-2. **Libres designaciones y comisiones**: movilidad/provisión con filtros de nivel, grupo y perfil.
-3. **Oposiciones**: Junta CLM, SESCAM, UCLM, Diputación de Albacete y Ayuntamiento de Albacete.
+1. **Informática / TIC / TAI / sistemas / redes / soporte / programación** → prioridad máxima.
+2. **Administrativo C1 real** → prioridad alta/secundaria.
+3. **Auxiliar Administrativo C2** → oculto por defecto.
+4. **Policía, bomberos, peones, letrados, FHN, libre designación no útil** → descartado.
 
-## Probar en local
+El proyecto genera:
+
+- `outputs/alertas.json`: resultado completo.
+- `docs/alertas.json`: JSON usado por la web.
+- `docs/index.html`: dashboard visual para GitHub Pages.
+
+---
+
+## Estructura
+
+```text
+boe-alertas-informatica-v5/
+├── scripts/
+│   └── scan_boe.py
+├── config/
+│   └── user_profile.json
+├── docs/
+│   ├── index.html
+│   ├── styles.css
+│   ├── app.js
+│   └── alertas.json
+├── outputs/
+│   └── .gitkeep
+├── .github/
+│   └── workflows/
+│       └── scan_boe.yml
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Instalación local
 
 ```bash
-python -m http.server 8000
+pip install -r requirements.txt
 ```
 
-Abrir:
+---
+
+## Ejecutar una revisión concreta
+
+Ejemplo:
+
+```bash
+python scripts/scan_boe.py --desde 2026-04-01 --hasta 2026-04-29
+```
+
+El script dejará los resultados en:
 
 ```text
-http://localhost:8000
+outputs/alertas.json
+docs/alertas.json
 ```
 
-## Subir a GitHub Pages
-
-1. Sube todos los archivos a la raíz del repositorio.
-2. Activa Pages en `Settings > Pages > Deploy from branch > main / root`.
-3. En `Settings > Actions > General`, marca `Read and write permissions`.
-4. Ejecuta manualmente `Actions > Revisar BOE alertas selectivas > Run workflow`.
-
-Ejemplo de prueba:
+Y podrás abrir:
 
 ```text
-fecha_desde: 2026-04-01
-fecha_hasta: 2026-04-29
-provincia: Albacete
-reiniciar_datos: true
+docs/index.html
 ```
 
-## Archivos clave
+---
 
-- `index.html`: pantalla inicial con 3 opciones.
-- `assets/js/app.js`: filtros y renderizado.
-- `scripts/scan_boe.py`: escáner BOE con lectura XML/HTML/PDF.
-- `.github/workflows/boe-alertas.yml`: automatización.
-- `data/config.json`: configuración.
-- `data/alertas.json`: datos generados.
+## Cómo subirlo a GitHub
+
+1. Crea un repositorio nuevo en GitHub.
+2. Sube todo el contenido de esta carpeta.
+3. En GitHub entra en:
+
+```text
+Settings → Pages
+```
+
+4. Configura:
+
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: /docs
+```
+
+5. Guarda.
+
+Tu dashboard saldrá publicado como web de GitHub Pages.
+
+---
+
+## Activar actualización automática
+
+El proyecto incluye este workflow:
+
+```text
+.github/workflows/scan_boe.yml
+```
+
+Hace una revisión diaria y también permite ejecutarlo manualmente desde:
+
+```text
+Actions → Scan BOE alertas → Run workflow
+```
+
+Para que pueda guardar los cambios generados, revisa en GitHub:
+
+```text
+Settings → Actions → General → Workflow permissions
+```
+
+Y activa:
+
+```text
+Read and write permissions
+```
+
+---
+
+## Configuración importante
+
+El archivo principal de configuración es:
+
+```text
+config/user_profile.json
+```
+
+Por defecto está pensado para ti:
+
+```json
+{
+  "provincias": ["Albacete"],
+  "priorizar_informatica": true,
+  "incluir_administrativo_c1": true,
+  "incluir_auxiliar_administrativo_c2": false,
+  "incluir_libre_designacion": false,
+  "incluir_promocion_interna": false,
+  "modo_estricto": true
+}
+```
+
+Si algún día quieres que también salgan auxiliares administrativos C2, cambia:
+
+```json
+"incluir_auxiliar_administrativo_c2": true
+```
+
+---
+
+## Qué cambia respecto al filtro anterior
+
+### Antes
+
+El sistema encontraba bien Albacete, pero metía demasiado ruido:
+
+- Policía local.
+- Bomberos.
+- Peón jardinero.
+- Letrado.
+- Libre designación A1/FHN.
+- Plazas no relacionadas.
+
+### Ahora
+
+El filtro intenta extraer la **plaza real** del texto del BOE:
+
+```text
+Una plaza de Técnico/a de Informática...
+Una plaza de Administrativo/a...
+Una plaza de Peón Jardinero...
+```
+
+Y clasifica con estos campos:
+
+```json
+"perfilReal": "informatica_tic",
+"relevanciaUsuario": "muy_alta",
+"prioridadUsuario": 1,
+"descartadaParaUsuario": false,
+"visibleParaUsuario": true
+```
+
+---
+
+## Prioridades
+
+```text
+Prioridad 1 → Informática / TIC / TAI / sistemas / redes / soporte / programación.
+Prioridad 2 → Administrativo C1 real.
+Prioridad 3 → Auxiliar Administrativo C2, solo si lo activas.
+Prioridad 6 → Albacete sin perfil claro.
+Prioridad 9 → Descartado.
+```
+
+---
+
+## Nota
+
+El BOE es la fuente oficial, pero antes de inscribirte revisa siempre:
+
+- BOE HTML.
+- PDF oficial.
+- Bases de la convocatoria.
+- Sede electrónica del organismo convocante.

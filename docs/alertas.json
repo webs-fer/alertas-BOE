@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "generatedBy": "scripts/scan_boe.py",
+    "versionFiltro": "v5-perfil-informatica-prioritario",
+    "lastRun": "pendiente de ejecutar",
+    "nota": "Este archivo se reemplaza al ejecutar el script."
+  },
+  "alertasPrioritarias": [],
+  "alertasSecundarias": [],
+  "alertasDescartadas": [],
+  "alertas": [],
+  "todasLasAlertas": []
+}

@@ -1,0 +1,21 @@
+{
+  "provincias": [
+    "Albacete"
+  ],
+  "priorizar_informatica": true,
+  "incluir_administrativo_c1": true,
+  "incluir_auxiliar_administrativo_c2": false,
+  "incluir_libre_designacion": false,
+  "incluir_promocion_interna": false,
+  "incluir_perfiles_no_relacionados": false,
+  "grupos_objetivo": [
+    "C1",
+    "C1/A2",
+    "A2"
+  ],
+  "nivel_minimo_deseado": 16,
+  "modo_estricto": true,
+  "prioridad_max_visible": 3,
+  "sleep_segundos": 0.25,
+  "timeout_segundos": 25
+}

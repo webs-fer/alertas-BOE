@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Radar BOE Informática - Albacete</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard de alertas BOE filtradas para plazas de Informática/TIC y Administrativo en Albacete.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">BOE Alertas v5</p>
+      <h1>Radar BOE Informática</h1>
+      <p class="subtitle">Informática/TIC primero. Administrativo C1 después. Ruido descartado.</p>
+    </div>
+    <div class="hero-card">
+      <span id="lastRun">Cargando…</span>
+      <strong id="totalPrioritarias">0 prioritarias</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <button data-filter="prioritarias" class="active">Prioritarias</button>
+      <button data-filter="informatica">Informática/TIC</button>
+      <button data-filter="administrativo">Administrativo</button>
+      <button data-filter="secundarias">Secundarias</button>
+      <button data-filter="descartadas">Descartadas</button>
+      <button data-filter="todas">Todas</button>
+    </section>
+
+    <section class="summary-grid">
+      <article>
+        <span>Prioritarias</span>
+        <strong id="mPrioritarias">0</strong>
+      </article>
+      <article>
+        <span>Secundarias</span>
+        <strong id="mSecundarias">0</strong>
+      </article>
+      <article>
+        <span>Descartadas</span>
+        <strong id="mDescartadas">0</strong>
+      </article>
+      <article>
+        <span>Total territorial</span>
+        <strong id="mTotal">0</strong>
+      </article>
+    </section>
+
+    <section id="cards" class="cards"></section>
+  </main>
+
+  <footer>
+    <p>Generado automáticamente desde BOE. Revisa siempre las bases oficiales antes de inscribirte.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
