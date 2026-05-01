@@ -1,4 +1,4 @@
-name: Revisar BOE alertas C1
+name: Revisar BOE alertas C1 Informática
 
 on:
   schedule:
@@ -16,21 +16,11 @@ on:
         description: "Fecha final YYYY-MM-DD. Déjalo vacío para hoy."
         required: false
         type: string
-      provincia:
-        description: "Provincia a vigilar"
-        required: false
-        default: "Albacete"
-        type: string
       dias:
         description: "Días hacia atrás si no indicas fecha_desde"
         required: false
-        default: "7"
+        default: "30"
         type: string
-      reiniciar_datos:
-        description: "Borrar alertas antiguas y recalcular solo el rango indicado"
-        required: false
-        default: false
-        type: boolean
 
 permissions:
   contents: write
@@ -47,49 +37,147 @@ jobs:
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Calcular rango de revisión
+        id: fechas
+        shell: bash
+        run: |
+          set -e
+
+          FECHA_HASTA="${{ github.event.inputs.fecha_hasta }}"
+          FECHA_DESDE="${{ github.event.inputs.fecha_desde }}"
+          DIAS="${{ github.event.inputs.dias }}"
+
+          if [ -z "$FECHA_HASTA" ]; then
+            FECHA_HASTA=$(date -u +"%Y-%m-%d")
+          fi
+
+          if [ -z "$DIAS" ]; then
+            DIAS="30"
+          fi
+
+          if [ -z "$FECHA_DESDE" ]; then
+            FECHA_DESDE=$(date -u -d "$DIAS days ago" +"%Y-%m-%d")
+          fi
+
+          echo "Fecha desde: $FECHA_DESDE"
+          echo "Fecha hasta: $FECHA_HASTA"
+
+          echo "fecha_desde=$FECHA_DESDE" >> "$GITHUB_OUTPUT"
+          echo "fecha_hasta=$FECHA_HASTA" >> "$GITHUB_OUTPUT"
 
       - name: Ejecutar escáner BOE
         shell: bash
         run: |
           set -e
 
-          ARGS=""
+          python scripts/scan_boe.py \
+            --desde "${{ steps.fechas.outputs.fecha_desde }}" \
+            --hasta "${{ steps.fechas.outputs.fecha_hasta }}"
 
-          if [ -n "${{ github.event.inputs.fecha_desde }}" ]; then
-            ARGS="$ARGS --desde ${{ github.event.inputs.fecha_desde }}"
-          fi
-
-          if [ -n "${{ github.event.inputs.fecha_hasta }}" ]; then
-            ARGS="$ARGS --hasta ${{ github.event.inputs.fecha_hasta }}"
-          fi
-
-          if [ -n "${{ github.event.inputs.provincia }}" ]; then
-            ARGS="$ARGS --provincia '${{ github.event.inputs.provincia }}'"
-          else
-            ARGS="$ARGS --provincia 'Albacete'"
-          fi
-
-          if [ -n "${{ github.event.inputs.dias }}" ]; then
-            ARGS="$ARGS --dias ${{ github.event.inputs.dias }}"
-          else
-            ARGS="$ARGS --dias 7"
-          fi
-
-          if [ "${{ github.event.inputs.reiniciar_datos }}" = "true" ]; then
-            ARGS="$ARGS --reiniciar"
-          fi
-
-          echo "python scripts/scan_boe.py $ARGS"
-          eval "python scripts/scan_boe.py $ARGS"
-
-      - name: Guardar cambios en JSON
+      - name: Crear resumen de alertas nuevas
         shell: bash
         run: |
+          set -e
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          alertas_path = Path("outputs/alertas.json")
+          issue_path = Path("docs/last_issue.md")
+          count_path = Path("docs/new_alert_count.txt")
+
+          issue_path.parent.mkdir(parents=True, exist_ok=True)
+
+          if not alertas_path.exists():
+              count_path.write_text("0", encoding="utf-8")
+              issue_path.write_text("No se ha generado outputs/alertas.json", encoding="utf-8")
+              raise SystemExit(0)
+
+          data = json.loads(alertas_path.read_text(encoding="utf-8"))
+
+          prioritarias = data.get("alertasPrioritarias", [])
+          secundarias = data.get("alertasSecundarias", [])
+          visibles = data.get("alertas", [])
+
+          # Para issue, contamos las visibles, priorizando informática y administrativo.
+          alertas_issue = prioritarias + secundarias
+
+          # Evitar duplicados por id.
+          vistas = set()
+          alertas_unicas = []
+          for a in alertas_issue:
+              aid = a.get("id") or a.get("boeId")
+              if aid not in vistas:
+                  vistas.add(aid)
+                  alertas_unicas.append(a)
+
+          count = len(alertas_unicas)
+          count_path.write_text(str(count), encoding="utf-8")
+
+          lines = []
+          lines.append("# Nuevas alertas BOE detectadas")
+          lines.append("")
+          lines.append(f"Total alertas prioritarias/secundarias: **{count}**")
+          lines.append("")
+          lines.append("Filtro aplicado:")
+          lines.append("")
+          lines.append("- Informática / TIC / TAI: prioridad máxima.")
+          lines.append("- Administrativo C1: prioridad secundaria.")
+          lines.append("- Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.")
+          lines.append("")
+
+          if not alertas_unicas:
+              lines.append("No hay alertas prioritarias o secundarias en este rango.")
+          else:
+              for a in alertas_unicas:
+                  titulo = a.get("titulo", "Sin título")
+                  fecha = a.get("fechaPublicacion", "")
+                  perfil = a.get("perfilReal", "")
+                  prioridad = a.get("prioridadUsuario", "")
+                  motivo = a.get("motivoRelevanciaUsuario", "")
+                  enlace = a.get("enlaceBoeHtml", "")
+                  pdf = a.get("enlacePdf", "")
+                  plazas = a.get("plazasExtraidas", [])
+
+                  lines.append(f"## {titulo}")
+                  lines.append("")
+                  lines.append(f"- **Fecha:** {fecha}")
+                  lines.append(f"- **Perfil detectado:** {perfil}")
+                  lines.append(f"- **Prioridad:** {prioridad}")
+                  lines.append(f"- **Motivo:** {motivo}")
+
+                  if plazas:
+                      lines.append("- **Plazas/frases detectadas:**")
+                      for p in plazas[:5]:
+                          lines.append(f"  - {p}")
+
+                  if enlace:
+                      lines.append(f"- **BOE:** {enlace}")
+                  if pdf:
+                      lines.append(f"- **PDF:** {pdf}")
+
+                  lines.append("")
+
+          issue_path.write_text("\n".join(lines), encoding="utf-8")
+          PY
+
+      - name: Guardar cambios en JSON y dashboard
+        shell: bash
+        run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/alertas.json docs/last_issue.md docs/new_alert_count.txt
+          git add outputs/alertas.json docs/alertas.json docs/index.html docs/styles.css docs/app.js docs/last_issue.md docs/new_alert_count.txt
 
           if git diff --cached --quiet; then
             echo "No hay cambios para guardar"
@@ -104,7 +192,7 @@ jobs:
         shell: bash
         run: |
           COUNT=$(cat docs/new_alert_count.txt 2>/dev/null || echo 0)
-          echo "Nuevas alertas: $COUNT"
+          echo "Nuevas alertas prioritarias/secundarias: $COUNT"
 
           if [ "$COUNT" -gt 0 ]; then
             gh issue create \
@@ -115,5 +203,5 @@ jobs:
               --title "Nuevas alertas BOE detectadas ($COUNT)" \
               --body-file docs/last_issue.md
           else
-            echo "No se crea issue porque no hay alertas nuevas."
+            echo "No se crea issue porque no hay alertas nuevas prioritarias/secundarias."
           fi
