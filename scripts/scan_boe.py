@@ -239,12 +239,32 @@ def normalizar(texto: Optional[str]) -> str:
 
 
 def contains_any(texto: str, keywords: Iterable[str]) -> List[str]:
+    """
+    Busca keywords evitando falsos positivos en palabras cortas.
+
+    Ejemplo:
+    - TIC no debe saltar en "política", "artículo" o "biblioteca".
+    - TAI no debe saltar en "fotovoltaica" o "Taibilla".
+    """
     texto_norm = normalizar(texto)
     encontrados = []
+
     for kw in keywords:
         kw_norm = normalizar(kw)
-        if kw_norm and kw_norm in texto_norm:
+        if not kw_norm:
+            continue
+
+        # Keywords muy cortas: exigir palabra completa.
+        if kw_norm in {"tic", "tai"}:
+            patron = r"(?<![a-z0-9])" + re.escape(kw_norm) + r"(?![a-z0-9])"
+            if re.search(patron, texto_norm):
+                encontrados.append(kw)
+            continue
+
+        # Resto de keywords: búsqueda normal.
+        if kw_norm in texto_norm:
             encontrados.append(kw)
+
     return sorted(set(encontrados))
 
 
