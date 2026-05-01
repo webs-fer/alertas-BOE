@@ -1,14 +1,13 @@
 {
-  "provincias_vigiladas": [
-    "Albacete"
-  ],
+  "provincias_vigiladas": ["Albacete"],
   "dias_revision_por_defecto": 7,
-  "modo_estricto_generacion": true,
-
   "incluir_concursos_age_sin_provincia_confirmada": false,
   "validar_provincia_en_documento_completo": true,
   "incluir_municipios_provincia": true,
-
+  "categoria_defecto": "concursos",
+  "nivel_minimo": 16,
+  "nivel_maximo": 30,
+  "perfiles_defecto": ["informatica", "administrativo", "c1a2"],
   "entidades_prioritarias": [
     "Ayuntamiento de Albacete",
     "Diputación Provincial de Albacete",
@@ -16,11 +15,25 @@
     "Junta de Comunidades de Castilla-La Mancha",
     "Comunidad Autónoma de Castilla-La Mancha",
     "Castilla-La Mancha",
+    "SESCAM",
+    "Servicio de Salud de Castilla-La Mancha",
+    "Universidad de Castilla-La Mancha",
+    "UCLM",
     "Administración General del Estado",
     "SEPE",
     "Servicio Público de Empleo Estatal"
   ],
-
+  "portales_oficiales": {
+    "boe": "https://www.boe.es/boe/dias/",
+    "boe_api": "https://www.boe.es/datosabiertos/api/api.php",
+    "boe_rss": "https://www.boe.es/rss/",
+    "administracion": "https://administracion.gob.es/pag_Home/empleoPublico.html",
+    "ayuntamiento_albacete": "https://www.albacete.es/es/tu-ayuntamiento/empleo-publico",
+    "diputacion_albacete": "https://aplicaciones.dipualba.es/empleopublico/",
+    "jccm": "https://empleopublico.castillalamancha.es/procesos-selectivos",
+    "sescam": "https://sescam.castillalamancha.es/",
+    "uclm": "https://convocatorias.rrhh.uclm.es/"
+  },
   "departamentos_age_interes": [
     "Ministerio",
     "Subsecretaría",

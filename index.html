@@ -3,332 +3,220 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Alertas BOE C1 Informática · Concursos y oposiciones</title>
-
-  <meta
-    name="description"
-    content="Panel estático para vigilar concursos, libres designaciones, comisiones y oposiciones C1 de informática en el BOE, con foco en Albacete y GitHub Pages."
-  />
-
-  <meta name="theme-color" content="#0f3d5e" />
-
+  <title>Radar BOE Albacete · Concursos AGE y oposiciones TIC</title>
+  <meta name="description" content="Panel estático para vigilar concursos AGE con plazas en Albacete, libres designaciones, comisiones y oposiciones de Ayuntamiento, Diputación, JCCM, SESCAM y UCLM." />
+  <meta name="theme-color" content="#072033" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-
 <body>
-  <header class="hero">
+  <header class="site-header">
     <nav class="topbar" aria-label="Navegación principal">
-      <a class="brand" href="#">
-        <span class="brand-icon">🧭</span>
-        <span>BOE Alertas C1</span>
+      <a class="brand" href="#inicio" aria-label="Inicio Radar BOE">
+        <img src="assets/img/favicon.svg" alt="" />
+        <span>Radar BOE Albacete</span>
       </a>
-
-      <div class="nav-links">
-        <a href="#panel">Panel</a>
-        <a href="#fechas">Buscar por fecha</a>
-        <a href="#configuracion">Configurar</a>
+      <div class="top-actions">
         <a href="https://www.boe.es/boe/dias/" target="_blank" rel="noopener">BOE</a>
+        <a href="https://www.boe.es/rss/" target="_blank" rel="noopener">RSS</a>
+        <button class="ghost small" id="btnNotify" type="button">Avisos navegador</button>
       </div>
     </nav>
 
-    <section class="hero-content">
-      <div>
-        <p class="eyebrow">GitHub Pages + BOE + alertas</p>
-
-        <h1>Vigilancia de concursos, comisiones y oposiciones C1</h1>
-
-        <p class="hero-text">
-          Proyecto estático para revisar plazas de informática C1, administrativos C1/C1-A2 y convocatorias locales/autonómicas.
-          Por defecto viene orientado a <strong>Albacete</strong>, pero puedes cambiar la provincia y las fechas.
+    <section class="landing" id="inicio">
+      <div class="landing-copy">
+        <p class="eyebrow">Elige qué quieres vigilar</p>
+        <h1>Alertas claras para moverte a Albacete o detectar oposiciones TIC</h1>
+        <p>
+          La pantalla inicial está separada en tres bloques para no mezclar concursos, movilidad y oposiciones.
+          El bloque principal es <strong>Concursos AGE</strong>, filtrado por defecto para mostrar solo concursos donde el documento BOE contiene Albacete.
         </p>
-
-        <div class="hero-actions">
-          <a class="btn primary" href="#fechas">Buscar por fecha</a>
-          <button class="btn secondary" id="btnNotificaciones" type="button">
-            Activar avisos del navegador
-          </button>
+        <div class="status-strip" aria-label="Estado de datos">
+          <span><strong id="statTotal">0</strong> alertas cargadas</span>
+          <span><strong id="statLastRun">Sin revisión</strong></span>
+          <span><strong id="statProvince">Albacete</strong></span>
         </div>
       </div>
 
-      <aside class="status-card" aria-label="Estado de actualización">
-        <span class="status-dot"></span>
-        <p>Última revisión</p>
-        <strong id="ultimaRevision">Cargando…</strong>
-        <small id="origenDatos">data/alertas.json</small>
-      </aside>
+      <div class="choice-grid" aria-label="Opciones principales">
+        <button class="choice-card featured" type="button" data-module="concursos">
+          <span class="choice-icon">🏛️</span>
+          <span class="choice-kicker">Prioridad</span>
+          <strong>1. Concursos AGE</strong>
+          <small>Concursos generales/específicos con Albacete confirmado en documento. Filtros de nivel, grupo y perfil.</small>
+        </button>
+
+        <button class="choice-card" type="button" data-module="movilidad">
+          <span class="choice-icon">🔁</span>
+          <span class="choice-kicker">Movilidad</span>
+          <strong>2. Libres designaciones y comisiones</strong>
+          <small>Provisión temporal o libre designación con provincia/entidad de interés y filtros por nivel o perfil.</small>
+        </button>
+
+        <button class="choice-card" type="button" data-module="oposiciones">
+          <span class="choice-icon">📝</span>
+          <span class="choice-kicker">Convocatorias</span>
+          <strong>3. Oposiciones CLM / Albacete</strong>
+          <small>Ayuntamiento, Diputación, JCCM, SESCAM y UCLM. Enlaces a BOE, bases e inscripción si se detecta.</small>
+        </button>
+      </div>
     </section>
   </header>
 
-  <main>
-    <section class="summary-grid" id="panel" aria-label="Resumen de alertas">
-      <article class="metric-card">
-        <span>📌</span>
-        <p>Total visible</p>
-        <strong id="metricTotal">0</strong>
-      </article>
-
-      <article class="metric-card">
-        <span>🏛️</span>
-        <p>Concursos / provisión</p>
-        <strong id="metricConcursos">0</strong>
-      </article>
-
-      <article class="metric-card">
-        <span>💻</span>
-        <p>Informática / TIC</p>
-        <strong id="metricTic">0</strong>
-      </article>
-
-      <article class="metric-card">
-        <span>📍</span>
-        <p>Provincia actual</p>
-        <strong id="metricProvincia">Albacete</strong>
-      </article>
+  <main id="panel" class="panel" hidden>
+    <section class="module-hero">
+      <div>
+        <button class="back-link" id="btnBack" type="button">← Cambiar apartado</button>
+        <p class="eyebrow" id="moduleEyebrow">Módulo</p>
+        <h2 id="moduleTitle">Selecciona una opción</h2>
+        <p id="moduleDescription">Configura los filtros y revisa resultados.</p>
+      </div>
+      <aside class="module-summary">
+        <span id="moduleIcon">🏛️</span>
+        <strong id="moduleCount">0</strong>
+        <small>alertas visibles</small>
+      </aside>
     </section>
 
     <section class="workspace">
-      <aside class="filters" id="fechas">
-        <div class="section-heading compact">
+      <aside class="filters-card">
+        <div class="filters-head">
           <p class="eyebrow">Filtros</p>
-          <h2>Buscar por fecha, provincia y tipo</h2>
+          <h3 id="filtersTitle">Ajustar búsqueda</h3>
         </div>
 
-        <form id="filtrosForm">
+        <form id="filtersForm">
           <label>
-            Provincia
-            <input
-              id="provincia"
-              name="provincia"
-              list="provinciasList"
-              value="Albacete"
-              autocomplete="off"
-            />
+            Provincia principal
+            <input id="provincia" list="provinciasList" value="Albacete" autocomplete="off" />
             <datalist id="provinciasList"></datalist>
           </label>
 
-          <div class="two-cols">
+          <div class="grid-2">
             <label>
               Fecha desde
-              <input id="fechaDesde" name="fechaDesde" type="date" />
+              <input id="fechaDesde" type="date" />
             </label>
-
             <label>
               Fecha hasta
-              <input id="fechaHasta" name="fechaHasta" type="date" />
+              <input id="fechaHasta" type="date" />
             </label>
           </div>
 
           <label>
             Fecha exacta rápida
-            <input id="fechaExacta" name="fechaExacta" type="date" />
-            <small>
-              Al poner una fecha aquí, se rellena desde/hasta con el mismo día.
-            </small>
+            <input id="fechaExacta" type="date" />
           </label>
 
           <label>
-            Días hacia atrás si no indicas rango
-            <input id="dias" name="dias" type="number" min="1" max="365" value="30" />
+            Días si no indicas rango
+            <input id="dias" type="number" min="1" max="365" value="30" />
           </label>
+
+          <div class="only-levels">
+            <div class="grid-2">
+              <label>
+                Nivel mínimo
+                <select id="nivelMin"></select>
+              </label>
+              <label>
+                Nivel máximo
+                <select id="nivelMax"></select>
+              </label>
+            </div>
+
+            <label>
+              Grupo / subgrupo
+              <select id="grupo">
+                <option value="todos">Todos</option>
+                <option value="c1" selected>C1</option>
+                <option value="c1a2">C1 / A2</option>
+                <option value="a2">A2</option>
+              </select>
+            </label>
+          </div>
 
           <label>
             Perfil
-            <select id="perfil" name="perfil">
-              <option value="todos">Todos los perfiles</option>
-              <option value="informatica" selected>Informática / TIC C1</option>
-              <option value="administrativo">Administrativo C1</option>
-              <option value="c1a2">C1 / C1-A2 / A2</option>
+            <select id="perfil">
+              <option value="todos">Todo</option>
+              <option value="informatica" selected>Informática / TIC</option>
+              <option value="administrativo">Administrativo</option>
+              <option value="c1a2">C1 / A2 / niveles</option>
             </select>
           </label>
 
-          <fieldset>
-            <legend>Tipo de aviso</legend>
-
-            <label class="check">
-              <input type="checkbox" name="tipo" value="concurso" checked />
-              Concurso / provisión
-            </label>
-
-            <label class="check">
-              <input type="checkbox" name="tipo" value="libre_designacion" checked />
-              Libre designación
-            </label>
-
-            <label class="check">
-              <input type="checkbox" name="tipo" value="comision_servicio" checked />
-              Comisión de servicio
-            </label>
-
-            <label class="check">
-              <input type="checkbox" name="tipo" value="oposicion" checked />
-              Oposición / convocatoria
-            </label>
-          </fieldset>
-
-          <label class="check prominent">
+          <label class="check">
             <input id="modoEstricto" type="checkbox" checked />
-            Modo estricto recomendado
+            Modo estricto
           </label>
-
-          <small class="hint">
-            Con modo estricto activado, si eliges “Informática / TIC C1”, solo verás resultados donde el BOE confirme ese perfil.
-            Si lo desactivas, también verás convocatorias de Albacete aunque el BOE no indique claramente si son de informática, C1 o administrativo.
+          <small class="hint" id="strictHelp">
+            En concursos y movilidad, el modo estricto prioriza nivel/grupo/perfil confirmados o Albacete confirmado en documento.
           </small>
 
           <label>
-            Palabras extra separadas por coma
-            <input id="palabrasExtra" placeholder="SEPE, justicia, sistemas, técnico auxiliar" />
+            Palabras extra
+            <input id="palabrasExtra" placeholder="SEPE, sistemas, C1, nivel 18…" />
           </label>
 
           <div class="button-row">
-            <button class="btn primary" type="submit">Aplicar filtros</button>
-            <button class="btn ghost" id="btnLimpiar" type="button">Limpiar</button>
+            <button class="primary" type="submit">Aplicar</button>
+            <button class="ghost" id="btnReset" type="button">Restablecer</button>
           </div>
         </form>
-
-        <div class="boe-shortcuts">
-          <h3>Consulta directa en BOE</h3>
-
-          <p>
-            Usa estos botones para ir al BOE aunque todavía no haya resultados en el JSON.
-          </p>
-
-          <div class="button-row vertical">
-            <button class="btn secondary" id="btnAbrirSumario" type="button">
-              Abrir sumario BOE de la fecha
-            </button>
-
-            <button class="btn secondary" id="btnConsultarApi" type="button">
-              Intentar consultar API desde navegador
-            </button>
-
-            <a class="btn ghost" href="https://www.boe.es/rss/" target="_blank" rel="noopener">
-              Ver RSS oficiales BOE
-            </a>
-          </div>
-
-          <p class="hint" id="apiAviso"></p>
-        </div>
       </aside>
 
-      <section class="results" aria-live="polite">
+      <section class="results-card">
         <div class="results-toolbar">
           <div>
             <p class="eyebrow">Resultados</p>
-            <h2 id="tituloResultados">Alertas encontradas</h2>
+            <h3 id="resultTitle">Sin módulo seleccionado</h3>
           </div>
-
-          <div class="button-row">
-            <button class="btn secondary" id="btnExportar" type="button">
-              Exportar CSV
-            </button>
-
-            <button class="btn ghost" id="btnCopiar" type="button">
-              Copiar enlaces
-            </button>
+          <div class="button-row compact-row">
+            <button class="soft" id="btnExport" type="button">CSV</button>
+            <button class="soft" id="btnCopy" type="button">Copiar</button>
           </div>
         </div>
 
-        <div class="notice important">
-          <strong>Importante:</strong>
-          el sistema solo muestra alertas donde aparece la provincia vigilada en el título o en el documento BOE.
-          En convocatorias locales, el BOE muchas veces no indica si la plaza es de informática, C1 o administrativo.
-          Si quieres revisar esas convocatorias genéricas, desactiva el modo estricto o elige “Todos los perfiles”.
-        </div>
+        <div class="module-notice" id="moduleNotice"></div>
+        <div class="chips" id="activeChips"></div>
+        <div class="cards" id="results"></div>
 
-        <div id="chipsActivos" class="chips"></div>
-
-        <div id="resultados" class="cards"></div>
-
-        <div id="sinResultados" class="empty" hidden>
+        <div class="empty" id="emptyState" hidden>
           <span>🔎</span>
           <h3>No hay resultados con esos filtros</h3>
-          <p>
-            Prueba a elegir “Todos los perfiles” o desactiva el modo estricto para revisar convocatorias de Albacete sin perfil confirmado.
-          </p>
+          <p id="emptyText">Prueba a ampliar fechas, cambiar perfil o desactivar modo estricto.</p>
         </div>
       </section>
     </section>
 
-    <section class="config" id="configuracion">
-      <div class="section-heading">
-        <p class="eyebrow">Automatización</p>
-
-        <h2>Cómo se actualiza solo en GitHub Pages</h2>
-
-        <p>
-          La web es estática, pero el workflow de GitHub Actions revisa el BOE,
-          actualiza <code>data/alertas.json</code> y crea una issue si detecta avisos nuevos.
-        </p>
+    <section class="official-links">
+      <div>
+        <p class="eyebrow">Inscripción y bases</p>
+        <h3>Portales oficiales útiles</h3>
       </div>
-
-      <div class="steps">
-        <article>
-          <strong>1</strong>
-          <h3>Sube el proyecto</h3>
-          <p>
-            Publica la carpeta en un repositorio y activa GitHub Pages desde la rama principal.
-          </p>
-        </article>
-
-        <article>
-          <strong>2</strong>
-          <h3>Activa Actions</h3>
-          <p>
-            El archivo <code>.github/workflows/boe-alertas.yml</code> revisará el BOE de lunes a sábado y también permite ejecución manual con fechas.
-          </p>
-        </article>
-
-        <article>
-          <strong>3</strong>
-          <h3>Recibe avisos</h3>
-          <p>
-            Activa las notificaciones del repositorio. Si hay novedades, el workflow puede crear una issue con los enlaces del BOE.
-          </p>
-        </article>
-      </div>
+      <div class="official-grid" id="officialGrid"></div>
     </section>
   </main>
 
-  <footer>
-    <p>
-      Proyecto personal de vigilancia de empleo público. Fuente principal: BOE Datos Abiertos y enlaces oficiales del BOE.
-    </p>
-
-    <p>
-      <a href="https://www.boe.es/datosabiertos/api/api.php" target="_blank" rel="noopener">
-        API oficial BOE
-      </a>
-      ·
-      <a href="https://www.boe.es/rss/" target="_blank" rel="noopener">
-        RSS oficial BOE
-      </a>
-    </p>
-  </footer>
-
-  <template id="cardTemplate">
-    <article class="alert-card">
+  <template id="resultTemplate">
+    <article class="result-card">
       <div class="card-top">
-        <div>
-          <span class="badge tipo"></span>
-          <span class="badge precision"></span>
-        </div>
-
+        <div class="badges"></div>
         <time></time>
       </div>
-
       <h3></h3>
-
-      <p class="dept"></p>
-
-      <p class="motivo"></p>
-
+      <p class="meta"></p>
+      <p class="reason"></p>
+      <div class="detail-grid"></div>
       <div class="tags"></div>
-
       <div class="card-actions"></div>
     </article>
   </template>
+
+  <footer class="footer">
+    <p>Radar estático para GitHub Pages. Fuente principal: BOE Datos Abiertos y enlaces oficiales indicados en cada disposición.</p>
+  </footer>
 
   <script src="assets/js/app.js" defer></script>
 </body>

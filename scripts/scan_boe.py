@@ -1,951 +1,375 @@
 #!/usr/bin/env python3
-"""
-Escáner BOE para GitHub Actions / uso local.
-
-Filtro v3.2:
-- Sección II.B.
-- Convocatorias/provisión de personal.
-- Albacete directo: Ayuntamiento, Diputación, municipios/provincia.
-- Concursos AGE: solo se muestran si el documento completo BOE contiene la provincia vigilada,
-  salvo que config.json permita expresamente los AGE sin confirmar.
-- Excluye ruido: subvenciones, ayudas, licitaciones, recursos, sentencias, carrera fiscal, letrados, etc.
-"""
 from __future__ import annotations
 
-import argparse
-import datetime as dt
-import hashlib
-import json
-import re
-import time
-import unicodedata
-import urllib.error
-import urllib.request
-import xml.etree.ElementTree as ET
+import argparse, datetime as dt, hashlib, io, json, re, time, unicodedata, urllib.error, urllib.request, xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
+try:
+    from pypdf import PdfReader
+except Exception:  # pypdf se instala en GitHub Actions; si falta, se usa XML/HTML.
+    PdfReader = None
+
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data"
-DOCS_DIR = ROOT / "docs"
-CONFIG_PATH = DATA_DIR / "config.json"
-ALERTAS_PATH = DATA_DIR / "alertas.json"
-ISSUE_PATH = DOCS_DIR / "last_issue.md"
-NEW_COUNT_PATH = DOCS_DIR / "new_alert_count.txt"
+DATA_DIR = ROOT / 'data'
+DOCS_DIR = ROOT / 'docs'
+CONFIG_PATH = DATA_DIR / 'config.json'
+ALERTAS_PATH = DATA_DIR / 'alertas.json'
+ISSUE_PATH = DOCS_DIR / 'last_issue.md'
+NEW_COUNT_PATH = DOCS_DIR / 'new_alert_count.txt'
+BOE_API = 'https://www.boe.es/datosabiertos/api/boe/sumario/{fecha}'
+BOE_BASE = 'https://www.boe.es'
+URL_CACHE: Dict[str, str] = {}
+PDF_CACHE: Dict[str, str] = {}
 
-BOE_API = "https://www.boe.es/datosabiertos/api/boe/sumario/{fecha}"
-BOE_BASE = "https://www.boe.es"
-
-URL_TEXT_CACHE: Dict[str, str] = {}
-
-ALL_PROVINCES = [
-    "Albacete", "Alicante", "Almería", "Ávila", "Badajoz", "Barcelona", "Burgos", "Cáceres", "Cádiz",
-    "Castellón", "Ciudad Real", "Córdoba", "Cuenca", "Girona", "Granada", "Guadalajara", "Huelva", "Huesca",
-    "Jaén", "León", "Lleida", "La Rioja", "Lugo", "Madrid", "Málaga", "Murcia", "Ourense", "Palencia",
-    "Pontevedra", "Salamanca", "Segovia", "Sevilla", "Soria", "Tarragona", "Teruel", "Toledo", "Valencia",
-    "Valladolid", "Zamora", "Zaragoza", "Ceuta", "Melilla"
-]
-
+ALL_PROVINCES = ['Albacete','Alicante','Almería','Ávila','Badajoz','Barcelona','Burgos','Cáceres','Cádiz','Castellón','Ciudad Real','Córdoba','Cuenca','Girona','Granada','Guadalajara','Huelva','Huesca','Jaén','León','Lleida','La Rioja','Lugo','Madrid','Málaga','Murcia','Ourense','Palencia','Pontevedra','Salamanca','Segovia','Sevilla','Soria','Tarragona','Teruel','Toledo','Valencia','Valladolid','Zamora','Zaragoza','Ceuta','Melilla']
 DEFAULT_CONFIG = {
-    "provincias_vigiladas": ["Albacete"],
-    "dias_revision_por_defecto": 7,
-    "modo_estricto_generacion": True,
-    "incluir_concursos_age_sin_provincia_confirmada": False,
-    "validar_provincia_en_documento_completo": True,
-    "incluir_municipios_provincia": True,
-    "entidades_prioritarias": [
-        "Ayuntamiento de Albacete",
-        "Diputación Provincial de Albacete",
-        "Diputación de Albacete",
-        "Junta de Comunidades de Castilla-La Mancha",
-        "Comunidad Autónoma de Castilla-La Mancha",
-        "Castilla-La Mancha",
-        "Administración General del Estado",
-        "SEPE",
-        "Servicio Público de Empleo Estatal"
-    ],
-    "departamentos_age_interes": [
-        "Ministerio",
-        "Subsecretaría",
-        "Secretaría de Estado",
-        "Delegación del Gobierno",
-        "Subdelegación del Gobierno",
-        "Servicio Público de Empleo Estatal",
-        "SEPE",
-        "Seguridad Social",
-        "Agencia Estatal",
-        "Instituto Nacional",
-        "Consejo Superior de Investigaciones Científicas",
-        "Agencia Española"
-    ]
+    'provincias_vigiladas': ['Albacete'],
+    'dias_revision_por_defecto': 7,
+    'incluir_concursos_age_sin_provincia_confirmada': False,
+    'validar_provincia_en_documento_completo': True,
+    'incluir_municipios_provincia': True,
+    'nivel_minimo': 16,
+    'nivel_maximo': 30,
 }
 
-# Solo sección II.B. Es donde están Oposiciones y concursos.
-ALLOWED_SECTION_CODES = {"2b", "iib"}
-
-EXCLUDE_PATTERNS = [
-    r"\bcorreccion(?:es)? de errores\b",
-    r"\bse corrigen errores\b",
-    r"\bcorrigen errores\b",
-
-    r"\brelacion provisional\b",
-    r"\brelacion definitiva\b",
-    r"\badmitid[oa]s? y excluid[oa]s?\b",
-    r"\baspirantes que han superado\b",
-    r"\bpersonas que han superado\b",
-
-    r"\btribunal calificador\b",
-    r"\btribunales delegados\b",
-    r"\bfija fecha\b",
-
-    r"\bse resuelve\b",
-    r"\bresuelve la convocatoria\b",
-    r"\bresuelve el concurso\b",
-    r"\bdeclara desiert[ao]\b",
-    r"\botorga destino\b",
-    r"\bnombra funcionari[oa]\b",
-    r"\bnombramiento\b",
-
-    r"\bejecuta sentencia\b",
-    r"\bejecucion de sentencia\b",
-    r"\brecurso contencioso\b",
-    r"\bemplaza\b",
-    r"\bsentencia\b",
-    r"\brecurso de amparo\b",
-    r"\brecursos\b",
-
-    # Jurídico/fiscal que no encaja con TAI/C1 administrativo/informática.
-    r"\bcarrera fiscal\b",
-    r"\bcarreras judicial y fiscal\b",
-    r"\bcarrera judicial\b",
-    r"\bministerio fiscal\b",
-    r"\bletrados al servicio del tribunal supremo\b",
-    r"\bletrad[oa]s? de la administracion de justicia\b",
-    r"\bcuerpo de letrad[oa]s?\b",
-    r"\bletradas y letrados\b",
-    r"\babogad[oa] fiscal\b",
-    r"\bjuez/a\b",
-    r"\bjueces\b",
-    r"\bmagistrad[oa]s?\b",
-]
-
-NO_PERSONAL_PATTERNS = [
-    r"\bsubvencion(?:es)?\b",
-    r"\bayuda(?:s)?\b",
-    r"\bpremio(?:s)?\b",
-
-    r"\bconcesion administrativa\b",
-    r"\bconcesiones administrativas\b",
-    r"\bderecho real de superficie\b",
-
-    r"\blicitacion\b",
-    r"\bcontratacion\b",
-    r"\badjudicacion\b",
-    r"\bexplotacion\b",
-
-    r"\bquiosco\b",
-    r"\bhosteleria\b",
-    r"\bvivienda\b",
-    r"\blocal\b",
-
-    r"\btesoro publico\b",
-    r"\bsubasta\b",
-    r"\bmarina mercante\b",
-    r"\btitulaciones nauticas\b",
-]
-
-OPENING_PATTERNS = [
-    r"\bse convoca\b",
-    r"\bconvoca\b",
-    r"\bconvocatoria para proveer\b",
-    r"\breferente a la convocatoria para proveer\b",
-    r"\bpruebas selectivas para ingreso\b",
-    r"\bproceso selectivo para ingreso\b",
-    r"\bproceso selectivo para la provision\b",
-    r"\bprovision de puesto(?:s)? de trabajo\b",
-    r"\bprovision de puesto(?:s)?\b",
-]
-
-CONCURSO_PUESTOS_PATTERNS = [
-    r"\bconcurso general\b",
-    r"\bconcurso especifico\b",
-    r"\bconcurso de traslados\b",
-    r"\bconcurso\b.*\bprovision de puesto(?:s)? de trabajo\b",
-    r"\bconcurso\b.*\bpuesto(?:s)? de trabajo\b",
-]
-
-LIBRE_DESIGNACION_PATTERNS = [
-    r"\blibre designacion\b",
-    r"\bprovision de puesto(?:s)? de trabajo por el sistema de libre designacion\b",
-]
-
-COMISION_SERVICIO_PATTERNS = [
-    r"\bcomision de servicio(?:s)?\b",
-    r"\bcomisiones de servicio(?:s)?\b",
-]
-
-OPOSICION_PATTERNS = [
-    r"\boposicion\b",
-    r"\bpruebas selectivas\b",
-    r"\bproceso selectivo\b",
-    r"\bconvocatoria para proveer\b",
-    r"\breferente a la convocatoria para proveer\b",
-    r"\bbolsa de trabajo\b",
-]
-
-PROFILE_REGEX = {
-    "informatica": [
-        r"\binformatica\b",
-        r"\binformatic[oa]s?\b",
-        r"\btecnologias? de la informacion\b",
-        r"\btic\b",
-        r"\bsistemas informaticos\b",
-        r"\badministracion de sistemas\b",
-        r"\bmicroinformatica\b",
-        r"\bprogramador(?:a|es)?\b",
-        r"\bofimatica\b",
-        r"\bdesarrollo de aplicaciones\b",
-        r"\btecnico auxiliar de informatica\b",
-        r"\btecnico especialista en ofimatica\b",
-    ],
-    "administrativo": [
-        r"\bcuerpo administrativo\b",
-        r"\bescala administrativa\b",
-        r"\bauxiliar administrativo\b",
-        r"\bgestion administrativa\b",
-        r"\bplaza(?:s)? de administrativo\b",
-        r"\badministrativo/a\b",
-        r"\badministrativos?\b",
-    ],
-    "c1a2": [
-        r"\bc1/a2\b",
-        r"\bc1-a2\b",
-        r"\bsubgrupo\s+c1\b",
-        r"\bsubgrupo\s+a2\b",
-        r"\bc1\b",
-        r"\ba2\b",
-        r"\bnivel\s+1[6-9]\b",
-        r"\bnivel\s+2[0-2]\b",
-    ],
+ALLOWED_SECTION_CODES = {'2b', 'iib'}
+NO_PERSONAL = [r'\bsubvencion(?:es)?\b', r'\bayuda(?:s)?\b', r'\bpremio(?:s)?\b', r'\bconcesion administrativa\b', r'\blicitacion\b', r'\bcontratacion\b', r'\badjudicacion\b', r'\bexplotacion\b', r'\bquiosco\b', r'\bhosteleria\b', r'\bvivienda\b', r'\btesoro publico\b', r'\bsubasta\b', r'\bmarina mercante\b']
+EXCLUDE = [r'\bcorreccion(?:es)? de errores\b', r'\bse corrigen errores\b', r'\brelacion provisional\b', r'\brelacion definitiva\b', r'\badmitid[oa]s? y excluid[oa]s?\b', r'\baspirantes que han superado\b', r'\btribunal calificador\b', r'\bfija fecha\b', r'\bse resuelve\b', r'\bresuelve la convocatoria\b', r'\bresuelve el concurso\b', r'\bdeclara desiert[ao]\b', r'\botorga destino\b', r'\bnombra funcionari[oa]\b', r'\bnombramiento\b', r'\bejecucion de sentencia\b', r'\brecurso contencioso\b', r'\bemplaza\b', r'\bsentencia\b', r'\brecurso de amparo\b', r'\brecursos\b', r'\bcarrera fiscal\b', r'\bcarreras judicial y fiscal\b', r'\bministerio fiscal\b', r'\bletrad[oa]s? de la administracion de justicia\b', r'\bcuerpo de letrad[oa]s?\b', r'\bjuez/a\b', r'\bjueces\b', r'\bmagistrad[oa]s?\b']
+OPENING = [r'\bse convoca\b', r'\bconvoca\b', r'\bconvocatoria para proveer\b', r'\breferente a la convocatoria para proveer\b', r'\bpruebas selectivas para ingreso\b', r'\bproceso selectivo para ingreso\b', r'\bprovision de puesto(?:s)? de trabajo\b', r'\bprovision de puesto(?:s)?\b']
+CONCURSO = [r'\bconcurso general\b', r'\bconcurso especifico\b', r'\bconcurso de traslados\b', r'\bconcurso\b.*\bprovision de puesto(?:s)? de trabajo\b', r'\bconcurso\b.*\bpuesto(?:s)? de trabajo\b']
+LIBRE = [r'\blibre designacion\b', r'\bprovision de puesto(?:s)? de trabajo por el sistema de libre designacion\b']
+COMISION = [r'\bcomision de servicio(?:s)?\b', r'\bcomisiones de servicio(?:s)?\b']
+OPOSICION = [r'\boposicion\b', r'\bpruebas selectivas\b', r'\bproceso selectivo\b', r'\bconvocatoria para proveer\b', r'\breferente a la convocatoria para proveer\b', r'\bbolsa de trabajo\b']
+PROFILE = {
+    'informatica': [r'\binformatica\b', r'\binformatic[oa]s?\b', r'\btecnologias? de la informacion\b', r'\btic\b', r'\bsistemas informaticos\b', r'\badministracion de sistemas\b', r'\bmicroinformatica\b', r'\bprogramador(?:a|es)?\b', r'\bofimatica\b', r'\btecnico auxiliar de informatica\b'],
+    'administrativo': [r'\bcuerpo administrativo\b', r'\bescala administrativa\b', r'\bauxiliar administrativo\b', r'\bgestion administrativa\b', r'\badministrativos?\b'],
+    'c1a2': [r'\bc1/a2\b', r'\bc1-a2\b', r'\bsubgrupo\s+c1\b', r'\bsubgrupo\s+a2\b', r'\bc1\b', r'\ba2\b', r'\bnivel\s+1[6-9]\b', r'\bnivel\s+2[0-9]\b', r'\bnivel\s+30\b']
 }
 
 
 def norm(text: Any) -> str:
-    text = "" if text is None else str(text)
-    text = unicodedata.normalize("NFD", text)
-    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
-    text = text.lower()
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    text = '' if text is None else str(text)
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(ch for ch in text if unicodedata.category(ch) != 'Mn')
+    return re.sub(r'\s+', ' ', text.lower()).strip()
 
+def re_any(text: str, patterns: Iterable[str]) -> bool:
+    return any(re.search(p, text) for p in patterns)
 
-def re_any(text_norm: str, patterns: Iterable[str]) -> bool:
-    return any(re.search(pattern, text_norm) for pattern in patterns)
+def parse_date(v: str) -> dt.date:
+    return dt.datetime.strptime(v, '%Y-%m-%d').date()
 
-
-def parse_date(value: str) -> dt.date:
-    return dt.datetime.strptime(value, "%Y-%m-%d").date()
-
-
-def daterange(start: dt.date, end: dt.date) -> Iterable[dt.date]:
-    current = start
-    while current <= end:
-        yield current
-        current += dt.timedelta(days=1)
-
+def daterange(a: dt.date, b: dt.date):
+    while a <= b:
+        yield a
+        a += dt.timedelta(days=1)
 
 def load_config() -> Dict[str, Any]:
-    merged = dict(DEFAULT_CONFIG)
+    c = dict(DEFAULT_CONFIG)
     if CONFIG_PATH.exists():
-        with CONFIG_PATH.open("r", encoding="utf-8") as f:
-            loaded = json.load(f)
-            merged.update(loaded)
-    return merged
-
+        c.update(json.loads(CONFIG_PATH.read_text(encoding='utf-8')))
+    return c
 
 def load_existing() -> Dict[str, Any]:
     if ALERTAS_PATH.exists():
+        try: return json.loads(ALERTAS_PATH.read_text(encoding='utf-8'))
+        except Exception: pass
+    return {'metadata': {}, 'alertas': []}
+
+def request_bytes(url: str, accept: str = '*/*', retries: int = 2) -> bytes:
+    req = urllib.request.Request(url, headers={'Accept': accept, 'User-Agent': 'Radar-BOE-Albacete/2.0'})
+    for i in range(retries + 1):
         try:
-            with ALERTAS_PATH.open("r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-    return {"metadata": {}, "alertas": []}
+            with urllib.request.urlopen(req, timeout=35) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 404: return b''
+            print(f'[WARN] {url}: HTTP {e.code}')
+        except Exception as e:
+            print(f'[WARN] {url}: {e!r}')
+        time.sleep(1.5 * (i + 1))
+    return b''
 
+def fetch_sumario(fecha: dt.date) -> bytes:
+    return request_bytes(BOE_API.format(fecha=fecha.strftime('%Y%m%d')), 'application/xml')
 
-def fetch_sumario(fecha: dt.date, retries: int = 2) -> Optional[bytes]:
-    url = BOE_API.format(fecha=fecha.strftime("%Y%m%d"))
-    headers = {
-        "Accept": "application/xml",
-        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.3 (+https://pages.github.com/)",
-    }
-    request = urllib.request.Request(url, headers=headers)
+def fetch_text(url: str) -> str:
+    if not url: return ''
+    if url in URL_CACHE: return URL_CACHE[url]
+    raw = request_bytes(url, 'application/xml,text/html,text/plain,*/*')
+    txt = raw.decode('utf-8', errors='ignore') if raw else ''
+    URL_CACHE[url] = txt
+    return txt
 
-    for attempt in range(retries + 1):
+def fetch_pdf_text(url: str) -> str:
+    if not url or PdfReader is None: return ''
+    if url in PDF_CACHE: return PDF_CACHE[url]
+    raw = request_bytes(url, 'application/pdf')
+    text = ''
+    if raw:
         try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                return response.read()
-        except urllib.error.HTTPError as exc:
-            if exc.code == 404:
-                print(f"[INFO] {fecha}: sin sumario o no publicado todavía (404)")
-                return None
-            print(f"[WARN] {fecha}: HTTP {exc.code} en intento {attempt + 1}")
-        except Exception as exc:
-            print(f"[WARN] {fecha}: {exc!r} en intento {attempt + 1}")
+            reader = PdfReader(io.BytesIO(raw))
+            text = '\n'.join(page.extract_text() or '' for page in reader.pages)
+        except Exception as e:
+            print(f'[WARN] PDF no legible {url}: {e!r}')
+    PDF_CACHE[url] = text
+    return text
 
-        time.sleep(1.5 * (attempt + 1))
+def tag(e: ET.Element) -> str:
+    return e.tag.split('}', 1)[-1] if '}' in e.tag else e.tag
 
-    return None
+def child_text(e: ET.Element, names: Iterable[str]) -> str:
+    names = {norm(n) for n in names}
+    for c in list(e):
+        if norm(tag(c)) in names:
+            return ''.join(c.itertext()).strip()
+    return ''
 
+def first_attr(e: ET.Element, names: Iterable[str]) -> str:
+    names = {norm(n) for n in names}
+    for k, v in e.attrib.items():
+        if norm(k) in names and v: return v.strip()
+    return ''
 
-def fetch_url_text(url: str, retries: int = 2) -> str:
-    """
-    Lee XML/HTML de la disposición concreta. Se usa para comprobar si dentro del
-    documento completo aparece la provincia vigilada.
-    """
-    if not url:
-        return ""
+def ctx_update(e: ET.Element, ctx: Dict[str, str]) -> Dict[str, str]:
+    n = dict(ctx); t = norm(tag(e))
+    if 'seccion' in t:
+        v = first_attr(e, ['num','codigo','nombre']) or child_text(e, ['nombre','titulo'])
+        if v: n['seccion'] = v
+    elif 'departamento' in t:
+        v = first_attr(e, ['nombre','codigo']) or child_text(e, ['nombre','titulo'])
+        if v: n['departamento'] = v
+    elif 'epigrafe' in t or 'subseccion' in t:
+        v = first_attr(e, ['nombre','codigo']) or child_text(e, ['nombre','titulo'])
+        if v: n['epigrafe'] = v
+    return n
 
-    if url in URL_TEXT_CACHE:
-        return URL_TEXT_CACHE[url]
+def walk(e: ET.Element, fecha: dt.date, ctx: Optional[Dict[str, str]] = None):
+    ctx = ctx_update(e, ctx or {})
+    if norm(tag(e)) == 'item' or (child_text(e, ['titulo']) and (first_attr(e, ['id']) or child_text(e, ['identificador']))):
+        yield extract_item(e, fecha, ctx)
+    for c in list(e): yield from walk(c, fecha, ctx)
 
-    headers = {
-        "Accept": "application/xml,text/html,text/plain,*/*",
-        "User-Agent": "BOE-Alertas-C1-GitHubPages/1.3 (+https://pages.github.com/)",
-    }
-    request = urllib.request.Request(url, headers=headers)
+def abs_url(u: str) -> str:
+    if not u: return ''
+    if u.startswith('http'): return u
+    return BOE_BASE + (u if u.startswith('/') else '/' + u)
 
-    for attempt in range(retries + 1):
-        try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                raw = response.read()
-                text = raw.decode("utf-8", errors="ignore")
-                URL_TEXT_CACHE[url] = text
-                return text
-        except Exception as exc:
-            print(f"[WARN] No se pudo leer documento completo {url}: {exc!r}")
-            time.sleep(1.5 * (attempt + 1))
+def extract_item(e: ET.Element, fecha: dt.date, ctx: Dict[str, str]) -> Dict[str, Any]:
+    item_id = first_attr(e, ['id']) or child_text(e, ['identificador','id'])
+    title = child_text(e, ['titulo','título']) or ' '.join(''.join(e.itertext()).split())[:500]
+    url_h = child_text(e, ['urlHtm','urlHTML','urlHtml','url_html']) or (f'/diario_boe/txt.php?id={item_id}' if item_id else '')
+    url_x = child_text(e, ['urlXml','urlXML','url_xml']) or (f'/diario_boe/xml.php?id={item_id}' if item_id else '')
+    url_p = child_text(e, ['urlPdf','urlPDF','url_pdf']) or (f'/boe/dias/{fecha:%Y/%m/%d}/pdfs/{item_id}.pdf' if item_id else '')
+    stable = item_id or hashlib.sha1(f'{fecha}|{title}'.encode()).hexdigest()[:16]
+    return {'id': stable, 'boeId': item_id, 'fechaPublicacion': fecha.isoformat(), 'titulo': title, 'departamento': ctx.get('departamento',''), 'seccion': ctx.get('seccion',''), 'epigrafe': ctx.get('epigrafe',''), 'enlaceBoeHtml': abs_url(url_h), 'enlacePdf': abs_url(url_p), 'enlaceXml': abs_url(url_x), 'enlaceSumario': f'{BOE_BASE}/boe/dias/{fecha:%Y/%m/%d}/', 'enlaceApi': BOE_API.format(fecha=fecha.strftime('%Y%m%d')), 'fuente': 'BOE'}
 
-    URL_TEXT_CACHE[url] = ""
-    return ""
-
-
-def document_target_provinces(item: Dict[str, Any], provincias_vigiladas: List[str]) -> List[str]:
-    """
-    Devuelve provincias vigiladas encontradas dentro del documento BOE completo.
-    Primero intenta XML, luego HTML. No busca en el PDF binario.
-    """
-    text = ""
-
-    xml_url = item.get("enlaceXml", "")
-    html_url = item.get("enlaceBoeHtml", "")
-
-    if xml_url:
-        text = fetch_url_text(xml_url)
-
-    if not text and html_url:
-        text = fetch_url_text(html_url)
-
-    text_norm = norm(text)
-
-    found = []
-    for provincia in provincias_vigiladas:
-        if re.search(rf"\b{re.escape(norm(provincia))}\b", text_norm):
-            found.append(provincia)
-
-    return found
-
-
-def tag_name(element: ET.Element) -> str:
-    return element.tag.split("}", 1)[-1] if "}" in element.tag else element.tag
-
-
-def child_text(element: ET.Element, names: Iterable[str]) -> str:
-    names_norm = {norm(n) for n in names}
-    for child in list(element):
-        if norm(tag_name(child)) in names_norm:
-            return "".join(child.itertext()).strip()
-    return ""
-
-
-def first_attr(element: ET.Element, names: Iterable[str]) -> str:
-    names_norm = {norm(n) for n in names}
-    for key, value in element.attrib.items():
-        if norm(key) in names_norm and value:
-            return value.strip()
-    return ""
-
-
-def ctx_update(element: ET.Element, ctx: Dict[str, str]) -> Dict[str, str]:
-    new = dict(ctx)
-    t = norm(tag_name(element))
-
-    if "seccion" in t:
-        value = first_attr(element, ["num", "codigo", "nombre"]) or child_text(element, ["nombre", "titulo"])
-        if value:
-            new["seccion"] = value
-
-    elif "departamento" in t:
-        value = first_attr(element, ["nombre", "codigo"]) or child_text(element, ["nombre", "titulo"])
-        if value:
-            new["departamento"] = value
-
-    elif "epigrafe" in t or "subseccion" in t:
-        value = first_attr(element, ["nombre", "codigo"]) or child_text(element, ["nombre", "titulo"])
-        if value:
-            new["epigrafe"] = value
-
-    return new
-
-
-def walk_items(element: ET.Element, fecha: dt.date, ctx: Optional[Dict[str, str]] = None) -> Iterable[Dict[str, Any]]:
-    ctx = ctx or {}
-    ctx = ctx_update(element, ctx)
-    t = norm(tag_name(element))
-
-    if t == "item" or child_text(element, ["titulo"]) and (first_attr(element, ["id"]) or child_text(element, ["identificador"])):
-        yield extract_item(element, fecha, ctx)
-
-    for child in list(element):
-        yield from walk_items(child, fecha, ctx)
-
-
-def abs_url(url: str) -> str:
-    if not url:
-        return ""
-    if url.startswith("http"):
-        return url
-    if url.startswith("/"):
-        return BOE_BASE + url
-    return BOE_BASE + "/" + url
-
-
-def sumario_url(fecha: dt.date) -> str:
-    return f"{BOE_BASE}/boe/dias/{fecha:%Y/%m/%d}/"
-
-
-def api_url(fecha: dt.date) -> str:
-    return BOE_API.format(fecha=fecha.strftime("%Y%m%d"))
-
-
-def extract_item(element: ET.Element, fecha: dt.date, ctx: Dict[str, str]) -> Dict[str, Any]:
-    item_id = first_attr(element, ["id"]) or child_text(element, ["identificador", "id"])
-    titulo = child_text(element, ["titulo", "título"]) or " ".join("".join(element.itertext()).split())[:500]
-    departamento = ctx.get("departamento") or child_text(element, ["departamento", "organismo"])
-    seccion = ctx.get("seccion", "")
-    epigrafe = ctx.get("epigrafe", "")
-
-    url_htm = child_text(element, ["urlHtm", "urlHTML", "urlHtml", "url_html"])
-    url_pdf = child_text(element, ["urlPdf", "urlPDF", "url_pdf"])
-    url_xml = child_text(element, ["urlXml", "urlXML", "url_xml"])
-
-    if item_id and not url_htm:
-        url_htm = f"/diario_boe/txt.php?id={item_id}"
-    if item_id and not url_xml:
-        url_xml = f"/diario_boe/xml.php?id={item_id}"
-    if item_id and not url_pdf:
-        url_pdf = f"/boe/dias/{fecha:%Y/%m/%d}/pdfs/{item_id}.pdf"
-
-    stable_id = item_id or hashlib.sha1(f"{fecha.isoformat()}|{titulo}".encode("utf-8")).hexdigest()[:16]
-
-    return {
-        "id": stable_id,
-        "boeId": item_id,
-        "fechaPublicacion": fecha.isoformat(),
-        "titulo": titulo,
-        "departamento": departamento,
-        "seccion": seccion,
-        "epigrafe": epigrafe,
-        "enlaceBoeHtml": abs_url(url_htm),
-        "enlacePdf": abs_url(url_pdf),
-        "enlaceXml": abs_url(url_xml),
-        "enlaceSumario": sumario_url(fecha),
-        "enlaceApi": api_url(fecha),
-        "fuente": "BOE",
-    }
-
-
-def parse_sumario(xml_bytes: bytes, fecha: dt.date) -> List[Dict[str, Any]]:
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError as exc:
-        print(f"[WARN] {fecha}: XML no válido: {exc}")
+def parse_sumario(xml: bytes, fecha: dt.date) -> List[Dict[str, Any]]:
+    if not xml: return []
+    try: root = ET.fromstring(xml)
+    except ET.ParseError as e:
+        print(f'[WARN] XML no válido {fecha}: {e}')
         return []
-
-    return list(walk_items(root, fecha))
-
+    return list(walk(root, fecha))
 
 def section_code(item: Dict[str, Any]) -> str:
-    raw = norm(item.get("seccion", ""))
-    return re.sub(r"[^0-9a-z]", "", raw)
+    return re.sub(r'[^0-9a-z]', '', norm(item.get('seccion','')))
 
+def detect_tipo(txt: str) -> str:
+    if re_any(txt, COMISION): return 'comision_servicio'
+    if re_any(txt, LIBRE): return 'libre_designacion'
+    if re_any(txt, CONCURSO): return 'concurso'
+    if re_any(txt, OPOSICION): return 'oposicion'
+    return 'otros'
 
-def is_allowed_section(item: Dict[str, Any]) -> bool:
-    return section_code(item) in ALLOWED_SECTION_CODES
+def detect_perfiles(txt: str) -> List[str]:
+    return [k for k, pats in PROFILE.items() if re_any(txt, pats)]
 
+def detect_provinces(txt: str, provinces: Iterable[str] = ALL_PROVINCES) -> List[str]:
+    return [p for p in provinces if re.search(rf'\b{re.escape(norm(p))}\b', txt)]
 
-def detect_tipo(text_norm: str) -> str:
-    if re_any(text_norm, COMISION_SERVICIO_PATTERNS):
-        return "comision_servicio"
-    if re_any(text_norm, LIBRE_DESIGNACION_PATTERNS):
-        return "libre_designacion"
-    if re_any(text_norm, CONCURSO_PUESTOS_PATTERNS):
-        return "concurso"
-    if re_any(text_norm, OPOSICION_PATTERNS):
-        return "oposicion"
-    return "otros"
+def detect_entity(txt: str) -> str:
+    if 'ayuntamiento de albacete' in txt: return 'Ayuntamiento de Albacete'
+    if 'diputacion provincial de albacete' in txt or 'diputacion de albacete' in txt: return 'Diputación de Albacete'
+    if 'sescam' in txt or 'servicio de salud de castilla-la mancha' in txt: return 'SESCAM'
+    if 'universidad de castilla-la mancha' in txt or re.search(r'\buclm\b', txt): return 'UCLM'
+    if 'castilla-la mancha' in txt or 'castilla la mancha' in txt or 'junta de comunidades' in txt: return 'Castilla-La Mancha'
+    if 'servicio publico de empleo estatal' in txt or re.search(r'\bsepe\b', txt): return 'SEPE'
+    if 'administracion general del estado' in txt: return 'AGE'
+    return ''
 
+def detect_levels(txt: str) -> List[int]:
+    nums = set()
+    for m in re.finditer(r'\bnivel\s*(?:cd)?\s*(1[6-9]|2[0-9]|30)\b', txt): nums.add(int(m.group(1)))
+    for m in re.finditer(r'\b(?:n\.\s*c\.\s*d\.|niv(?:el)?\.?)\s*(1[6-9]|2[0-9]|30)\b', txt): nums.add(int(m.group(1)))
+    return sorted(nums)
 
-def detect_perfiles(text_norm: str) -> List[str]:
-    perfiles = []
-    for perfil, patterns in PROFILE_REGEX.items():
-        if re_any(text_norm, patterns):
-            perfiles.append(perfil)
-    return perfiles
+def detect_group(txt: str) -> str:
+    parts = []
+    if re.search(r'\bc1\b|\bsubgrupo\s+c1\b', txt): parts.append('C1')
+    if re.search(r'\ba2\b|\bsubgrupo\s+a2\b', txt): parts.append('A2')
+    if re.search(r'\bc2\b|\bsubgrupo\s+c2\b', txt): parts.append('C2')
+    return '/'.join(parts)
 
+def extract_plazo(txt: str) -> str:
+    patterns = [
+        r'plazo de presentacion de solicitudes[^\.\n]{0,260}',
+        r'plazo para la presentacion de solicitudes[^\.\n]{0,260}',
+        r'plazo de presentacion de instancias[^\.\n]{0,260}',
+        r'plazo para presentacion de instancias[^\.\n]{0,260}',
+        r'(?:veinte|20|diez|10|quince|15) dias habiles[^\.\n]{0,180}',
+        r'del \d{1,2}/\d{1,2}/\d{4} al \d{1,2}/\d{1,2}/\d{4}[^\.\n]{0,120}'
+    ]
+    for p in patterns:
+        m = re.search(p, txt)
+        if m: return re.sub(r'\s+', ' ', m.group(0)).strip()[:260]
+    return ''
 
-def detect_provincias(text_norm: str) -> List[str]:
-    return [p for p in ALL_PROVINCES if re.search(rf"\b{re.escape(norm(p))}\b", text_norm)]
+def extract_best_link(item: Dict[str, Any], doc_text_raw: str) -> Tuple[str, str]:
+    urls = re.findall(r'https?://[^\s<>"]+', doc_text_raw)
+    prio = ['inscripcion','instancia','sede','empleo','convocatoria','bop','docm','dipualba','albacete','castillalamancha','uclm','sescam']
+    for key in prio:
+        for u in urls:
+            if key in norm(u): return u.rstrip(').,;'), 'Inscripción / bases'
+    return item.get('enlaceBoeHtml') or item.get('enlacePdf') or '', 'BOE / bases'
 
+def full_document_text(item: Dict[str, Any]) -> Tuple[str, str]:
+    raw_parts = []
+    for key in ['enlaceXml','enlaceBoeHtml']:
+        if item.get(key): raw_parts.append(fetch_text(item[key]))
+    if item.get('enlacePdf'): raw_parts.append(fetch_pdf_text(item['enlacePdf']))
+    raw = '\n'.join(p for p in raw_parts if p)
+    return raw, norm(raw)
 
-def detect_entidad(text_norm: str) -> str:
-    if "ayuntamiento de albacete" in text_norm:
-        return "Ayuntamiento de Albacete"
+def is_age_concurso(item: Dict[str, Any], summary_txt: str, tipo: str) -> bool:
+    if tipo != 'concurso' or section_code(item) not in ALLOWED_SECTION_CODES: return False
+    if re_any(summary_txt, NO_PERSONAL) or re_any(summary_txt, EXCLUDE): return False
+    ep = norm(item.get('epigrafe',''))
+    return 'personal funcionario' in ep or 'ministerio' in summary_txt or 'agencia estatal' in summary_txt or 'subsecretaria' in summary_txt or 'secretaria de estado' in summary_txt or 'agencia espanola' in summary_txt
 
-    if "diputacion provincial de albacete" in text_norm or "diputacion de albacete" in text_norm:
-        return "Diputación de Albacete"
+def classify(item: Dict[str, Any], config: Dict[str, Any], targets: List[str]) -> Optional[Dict[str, Any]]:
+    summary_txt = norm(' '.join(str(item.get(k,'')) for k in ['titulo','departamento','seccion','epigrafe']))
+    if section_code(item) not in ALLOWED_SECTION_CODES: return None
+    if re_any(summary_txt, NO_PERSONAL): return None
+    tipo = detect_tipo(summary_txt)
+    if tipo == 'otros': return None
+    age_concurso = is_age_concurso(item, summary_txt, tipo)
+    if not age_concurso:
+        if re_any(summary_txt, EXCLUDE): return None
+        if not re_any(summary_txt, OPENING): return None
 
-    if "castilla-la mancha" in text_norm or "castilla la mancha" in text_norm or "junta de comunidades" in text_norm:
-        return "Castilla-La Mancha"
+    doc_raw, doc_txt = full_document_text(item) if config.get('validar_provincia_en_documento_completo', True) else ('', '')
+    combined = norm(summary_txt + ' ' + doc_txt)
+    title_provinces = detect_provinces(summary_txt, targets)
+    doc_provinces = detect_provinces(doc_txt, targets)
+    all_target_provinces = sorted(set(title_provinces + doc_provinces), key=norm)
+    entity = detect_entity(combined)
 
-    if "servicio publico de empleo estatal" in text_norm or re.search(r"\bsepe\b", text_norm):
-        return "SEPE"
+    is_target_local = any(norm(t) in combined for t in ['ayuntamiento de albacete','diputacion de albacete','diputacion provincial de albacete','castilla-la mancha','castilla la mancha','junta de comunidades','sescam','universidad de castilla-la mancha','uclm'])
 
-    if "administracion general del estado" in text_norm:
-        return "AGE"
-
-    return ""
-
-
-def is_opening_or_provision(text_norm: str, tipo: str) -> bool:
-    if tipo == "concurso":
-        return (
-            re_any(text_norm, CONCURSO_PUESTOS_PATTERNS)
-            and re_any(
-                text_norm,
-                [
-                    r"\bconvoca\b",
-                    r"\bprovision de puesto(?:s)? de trabajo\b",
-                    r"\bpuestos de trabajo\b",
-                ],
-            )
-        )
-
-    if tipo in {"libre_designacion", "comision_servicio"}:
-        return re_any(text_norm, OPENING_PATTERNS) or "provision de puesto" in text_norm
-
-    if tipo == "oposicion":
-        return re_any(text_norm, OPENING_PATTERNS)
-
-    return False
-
-
-def is_age_concurso_revisable(
-    item: Dict[str, Any],
-    text_norm: str,
-    tipo: str,
-    config: Dict[str, Any],
-) -> bool:
-    if tipo != "concurso" or not is_allowed_section(item):
-        return False
-
-    if not re_any(text_norm, CONCURSO_PUESTOS_PATTERNS):
-        return False
-
-    if re_any(text_norm, NO_PERSONAL_PATTERNS):
-        return False
-
-    if re_any(text_norm, EXCLUDE_PATTERNS):
-        return False
-
-    epigrafe = norm(item.get("epigrafe", ""))
-    dep_words = config.get("departamentos_age_interes", [])
-
-    dep_hit = any(norm(word) in text_norm for word in dep_words)
-    epigrafe_hit = "personal funcionario" in epigrafe and "concurso" in epigrafe
-
-    return (
-        dep_hit
-        or epigrafe_hit
-        or "ministerio" in text_norm
-        or "agencia estatal" in text_norm
-    )
-
-
-def classify(
-    item: Dict[str, Any],
-    config: Dict[str, Any],
-    provincias_vigiladas: List[str],
-) -> Optional[Dict[str, Any]]:
-    full_norm = norm(
-        " ".join(
-            str(item.get(k, ""))
-            for k in ["titulo", "departamento", "seccion", "epigrafe"]
-        )
-    )
-
-    # 1. Solo sección II.B.
-    if not is_allowed_section(item):
+    if age_concurso and not all_target_provinces and not config.get('incluir_concursos_age_sin_provincia_confirmada', False):
+        return None
+    if tipo in ['libre_designacion','comision_servicio'] and not (all_target_provinces or is_target_local):
+        return None
+    if tipo == 'oposicion' and not (all_target_provinces or is_target_local):
         return None
 
-    # 2. Fuera ruido claro de no-personal.
-    if re_any(full_norm, NO_PERSONAL_PATTERNS):
-        return None
+    perfiles = sorted(set(detect_perfiles(combined)))
+    niveles = detect_levels(combined)
+    grupo = detect_group(combined)
+    plazo = extract_plazo(combined)
+    ins_link, ins_label = extract_best_link(item, doc_raw)
 
-    tipo = detect_tipo(full_norm)
-
-    if tipo == "otros":
-        return None
-
-    # 3. Concursos AGE se tratan aparte, pero ya no se muestran
-    #    si no aparece la provincia dentro del documento completo.
-    age_revisable = is_age_concurso_revisable(item, full_norm, tipo, config)
-
-    if not age_revisable:
-        if re_any(full_norm, EXCLUDE_PATTERNS):
-            return None
-
-        if not is_opening_or_provision(full_norm, tipo):
-            return None
-
-    perfiles = detect_perfiles(full_norm)
-    provincias_titulo = detect_provincias(full_norm)
-    entidad = detect_entidad(full_norm)
-
-    target_provinces_norm = [norm(p) for p in provincias_vigiladas]
-    target_province_hit_title = any(norm(p) in target_provinces_norm for p in provincias_titulo)
-
-    incluir_municipios_provincia = bool(config.get("incluir_municipios_provincia", True))
-    incluir_age_sin_confirmar = bool(config.get("incluir_concursos_age_sin_provincia_confirmada", False))
-    validar_doc = bool(config.get("validar_provincia_en_documento_completo", True))
-
-    # Entidades explícitas de máximo interés.
-    target_main_entity_hit = (
-        "ayuntamiento de albacete" in full_norm
-        or "diputacion provincial de albacete" in full_norm
-        or "diputacion de albacete" in full_norm
-        or "castilla-la mancha" in full_norm
-        or "castilla la mancha" in full_norm
-        or "junta de comunidades" in full_norm
-    )
-
-    # Municipio de la provincia: "Ayuntamiento de X (Albacete)".
-    # Se puede desactivar desde config.json.
-    target_province_hit = target_province_hit_title and incluir_municipios_provincia
-
-    confirmed_doc_provinces: List[str] = []
-
-    # Para concursos AGE sin provincia visible en título, confirmamos mirando XML/HTML.
-    if age_revisable and not target_province_hit_title and not target_main_entity_hit:
-        if validar_doc:
-            confirmed_doc_provinces = document_target_provinces(item, provincias_vigiladas)
-
-        if not confirmed_doc_provinces and not incluir_age_sin_confirmar:
-            return None
-
-    # Si el título ya trae Albacete o es entidad directa, no hace falta validar documento.
-    if target_province_hit_title:
-        confirmed_doc_provinces = list(set(confirmed_doc_provinces + [p for p in provincias_titulo if norm(p) in target_provinces_norm]))
-
-    # Núcleo fino:
-    # - Entidad directa Albacete/CLM.
-    # - Provincia en título si se permiten municipios.
-    # - AGE confirmado en documento.
-    # - AGE sin confirmar solo si config lo permite.
-    age_accepted = age_revisable and (bool(confirmed_doc_provinces) or incluir_age_sin_confirmar)
-
-    if not (target_main_entity_hit or target_province_hit or age_accepted):
-        return None
-
-    if target_main_entity_hit:
-        precision = "alta"
-        prioridad = 1
-        motivo = "Coincidencia directa con entidad vigilada en una convocatoria/provisión de personal."
-
-    elif target_province_hit:
-        precision = "alta"
-        prioridad = 1
-        motivo = "Coincidencia directa con la provincia vigilada en una convocatoria/provisión de personal."
-
-    elif age_revisable and confirmed_doc_provinces:
-        precision = "revisar_anexo"
-        prioridad = 2
-        motivo = (
-            "Concurso AGE de provisión de puestos en el que aparece la provincia vigilada dentro del documento BOE. "
-            "Abre el PDF/anexo y comprueba localidad, cuerpo, nivel y requisitos: C1, C1/A2, nivel 16 o superior, informática/administrativo."
-        )
-
-    elif age_revisable and incluir_age_sin_confirmar:
-        precision = "age_sin_confirmar"
-        prioridad = 4
-        motivo = (
-            "Concurso AGE general sin provincia confirmada dentro del documento. "
-            "Se muestra porque config.json permite incluir concursos AGE sin confirmar."
-        )
-
+    if tipo == 'concurso':
+        categoria, priority, precision = 'concursos', 1, 'revisar_anexo' if age_concurso else 'alta'
+        motivo = 'Concurso de provisión de puestos con provincia vigilada confirmada en el documento. Revisa anexo para nivel, cuerpo, méritos y localidad.'
+    elif tipo in ['libre_designacion','comision_servicio']:
+        categoria, priority, precision = 'movilidad', 1, 'alta'
+        motivo = 'Provisión por libre designación o comisión con Albacete/CLM detectado. Revisa requisitos, nivel, perfil y plazo.'
     else:
-        precision = "media"
-        prioridad = 3
-        motivo = "Coincidencia indirecta; revisar manualmente."
-
-    provincias_detectadas = sorted(set(provincias_titulo + confirmed_doc_provinces), key=lambda x: norm(x))
-
-    tags = sorted(
-        set(
-            provincias_detectadas
-            + perfiles
-            + ([entidad] if entidad else [])
-            + ([tipo] if tipo else [])
-        )
-    )
+        categoria, priority, precision = 'oposiciones', 1, 'alta'
+        motivo = 'Convocatoria de oposición/proceso selectivo con provincia o entidad de interés detectada. Revisa bases y portal de inscripción.'
 
     result = dict(item)
     result.update({
-        "tipo": tipo,
-        "perfiles": sorted(set(perfiles)),
-        "provinciasDetectadas": provincias_detectadas,
-        "provinciasConfirmadasDocumento": confirmed_doc_provinces,
-        "entidadDetectada": entidad,
-        "precision": precision,
-        "prioridad": prioridad,
-        "motivo": motivo,
-        "tags": tags,
+        'categoria': categoria,
+        'tipo': tipo,
+        'perfiles': perfiles,
+        'provinciasDetectadas': sorted(set(detect_provinces(summary_txt))),
+        'provinciasConfirmadasDocumento': all_target_provinces,
+        'entidadDetectada': entity,
+        'precision': precision,
+        'prioridad': priority,
+        'nivelesDetectados': niveles,
+        'grupoDetectado': grupo,
+        'plazoInscripcion': plazo,
+        'enlaceInscripcion': ins_link,
+        'enlaceInscripcionTipo': ins_label,
+        'motivo': motivo,
+        'tags': sorted(set([categoria, tipo, entity, grupo] + perfiles + all_target_provinces + [f'nivel {n}' for n in niveles]), key=norm)
     })
-
     return result
 
-
 def unique_key(item: Dict[str, Any]) -> str:
-    if item.get("boeId"):
-        return str(item["boeId"])
+    return str(item.get('boeId') or item.get('id') or hashlib.sha1(f"{item.get('fechaPublicacion')}|{item.get('titulo')}".encode()).hexdigest())
 
-    if item.get("id"):
-        return str(item["id"])
-
-    return hashlib.sha1(
-        f"{item.get('fechaPublicacion')}|{item.get('titulo')}".encode("utf-8")
-    ).hexdigest()
-
-
-def merge_alerts(
-    existing: List[Dict[str, Any]],
-    new: List[Dict[str, Any]],
-) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    by_key: Dict[str, Dict[str, Any]] = {}
-
-    for item in existing:
-        by_key[unique_key(item)] = item
-
+def merge(existing: List[Dict[str, Any]], new: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    by = {unique_key(x): x for x in existing}
     added = []
-
     for item in new:
-        key = unique_key(item)
+        k = unique_key(item)
+        if k not in by: added.append(item)
+        by[k] = {**by.get(k, {}), **item}
+    out = list(by.values())
+    out.sort(key=lambda x: ((x.get('fechaPublicacion') or ''), -int(x.get('prioridad', 9))), reverse=True)
+    return out, added
 
-        if key not in by_key:
-            added.append(item)
+def issue_md(added: List[Dict[str, Any]], args: argparse.Namespace) -> str:
+    if not added: return 'No se han detectado alertas nuevas.\n'
+    lines = ['# Nuevas alertas BOE detectadas', '', f'Provincia: **{args.provincia or "config"}**', f'Rango: **{args.desde or "auto"} → {args.hasta or "auto"}**', '']
+    for it in added[:40]:
+        lines += [f"## {it.get('fechaPublicacion')} · {it.get('titulo')}", f"- Bloque: **{it.get('categoria')}**", f"- Tipo: **{it.get('tipo')}**", f"- Nivel detectado: {', '.join(map(str, it.get('nivelesDetectados') or [])) or 'No detectado'}", f"- Grupo: {it.get('grupoDetectado') or 'No detectado'}", f"- Plazo: {it.get('plazoInscripcion') or 'No detectado'}", f"- Inscripción/bases: {it.get('enlaceInscripcion') or 'No disponible'}", f"- BOE: {it.get('enlaceBoeHtml')}", '']
+    return '\n'.join(lines).strip() + '\n'
 
-        by_key[key] = {**by_key.get(key, {}), **item}
+def write(payload: Dict[str, Any], added: List[Dict[str, Any]], args: argparse.Namespace):
+    DATA_DIR.mkdir(exist_ok=True); DOCS_DIR.mkdir(exist_ok=True)
+    ALERTAS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    NEW_COUNT_PATH.write_text(str(len(added)), encoding='utf-8')
+    ISSUE_PATH.write_text(issue_md(added, args), encoding='utf-8')
 
-    merged = list(by_key.values())
-
-    merged.sort(
-        key=lambda x: (
-            x.get("prioridad", 9),
-            x.get("fechaPublicacion", ""),
-            x.get("titulo", ""),
-        )
-    )
-
-    merged.sort(
-        key=lambda x: (
-            x.get("fechaPublicacion", ""),
-            -int(x.get("prioridad", 9)),
-        ),
-        reverse=True,
-    )
-
-    return merged, added
-
-
-def build_issue_markdown(added: List[Dict[str, Any]], args: argparse.Namespace) -> str:
-    if not added:
-        return "No se han detectado alertas nuevas en esta revisión.\n"
-
-    lines = [
-        "# Nuevas alertas BOE detectadas",
-        "",
-        f"Provincia/filtro principal: **{args.provincia or 'configuración'}**",
-        f"Rango revisado: **{args.desde or 'auto'} → {args.hasta or 'auto'}**",
-        "",
-        "> En concursos AGE solo se avisa si el documento BOE contiene la provincia vigilada, salvo que config.json permita concursos AGE sin confirmar.",
-        "",
-    ]
-
-    for item in sorted(added, key=lambda x: (x.get("prioridad", 9), x.get("fechaPublicacion", "")))[:30]:
-        title = item.get("titulo", "Sin título")
-        provincias_confirmadas = item.get("provinciasConfirmadasDocumento") or []
-
-        lines.extend([
-            f"## {item.get('fechaPublicacion')} · {title}",
-            f"- Prioridad: **{item.get('prioridad', 'N/D')}**",
-            f"- Tipo: **{item.get('tipo', 'sin tipo')}**",
-            f"- Precisión: **{item.get('precision', 'pendiente')}**",
-            f"- Provincia detectada: {', '.join(item.get('provinciasDetectadas') or []) or 'No visible'}",
-            f"- Provincia confirmada en documento: {', '.join(provincias_confirmadas) or 'No aplica'}",
-            f"- Entidad: {item.get('entidadDetectada') or 'No disponible'}",
-            f"- Departamento: {item.get('departamento') or 'No disponible'}",
-            f"- Motivo: {item.get('motivo') or 'Coincidencia detectada.'}",
-            f"- BOE: {item.get('enlaceBoeHtml') or item.get('enlaceSumario')}",
-            f"- PDF: {item.get('enlacePdf') or 'No disponible'}",
-            f"- Sumario: {item.get('enlaceSumario')}",
-            "",
-        ])
-
-    if len(added) > 30:
-        lines.append(f"Se han omitido {len(added) - 30} alertas más en esta issue. Revisa data/alertas.json.")
-
-    return "\n".join(lines).strip() + "\n"
-
-
-def write_outputs(payload: Dict[str, Any], added: List[Dict[str, Any]], args: argparse.Namespace) -> None:
-    DATA_DIR.mkdir(exist_ok=True)
-    DOCS_DIR.mkdir(exist_ok=True)
-
-    with ALERTAS_PATH.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-
-    NEW_COUNT_PATH.write_text(str(len(added)), encoding="utf-8")
-    ISSUE_PATH.write_text(build_issue_markdown(added, args), encoding="utf-8")
-
-
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Escáner de alertas BOE para GitHub Pages")
-
-    parser.add_argument("--desde", help="Fecha inicial YYYY-MM-DD")
-    parser.add_argument("--hasta", help="Fecha final YYYY-MM-DD")
-    parser.add_argument("--provincia", help="Provincia a vigilar, por defecto la del config")
-    parser.add_argument("--dias", type=int, help="Días hacia atrás si no hay desde/hasta")
-
-    parser.add_argument(
-        "--max-dias",
-        type=int,
-        default=90,
-        help="Límite de días por ejecución para evitar workflows excesivos",
-    )
-
-    parser.add_argument(
-        "--reiniciar",
-        action="store_true",
-        help="No conserva alertas antiguas; reescribe data/alertas.json solo con el rango actual",
-    )
-
-    return parser.parse_args()
-
+def args_parse():
+    p = argparse.ArgumentParser()
+    p.add_argument('--desde'); p.add_argument('--hasta'); p.add_argument('--provincia'); p.add_argument('--dias', type=int); p.add_argument('--max-dias', type=int, default=90); p.add_argument('--reiniciar', action='store_true')
+    return p.parse_args()
 
 def main() -> int:
-    args = parse_args()
-    config = load_config()
-
-    today = dt.date.today()
-    default_days = int(args.dias or config.get("dias_revision_por_defecto", 7))
-
-    if args.desde:
-        desde = parse_date(args.desde)
-    else:
-        desde = today - dt.timedelta(days=max(0, default_days - 1))
-
+    args = args_parse(); config = load_config(); today = dt.date.today()
+    days = int(args.dias or config.get('dias_revision_por_defecto', 7))
+    desde = parse_date(args.desde) if args.desde else today - dt.timedelta(days=max(0, days - 1))
     hasta = parse_date(args.hasta) if args.hasta else today
-
-    if desde > hasta:
-        desde, hasta = hasta, desde
-
-    if hasta > today:
-        hasta = today
-
-    total_days = (hasta - desde).days + 1
-
-    if total_days > args.max_dias:
-        print(f"[WARN] Rango demasiado amplio ({total_days} días). Se limita a {args.max_dias} días desde la fecha final.")
-        desde = hasta - dt.timedelta(days=args.max_dias - 1)
-
-    provincias = [args.provincia] if args.provincia else config.get("provincias_vigiladas", ["Albacete"])
-    provincias = [p for p in provincias if p]
-
-    print(f"[INFO] Revisando BOE desde {desde} hasta {hasta}. Provincias: {', '.join(provincias)}")
-    print(f"[INFO] AGE sin provincia confirmada: {config.get('incluir_concursos_age_sin_provincia_confirmada', False)}")
-    print(f"[INFO] Validar provincia en documento completo: {config.get('validar_provincia_en_documento_completo', True)}")
-
-    found: List[Dict[str, Any]] = []
-    errors: List[str] = []
-
+    if desde > hasta: desde, hasta = hasta, desde
+    if hasta > today: hasta = today
+    if (hasta - desde).days + 1 > args.max_dias: desde = hasta - dt.timedelta(days=args.max_dias - 1)
+    targets = [args.provincia] if args.provincia else config.get('provincias_vigiladas', ['Albacete'])
+    print(f'[INFO] Revisando {desde} → {hasta}. Provincia: {targets}')
+    found, errors = [], []
     for fecha in daterange(desde, hasta):
-        xml = fetch_sumario(fecha)
-
-        if not xml:
-            continue
-
         try:
-            items = parse_sumario(xml, fecha)
-            print(f"[INFO] {fecha}: {len(items)} items en sumario")
-
-            day_found = 0
-
+            items = parse_sumario(fetch_sumario(fecha), fecha)
+            day = 0
             for item in items:
-                classified = classify(item, config, provincias)
-
-                if classified:
-                    found.append(classified)
-                    day_found += 1
-
-            print(f"[INFO] {fecha}: {day_found} alertas útiles tras filtros finos")
-
-        except Exception as exc:
-            msg = f"{fecha}: {exc!r}"
-            print(f"[ERROR] {msg}")
-            errors.append(msg)
-
-    existing_payload = load_existing()
-    existing_alerts = [] if args.reiniciar else existing_payload.get("alertas", [])
-
-    merged, added = merge_alerts(existing_alerts, found)
-
-    payload = {
-        "metadata": {
-            "generatedBy": "scripts/scan_boe.py",
-            "versionFiltro": "v3.2-provincia-confirmada-documento",
-            "lastRun": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-            "rangoUltimaRevision": {
-                "desde": desde.isoformat(),
-                "hasta": hasta.isoformat(),
-            },
-            "provinciasVigiladas": provincias,
-            "fuente": "BOE Datos Abiertos - sumario diario",
-            "totalAlertas": len(merged),
-            "nuevasAlertas": len(added),
-            "errores": errors,
-        },
-        "alertas": merged,
-    }
-
-    write_outputs(payload, added, args)
-
-    print(f"[INFO] Alertas encontradas en ejecución: {len(found)}")
-    print(f"[INFO] Nuevas alertas: {len(added)}")
-    print(f"[INFO] Total acumulado: {len(merged)}")
-
+                c = classify(item, config, targets)
+                if c: found.append(c); day += 1
+            print(f'[INFO] {fecha}: {day} alertas útiles')
+        except Exception as e:
+            msg = f'{fecha}: {e!r}'; print('[ERROR]', msg); errors.append(msg)
+    existing = [] if args.reiniciar else load_existing().get('alertas', [])
+    merged, added = merge(existing, found)
+    payload = {'metadata': {'generatedBy': 'scripts/scan_boe.py', 'versionFiltro': 'v4-modulos-con-pdf', 'lastRun': dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'), 'rangoUltimaRevision': {'desde': desde.isoformat(), 'hasta': hasta.isoformat()}, 'provinciasVigiladas': targets, 'fuente': 'BOE Datos Abiertos - sumario diario + documento XML/HTML/PDF', 'totalAlertas': len(merged), 'nuevasAlertas': len(added), 'errores': errors}, 'alertas': merged}
+    write(payload, added, args)
+    print(f'[INFO] Nuevas: {len(added)} Total: {len(merged)}')
     return 0
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     raise SystemExit(main())
