@@ -73,11 +73,12 @@ jobs:
           echo "fecha_hasta=$FECHA_HASTA" >> "$GITHUB_OUTPUT"
 
       - name: Ejecutar escáner BOE
+        timeout-minutes: 20
         shell: bash
         run: |
           set -e
 
-          python scripts/scan_boe.py \
+          python -u scripts/scan_boe.py \
             --desde "${{ steps.fechas.outputs.fecha_desde }}" \
             --hasta "${{ steps.fechas.outputs.fecha_hasta }}"
 
@@ -105,14 +106,12 @@ jobs:
 
           prioritarias = data.get("alertasPrioritarias", [])
           secundarias = data.get("alertasSecundarias", [])
-          visibles = data.get("alertas", [])
 
-          # Para issue, contamos las visibles, priorizando informática y administrativo.
           alertas_issue = prioritarias + secundarias
 
-          # Evitar duplicados por id.
           vistas = set()
           alertas_unicas = []
+
           for a in alertas_issue:
               aid = a.get("id") or a.get("boeId")
               if aid not in vistas:
@@ -131,6 +130,7 @@ jobs:
           lines.append("")
           lines.append("- Informática / TIC / TAI: prioridad máxima.")
           lines.append("- Administrativo C1: prioridad secundaria.")
+          lines.append("- Auxiliar administrativo C2: oculto por defecto.")
           lines.append("- Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.")
           lines.append("")
 
@@ -198,7 +198,8 @@ jobs:
             gh issue create \
               --title "Nuevas alertas BOE detectadas ($COUNT)" \
               --body-file docs/last_issue.md \
-              --label "boe,alerta" || \
+              --label "boe" \
+              --label "alerta" || \
             gh issue create \
               --title "Nuevas alertas BOE detectadas ($COUNT)" \
               --body-file docs/last_issue.md
