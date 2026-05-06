@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-05-05T09:32:56+00:00",
+    "lastRun": "2026-05-06T09:51:36+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-04-25",
-      "hasta": "2026-05-05"
+      "desde": "2026-04-26",
+      "hasta": "2026-05-06"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 20,
-    "totalVisiblesParaUsuario": 2,
-    "totalPrioritarias": 2,
+    "totalAlertasDetectadasTerritorialmente": 22,
+    "totalVisiblesParaUsuario": 3,
+    "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 18,
+    "totalDescartadas": 19,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -160,26 +160,23 @@
       "fingerprint": "ayuntamiento de valdeganga|una plaza de administrativo/a, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    }
-  ],
-  "alertasSecundarias": [],
-  "alertasDescartadas": [
+    },
     {
-      "id": "BOE-A-2026-9066",
-      "boeId": "BOE-A-2026-9066",
-      "fechaPublicacion": "2026-04-25",
-      "titulo": "Resolución de 20 de abril de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre el Ayuntamiento de Albacete y la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, para la colaboración en el ámbito de la inserción sociolaboral de las personas en situación de privación de libertad.",
+      "id": "BOE-A-2026-9849",
+      "boeId": "BOE-A-2026-9849",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9066",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/25/pdfs/BOE-A-2026-9066.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9066",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260425",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9849.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9849",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -187,40 +184,48 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Albacete y la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo",
+      "entidadDetectada": "Ayuntamiento de Munera",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9066",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Albacete y la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
+        "Ayuntamiento de Munera",
+        "administrativo",
+        "administrativo_c1_probable",
+        "oposicion",
+        "oposiciones"
       ],
       "plazasExtraidas": [
-        "un puesto de trabajo"
+        "una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
       ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "perfilReal": "administrativo_c1_probable",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "matchesInformatica": [],
-      "matchesAdministrativo": [],
+      "matchesAdministrativo": [
+        "administrativo/a",
+        "plaza de administrativo"
+      ],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de albacete y la entidad estatal de derecho publico trabajo penitenciario y formacion para el empleo|un puesto de trabajo|sin_perfil_claro|sin_clasificar",
+      "prioridad": 2,
+      "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
+    }
+  ],
+  "alertasSecundarias": [],
+  "alertasDescartadas": [
     {
       "id": "BOE-A-2026-9176",
       "boeId": "BOE-A-2026-9176",
@@ -807,6 +812,63 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-9809",
+      "boeId": "BOE-A-2026-9809",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Orden PJC/435/2026, de 22 de abril, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Instituto Nacional de Toxicología y Ciencias Forenses y en los Institutos de Medicina Legal y Ciencias Forenses.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9809.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9809",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes hubieran transcurrido dos anos desde que se dicto la resolucion por la que se convoco el concurso de traslado en el que se le adjudico destino definitivo, o la resolucion en la que se le adjudico destino definitivo, si se trata de funcionarios de nuevo ingreso",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "movilidad",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|orden pjc/435/2026, de 22 de abril, por la que se convoca concurso especifico para la provision de puestos de trabajo en|sin_perfil_claro|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-9218",
       "boeId": "BOE-A-2026-9218",
       "fechaPublicacion": "2026-04-28",
@@ -1231,6 +1293,62 @@
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 10 puntos en la primera fase y de 5 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-9860",
+      "boeId": "BOE-A-2026-9860",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Resolución de 29 de abril de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la rehabilitación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9860.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9860",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "arquitecto"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 29 de abril de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
@@ -1366,6 +1484,68 @@
       "nivelesDetectados": [],
       "prioridad": 2,
       "fingerprint": "ayuntamiento de valdeganga|una plaza de administrativo/a, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-9849",
+      "boeId": "BOE-A-2026-9849",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9849.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9849",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Munera",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Munera",
+        "administrativo",
+        "administrativo_c1_probable",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [
+        "una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
+      ],
+      "perfilReal": "administrativo_c1_probable",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [
+        "administrativo/a",
+        "plaza de administrativo"
+      ],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 2,
+      "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1507,21 +1687,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-9066",
-      "boeId": "BOE-A-2026-9066",
-      "fechaPublicacion": "2026-04-25",
-      "titulo": "Resolución de 20 de abril de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre el Ayuntamiento de Albacete y la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, para la colaboración en el ámbito de la inserción sociolaboral de las personas en situación de privación de libertad.",
+      "id": "BOE-A-2026-9849",
+      "boeId": "BOE-A-2026-9849",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9066",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/04/25/pdfs/BOE-A-2026-9066.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9066",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/04/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260425",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9849.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9849",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1529,37 +1709,42 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Albacete y la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo",
+      "entidadDetectada": "Ayuntamiento de Munera",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9066",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Albacete y la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
+        "Ayuntamiento de Munera",
+        "administrativo",
+        "administrativo_c1_probable",
+        "oposicion",
+        "oposiciones"
       ],
       "plazasExtraidas": [
-        "un puesto de trabajo"
+        "una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
       ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "perfilReal": "administrativo_c1_probable",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "matchesInformatica": [],
-      "matchesAdministrativo": [],
+      "matchesAdministrativo": [
+        "administrativo/a",
+        "plaza de administrativo"
+      ],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de albacete y la entidad estatal de derecho publico trabajo penitenciario y formacion para el empleo|un puesto de trabajo|sin_perfil_claro|sin_clasificar",
+      "prioridad": 2,
+      "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2149,6 +2334,63 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-9809",
+      "boeId": "BOE-A-2026-9809",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Orden PJC/435/2026, de 22 de abril, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Instituto Nacional de Toxicología y Ciencias Forenses y en los Institutos de Medicina Legal y Ciencias Forenses.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9809.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9809",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes hubieran transcurrido dos anos desde que se dicto la resolucion por la que se convoco el concurso de traslado en el que se le adjudico destino definitivo, o la resolucion en la que se le adjudico destino definitivo, si se trata de funcionarios de nuevo ingreso",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "movilidad",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|orden pjc/435/2026, de 22 de abril, por la que se convoca concurso especifico para la provision de puestos de trabajo en|sin_perfil_claro|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-9218",
       "boeId": "BOE-A-2026-9218",
       "fechaPublicacion": "2026-04-28",
@@ -2571,6 +2813,62 @@
       ],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 10 puntos en la primera fase y de 5 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-9860",
+      "boeId": "BOE-A-2026-9860",
+      "fechaPublicacion": "2026-05-06",
+      "titulo": "Resolución de 29 de abril de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la rehabilitación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9860.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9860",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "arquitecto"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 29 de abril de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
