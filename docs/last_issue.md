@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **2**
+Total alertas prioritarias/secundarias: **3**
 
 Filtro aplicado:
 
@@ -17,6 +17,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9603
 - **PDF:** https://www.boe.es/boe/dias/2026/05/04/pdfs/BOE-A-2026-9603.pdf
+
+## Resolución de 5 de mayo de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.
+
+- **Fecha:** 2026-05-12
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259
+- **PDF:** https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10259.pdf
 
 ## Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.
 

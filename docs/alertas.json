@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-05-11T10:58:42+00:00",
+    "lastRun": "2026-05-12T10:15:57+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-05-01",
-      "hasta": "2026-05-11"
+      "desde": "2026-05-02",
+      "hasta": "2026-05-12"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 16,
-    "totalVisiblesParaUsuario": 2,
-    "totalPrioritarias": 2,
+    "totalAlertasDetectadasTerritorialmente": 18,
+    "totalVisiblesParaUsuario": 3,
+    "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 14,
+    "totalDescartadas": 15,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -96,6 +96,68 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-10259",
+      "boeId": "BOE-A-2026-10259",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Resolución de 5 de mayo de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10259.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10259",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "peon"
+      ],
+      "contextosInformatica": [
+        "y relaciones con las cortes, en la direccion: https://sede.mjusticia.gob.es/es/tramites/comunicaciones-notarios a los efectos de su previa validacion informatica, las solicitudes que se presenten suscritas con la firma electronica notarial deberan dirigirse a la plataforma electronica del notariado habilitada"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 5 de mayo de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca concu|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-9849",
       "boeId": "BOE-A-2026-9849",
       "fechaPublicacion": "2026-05-06",
@@ -160,64 +222,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-9491",
-      "boeId": "BOE-A-2026-9491",
-      "fechaPublicacion": "2026-05-01",
-      "titulo": "Resolución de 22 de abril de 2026, del Ayuntamiento de Villarrobledo (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9491",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/01/pdfs/BOE-A-2026-9491.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9491",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/01/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260501",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Villarrobledo",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9491",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Villarrobledo",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de monitor/a de pintura de edificios taller de integracion social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de villarrobledo|una plaza de monitor/a de pintura de edificios taller de integracion social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-9556",
       "boeId": "BOE-A-2026-9556",
@@ -996,6 +1000,118 @@
       "fingerprint": "|acuerdo de 27 de abril de 2026, de la comision permanente del consejo general del poder judicial, por el que se publica |otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10315",
+      "boeId": "BOE-A-2026-10315",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Orden APA/460/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios en relación con el seguro de explotaciones de hortalizas bajo cubierta, en la Península y en la Comunidad Autónoma de Illes Balears, comprendido en el correspondiente Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10315",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10315.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10315",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10315",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/460/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10316",
+      "boeId": "BOE-A-2026-10316",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Orden APA/461/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios en relación con el seguro de explotaciones de fresón y otros frutos rojos, comprendido en el correspondiente Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10316",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10316.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10316",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10316",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/461/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
@@ -1065,6 +1181,68 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion 430/38230/2026, de 24 de abril, de la subsecretaria, por la que se resuelve el concurso especifico, convocado|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10259",
+      "boeId": "BOE-A-2026-10259",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Resolución de 5 de mayo de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10259.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10259",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "peon"
+      ],
+      "contextosInformatica": [
+        "y relaciones con las cortes, en la direccion: https://sede.mjusticia.gob.es/es/tramites/comunicaciones-notarios a los efectos de su previa validacion informatica, las solicitudes que se presenten suscritas con la firma electronica notarial deberan dirigirse a la plataforma electronica del notariado habilitada"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 5 de mayo de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca concu|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1202,6 +1380,68 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-10259",
+      "boeId": "BOE-A-2026-10259",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Resolución de 5 de mayo de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10259.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10259",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10259",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "peon"
+      ],
+      "contextosInformatica": [
+        "y relaciones con las cortes, en la direccion: https://sede.mjusticia.gob.es/es/tramites/comunicaciones-notarios a los efectos de su previa validacion informatica, las solicitudes que se presenten suscritas con la firma electronica notarial deberan dirigirse a la plataforma electronica del notariado habilitada"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 5 de mayo de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca concu|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-9849",
       "boeId": "BOE-A-2026-9849",
       "fechaPublicacion": "2026-05-06",
@@ -1260,64 +1500,6 @@
       "nivelesDetectados": [],
       "prioridad": 2,
       "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-9491",
-      "boeId": "BOE-A-2026-9491",
-      "fechaPublicacion": "2026-05-01",
-      "titulo": "Resolución de 22 de abril de 2026, del Ayuntamiento de Villarrobledo (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9491",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/01/pdfs/BOE-A-2026-9491.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9491",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/01/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260501",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Villarrobledo",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9491",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Villarrobledo",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de monitor/a de pintura de edificios taller de integracion social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de villarrobledo|una plaza de monitor/a de pintura de edificios taller de integracion social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2097,6 +2279,118 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|acuerdo de 27 de abril de 2026, de la comision permanente del consejo general del poder judicial, por el que se publica |otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10315",
+      "boeId": "BOE-A-2026-10315",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Orden APA/460/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios en relación con el seguro de explotaciones de hortalizas bajo cubierta, en la Península y en la Comunidad Autónoma de Illes Balears, comprendido en el correspondiente Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10315",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10315.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10315",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10315",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/460/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10316",
+      "boeId": "BOE-A-2026-10316",
+      "fechaPublicacion": "2026-05-12",
+      "titulo": "Orden APA/461/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios en relación con el seguro de explotaciones de fresón y otros frutos rojos, comprendido en el correspondiente Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10316",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/12/pdfs/BOE-A-2026-10316.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10316",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260512",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10316",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/461/2026, de 29 de abril, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
