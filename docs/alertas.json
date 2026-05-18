@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-05-16T09:16:01+00:00",
+    "lastRun": "2026-05-18T11:22:27+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-05-06",
-      "hasta": "2026-05-16"
+      "desde": "2026-05-08",
+      "hasta": "2026-05-18"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 15,
-    "totalVisiblesParaUsuario": 2,
-    "totalPrioritarias": 2,
+    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalVisiblesParaUsuario": 1,
+    "totalPrioritarias": 1,
     "totalSecundarias": 0,
     "totalDescartadas": 13,
     "errores": [],
@@ -87,129 +87,10 @@
       "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 5 de mayo de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca concu|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-9849",
-      "boeId": "BOE-A-2026-9849",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9849.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9849",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Munera",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Munera",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administrativo/a",
-        "plaza de administrativo"
-      ],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
     }
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-9809",
-      "boeId": "BOE-A-2026-9809",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Orden PJC/435/2026, de 22 de abril, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Instituto Nacional de Toxicología y Ciencias Forenses y en los Institutos de Medicina Legal y Ciencias Forenses.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9809.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9809",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_especifico",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes hubieran transcurrido dos anos desde que se dicto la resolucion por la que se convoco el concurso de traslado en el que se le adjudico destino definitivo, o la resolucion en la que se le adjudico destino definitivo, si se trata de funcionarios de nuevo ingreso",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "concurso_especifico",
-        "movilidad",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|orden pjc/435/2026, de 22 de abril, por la que se convoca concurso especifico para la provision de puestos de trabajo en|sin_perfil_claro|concurso_especifico",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-10204",
       "boeId": "BOE-A-2026-10204",
@@ -549,18 +430,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-9860",
-      "boeId": "BOE-A-2026-9860",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Resolución de 29 de abril de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la rehabilitación de números de identificación fiscal.",
+      "id": "BOE-A-2026-10735",
+      "boeId": "BOE-A-2026-10735",
+      "fechaPublicacion": "2026-05-18",
+      "titulo": "Resolución de 8 de mayo de 2026, del Instituto Nacional de Administración Pública, por la que se convocan actividades formativas descentralizadas del programa de desempeño en el ámbito local para el segundo semestre de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9860.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9860",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10735",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/18/pdfs/BOE-A-2026-10735.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10735",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260518",
       "fuente": "BOE",
       "categoria": "otros",
       "tipo": "sin_clasificar",
@@ -571,36 +452,38 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Diputación Provincial de Valencia",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de diez dias habiles, contando a partir del dia siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10735",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "otro_no_interesante",
+        "Diputación Provincial de Valencia",
         "otros",
-        "sin_clasificar"
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
+      "plazasExtraidas": [
+        "se convocan actividades formativas descentralizadas del programa de desempeno en el ambito local para el segundo semestre de 2026",
+        "se convocan para el segundo semestre de 2026 cursos descentralizados en colaboracion con diputaciones, cabildos, consejos insulares, comunidades autonomas uniprovinciales y ciudades con estatuto de autonomia"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "arquitecto"
-      ],
+      "matchesDescarte": [],
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|resolucion de 29 de abril de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|otro_no_interesante|sin_clasificar",
+      "prioridad": 6,
+      "fingerprint": "diputacion provincial de valencia|se convocan actividades formativas descentralizadas del programa de desempeno en el ambito local para el segundo semestre de 2026 se convocan para el segundo semestre de 2026 cursos descentralizados en colaboracion con diputaciones, cabildos, consejos insulares, comunidades autonomas uniprovinciales y ciudades con estatuto de autonomia|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -901,6 +784,62 @@
       "fingerprint": "ayuntamiento de albacete|resolucion de 4 de mayo de 2026, de la direccion general de la funcion publica, por la que se publica la convocatoria pa|otro_no_interesante|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10667",
+      "boeId": "BOE-A-2026-10667",
+      "fechaPublicacion": "2026-05-18",
+      "titulo": "Orden HAC/484/2026, de 14 de mayo, por la que se modifican para el período impositivo 2025 los índices de rendimiento neto aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10667",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/18/pdfs/BOE-A-2026-10667.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10667",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260518",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10667",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden hac/484/2026, de 14 de mayo, por la que se modifican para el periodo impositivo 2025 los indices de rendimiento ne|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
@@ -963,68 +902,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 5 de mayo de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca concu|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-9849",
-      "boeId": "BOE-A-2026-9849",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9849.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9849",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Munera",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Munera",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administrativo/a",
-        "plaza de administrativo"
-      ],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1093,125 +970,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-9849",
-      "boeId": "BOE-A-2026-9849",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Resolución de 28 de abril de 2026, del Ayuntamiento de Munera (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9849.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9849",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Munera",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9849",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Munera",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administrativo/a",
-        "plaza de administrativo"
-      ],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de munera|una plaza de administrativo/a, adjunto/a registro y responsable oficina municipal de informacion al consumidor/a de la plantilla de personal laboral fijo, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-9809",
-      "boeId": "BOE-A-2026-9809",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Orden PJC/435/2026, de 22 de abril, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Instituto Nacional de Toxicología y Ciencias Forenses y en los Institutos de Medicina Legal y Ciencias Forenses.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9809.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9809",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_especifico",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes hubieran transcurrido dos anos desde que se dicto la resolucion por la que se convoco el concurso de traslado en el que se le adjudico destino definitivo, o la resolucion en la que se le adjudico destino definitivo, si se trata de funcionarios de nuevo ingreso",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9809",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "concurso_especifico",
-        "movilidad",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|orden pjc/435/2026, de 22 de abril, por la que se convoca concurso especifico para la provision de puestos de trabajo en|sin_perfil_claro|concurso_especifico",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-10204",
       "boeId": "BOE-A-2026-10204",
       "fechaPublicacion": "2026-05-11",
@@ -1550,18 +1308,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-9860",
-      "boeId": "BOE-A-2026-9860",
-      "fechaPublicacion": "2026-05-06",
-      "titulo": "Resolución de 29 de abril de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la rehabilitación de números de identificación fiscal.",
+      "id": "BOE-A-2026-10735",
+      "boeId": "BOE-A-2026-10735",
+      "fechaPublicacion": "2026-05-18",
+      "titulo": "Resolución de 8 de mayo de 2026, del Instituto Nacional de Administración Pública, por la que se convocan actividades formativas descentralizadas del programa de desempeño en el ámbito local para el segundo semestre de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9860.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9860",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260506",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10735",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/18/pdfs/BOE-A-2026-10735.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10735",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260518",
       "fuente": "BOE",
       "categoria": "otros",
       "tipo": "sin_clasificar",
@@ -1572,36 +1330,38 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Diputación Provincial de Valencia",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9860",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de diez dias habiles, contando a partir del dia siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10735",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "otro_no_interesante",
+        "Diputación Provincial de Valencia",
         "otros",
-        "sin_clasificar"
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
+      "plazasExtraidas": [
+        "se convocan actividades formativas descentralizadas del programa de desempeno en el ambito local para el segundo semestre de 2026",
+        "se convocan para el segundo semestre de 2026 cursos descentralizados en colaboracion con diputaciones, cabildos, consejos insulares, comunidades autonomas uniprovinciales y ciudades con estatuto de autonomia"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "arquitecto"
-      ],
+      "matchesDescarte": [],
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|resolucion de 29 de abril de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|otro_no_interesante|sin_clasificar",
+      "prioridad": 6,
+      "fingerprint": "diputacion provincial de valencia|se convocan actividades formativas descentralizadas del programa de desempeno en el ambito local para el segundo semestre de 2026 se convocan para el segundo semestre de 2026 cursos descentralizados en colaboracion con diputaciones, cabildos, consejos insulares, comunidades autonomas uniprovinciales y ciudades con estatuto de autonomia|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1900,6 +1660,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete|resolucion de 4 de mayo de 2026, de la direccion general de la funcion publica, por la que se publica la convocatoria pa|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10667",
+      "boeId": "BOE-A-2026-10667",
+      "fechaPublicacion": "2026-05-18",
+      "titulo": "Orden HAC/484/2026, de 14 de mayo, por la que se modifican para el período impositivo 2025 los índices de rendimiento neto aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10667",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/18/pdfs/BOE-A-2026-10667.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10667",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260518",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10667",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden hac/484/2026, de 14 de mayo, por la que se modifican para el periodo impositivo 2025 los indices de rendimiento ne|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
