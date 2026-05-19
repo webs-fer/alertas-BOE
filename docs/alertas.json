@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-05-18T11:22:27+00:00",
+    "lastRun": "2026-05-19T10:55:14+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-05-08",
-      "hasta": "2026-05-18"
+      "desde": "2026-05-09",
+      "hasta": "2026-05-19"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalAlertasDetectadasTerritorialmente": 13,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 13,
+    "totalDescartadas": 12,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -484,63 +484,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "diputacion provincial de valencia|se convocan actividades formativas descentralizadas del programa de desempeno en el ambito local para el segundo semestre de 2026 se convocan para el segundo semestre de 2026 cursos descentralizados en colaboracion con diputaciones, cabildos, consejos insulares, comunidades autonomas uniprovinciales y ciudades con estatuto de autonomia|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-9965",
-      "boeId": "BOE-A-2026-9965",
-      "fechaPublicacion": "2026-05-08",
-      "titulo": "Acuerdo de 27 de abril de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se publica el Escalafón General de la Carrera Judicial, cerrado al 31 de marzo de 2026.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9965",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/08/pdfs/BOE-A-2026-9965.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9965",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260508",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9965",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestro",
-        "peon"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|acuerdo de 27 de abril de 2026, de la comision permanente del consejo general del poder judicial, por el que se publica |otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1362,63 +1305,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "diputacion provincial de valencia|se convocan actividades formativas descentralizadas del programa de desempeno en el ambito local para el segundo semestre de 2026 se convocan para el segundo semestre de 2026 cursos descentralizados en colaboracion con diputaciones, cabildos, consejos insulares, comunidades autonomas uniprovinciales y ciudades con estatuto de autonomia|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-9965",
-      "boeId": "BOE-A-2026-9965",
-      "fechaPublicacion": "2026-05-08",
-      "titulo": "Acuerdo de 27 de abril de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se publica el Escalafón General de la Carrera Judicial, cerrado al 31 de marzo de 2026.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9965",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/08/pdfs/BOE-A-2026-9965.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-9965",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260508",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9965",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestro",
-        "peon"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|acuerdo de 27 de abril de 2026, de la comision permanente del consejo general del poder judicial, por el que se publica |otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
