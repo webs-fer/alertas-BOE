@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-05-21T11:00:11+00:00",
+    "lastRun": "2026-05-22T10:39:09+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-05-11",
-      "hasta": "2026-05-21"
+      "desde": "2026-05-12",
+      "hasta": "2026-05-22"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
     "totalAlertasDetectadasTerritorialmente": 13,
-    "totalVisiblesParaUsuario": 1,
+    "totalVisiblesParaUsuario": 2,
     "totalPrioritarias": 1,
-    "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalSecundarias": 1,
+    "totalDescartadas": 11,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -89,24 +89,23 @@
       "duplicadoDe": ""
     }
   ],
-  "alertasSecundarias": [],
-  "alertasDescartadas": [
+  "alertasSecundarias": [
     {
-      "id": "BOE-A-2026-10204",
-      "boeId": "BOE-A-2026-10204",
-      "fechaPublicacion": "2026-05-11",
-      "titulo": "Resolución de 13 de marzo de 2026, de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se publica el Convenio con Renfe-Operadora, E.P.E., para la participación en la ejecución del proyecto de innovación FP2-MORANE-2, dentro del partenariado europeo de la empresa común EU-Rail JU.",
+      "id": "BOE-A-2026-10994",
+      "boeId": "BOE-A-2026-10994",
+      "fechaPublicacion": "2026-05-22",
+      "titulo": "Resolución de 19 de mayo de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema de promoción interna, en el Cuerpo de Gestión de la Administración Civil del Estado.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10204",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/11/pdfs/BOE-A-2026-10204.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10204",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260511",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10994",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/22/pdfs/BOE-A-2026-10994.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10994",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260522",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -117,34 +116,48 @@
       "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10204",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10994",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
       "tags": [
         "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
       ],
       "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "media",
+      "prioridadUsuario": 3,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "matchesInformatica": [
+        "informatica",
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "matchesDescarte": [
+        "musica",
+        "peon"
+      ],
+      "contextosInformatica": [
+        "d madrid tecnico/a entrada administracion 5851514 20 7340.06 1012 ***6606** aguilera hitos, patricia ag. estatal de admon. tributaria departamento de informatica tributaria s.g. de planificacion y coordinacion informatica madrid madrid tecnico/a entrada administracion 5851523 20 7340.06 1013 ***2136** espinosa",
+        "** agundez cargentey, maria mar ministerio de industria y turismo instituto turismo espana(turespana),o.a. s.g. de gestion economico-administrativa y tecnologias de la informacion madrid madrid jefe / jefa de seccion 2060193 22 4894.54 681 ***7825** recio fernandez, maria rocio ministerio de inclus., seg.soc.y migrac. d.g. ciud",
+        "aciones 4734752 20 6315.96 1049 ***9376** alonso perez, sonia ministerio economia, comercio y empresa subsecretaria econ., comercio y empresa s.g. de tecnologias de la informacion y las comunicaciones madrid madrid jefe / jefa de seccion de unidad tecnica contratacion 4726767 24 8108.80 1050 ***3137** lopez gomez, hugo ministerio de inclus., seg.so"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|resolucion de 13 de marzo de 2026, de la entidad publica empresarial administrador de infraestructuras ferroviarias, por|sin_perfil_claro|sin_clasificar",
+      "prioridad": 3,
+      "fingerprint": "|resolucion de 19 de mayo de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
+    }
+  ],
+  "alertasDescartadas": [
     {
       "id": "BOE-A-2026-10373",
       "boeId": "BOE-A-2026-10373",
@@ -847,6 +860,72 @@
       "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 5 de mayo de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca concu|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-10994",
+      "boeId": "BOE-A-2026-10994",
+      "fechaPublicacion": "2026-05-22",
+      "titulo": "Resolución de 19 de mayo de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema de promoción interna, en el Cuerpo de Gestión de la Administración Civil del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10994",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/22/pdfs/BOE-A-2026-10994.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10994",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260522",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10994",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "media",
+      "prioridadUsuario": 3,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "matchesInformatica": [
+        "informatica",
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica",
+        "peon"
+      ],
+      "contextosInformatica": [
+        "d madrid tecnico/a entrada administracion 5851514 20 7340.06 1012 ***6606** aguilera hitos, patricia ag. estatal de admon. tributaria departamento de informatica tributaria s.g. de planificacion y coordinacion informatica madrid madrid tecnico/a entrada administracion 5851523 20 7340.06 1013 ***2136** espinosa",
+        "** agundez cargentey, maria mar ministerio de industria y turismo instituto turismo espana(turespana),o.a. s.g. de gestion economico-administrativa y tecnologias de la informacion madrid madrid jefe / jefa de seccion 2060193 22 4894.54 681 ***7825** recio fernandez, maria rocio ministerio de inclus., seg.soc.y migrac. d.g. ciud",
+        "aciones 4734752 20 6315.96 1049 ***9376** alonso perez, sonia ministerio economia, comercio y empresa subsecretaria econ., comercio y empresa s.g. de tecnologias de la informacion y las comunicaciones madrid madrid jefe / jefa de seccion de unidad tecnica contratacion 4726767 24 8108.80 1050 ***3137** lopez gomez, hugo ministerio de inclus., seg.so"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 3,
+      "fingerprint": "|resolucion de 19 de mayo de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
@@ -913,21 +992,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-10204",
-      "boeId": "BOE-A-2026-10204",
-      "fechaPublicacion": "2026-05-11",
-      "titulo": "Resolución de 13 de marzo de 2026, de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se publica el Convenio con Renfe-Operadora, E.P.E., para la participación en la ejecución del proyecto de innovación FP2-MORANE-2, dentro del partenariado europeo de la empresa común EU-Rail JU.",
+      "id": "BOE-A-2026-10994",
+      "boeId": "BOE-A-2026-10994",
+      "fechaPublicacion": "2026-05-22",
+      "titulo": "Resolución de 19 de mayo de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema de promoción interna, en el Cuerpo de Gestión de la Administración Civil del Estado.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10204",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/11/pdfs/BOE-A-2026-10204.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10204",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260511",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10994",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/22/pdfs/BOE-A-2026-10994.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-10994",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260522",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -938,31 +1017,43 @@
       "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10204",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10994",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
       "tags": [
         "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
       ],
       "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "media",
+      "prioridadUsuario": 3,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "matchesInformatica": [
+        "informatica",
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "matchesDescarte": [
+        "musica",
+        "peon"
+      ],
+      "contextosInformatica": [
+        "d madrid tecnico/a entrada administracion 5851514 20 7340.06 1012 ***6606** aguilera hitos, patricia ag. estatal de admon. tributaria departamento de informatica tributaria s.g. de planificacion y coordinacion informatica madrid madrid tecnico/a entrada administracion 5851523 20 7340.06 1013 ***2136** espinosa",
+        "** agundez cargentey, maria mar ministerio de industria y turismo instituto turismo espana(turespana),o.a. s.g. de gestion economico-administrativa y tecnologias de la informacion madrid madrid jefe / jefa de seccion 2060193 22 4894.54 681 ***7825** recio fernandez, maria rocio ministerio de inclus., seg.soc.y migrac. d.g. ciud",
+        "aciones 4734752 20 6315.96 1049 ***9376** alonso perez, sonia ministerio economia, comercio y empresa subsecretaria econ., comercio y empresa s.g. de tecnologias de la informacion y las comunicaciones madrid madrid jefe / jefa de seccion de unidad tecnica contratacion 4726767 24 8108.80 1050 ***3137** lopez gomez, hugo ministerio de inclus., seg.so"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|resolucion de 13 de marzo de 2026, de la entidad publica empresarial administrador de infraestructuras ferroviarias, por|sin_perfil_claro|sin_clasificar",
+      "prioridad": 3,
+      "fingerprint": "|resolucion de 19 de mayo de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
