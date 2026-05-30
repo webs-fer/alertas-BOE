@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-05-29T11:06:30+00:00",
+    "lastRun": "2026-05-30T09:35:47+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-05-19",
-      "hasta": "2026-05-29"
+      "desde": "2026-05-20",
+      "hasta": "2026-05-30"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 12,
+    "totalAlertasDetectadasTerritorialmente": 13,
     "totalVisiblesParaUsuario": 2,
     "totalPrioritarias": 0,
     "totalSecundarias": 2,
-    "totalDescartadas": 10,
+    "totalDescartadas": 11,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -725,6 +725,70 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de personal del ministerio de defensa si se trata de personal de los cuerpos comunes de las fuerzas armadas|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-11644",
+      "boeId": "BOE-A-2026-11644",
+      "fechaPublicacion": "2026-05-30",
+      "titulo": "Resolución 430/38258/2026, de 21 de mayo, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11644",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/30/pdfs/BOE-A-2026-11644.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11644",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/30/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260530",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Personal designados por la autoridad convocante",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11644",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Personal designados por la autoridad convocante",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "direccion general de personal designados por la autoridad convocante|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1556,6 +1620,70 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de personal del ministerio de defensa si se trata de personal de los cuerpos comunes de las fuerzas armadas|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-11644",
+      "boeId": "BOE-A-2026-11644",
+      "fechaPublicacion": "2026-05-30",
+      "titulo": "Resolución 430/38258/2026, de 21 de mayo, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11644",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/05/30/pdfs/BOE-A-2026-11644.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11644",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/05/30/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260530",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Personal designados por la autoridad convocante",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11644",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Personal designados por la autoridad convocante",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "direccion general de personal designados por la autoridad convocante|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
