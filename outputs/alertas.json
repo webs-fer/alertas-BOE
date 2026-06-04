@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-06-03T12:23:22+00:00",
+    "lastRun": "2026-06-04T10:56:45+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-05-24",
-      "hasta": "2026-06-03"
+      "desde": "2026-05-25",
+      "hasta": "2026-06-04"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 16,
-    "totalVisiblesParaUsuario": 1,
-    "totalPrioritarias": 0,
+    "totalAlertasDetectadasTerritorialmente": 18,
+    "totalVisiblesParaUsuario": 3,
+    "totalPrioritarias": 2,
     "totalSecundarias": 1,
     "totalDescartadas": 15,
     "errores": [],
@@ -25,7 +25,140 @@
       "modo_estricto": true
     }
   },
-  "alertasPrioritarias": [],
+  "alertasPrioritarias": [
+    {
+      "id": "BOE-A-2026-11953",
+      "boeId": "BOE-A-2026-11953",
+      "fechaPublicacion": "2026-06-04",
+      "titulo": "Resolución de 1 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11953",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/04/pdfs/BOE-A-2026-11953.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11953",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260604",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11953",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "ciberseguridad",
+        "informatica",
+        "programador",
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [
+        "digit.y func. publica. s.gral. telecom.infr.digit.y seg.digit. s.g. de operadores de telecomunicaciones e infraestructuras digitales. madrid. madrid. analista programador. 5944519 20 6906.06 2 ***6403** fernandez ortiz, luis manuel. departamento de informatica tributaria. departamento de informatica tributaria. jefatur",
+        "lazon sandoval, samuel. ministerio de la pr., just. y rel. cort. d.g. de transfor. digital adm. justicia. s.g. de calidad de los servicios digitales, ciberseguridad y operaciones. madrid. madrid. analista programador. 5568946 20 6906.06 28 ***6134** gil guerrero, luis. ministerio pol.territ. y mem.democratica. de",
+        "funcion publica, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el cuerpo de gestion de sistemas e informatica de la administracion del estado. boe-a-2026-11953 resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nomb",
+        "unc. publica. s.gral. telecom.infr.digit.y seg.digit. s.g. de operadores de telecomunicaciones e infraestructuras digitales. madrid. madrid. analista programador. 5944519 20 6906.06 2 ***6403** fernandez ortiz, luis manuel. departamento de informatica tributaria. departamento de informatica tributaria. jefatur",
+        "mador. 5668940 20 6906.06 7 ***8847** ramila gomez, manuel. ministerio de trabajo y economia social. subsecretaria de trabajo y econ. social. s.g. de tecnologias de la informacion y comunicaciones. madrid. madrid. analista programador. 5668948 20 6906.06 8 ***6479** villar costas, alfonso. ministerio de inclus., seg.soc.y migra",
+        "5568796 20 6906.06 31 ***0350** castrejon carrasco, ramon. ministerio economia, comercio y empresa. subsecretaria econ., comercio y empresa. s.g. de tecnologias de la informacion y las comunicaciones. madrid. madrid. analista programador. 5147373 20 6906.06 32 ***8402** benavides ruiz, fernando. ministerio de inclus., seg.soc.y migrac. s. de e. de"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-11958",
+      "boeId": "BOE-A-2026-11958",
+      "fechaPublicacion": "2026-06-04",
+      "titulo": "Orden PJC/553/2026, de 27 de mayo, por la que se publica la relación de plazas correspondientes al ámbito del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Auxilio Judicial de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11958",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/04/pdfs/BOE-A-2026-11958.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11958",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260604",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, podra volver a generar y confirmar una nueva a traves del asistente de inscripcion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11958",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "sistema informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "errores en la transcripcion de los codigos, puesto que los datos grabados por la persona aspirante quedaran automaticamente almacenados en el sistema informatico. las personas aspirantes, previamente a la entrada en el asistente de inscripcion, deberan identificarse electronicamente por alguno de los sistemas",
+        "evitar errores en la transcripcion de los codigos, puesto que los datos grabados por la persona aspirante quedaran automaticamente almacenados en el sistema informatico. las personas aspirantes, previamente a la entrada en el asistente de inscripcion, deberan identificarse electronicamente por alguno de los sistemas"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|orden pjc/553/2026, de 27 de mayo, por la que se publica la relacion de plazas correspondientes al ambito del ministerio|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    }
+  ],
   "alertasSecundarias": [
     {
       "id": "BOE-A-2026-11410",
@@ -952,6 +1085,138 @@
   ],
   "alertas": [
     {
+      "id": "BOE-A-2026-11953",
+      "boeId": "BOE-A-2026-11953",
+      "fechaPublicacion": "2026-06-04",
+      "titulo": "Resolución de 1 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11953",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/04/pdfs/BOE-A-2026-11953.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11953",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260604",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11953",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "ciberseguridad",
+        "informatica",
+        "programador",
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [
+        "digit.y func. publica. s.gral. telecom.infr.digit.y seg.digit. s.g. de operadores de telecomunicaciones e infraestructuras digitales. madrid. madrid. analista programador. 5944519 20 6906.06 2 ***6403** fernandez ortiz, luis manuel. departamento de informatica tributaria. departamento de informatica tributaria. jefatur",
+        "lazon sandoval, samuel. ministerio de la pr., just. y rel. cort. d.g. de transfor. digital adm. justicia. s.g. de calidad de los servicios digitales, ciberseguridad y operaciones. madrid. madrid. analista programador. 5568946 20 6906.06 28 ***6134** gil guerrero, luis. ministerio pol.territ. y mem.democratica. de",
+        "funcion publica, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el cuerpo de gestion de sistemas e informatica de la administracion del estado. boe-a-2026-11953 resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nomb",
+        "unc. publica. s.gral. telecom.infr.digit.y seg.digit. s.g. de operadores de telecomunicaciones e infraestructuras digitales. madrid. madrid. analista programador. 5944519 20 6906.06 2 ***6403** fernandez ortiz, luis manuel. departamento de informatica tributaria. departamento de informatica tributaria. jefatur",
+        "mador. 5668940 20 6906.06 7 ***8847** ramila gomez, manuel. ministerio de trabajo y economia social. subsecretaria de trabajo y econ. social. s.g. de tecnologias de la informacion y comunicaciones. madrid. madrid. analista programador. 5668948 20 6906.06 8 ***6479** villar costas, alfonso. ministerio de inclus., seg.soc.y migra",
+        "5568796 20 6906.06 31 ***0350** castrejon carrasco, ramon. ministerio economia, comercio y empresa. subsecretaria econ., comercio y empresa. s.g. de tecnologias de la informacion y las comunicaciones. madrid. madrid. analista programador. 5147373 20 6906.06 32 ***8402** benavides ruiz, fernando. ministerio de inclus., seg.soc.y migrac. s. de e. de"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-11958",
+      "boeId": "BOE-A-2026-11958",
+      "fechaPublicacion": "2026-06-04",
+      "titulo": "Orden PJC/553/2026, de 27 de mayo, por la que se publica la relación de plazas correspondientes al ámbito del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Auxilio Judicial de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11958",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/04/pdfs/BOE-A-2026-11958.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11958",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260604",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, podra volver a generar y confirmar una nueva a traves del asistente de inscripcion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11958",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "sistema informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "errores en la transcripcion de los codigos, puesto que los datos grabados por la persona aspirante quedaran automaticamente almacenados en el sistema informatico. las personas aspirantes, previamente a la entrada en el asistente de inscripcion, deberan identificarse electronicamente por alguno de los sistemas",
+        "evitar errores en la transcripcion de los codigos, puesto que los datos grabados por la persona aspirante quedaran automaticamente almacenados en el sistema informatico. las personas aspirantes, previamente a la entrada en el asistente de inscripcion, deberan identificarse electronicamente por alguno de los sistemas"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|orden pjc/553/2026, de 27 de mayo, por la que se publica la relacion de plazas correspondientes al ambito del ministerio|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-11410",
       "boeId": "BOE-A-2026-11410",
       "fechaPublicacion": "2026-05-27",
@@ -1015,6 +1280,138 @@
     }
   ],
   "todasLasAlertas": [
+    {
+      "id": "BOE-A-2026-11953",
+      "boeId": "BOE-A-2026-11953",
+      "fechaPublicacion": "2026-06-04",
+      "titulo": "Resolución de 1 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11953",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/04/pdfs/BOE-A-2026-11953.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11953",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260604",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11953",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "ciberseguridad",
+        "informatica",
+        "programador",
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [
+        "digit.y func. publica. s.gral. telecom.infr.digit.y seg.digit. s.g. de operadores de telecomunicaciones e infraestructuras digitales. madrid. madrid. analista programador. 5944519 20 6906.06 2 ***6403** fernandez ortiz, luis manuel. departamento de informatica tributaria. departamento de informatica tributaria. jefatur",
+        "lazon sandoval, samuel. ministerio de la pr., just. y rel. cort. d.g. de transfor. digital adm. justicia. s.g. de calidad de los servicios digitales, ciberseguridad y operaciones. madrid. madrid. analista programador. 5568946 20 6906.06 28 ***6134** gil guerrero, luis. ministerio pol.territ. y mem.democratica. de",
+        "funcion publica, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el cuerpo de gestion de sistemas e informatica de la administracion del estado. boe-a-2026-11953 resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nomb",
+        "unc. publica. s.gral. telecom.infr.digit.y seg.digit. s.g. de operadores de telecomunicaciones e infraestructuras digitales. madrid. madrid. analista programador. 5944519 20 6906.06 2 ***6403** fernandez ortiz, luis manuel. departamento de informatica tributaria. departamento de informatica tributaria. jefatur",
+        "mador. 5668940 20 6906.06 7 ***8847** ramila gomez, manuel. ministerio de trabajo y economia social. subsecretaria de trabajo y econ. social. s.g. de tecnologias de la informacion y comunicaciones. madrid. madrid. analista programador. 5668948 20 6906.06 8 ***6479** villar costas, alfonso. ministerio de inclus., seg.soc.y migra",
+        "5568796 20 6906.06 31 ***0350** castrejon carrasco, ramon. ministerio economia, comercio y empresa. subsecretaria econ., comercio y empresa. s.g. de tecnologias de la informacion y las comunicaciones. madrid. madrid. analista programador. 5147373 20 6906.06 32 ***8402** benavides ruiz, fernando. ministerio de inclus., seg.soc.y migrac. s. de e. de"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-11958",
+      "boeId": "BOE-A-2026-11958",
+      "fechaPublicacion": "2026-06-04",
+      "titulo": "Orden PJC/553/2026, de 27 de mayo, por la que se publica la relación de plazas correspondientes al ámbito del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes que se ofrecen a las personas aprobadas en el proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Auxilio Judicial de la Administración de Justicia, convocado por Orden JUS/1288/2022, de 22 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11958",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/04/pdfs/BOE-A-2026-11958.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-11958",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260604",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, podra volver a generar y confirmar una nueva a traves del asistente de inscripcion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11958",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "sistema informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "errores en la transcripcion de los codigos, puesto que los datos grabados por la persona aspirante quedaran automaticamente almacenados en el sistema informatico. las personas aspirantes, previamente a la entrada en el asistente de inscripcion, deberan identificarse electronicamente por alguno de los sistemas",
+        "evitar errores en la transcripcion de los codigos, puesto que los datos grabados por la persona aspirante quedaran automaticamente almacenados en el sistema informatico. las personas aspirantes, previamente a la entrada en el asistente de inscripcion, deberan identificarse electronicamente por alguno de los sistemas"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|orden pjc/553/2026, de 27 de mayo, por la que se publica la relacion de plazas correspondientes al ambito del ministerio|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
     {
       "id": "BOE-A-2026-11410",
       "boeId": "BOE-A-2026-11410",
