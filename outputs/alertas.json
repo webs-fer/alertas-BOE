@@ -2,19 +2,19 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-06-20T10:31:01+00:00",
+    "lastRun": "2026-06-22T13:20:15+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-10",
-      "hasta": "2026-06-20"
+      "desde": "2026-06-12",
+      "hasta": "2026-06-22"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 19,
-    "totalVisiblesParaUsuario": 5,
-    "totalPrioritarias": 5,
-    "totalSecundarias": 0,
+    "totalAlertasDetectadasTerritorialmente": 21,
+    "totalVisiblesParaUsuario": 7,
+    "totalPrioritarias": 6,
+    "totalSecundarias": 1,
     "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
@@ -27,73 +27,6 @@
   },
   "alertasPrioritarias": [
     {
-      "id": "BOE-A-2026-12585",
-      "boeId": "BOE-A-2026-12585",
-      "fechaPublicacion": "2026-06-10",
-      "titulo": "Resolución de 2 de junio de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12585",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12585.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12585",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260610",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12585",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico",
-        "seguridad informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medica"
-      ],
-      "contextosInformatica": [
-        "07/04/2026 registro mercantil de las palmas. b22513196 canary invest samej, s.l. 07/04/2026 registro mercantil de tenerife. b85519171 lock seguridad informatica s.l.en constitucion. 14/04/2026 registro mercantil de madrid. b22520068 canary invest num sl. 07/04/2026 registro mercantil de tenerife. b88528641 on",
-        "07/04/2026 registro mercantil de las palmas. b44627933 ambiscot, s.l.u. 10/04/2026 registro mercantil de malaga. b84628189 cima consulting servicios informaticos sl unipersonal -en constitucioon-. 16/04/2026 registro mercantil de madrid. b75628651 rvc mediestetec. 09/04/2026 registro mercantil de madrid. b986",
-        "corp, s.l. 07/04/2026 registro mercantil de las palmas. b22513196 canary invest samej, s.l. 07/04/2026 registro mercantil de tenerife. b85519171 lock seguridad informatica s.l.en constitucion. 14/04/2026 registro mercantil de madrid. b22520068 canary invest num sl. 07/04/2026 registro mercantil de tenerife. b88528641 on"
-      ],
-      "gruposDetectados": [
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion de 2 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tributa|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-12805",
       "boeId": "BOE-A-2026-12805",
       "fechaPublicacion": "2026-06-13",
@@ -346,23 +279,165 @@
       "fingerprint": "ayuntamiento de almansa|resolucion de 11 de marzo de 2026, de la direccion general de seguridad juridica y fe publica, en el recurso interpuesto|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    }
-  ],
-  "alertasSecundarias": [],
-  "alertasDescartadas": [
+    },
     {
-      "id": "BOE-A-2026-12684",
-      "boeId": "BOE-A-2026-12684",
-      "fechaPublicacion": "2026-06-11",
-      "titulo": "Resolución de 18 de febrero de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la negativa de la registradora de la propiedad de Chinchilla de Monte-Aragón a inscribir una escritura de compraventa.",
+      "id": "BOE-A-2026-13473",
+      "boeId": "BOE-A-2026-13473",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 11 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 22 de diciembre de 2025, en la Gerencia de Informática de la Seguridad Social.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12684",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/11/pdfs/BOE-A-2026-12684.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12684",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260611",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13473",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13473.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13473",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13473",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista de sistemas",
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "programadora",
+        "sistemas informaticos",
+        "tecnica auxiliar de informatica",
+        "tecnica superior de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "(2460761). 26 madrid. sanz fernandez, luis antonio. ***7002**. 1630 a1 17 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista de sistemas (1761182). 24 a1 a2 madrid. desierta. 18 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista de sistemas (3005922). 2",
+        "lo (2322270). 24 madrid. arroyo alba, maria araceli. ***6671**. 1177 a2 23 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista programador de sistemas (3603108). 22 a2 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de l",
+        "o de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por resolucion de 22 de diciembre de 2025, en la gerencia de informatica de la seguridad social. boe-a-2026-13473 resolucion de 11 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convo",
+        "ad/ provincia apellidos y nombre/nrp cue gr/ sb 1 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. jefe/jefa de servicio de informatico a (4098251). 26 a1 a2 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. jef",
+        "70). 24 madrid. arroyo alba, maria araceli. ***6671**. 1177 a2 23 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista programador de sistemas (3603108). 22 a2 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de l",
+        "95766). 16 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. programador/programadora experto (3629538). 17 madrid. martin rodriguez, juan carlos. ***1859**. 1135 c1 43 s. de e. de la seg. social y pensiones. gerencia de informatica de"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 11 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13477",
+      "boeId": "BOE-A-2026-13477",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 12 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 9 de marzo de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13477.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13477",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "programador"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "apoyo analista funcional (1972527) 20 madrid fernandez suero, juan ignacio ***9490** 1188 c1 4 mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (3526054) 18 c1 c2 madrid ministerio transf. digit.y func. publica mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (352605",
+        "alista funcional (1972527) 20 madrid fernandez suero, juan ignacio ***9490** 1188 c1 4 mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (3526054) 18 c1 c2 madrid ministerio transf. digit.y func. publica mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (352605"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 12 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    }
+  ],
+  "alertasSecundarias": [
+    {
+      "id": "BOE-A-2026-13476",
+      "boeId": "BOE-A-2026-13476",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 17 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Gestión de la Administración de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13476",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13476.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13476",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -373,93 +448,46 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12684",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13476",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
       "tags": [
         "Albacete",
-        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
         "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
+        "oposiciones"
       ],
       "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "media",
+      "prioridadUsuario": 3,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "matchesInformatica": [
+        "informatica"
+      ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "matchesDescarte": [
+        "medica"
+      ],
+      "contextosInformatica": [
+        ". 1351000 20 5541.20 251 ***393** galvez blanco, alfonso ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la seguridad social. madrid. madrid. jefe / jefa de negociado tipo i. 5655699 20 5541.20 252 ***0910** basanta ceballos, antonio jose ministerio d"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 18 de febrero de 2026, de la direccion general de seguridad juridica y fe publica, en el recurso interpues|sin_perfil_claro|oposicion",
+      "prioridad": 3,
+      "fingerprint": "|resolucion de 17 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funciona|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-12699",
-      "boeId": "BOE-A-2026-12699",
-      "fechaPublicacion": "2026-06-11",
-      "titulo": "Resolución de 29 de mayo de 2026, de la Dirección General de Calidad y Evaluación Ambiental, de modificación de condiciones de la declaración de impacto ambiental del estudio informativo «Autovía A-32 Linares-Albacete».",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12699",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/11/pdfs/BOE-A-2026-12699.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12699",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260611",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Calidad y Evaluación Ambiental",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles desde la recepcion de la peticion o de la denuncia",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12699",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Calidad y Evaluación Ambiental",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de calidad y evaluacion ambiental|resolucion de 29 de mayo de 2026, de la direccion general de calidad y evaluacion ambiental, de modificacion de condicio|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
+    }
+  ],
+  "alertasDescartadas": [
     {
       "id": "BOE-A-2026-12731",
       "boeId": "BOE-A-2026-12731",
@@ -862,18 +890,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12533",
-      "boeId": "BOE-A-2026-12533",
-      "fechaPublicacion": "2026-06-10",
-      "titulo": "Resolución de 1 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y por promoción interna, del Cuerpo Superior de Técnicos de la Administración de la Seguridad Social.",
+      "id": "BOE-A-2026-13541",
+      "boeId": "BOE-A-2026-13541",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 16 de junio de 2026, de la Universidad de Sevilla, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12533",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12533.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12533",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260610",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13541",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13541.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13541",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -884,25 +912,28 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Universidad de Sevilla",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12533",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, la relacion provisional de admitidos y excluidos se hara publica antes de los treinta dias habiles siguientes con indicacion en su caso, de la causa de exclusion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13541",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
+        "Universidad de Sevilla",
         "oposicion",
         "oposiciones",
-        "promocion_interna_no_prioritaria"
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "promocion_interna_no_prioritaria",
+      "plazasExtraidas": [
+        "las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, y demas normas de desarrollo en materia de incompatibilidades"
+      ],
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -910,8 +941,8 @@
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|promocion_interna_no_prioritaria|oposicion",
+      "prioridad": 6,
+      "fingerprint": "universidad de sevilla|las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, y demas normas de desarrollo en materia de incompatibilidades|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1161,79 +1192,137 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de personal del ministerio de defensa si se trata de personal de los cuerpos comunes de las fuerzas armadas|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13505",
+      "boeId": "BOE-A-2026-13505",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 12 de junio de 2026, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo en la Mutualidad General de Funcionarios Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13505",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13505.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13505",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13505",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13524",
+      "boeId": "BOE-A-2026-13524",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 16 de junio de 2026, del Ayuntamiento de Fuente-Álamo (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13524",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13524.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13524",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Fuente-Álamo",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13524",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Fuente-Álamo",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "una plaza de arquitecto/a, perteneciente a la escala de administracion especial, subescala tecnica, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de arquitecto/a, perteneciente a la escala de administracion especial, subescala tecnica, por el sistema de concurso-oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "arquitecto",
+        "arquitecto/a"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de fuente-alamo|una plaza de arquitecto/a, perteneciente a la escala de administracion especial, subescala tecnica, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "alertas": [
     {
-      "id": "BOE-A-2026-12585",
-      "boeId": "BOE-A-2026-12585",
-      "fechaPublicacion": "2026-06-10",
-      "titulo": "Resolución de 2 de junio de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12585",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12585.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12585",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260610",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12585",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico",
-        "seguridad informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medica"
-      ],
-      "contextosInformatica": [
-        "07/04/2026 registro mercantil de las palmas. b22513196 canary invest samej, s.l. 07/04/2026 registro mercantil de tenerife. b85519171 lock seguridad informatica s.l.en constitucion. 14/04/2026 registro mercantil de madrid. b22520068 canary invest num sl. 07/04/2026 registro mercantil de tenerife. b88528641 on",
-        "07/04/2026 registro mercantil de las palmas. b44627933 ambiscot, s.l.u. 10/04/2026 registro mercantil de malaga. b84628189 cima consulting servicios informaticos sl unipersonal -en constitucioon-. 16/04/2026 registro mercantil de madrid. b75628651 rvc mediestetec. 09/04/2026 registro mercantil de madrid. b986",
-        "corp, s.l. 07/04/2026 registro mercantil de las palmas. b22513196 canary invest samej, s.l. 07/04/2026 registro mercantil de tenerife. b85519171 lock seguridad informatica s.l.en constitucion. 14/04/2026 registro mercantil de madrid. b22520068 canary invest num sl. 07/04/2026 registro mercantil de tenerife. b88528641 on"
-      ],
-      "gruposDetectados": [
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion de 2 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tributa|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-12805",
       "boeId": "BOE-A-2026-12805",
       "fechaPublicacion": "2026-06-13",
@@ -1484,79 +1573,216 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "ayuntamiento de almansa|resolucion de 11 de marzo de 2026, de la direccion general de seguridad juridica y fe publica, en el recurso interpuesto|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13473",
+      "boeId": "BOE-A-2026-13473",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 11 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 22 de diciembre de 2025, en la Gerencia de Informática de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13473",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13473.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13473",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13473",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista de sistemas",
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "programadora",
+        "sistemas informaticos",
+        "tecnica auxiliar de informatica",
+        "tecnica superior de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "(2460761). 26 madrid. sanz fernandez, luis antonio. ***7002**. 1630 a1 17 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista de sistemas (1761182). 24 a1 a2 madrid. desierta. 18 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista de sistemas (3005922). 2",
+        "lo (2322270). 24 madrid. arroyo alba, maria araceli. ***6671**. 1177 a2 23 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista programador de sistemas (3603108). 22 a2 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de l",
+        "o de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por resolucion de 22 de diciembre de 2025, en la gerencia de informatica de la seguridad social. boe-a-2026-13473 resolucion de 11 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convo",
+        "ad/ provincia apellidos y nombre/nrp cue gr/ sb 1 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. jefe/jefa de servicio de informatico a (4098251). 26 a1 a2 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. jef",
+        "70). 24 madrid. arroyo alba, maria araceli. ***6671**. 1177 a2 23 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista programador de sistemas (3603108). 22 a2 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de l",
+        "95766). 16 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. programador/programadora experto (3629538). 17 madrid. martin rodriguez, juan carlos. ***1859**. 1135 c1 43 s. de e. de la seg. social y pensiones. gerencia de informatica de"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 11 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13477",
+      "boeId": "BOE-A-2026-13477",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 12 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 9 de marzo de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13477.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13477",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "programador"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "apoyo analista funcional (1972527) 20 madrid fernandez suero, juan ignacio ***9490** 1188 c1 4 mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (3526054) 18 c1 c2 madrid ministerio transf. digit.y func. publica mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (352605",
+        "alista funcional (1972527) 20 madrid fernandez suero, juan ignacio ***9490** 1188 c1 4 mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (3526054) 18 c1 c2 madrid ministerio transf. digit.y func. publica mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (352605"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 12 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13476",
+      "boeId": "BOE-A-2026-13476",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 17 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Gestión de la Administración de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13476",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13476.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13476",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13476",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "media",
+      "prioridadUsuario": 3,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "medica"
+      ],
+      "contextosInformatica": [
+        ". 1351000 20 5541.20 251 ***393** galvez blanco, alfonso ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la seguridad social. madrid. madrid. jefe / jefa de negociado tipo i. 5655699 20 5541.20 252 ***0910** basanta ceballos, antonio jose ministerio d"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 3,
+      "fingerprint": "|resolucion de 17 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funciona|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
     {
-      "id": "BOE-A-2026-12585",
-      "boeId": "BOE-A-2026-12585",
-      "fechaPublicacion": "2026-06-10",
-      "titulo": "Resolución de 2 de junio de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12585",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12585.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12585",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260610",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12585",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico",
-        "seguridad informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medica"
-      ],
-      "contextosInformatica": [
-        "07/04/2026 registro mercantil de las palmas. b22513196 canary invest samej, s.l. 07/04/2026 registro mercantil de tenerife. b85519171 lock seguridad informatica s.l.en constitucion. 14/04/2026 registro mercantil de madrid. b22520068 canary invest num sl. 07/04/2026 registro mercantil de tenerife. b88528641 on",
-        "07/04/2026 registro mercantil de las palmas. b44627933 ambiscot, s.l.u. 10/04/2026 registro mercantil de malaga. b84628189 cima consulting servicios informaticos sl unipersonal -en constitucioon-. 16/04/2026 registro mercantil de madrid. b75628651 rvc mediestetec. 09/04/2026 registro mercantil de madrid. b986",
-        "corp, s.l. 07/04/2026 registro mercantil de las palmas. b22513196 canary invest samej, s.l. 07/04/2026 registro mercantil de tenerife. b85519171 lock seguridad informatica s.l.en constitucion. 14/04/2026 registro mercantil de madrid. b22520068 canary invest num sl. 07/04/2026 registro mercantil de tenerife. b88528641 on"
-      ],
-      "gruposDetectados": [
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion de 2 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tributa|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-12805",
       "boeId": "BOE-A-2026-12805",
       "fechaPublicacion": "2026-06-13",
@@ -1811,18 +2037,161 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12684",
-      "boeId": "BOE-A-2026-12684",
-      "fechaPublicacion": "2026-06-11",
-      "titulo": "Resolución de 18 de febrero de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la negativa de la registradora de la propiedad de Chinchilla de Monte-Aragón a inscribir una escritura de compraventa.",
+      "id": "BOE-A-2026-13473",
+      "boeId": "BOE-A-2026-13473",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 11 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 22 de diciembre de 2025, en la Gerencia de Informática de la Seguridad Social.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12684",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/11/pdfs/BOE-A-2026-12684.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12684",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260611",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13473",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13473.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13473",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13473",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista de sistemas",
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "programadora",
+        "sistemas informaticos",
+        "tecnica auxiliar de informatica",
+        "tecnica superior de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "(2460761). 26 madrid. sanz fernandez, luis antonio. ***7002**. 1630 a1 17 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista de sistemas (1761182). 24 a1 a2 madrid. desierta. 18 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista de sistemas (3005922). 2",
+        "lo (2322270). 24 madrid. arroyo alba, maria araceli. ***6671**. 1177 a2 23 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista programador de sistemas (3603108). 22 a2 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de l",
+        "o de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por resolucion de 22 de diciembre de 2025, en la gerencia de informatica de la seguridad social. boe-a-2026-13473 resolucion de 11 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convo",
+        "ad/ provincia apellidos y nombre/nrp cue gr/ sb 1 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. jefe/jefa de servicio de informatico a (4098251). 26 a1 a2 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. jef",
+        "70). 24 madrid. arroyo alba, maria araceli. ***6671**. 1177 a2 23 s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. analista programador de sistemas (3603108). 22 a2 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de l",
+        "95766). 16 c1 madrid. ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la s.s. programador/programadora experto (3629538). 17 madrid. martin rodriguez, juan carlos. ***1859**. 1135 c1 43 s. de e. de la seg. social y pensiones. gerencia de informatica de"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 11 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13477",
+      "boeId": "BOE-A-2026-13477",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 12 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 9 de marzo de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13477.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13477",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_especifico",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "programador"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "apoyo analista funcional (1972527) 20 madrid fernandez suero, juan ignacio ***9490** 1188 c1 4 mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (3526054) 18 c1 c2 madrid ministerio transf. digit.y func. publica mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (352605",
+        "alista funcional (1972527) 20 madrid fernandez suero, juan ignacio ***9490** 1188 c1 4 mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (3526054) 18 c1 c2 madrid ministerio transf. digit.y func. publica mut.gral.func.civiles del e. -muface- unidad de apoyo analista programador (352605"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 12 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13476",
+      "boeId": "BOE-A-2026-13476",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 17 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Gestión de la Administración de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13476",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13476.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13476",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -1833,90 +2202,41 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12684",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13476",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
       "tags": [
         "Albacete",
-        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
         "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
+        "oposiciones"
       ],
       "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "media",
+      "prioridadUsuario": 3,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Parece promoción interna: revisar si puedes participar.",
+      "matchesInformatica": [
+        "informatica"
+      ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "matchesDescarte": [
+        "medica"
+      ],
+      "contextosInformatica": [
+        ". 1351000 20 5541.20 251 ***393** galvez blanco, alfonso ministerio de inclus., seg.soc.y migrac. s. de e. de la seg. social y pensiones. gerencia de informatica de la seguridad social. madrid. madrid. jefe / jefa de negociado tipo i. 5655699 20 5541.20 252 ***0910** basanta ceballos, antonio jose ministerio d"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 18 de febrero de 2026, de la direccion general de seguridad juridica y fe publica, en el recurso interpues|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-12699",
-      "boeId": "BOE-A-2026-12699",
-      "fechaPublicacion": "2026-06-11",
-      "titulo": "Resolución de 29 de mayo de 2026, de la Dirección General de Calidad y Evaluación Ambiental, de modificación de condiciones de la declaración de impacto ambiental del estudio informativo «Autovía A-32 Linares-Albacete».",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12699",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/11/pdfs/BOE-A-2026-12699.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12699",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260611",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Calidad y Evaluación Ambiental",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles desde la recepcion de la peticion o de la denuncia",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12699",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Calidad y Evaluación Ambiental",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de calidad y evaluacion ambiental|resolucion de 29 de mayo de 2026, de la direccion general de calidad y evaluacion ambiental, de modificacion de condicio|sin_perfil_claro|sin_clasificar",
+      "prioridad": 3,
+      "fingerprint": "|resolucion de 17 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funciona|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2322,18 +2642,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12533",
-      "boeId": "BOE-A-2026-12533",
-      "fechaPublicacion": "2026-06-10",
-      "titulo": "Resolución de 1 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y por promoción interna, del Cuerpo Superior de Técnicos de la Administración de la Seguridad Social.",
+      "id": "BOE-A-2026-13541",
+      "boeId": "BOE-A-2026-13541",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 16 de junio de 2026, de la Universidad de Sevilla, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12533",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12533.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12533",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260610",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13541",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13541.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13541",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -2344,25 +2664,28 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Universidad de Sevilla",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12533",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, la relacion provisional de admitidos y excluidos se hara publica antes de los treinta dias habiles siguientes con indicacion en su caso, de la causa de exclusion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13541",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
+        "Universidad de Sevilla",
         "oposicion",
         "oposiciones",
-        "promocion_interna_no_prioritaria"
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "promocion_interna_no_prioritaria",
+      "plazasExtraidas": [
+        "las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, y demas normas de desarrollo en materia de incompatibilidades"
+      ],
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -2370,8 +2693,8 @@
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|resolucion de 1 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|promocion_interna_no_prioritaria|oposicion",
+      "prioridad": 6,
+      "fingerprint": "universidad de sevilla|las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, y demas normas de desarrollo en materia de incompatibilidades|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2621,6 +2944,131 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de personal del ministerio de defensa si se trata de personal de los cuerpos comunes de las fuerzas armadas|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13505",
+      "boeId": "BOE-A-2026-13505",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 12 de junio de 2026, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo en la Mutualidad General de Funcionarios Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13505",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13505.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13505",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13505",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13524",
+      "boeId": "BOE-A-2026-13524",
+      "fechaPublicacion": "2026-06-22",
+      "titulo": "Resolución de 16 de junio de 2026, del Ayuntamiento de Fuente-Álamo (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13524",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13524.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13524",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/22/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260622",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Fuente-Álamo",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13524",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Fuente-Álamo",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "una plaza de arquitecto/a, perteneciente a la escala de administracion especial, subescala tecnica, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de arquitecto/a, perteneciente a la escala de administracion especial, subescala tecnica, por el sistema de concurso-oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "arquitecto",
+        "arquitecto/a"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de fuente-alamo|una plaza de arquitecto/a, perteneciente a la escala de administracion especial, subescala tecnica, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
