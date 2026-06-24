@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **8**
+Total alertas prioritarias/secundarias: **7**
 
 Filtro aplicado:
 
@@ -8,15 +8,6 @@ Filtro aplicado:
 - Administrativo C1: prioridad secundaria.
 - Auxiliar administrativo C2: oculto por defecto.
 - Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.
-
-## Orden EFD/590/2026, de 8 de junio, por la que, a propuesta del Departamento de Educación y Formación Profesional de la Comunidad Autónoma de Cataluña, se nombra personal funcionario de carrera, a las personas seleccionadas en los procesos de estabilización, mediante el sistema selectivo de concurso oposición para el ingreso a la función pública docente, convocados por Resolución EDU/4037/2022, de 21 de diciembre.
-
-- **Fecha:** 2026-06-13
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 1
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805
-- **PDF:** https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12805.pdf
 
 ## Resolución de 15 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el Cuerpo de Gestión de la Administración Civil del Estado.
 

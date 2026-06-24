@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-06-23T10:56:28+00:00",
+    "lastRun": "2026-06-24T10:42:42+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-13",
-      "hasta": "2026-06-23"
+      "desde": "2026-06-14",
+      "hasta": "2026-06-24"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 21,
-    "totalVisiblesParaUsuario": 8,
-    "totalPrioritarias": 7,
+    "totalAlertasDetectadasTerritorialmente": 18,
+    "totalVisiblesParaUsuario": 7,
+    "totalPrioritarias": 6,
     "totalSecundarias": 1,
-    "totalDescartadas": 13,
+    "totalDescartadas": 11,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -26,71 +26,6 @@
     }
   },
   "alertasPrioritarias": [
-    {
-      "id": "BOE-A-2026-12805",
-      "boeId": "BOE-A-2026-12805",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Orden EFD/590/2026, de 8 de junio, por la que, a propuesta del Departamento de Educación y Formación Profesional de la Comunidad Autónoma de Cataluña, se nombra personal funcionario de carrera, a las personas seleccionadas en los procesos de estabilización, mediante el sistema selectivo de concurso oposición para el ingreso a la función pública docente, convocados por Resolución EDU/4037/2022, de 21 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12805.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12805",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra",
-        "maestro",
-        "musica"
-      ],
-      "contextosInformatica": [
-        "6,6207 ***8954*35 a0590 barrientos sotil, marina victoria ***8954** 01 5,7636 ***4664*24 a0590 badia mas, neus ***4664** 01 5,5146 especialidad: 107 informatica ***6808*46 a0590 tibau martorell, elisenda ***6808** 01 6,5354 ***0275*13 a0590 sanchez artigas, jordi ***0275** 01 6,3124 ***2268*68 a0590 rodriguez",
-        "z, sara ***3314** 01 4,1622 especialidad: 521 medios audiovisuales ***3045*24 a0595 lopez campana, nuria ***3045** 01 5,9809 especialidad: 522 medios informaticos ***7346*13 a0595 fernandez garrido, pau ***7346** 01 5,0693 especialidad: 523 organizacion industrial y legislacion ***4437*24 a0595 guillemi baste,"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|orden efd/590/2026, de 8 de junio, por la que, a propuesta del departamento de educacion y formacion profesional de la c|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-13119",
       "boeId": "BOE-A-2026-13119",
@@ -551,63 +486,6 @@
   ],
   "alertasDescartadas": [
     {
-      "id": "BOE-A-2026-12817",
-      "boeId": "BOE-A-2026-12817",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Resolución 160/38283/2026, de 11 de junio, de la Jefatura de Enseñanza de la Guardia Civil, por la que se publica la relación provisional de personas admitidas y excluidas y se anuncia fecha, hora y lugar de la primera prueba de las pruebas selectivas para ingreso en los centros docentes de formación para la incorporación a la Escala de Cabos y Guardias del Cuerpo de la Guardia Civil, convocadas por Resolución 160/38243/2026, de 5 de mayo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12817",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12817.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12817",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Alicante",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12817",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Universidad de Alicante",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "se convocan pruebas selectivas para el ingreso en los centros docentes de formacion para la incorporacion a la escala de cabos y guardias del cuerpo de la guardia civil, se publica"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "universidad de alicante|se convocan pruebas selectivas para el ingreso en los centros docentes de formacion para la incorporacion a la escala de cabos y guardias del cuerpo de la guardia civil, se publica|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-13156",
       "boeId": "BOE-A-2026-13156",
       "fechaPublicacion": "2026-06-17",
@@ -948,63 +826,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12800",
-      "boeId": "BOE-A-2026-12800",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Orden PJC/587/2026, de 9 de junio, por la que se resuelve la convocatoria de libre designación, efectuada por Orden PJC/120/2026, de 19 de febrero, para el Cuerpo de Letrados de la Administración de Justicia.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12800",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12800.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12800",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12800",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "libre_designacion",
-        "movilidad",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|orden pjc/587/2026, de 9 de junio, por la que se resuelve la convocatoria de libre designacion, efectuada por orden pjc/|otro_no_interesante|libre_designacion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-12954",
       "boeId": "BOE-A-2026-12954",
       "fechaPublicacion": "2026-06-15",
@@ -1325,71 +1146,6 @@
     }
   ],
   "alertas": [
-    {
-      "id": "BOE-A-2026-12805",
-      "boeId": "BOE-A-2026-12805",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Orden EFD/590/2026, de 8 de junio, por la que, a propuesta del Departamento de Educación y Formación Profesional de la Comunidad Autónoma de Cataluña, se nombra personal funcionario de carrera, a las personas seleccionadas en los procesos de estabilización, mediante el sistema selectivo de concurso oposición para el ingreso a la función pública docente, convocados por Resolución EDU/4037/2022, de 21 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12805.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12805",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra",
-        "maestro",
-        "musica"
-      ],
-      "contextosInformatica": [
-        "6,6207 ***8954*35 a0590 barrientos sotil, marina victoria ***8954** 01 5,7636 ***4664*24 a0590 badia mas, neus ***4664** 01 5,5146 especialidad: 107 informatica ***6808*46 a0590 tibau martorell, elisenda ***6808** 01 6,5354 ***0275*13 a0590 sanchez artigas, jordi ***0275** 01 6,3124 ***2268*68 a0590 rodriguez",
-        "z, sara ***3314** 01 4,1622 especialidad: 521 medios audiovisuales ***3045*24 a0595 lopez campana, nuria ***3045** 01 5,9809 especialidad: 522 medios informaticos ***7346*13 a0595 fernandez garrido, pau ***7346** 01 5,0693 especialidad: 523 organizacion industrial y legislacion ***4437*24 a0595 guillemi baste,"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|orden efd/590/2026, de 8 de junio, por la que, a propuesta del departamento de educacion y formacion profesional de la c|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-13119",
       "boeId": "BOE-A-2026-13119",
@@ -1848,71 +1604,6 @@
   ],
   "todasLasAlertas": [
     {
-      "id": "BOE-A-2026-12805",
-      "boeId": "BOE-A-2026-12805",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Orden EFD/590/2026, de 8 de junio, por la que, a propuesta del Departamento de Educación y Formación Profesional de la Comunidad Autónoma de Cataluña, se nombra personal funcionario de carrera, a las personas seleccionadas en los procesos de estabilización, mediante el sistema selectivo de concurso oposición para el ingreso a la función pública docente, convocados por Resolución EDU/4037/2022, de 21 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12805.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12805",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12805",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra",
-        "maestro",
-        "musica"
-      ],
-      "contextosInformatica": [
-        "6,6207 ***8954*35 a0590 barrientos sotil, marina victoria ***8954** 01 5,7636 ***4664*24 a0590 badia mas, neus ***4664** 01 5,5146 especialidad: 107 informatica ***6808*46 a0590 tibau martorell, elisenda ***6808** 01 6,5354 ***0275*13 a0590 sanchez artigas, jordi ***0275** 01 6,3124 ***2268*68 a0590 rodriguez",
-        "z, sara ***3314** 01 4,1622 especialidad: 521 medios audiovisuales ***3045*24 a0595 lopez campana, nuria ***3045** 01 5,9809 especialidad: 522 medios informaticos ***7346*13 a0595 fernandez garrido, pau ***7346** 01 5,0693 especialidad: 523 organizacion industrial y legislacion ***4437*24 a0595 guillemi baste,"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|orden efd/590/2026, de 8 de junio, por la que, a propuesta del departamento de educacion y formacion profesional de la c|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-13119",
       "boeId": "BOE-A-2026-13119",
       "fechaPublicacion": "2026-06-17",
@@ -2368,63 +2059,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12817",
-      "boeId": "BOE-A-2026-12817",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Resolución 160/38283/2026, de 11 de junio, de la Jefatura de Enseñanza de la Guardia Civil, por la que se publica la relación provisional de personas admitidas y excluidas y se anuncia fecha, hora y lugar de la primera prueba de las pruebas selectivas para ingreso en los centros docentes de formación para la incorporación a la Escala de Cabos y Guardias del Cuerpo de la Guardia Civil, convocadas por Resolución 160/38243/2026, de 5 de mayo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12817",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12817.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12817",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Alicante",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12817",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Universidad de Alicante",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "se convocan pruebas selectivas para el ingreso en los centros docentes de formacion para la incorporacion a la escala de cabos y guardias del cuerpo de la guardia civil, se publica"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "universidad de alicante|se convocan pruebas selectivas para el ingreso en los centros docentes de formacion para la incorporacion a la escala de cabos y guardias del cuerpo de la guardia civil, se publica|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-13156",
       "boeId": "BOE-A-2026-13156",
       "fechaPublicacion": "2026-06-17",
@@ -2761,63 +2395,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|resolucion de 5 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-12800",
-      "boeId": "BOE-A-2026-12800",
-      "fechaPublicacion": "2026-06-13",
-      "titulo": "Orden PJC/587/2026, de 9 de junio, por la que se resuelve la convocatoria de libre designación, efectuada por Orden PJC/120/2026, de 19 de febrero, para el Cuerpo de Letrados de la Administración de Justicia.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12800",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/13/pdfs/BOE-A-2026-12800.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12800",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/13/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260613",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12800",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "libre_designacion",
-        "movilidad",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|orden pjc/587/2026, de 9 de junio, por la que se resuelve la convocatoria de libre designacion, efectuada por orden pjc/|otro_no_interesante|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
