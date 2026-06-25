@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-06-24T10:42:42+00:00",
+    "lastRun": "2026-06-25T10:37:06+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-14",
-      "hasta": "2026-06-24"
+      "desde": "2026-06-15",
+      "hasta": "2026-06-25"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 18,
-    "totalVisiblesParaUsuario": 7,
-    "totalPrioritarias": 6,
+    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalVisiblesParaUsuario": 6,
+    "totalPrioritarias": 5,
     "totalSecundarias": 1,
     "totalDescartadas": 11,
     "errores": [],
@@ -355,68 +355,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 12 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-13631",
-      "boeId": "BOE-A-2026-13631",
-      "fechaPublicacion": "2026-06-23",
-      "titulo": "Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13631",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/23/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260623",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Alpera",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Alpera",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "tecnologias de la informacion",
-        "tecnologias de la informacion y las comunicaciones"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "on profesional y deportes tiene entre sus objetivos la incorporacion de la educacion a la sociedad de la informacion por medio de la promocion de las tecnologias de la informacion y de la comunicacion, asi como el desarrollo de programas avanzados de educacion a distancia. iv. que el ayuntamiento de alpera tiene capacidad para",
-        "rsonales y profesionales de las personas adultas, promoviendo la cultura y la participacion de los ciudadanos en el uso eficiente y sostenible de las tecnologias de la informacion y las comunicaciones. vii. que la iniciativa aula mentor, de acuerdo con su normativa reguladora, cuenta con una dilatada experiencia que supera los treinta anos de exist"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "ayuntamiento de alpera|resolucion de 16 de junio de 2026, de la secretaria general tecnica, por la que se publica el convenio con el ayuntamien|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1479,68 +1417,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-13631",
-      "boeId": "BOE-A-2026-13631",
-      "fechaPublicacion": "2026-06-23",
-      "titulo": "Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13631",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/23/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260623",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Alpera",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Alpera",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "tecnologias de la informacion",
-        "tecnologias de la informacion y las comunicaciones"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "on profesional y deportes tiene entre sus objetivos la incorporacion de la educacion a la sociedad de la informacion por medio de la promocion de las tecnologias de la informacion y de la comunicacion, asi como el desarrollo de programas avanzados de educacion a distancia. iv. que el ayuntamiento de alpera tiene capacidad para",
-        "rsonales y profesionales de las personas adultas, promoviendo la cultura y la participacion de los ciudadanos en el uso eficiente y sostenible de las tecnologias de la informacion y las comunicaciones. vii. que la iniciativa aula mentor, de acuerdo con su normativa reguladora, cuenta con una dilatada experiencia que supera los treinta anos de exist"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "ayuntamiento de alpera|resolucion de 16 de junio de 2026, de la secretaria general tecnica, por la que se publica el convenio con el ayuntamien|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-13476",
       "boeId": "BOE-A-2026-13476",
       "fechaPublicacion": "2026-06-22",
@@ -1932,68 +1808,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 12 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-13631",
-      "boeId": "BOE-A-2026-13631",
-      "fechaPublicacion": "2026-06-23",
-      "titulo": "Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13631",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/23/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260623",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Alpera",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Alpera",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "tecnologias de la informacion",
-        "tecnologias de la informacion y las comunicaciones"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "on profesional y deportes tiene entre sus objetivos la incorporacion de la educacion a la sociedad de la informacion por medio de la promocion de las tecnologias de la informacion y de la comunicacion, asi como el desarrollo de programas avanzados de educacion a distancia. iv. que el ayuntamiento de alpera tiene capacidad para",
-        "rsonales y profesionales de las personas adultas, promoviendo la cultura y la participacion de los ciudadanos en el uso eficiente y sostenible de las tecnologias de la informacion y las comunicaciones. vii. que la iniciativa aula mentor, de acuerdo con su normativa reguladora, cuenta con una dilatada experiencia que supera los treinta anos de exist"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "ayuntamiento de alpera|resolucion de 16 de junio de 2026, de la secretaria general tecnica, por la que se publica el convenio con el ayuntamien|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
