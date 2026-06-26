@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **6**
+Total alertas prioritarias/secundarias: **7**
 
 Filtro aplicado:
 
@@ -53,6 +53,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13477
 - **PDF:** https://www.boe.es/boe/dias/2026/06/22/pdfs/BOE-A-2026-13477.pdf
+
+## Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».
+
+- **Fecha:** 2026-06-23
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631
+- **PDF:** https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf
 
 ## Resolución de 17 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Gestión de la Administración de la Seguridad Social.
 

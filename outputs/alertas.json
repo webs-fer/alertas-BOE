@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-06-25T10:37:06+00:00",
+    "lastRun": "2026-06-26T10:45:41+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-15",
-      "hasta": "2026-06-25"
+      "desde": "2026-06-16",
+      "hasta": "2026-06-26"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
     "totalAlertasDetectadasTerritorialmente": 17,
-    "totalVisiblesParaUsuario": 6,
-    "totalPrioritarias": 5,
+    "totalVisiblesParaUsuario": 7,
+    "totalPrioritarias": 6,
     "totalSecundarias": 1,
-    "totalDescartadas": 11,
+    "totalDescartadas": 10,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -355,6 +355,68 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 12 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-13631",
+      "boeId": "BOE-A-2026-13631",
+      "fechaPublicacion": "2026-06-23",
+      "titulo": "Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13631",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260623",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Alpera",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Alpera",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "on profesional y deportes tiene entre sus objetivos la incorporacion de la educacion a la sociedad de la informacion por medio de la promocion de las tecnologias de la informacion y de la comunicacion, asi como el desarrollo de programas avanzados de educacion a distancia. iv. que el ayuntamiento de alpera tiene capacidad para",
+        "rsonales y profesionales de las personas adultas, promoviendo la cultura y la participacion de los ciudadanos en el uso eficiente y sostenible de las tecnologias de la informacion y las comunicaciones. vii. que la iniciativa aula mentor, de acuerdo con su normativa reguladora, cuenta con una dilatada experiencia que supera los treinta anos de exist"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "ayuntamiento de alpera|resolucion de 16 de junio de 2026, de la secretaria general tecnica, por la que se publica el convenio con el ayuntamien|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -710,18 +772,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12895",
-      "boeId": "BOE-A-2026-12895",
-      "fechaPublicacion": "2026-06-15",
-      "titulo": "Resolución de 5 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en la Escala de Técnicos Facultativos Superiores de Organismos Autónomos del Ministerio de Medio Ambiente.",
+      "id": "BOE-A-2026-13914",
+      "boeId": "BOE-A-2026-13914",
+      "fechaPublicacion": "2026-06-26",
+      "titulo": "Resolución de 16 de junio de 2026, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12895",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/15/pdfs/BOE-A-2026-12895.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12895",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260615",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13914.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13914",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/26/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260626",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -732,25 +794,31 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Universidad de Zaragoza",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12895",
+      "plazoInscripcion": "plazo de presentacion de solicitudes es de veinte dias naturales contados a partir del primer dia habil siguiente al de la publicacion de esta convocatoria en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
+        "Universidad de Zaragoza",
         "oposicion",
         "oposiciones",
-        "promocion_interna_no_prioritaria"
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "promocion_interna_no_prioritaria",
+      "plazasExtraidas": [
+        "una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada",
+        "las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion",
+        "las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, de incompatibilidades del personal al servicio de las administraciones publicas y sus disposiciones de desarrollo",
+        "las plazas convocadas con los numeros 2026-209 a 215 y 2026-252"
+      ],
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -758,70 +826,8 @@
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|resolucion de 5 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-12954",
-      "boeId": "BOE-A-2026-12954",
-      "fechaPublicacion": "2026-06-15",
-      "titulo": "Resolución de 8 de junio de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12954",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/15/pdfs/BOE-A-2026-12954.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12954",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260615",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12954",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "dos plazas de arquitecto/a tecnico, pertenecientes a la escala de administracion especial, subescala tecnica y clase media, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer varias plazas",
-        "plazas de arquitecto/a tecnico, pertenecientes a la escala de administracion especial, subescala tecnica y clase media, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "arquitecto",
-        "arquitecto/a"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de albacete|dos plazas de arquitecto/a tecnico, pertenecientes a la escala de administracion especial, subescala tecnica y clase media, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "prioridad": 6,
+      "fingerprint": "universidad de zaragoza|una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1417,6 +1423,68 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-13631",
+      "boeId": "BOE-A-2026-13631",
+      "fechaPublicacion": "2026-06-23",
+      "titulo": "Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13631",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260623",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Alpera",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Alpera",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "on profesional y deportes tiene entre sus objetivos la incorporacion de la educacion a la sociedad de la informacion por medio de la promocion de las tecnologias de la informacion y de la comunicacion, asi como el desarrollo de programas avanzados de educacion a distancia. iv. que el ayuntamiento de alpera tiene capacidad para",
+        "rsonales y profesionales de las personas adultas, promoviendo la cultura y la participacion de los ciudadanos en el uso eficiente y sostenible de las tecnologias de la informacion y las comunicaciones. vii. que la iniciativa aula mentor, de acuerdo con su normativa reguladora, cuenta con una dilatada experiencia que supera los treinta anos de exist"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "ayuntamiento de alpera|resolucion de 16 de junio de 2026, de la secretaria general tecnica, por la que se publica el convenio con el ayuntamien|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-13476",
       "boeId": "BOE-A-2026-13476",
       "fechaPublicacion": "2026-06-22",
@@ -1812,6 +1880,68 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-13631",
+      "boeId": "BOE-A-2026-13631",
+      "fechaPublicacion": "2026-06-23",
+      "titulo": "Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13631",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260623",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Alpera",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Alpera",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "tecnologias de la informacion",
+        "tecnologias de la informacion y las comunicaciones"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "on profesional y deportes tiene entre sus objetivos la incorporacion de la educacion a la sociedad de la informacion por medio de la promocion de las tecnologias de la informacion y de la comunicacion, asi como el desarrollo de programas avanzados de educacion a distancia. iv. que el ayuntamiento de alpera tiene capacidad para",
+        "rsonales y profesionales de las personas adultas, promoviendo la cultura y la participacion de los ciudadanos en el uso eficiente y sostenible de las tecnologias de la informacion y las comunicaciones. vii. que la iniciativa aula mentor, de acuerdo con su normativa reguladora, cuenta con una dilatada experiencia que supera los treinta anos de exist"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "ayuntamiento de alpera|resolucion de 16 de junio de 2026, de la secretaria general tecnica, por la que se publica el convenio con el ayuntamien|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-13476",
       "boeId": "BOE-A-2026-13476",
       "fechaPublicacion": "2026-06-22",
@@ -2159,18 +2289,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-12895",
-      "boeId": "BOE-A-2026-12895",
-      "fechaPublicacion": "2026-06-15",
-      "titulo": "Resolución de 5 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en la Escala de Técnicos Facultativos Superiores de Organismos Autónomos del Ministerio de Medio Ambiente.",
+      "id": "BOE-A-2026-13914",
+      "boeId": "BOE-A-2026-13914",
+      "fechaPublicacion": "2026-06-26",
+      "titulo": "Resolución de 16 de junio de 2026, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12895",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/15/pdfs/BOE-A-2026-12895.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12895",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260615",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13914.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13914",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/26/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260626",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -2181,25 +2311,31 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Universidad de Zaragoza",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12895",
+      "plazoInscripcion": "plazo de presentacion de solicitudes es de veinte dias naturales contados a partir del primer dia habil siguiente al de la publicacion de esta convocatoria en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
+        "Universidad de Zaragoza",
         "oposicion",
         "oposiciones",
-        "promocion_interna_no_prioritaria"
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "promocion_interna_no_prioritaria",
+      "plazasExtraidas": [
+        "una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada",
+        "las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion",
+        "las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, de incompatibilidades del personal al servicio de las administraciones publicas y sus disposiciones de desarrollo",
+        "las plazas convocadas con los numeros 2026-209 a 215 y 2026-252"
+      ],
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -2207,70 +2343,8 @@
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|resolucion de 5 de junio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-12954",
-      "boeId": "BOE-A-2026-12954",
-      "fechaPublicacion": "2026-06-15",
-      "titulo": "Resolución de 8 de junio de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12954",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/15/pdfs/BOE-A-2026-12954.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-12954",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260615",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12954",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "dos plazas de arquitecto/a tecnico, pertenecientes a la escala de administracion especial, subescala tecnica y clase media, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer varias plazas",
-        "plazas de arquitecto/a tecnico, pertenecientes a la escala de administracion especial, subescala tecnica y clase media, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "arquitecto",
-        "arquitecto/a"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de albacete|dos plazas de arquitecto/a tecnico, pertenecientes a la escala de administracion especial, subescala tecnica y clase media, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "prioridad": 6,
+      "fingerprint": "universidad de zaragoza|una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
