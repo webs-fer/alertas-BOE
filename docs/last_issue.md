@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **6**
+Total alertas prioritarias/secundarias: **5**
 
 Filtro aplicado:
 
@@ -8,15 +8,6 @@ Filtro aplicado:
 - Administrativo C1: prioridad secundaria.
 - Auxiliar administrativo C2: oculto por defecto.
 - Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.
-
-## Resolución de 16 de junio de 2026, de la Secretaría General Técnica, por la que se publica el Convenio con el Ayuntamiento de Alpera, para el desarrollo del programa de formación abierta «Aula Mentor».
-
-- **Fecha:** 2026-06-23
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 1
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13631
-- **PDF:** https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13631.pdf
 
 ## Resolución de 19 de junio de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.
 
