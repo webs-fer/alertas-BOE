@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-07-06T11:57:40+00:00",
+    "lastRun": "2026-07-07T10:47:39+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-26",
-      "hasta": "2026-07-06"
+      "desde": "2026-06-27",
+      "hasta": "2026-07-07"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalAlertasDetectadasTerritorialmente": 12,
     "totalVisiblesParaUsuario": 5,
     "totalPrioritarias": 2,
     "totalSecundarias": 3,
-    "totalDescartadas": 8,
+    "totalDescartadas": 7,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -363,66 +363,6 @@
     }
   ],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-13914",
-      "boeId": "BOE-A-2026-13914",
-      "fechaPublicacion": "2026-06-26",
-      "titulo": "Resolución de 16 de junio de 2026, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13914.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13914",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/26/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260626",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Zaragoza",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes es de veinte dias naturales contados a partir del primer dia habil siguiente al de la publicacion de esta convocatoria en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Universidad de Zaragoza",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada",
-        "las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion",
-        "las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, de incompatibilidades del personal al servicio de las administraciones publicas y sus disposiciones de desarrollo",
-        "las plazas convocadas con los numeros 2026-209 a 215 y 2026-252"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "universidad de zaragoza|una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-14040",
       "boeId": "BOE-A-2026-14040",
@@ -1483,66 +1423,6 @@
       "nivelesDetectados": [],
       "prioridad": 3,
       "fingerprint": "|orden pjc/664/2026, de 26 de junio, por la que se publica la relacion de plazas correspondientes al ambito del ministeri|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-13914",
-      "boeId": "BOE-A-2026-13914",
-      "fechaPublicacion": "2026-06-26",
-      "titulo": "Resolución de 16 de junio de 2026, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13914.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13914",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/26/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260626",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Zaragoza",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes es de veinte dias naturales contados a partir del primer dia habil siguiente al de la publicacion de esta convocatoria en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13914",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Universidad de Zaragoza",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada",
-        "las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion",
-        "las plazas convocadas quedara sometido a la ley 53/1984, de 26 de diciembre, de incompatibilidades del personal al servicio de las administraciones publicas y sus disposiciones de desarrollo",
-        "las plazas convocadas con los numeros 2026-209 a 215 y 2026-252"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "universidad de zaragoza|una plaza de identicos centro, departamento, area de conocimiento y localidad que los de la plaza convocada las plazas convocadas son las que se relacionan en el anexo i de la presente resolucion|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
