@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **5**
+Total alertas prioritarias/secundarias: **4**
 
 Filtro aplicado:
 
@@ -17,15 +17,6 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14094
 - **PDF:** https://www.boe.es/boe/dias/2026/06/29/pdfs/BOE-A-2026-14094.pdf
-
-## Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 20 de febrero de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.
-
-- **Fecha:** 2026-06-27
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 2
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952
-- **PDF:** https://www.boe.es/boe/dias/2026/06/27/pdfs/BOE-A-2026-13952.pdf
 
 ## Resolución de 25 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema de promoción interna, del Cuerpo Administrativo de la Administración de la Seguridad Social.
 

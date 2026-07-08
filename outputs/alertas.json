@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-07-07T10:47:39+00:00",
+    "lastRun": "2026-07-08T09:54:41+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-27",
-      "hasta": "2026-07-07"
+      "desde": "2026-06-28",
+      "hasta": "2026-07-08"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 12,
-    "totalVisiblesParaUsuario": 5,
-    "totalPrioritarias": 2,
+    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalVisiblesParaUsuario": 4,
+    "totalPrioritarias": 1,
     "totalSecundarias": 3,
-    "totalDescartadas": 7,
+    "totalDescartadas": 10,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -97,84 +97,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 19 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-13952",
-      "boeId": "BOE-A-2026-13952",
-      "fechaPublicacion": "2026-06-27",
-      "titulo": "Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 20 de febrero de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/27/pdfs/BOE-A-2026-13952.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13952",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260627",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "libre_designacion",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "matchesInformatica": [
-        "analista de sistemas",
-        "analista programador",
-        "informatica",
-        "informatico",
-        "programador",
-        "sistemas informaticos",
-        "tic"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado"
-      ],
-      "contextosInformatica": [
-        "ca. jefe / jefa de servicio (5065512). 26 madrid. garcia parrondo, tania. ***4493**. 1122 a2 30 jefatura central de trafico. gerencia de informatica. analista de sistemas (5007636). 22 a2 c1 madrid. ministerio del interior. jefatura central de trafico. gerencia de informatica. analista de sistemas (5007636). 22 madrid.",
-        "lotacion o planificacion (765545). 20 salamanca. orzaez hernandez, laura. ***0703**. 1135 c1 32 jefatura central de trafico. gerencia de informatica. analista programador (4667869). 20 a2 madrid. desierta. 33 jefatura central de trafico. gerencia de informatica. analista programador (2099717). 18 c1 c2 madrid. minister",
-        "das. cajero / cajera habilitado n18 (2786405). 18 leon. farinas alvarez, maria teresa. ***8301**. 1135 c1 23 jefatura central de trafico. gerencia de informatica. jefe / jefa de area tic (5007667). 28 a1 murcia. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de area",
-        "28 madrid. rubert sanchez, cristina. ***2028**. 1166 a1 25 jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas informaticos (4511150). 26 a1 a2 sevilla. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas info",
-        "o planificacion (765545). 20 salamanca. orzaez hernandez, laura. ***0703**. 1135 c1 32 jefatura central de trafico. gerencia de informatica. analista programador (4667869). 20 a2 madrid. desierta. 33 jefatura central de trafico. gerencia de informatica. analista programador (2099717). 18 c1 c2 madrid. minister",
-        "4703181). 28 madrid. rubert sanchez, cristina. ***2028**. 1166 a1 25 jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas informaticos (4511150). 26 a1 a2 sevilla. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas infor"
-      ],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "|resolucion de 22 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -701,6 +623,136 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-14796",
+      "boeId": "BOE-A-2026-14796",
+      "fechaPublicacion": "2026-07-08",
+      "titulo": "Resolución de 3 de julio de 2026, de la Secretaría de Estado de Función Pública, por la que se convoca proceso selectivo para ingreso, como personal laboral fijo en el grupo profesional E0, especialidad Tareas Complementarias de Apoyo, sujeto al IV Convenio colectivo único para el personal laboral de la Administración General del Estado, en plazas reservadas para personas que acrediten discapacidad intelectual.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14796",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14796.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14796",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260708",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, y mantener hasta el momento de la formalizacion del contrato de trabajo, los siguientes requisitos de participacion: 2",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14796",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "las plazas convocadas se desglosan, segun la distribucion contenida en el anexo ii, quedando identificadas por la localidad y el area tematica con la que figuran en dicho anexo",
+        "las plazas convocadas numero de orden ministerio / organismo area tematica centro directivo / organismo autonomo provincia de destino localidad de destino 1 ministerio de agricultura, pesca y alimentacion",
+        "plazas reservadas para personas con discapacidad intelectual para el ingreso como personal laboral fijo en el grupo profesional e0, especialidad tareas complementarias de apoyo, sujeto al iv convenio colectivo unico para el personal laboral de la administracion general del estado, previstas en el real decreto 625/2023, de 11 de julio, por el que se aprueba la oferta de emp",
+        "plazas del grupo profesional e0, especialidad tareas complementarias de apoyo, por el sistema general de acceso libre, aprobadas en el real decreto 625/2023, de 11 de julio, por el que se aprueba la oferta de empleo publico correspondiente al ejercicio 2023"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|las plazas convocadas se desglosan, segun la distribucion contenida en el anexo ii, quedando identificadas por la localidad y el area tematica con la que figuran en dicho anexo las plazas convocadas numero de orden ministerio / organismo area tematica centro directivo / organismo autonomo provincia de destino localidad de destino 1 ministerio de agricultura, pesca y alimentacion|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14786",
+      "boeId": "BOE-A-2026-14786",
+      "fechaPublicacion": "2026-07-08",
+      "titulo": "Resolución de 3 de julio de 2026, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, como personal laboral fijo, en los grupos profesionales M3, M2, M1, E2 y E1 sujetos al IV Convenio colectivo único para el personal laboral de la Administración General del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14786",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14786.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14786",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260708",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Política Interior es responsable del tratamiento de esos datos",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes en la casilla 22 de la solicitud",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14786",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Política Interior es responsable del tratamiento de esos datos",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "se convocan procesos selectivos para ingreso por acceso libre y acceso por promocion interna, como personal laboral fijo sujeto al iv convenio colectivo unico para el personal laboral de la administracion general del estado, en los siguientes grupos profesionales y especialidades",
+        "las plazas convocadas se reservaran las plazas que se han senalado en el cuadro anterior para quienes tengan la condicion legal de personas con discapacidad con un grado de discapacidad igual o superior al 33 %",
+        "las plazas convocadas por promocion interna quedaran vacantes, no podran acumularse a las de la convocatoria de ingreso libre",
+        "las plazas convocadas se desglosan, segun la distribucion contenida en el anexo iv, quedando identificadas por el grupo profesional, especialidad y, en su caso, programa",
+        "las plazas convocadas y la reduccion del 50% para las familias numerosas de categoria general",
+        "plazas de promocion interna senaladas con asterisco estan reservadas para acceso, por promocion interna, a personas con discapacidad intelectual del grupo profesional e0, especialidad tareas complementarias de apoyo",
+        "plazas convocadas se desglosan, segun la distribucion contenida en el anexo iv, quedando identificadas por el grupo profesional, especialidad y, en su caso, programa",
+        "plazas incluidas en esta convocatoria senaladas en el anexo iv, para ser promovidas al grupo profesional superior al que se aspire y eligiendo, como maximo, el mismo numero de plazas convocadas en el turno de promocion interna para cada especialidad y, en su caso, programa",
+        "plazas reservadas para acceso al grupo profesional e1 por promocion interna para personas con discapacidad intelectual del grupo e0, especialidad tareas complementarias de apoyo, podra participar este personal laboral, siempre que haya prestado dos anos de servicios efectivos en dicho grupo profesional y cumpla los requisitos de titulacion y cualificacion exigidos",
+        "plazas de los grupos profesionales m3 y m2, las personas aspirantes con titulaciones obtenidas en el extranjero deberan acreditar que, a la fecha de finalizacion del plazo de presentacion de solicitudes, estan en posesion de la correspondiente credencial de homologacion o en su",
+        "plazas de los grupos profesionales m1, e2 y e1, las personas aspirantes con titulaciones obtenidas en el extranjero deberan acreditar que, a la fecha de finalizacion del plazo de presentacion de solicitudes, estan en posesion de la correspondiente credencial de homologacion",
+        "plazas vacantes de su grupo profesional, especialidad y forma de acceso que resulte sin adjudicar, una vez atendidas las peticiones de las demas personas aspirantes",
+        "plazas convocadas y la reduccion del 50% para las familias numerosas de categoria general: turno libre grupo profesional general reduccion 50 % m3 31,10 15,55 m2 23,33 11,67 m1 15,57 7,79 e2 11,66 5,83 e1 9,32 4,66 promocion interna grupo profesional general reduccion 50 % m3 15,55 7,78 m2 11,67 5,84 m1 7,79 3,90 e2 5,83 2,92 e1 4,66 2,33 estaran exentas del pago de",
+        "plazas de los grupos profesionales m3 y m2: a",
+        "plazas del grupo profesional m1: a"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "direccion general de politica interior es responsable del tratamiento de esos datos|se convocan procesos selectivos para ingreso por acceso libre y acceso por promocion interna, como personal laboral fijo sujeto al iv convenio colectivo unico para el personal laboral de la administracion general del estado, en los siguientes grupos profesionales y especialidades las plazas convocadas se reservaran las plazas que se han senalado en el cuadro anterior para quienes tengan la condicion legal de personas con discapacidad con un grado de discapacidad igual o superior al 33 %|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-14543",
       "boeId": "BOE-A-2026-14543",
       "fechaPublicacion": "2026-07-04",
@@ -753,6 +805,67 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|orden int/675/2026, de 22 de junio, por la que se declaran de utilidad publica diversas asociaciones.|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14814",
+      "boeId": "BOE-A-2026-14814",
+      "fechaPublicacion": "2026-07-08",
+      "titulo": "Resolución de 1 de julio de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14814",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14814.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14814",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260708",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14814",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "ocho plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|ocho plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -829,84 +942,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 19 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-13952",
-      "boeId": "BOE-A-2026-13952",
-      "fechaPublicacion": "2026-06-27",
-      "titulo": "Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 20 de febrero de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/27/pdfs/BOE-A-2026-13952.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13952",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260627",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "libre_designacion",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "matchesInformatica": [
-        "analista de sistemas",
-        "analista programador",
-        "informatica",
-        "informatico",
-        "programador",
-        "sistemas informaticos",
-        "tic"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado"
-      ],
-      "contextosInformatica": [
-        "ca. jefe / jefa de servicio (5065512). 26 madrid. garcia parrondo, tania. ***4493**. 1122 a2 30 jefatura central de trafico. gerencia de informatica. analista de sistemas (5007636). 22 a2 c1 madrid. ministerio del interior. jefatura central de trafico. gerencia de informatica. analista de sistemas (5007636). 22 madrid.",
-        "lotacion o planificacion (765545). 20 salamanca. orzaez hernandez, laura. ***0703**. 1135 c1 32 jefatura central de trafico. gerencia de informatica. analista programador (4667869). 20 a2 madrid. desierta. 33 jefatura central de trafico. gerencia de informatica. analista programador (2099717). 18 c1 c2 madrid. minister",
-        "das. cajero / cajera habilitado n18 (2786405). 18 leon. farinas alvarez, maria teresa. ***8301**. 1135 c1 23 jefatura central de trafico. gerencia de informatica. jefe / jefa de area tic (5007667). 28 a1 murcia. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de area",
-        "28 madrid. rubert sanchez, cristina. ***2028**. 1166 a1 25 jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas informaticos (4511150). 26 a1 a2 sevilla. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas info",
-        "o planificacion (765545). 20 salamanca. orzaez hernandez, laura. ***0703**. 1135 c1 32 jefatura central de trafico. gerencia de informatica. analista programador (4667869). 20 a2 madrid. desierta. 33 jefatura central de trafico. gerencia de informatica. analista programador (2099717). 18 c1 c2 madrid. minister",
-        "4703181). 28 madrid. rubert sanchez, cristina. ***2028**. 1166 a1 25 jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas informaticos (4511150). 26 a1 a2 sevilla. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas infor"
-      ],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "|resolucion de 22 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1164,84 +1199,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 19 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-13952",
-      "boeId": "BOE-A-2026-13952",
-      "fechaPublicacion": "2026-06-27",
-      "titulo": "Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 20 de febrero de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/06/27/pdfs/BOE-A-2026-13952.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-13952",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/06/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260627",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13952",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "tags": [
-        "Albacete",
-        "informatica",
-        "informatica_tic",
-        "libre_designacion",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "matchesInformatica": [
-        "analista de sistemas",
-        "analista programador",
-        "informatica",
-        "informatico",
-        "programador",
-        "sistemas informaticos",
-        "tic"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado"
-      ],
-      "contextosInformatica": [
-        "ca. jefe / jefa de servicio (5065512). 26 madrid. garcia parrondo, tania. ***4493**. 1122 a2 30 jefatura central de trafico. gerencia de informatica. analista de sistemas (5007636). 22 a2 c1 madrid. ministerio del interior. jefatura central de trafico. gerencia de informatica. analista de sistemas (5007636). 22 madrid.",
-        "lotacion o planificacion (765545). 20 salamanca. orzaez hernandez, laura. ***0703**. 1135 c1 32 jefatura central de trafico. gerencia de informatica. analista programador (4667869). 20 a2 madrid. desierta. 33 jefatura central de trafico. gerencia de informatica. analista programador (2099717). 18 c1 c2 madrid. minister",
-        "das. cajero / cajera habilitado n18 (2786405). 18 leon. farinas alvarez, maria teresa. ***8301**. 1135 c1 23 jefatura central de trafico. gerencia de informatica. jefe / jefa de area tic (5007667). 28 a1 murcia. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de area",
-        "28 madrid. rubert sanchez, cristina. ***2028**. 1166 a1 25 jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas informaticos (4511150). 26 a1 a2 sevilla. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas info",
-        "o planificacion (765545). 20 salamanca. orzaez hernandez, laura. ***0703**. 1135 c1 32 jefatura central de trafico. gerencia de informatica. analista programador (4667869). 20 a2 madrid. desierta. 33 jefatura central de trafico. gerencia de informatica. analista programador (2099717). 18 c1 c2 madrid. minister",
-        "4703181). 28 madrid. rubert sanchez, cristina. ***2028**. 1166 a1 25 jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas informaticos (4511150). 26 a1 a2 sevilla. ministerio del interior. jefatura central de trafico. gerencia de informatica. jefe / jefa de servicio de sistemas infor"
-      ],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "|resolucion de 22 de junio de 2026, de la subsecretaria, por la que se resuelve el concurso especifico, convocado por res|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1764,6 +1721,136 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-14796",
+      "boeId": "BOE-A-2026-14796",
+      "fechaPublicacion": "2026-07-08",
+      "titulo": "Resolución de 3 de julio de 2026, de la Secretaría de Estado de Función Pública, por la que se convoca proceso selectivo para ingreso, como personal laboral fijo en el grupo profesional E0, especialidad Tareas Complementarias de Apoyo, sujeto al IV Convenio colectivo único para el personal laboral de la Administración General del Estado, en plazas reservadas para personas que acrediten discapacidad intelectual.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14796",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14796.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14796",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260708",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes, y mantener hasta el momento de la formalizacion del contrato de trabajo, los siguientes requisitos de participacion: 2",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14796",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "las plazas convocadas se desglosan, segun la distribucion contenida en el anexo ii, quedando identificadas por la localidad y el area tematica con la que figuran en dicho anexo",
+        "las plazas convocadas numero de orden ministerio / organismo area tematica centro directivo / organismo autonomo provincia de destino localidad de destino 1 ministerio de agricultura, pesca y alimentacion",
+        "plazas reservadas para personas con discapacidad intelectual para el ingreso como personal laboral fijo en el grupo profesional e0, especialidad tareas complementarias de apoyo, sujeto al iv convenio colectivo unico para el personal laboral de la administracion general del estado, previstas en el real decreto 625/2023, de 11 de julio, por el que se aprueba la oferta de emp",
+        "plazas del grupo profesional e0, especialidad tareas complementarias de apoyo, por el sistema general de acceso libre, aprobadas en el real decreto 625/2023, de 11 de julio, por el que se aprueba la oferta de empleo publico correspondiente al ejercicio 2023"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|las plazas convocadas se desglosan, segun la distribucion contenida en el anexo ii, quedando identificadas por la localidad y el area tematica con la que figuran en dicho anexo las plazas convocadas numero de orden ministerio / organismo area tematica centro directivo / organismo autonomo provincia de destino localidad de destino 1 ministerio de agricultura, pesca y alimentacion|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14786",
+      "boeId": "BOE-A-2026-14786",
+      "fechaPublicacion": "2026-07-08",
+      "titulo": "Resolución de 3 de julio de 2026, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, como personal laboral fijo, en los grupos profesionales M3, M2, M1, E2 y E1 sujetos al IV Convenio colectivo único para el personal laboral de la Administración General del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14786",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14786.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14786",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260708",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Política Interior es responsable del tratamiento de esos datos",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes en la casilla 22 de la solicitud",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14786",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Política Interior es responsable del tratamiento de esos datos",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "se convocan procesos selectivos para ingreso por acceso libre y acceso por promocion interna, como personal laboral fijo sujeto al iv convenio colectivo unico para el personal laboral de la administracion general del estado, en los siguientes grupos profesionales y especialidades",
+        "las plazas convocadas se reservaran las plazas que se han senalado en el cuadro anterior para quienes tengan la condicion legal de personas con discapacidad con un grado de discapacidad igual o superior al 33 %",
+        "las plazas convocadas por promocion interna quedaran vacantes, no podran acumularse a las de la convocatoria de ingreso libre",
+        "las plazas convocadas se desglosan, segun la distribucion contenida en el anexo iv, quedando identificadas por el grupo profesional, especialidad y, en su caso, programa",
+        "las plazas convocadas y la reduccion del 50% para las familias numerosas de categoria general",
+        "plazas de promocion interna senaladas con asterisco estan reservadas para acceso, por promocion interna, a personas con discapacidad intelectual del grupo profesional e0, especialidad tareas complementarias de apoyo",
+        "plazas convocadas se desglosan, segun la distribucion contenida en el anexo iv, quedando identificadas por el grupo profesional, especialidad y, en su caso, programa",
+        "plazas incluidas en esta convocatoria senaladas en el anexo iv, para ser promovidas al grupo profesional superior al que se aspire y eligiendo, como maximo, el mismo numero de plazas convocadas en el turno de promocion interna para cada especialidad y, en su caso, programa",
+        "plazas reservadas para acceso al grupo profesional e1 por promocion interna para personas con discapacidad intelectual del grupo e0, especialidad tareas complementarias de apoyo, podra participar este personal laboral, siempre que haya prestado dos anos de servicios efectivos en dicho grupo profesional y cumpla los requisitos de titulacion y cualificacion exigidos",
+        "plazas de los grupos profesionales m3 y m2, las personas aspirantes con titulaciones obtenidas en el extranjero deberan acreditar que, a la fecha de finalizacion del plazo de presentacion de solicitudes, estan en posesion de la correspondiente credencial de homologacion o en su",
+        "plazas de los grupos profesionales m1, e2 y e1, las personas aspirantes con titulaciones obtenidas en el extranjero deberan acreditar que, a la fecha de finalizacion del plazo de presentacion de solicitudes, estan en posesion de la correspondiente credencial de homologacion",
+        "plazas vacantes de su grupo profesional, especialidad y forma de acceso que resulte sin adjudicar, una vez atendidas las peticiones de las demas personas aspirantes",
+        "plazas convocadas y la reduccion del 50% para las familias numerosas de categoria general: turno libre grupo profesional general reduccion 50 % m3 31,10 15,55 m2 23,33 11,67 m1 15,57 7,79 e2 11,66 5,83 e1 9,32 4,66 promocion interna grupo profesional general reduccion 50 % m3 15,55 7,78 m2 11,67 5,84 m1 7,79 3,90 e2 5,83 2,92 e1 4,66 2,33 estaran exentas del pago de",
+        "plazas de los grupos profesionales m3 y m2: a",
+        "plazas del grupo profesional m1: a"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "direccion general de politica interior es responsable del tratamiento de esos datos|se convocan procesos selectivos para ingreso por acceso libre y acceso por promocion interna, como personal laboral fijo sujeto al iv convenio colectivo unico para el personal laboral de la administracion general del estado, en los siguientes grupos profesionales y especialidades las plazas convocadas se reservaran las plazas que se han senalado en el cuadro anterior para quienes tengan la condicion legal de personas con discapacidad con un grado de discapacidad igual o superior al 33 %|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-14543",
       "boeId": "BOE-A-2026-14543",
       "fechaPublicacion": "2026-07-04",
@@ -1816,6 +1903,67 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|orden int/675/2026, de 22 de junio, por la que se declaran de utilidad publica diversas asociaciones.|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14814",
+      "boeId": "BOE-A-2026-14814",
+      "fechaPublicacion": "2026-07-08",
+      "titulo": "Resolución de 1 de julio de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14814",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14814.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14814",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260708",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14814",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "ocho plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|ocho plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
