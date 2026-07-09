@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-07-08T09:54:41+00:00",
+    "lastRun": "2026-07-09T10:50:24+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-06-28",
-      "hasta": "2026-07-08"
+      "desde": "2026-06-29",
+      "hasta": "2026-07-09"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
-    "totalVisiblesParaUsuario": 4,
-    "totalPrioritarias": 1,
+    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalVisiblesParaUsuario": 5,
+    "totalPrioritarias": 2,
     "totalSecundarias": 3,
-    "totalDescartadas": 10,
+    "totalDescartadas": 12,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -97,6 +97,81 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 19 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14879",
+      "boeId": "BOE-A-2026-14879",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14879.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14879",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [
+        "una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala",
+        "dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia",
+        "ocho plazas de fiscales para esas ocho plazas judiciales en las secciones de violencia sobre la mujer de los tribunales de instancia de lugo, pontevedra, inca, lorca, santa cruz de tenerife, badalona, lucena y vitoria-gasteiz",
+        "una plaza de primera categoria de fiscal de sala responsable de la unidad de proteccion de datos",
+        "dos plazas de segunda categoria en la inspeccion fiscal",
+        "una plaza de segunda categoria adscrita al fiscal de sala de violencia sobre la mujer",
+        "una plaza de segunda categoria adscrita al fiscal de sala de trata de personas y extranjeria",
+        "dos plazas de segunda categoria adscritas al fiscal de sala de criminalidad informatica",
+        "dos plazas de segunda categoria adscritas al fiscal de sala de cooperacion penal internacional",
+        "una plaza de segunda categoria adscrita al fiscal de sala contra los delitos de odio y discriminacion",
+        "una plaza de segunda categoria adscrita al fiscal de sala responsable de la unidad de proteccion de datos",
+        "dos plazas de segunda categoria en la fiscalia del tribunal supremo (seccion penal)",
+        "dos plazas de segunda categoria en la fiscalia de la audiencia nacional",
+        "tres plazas de segunda categoria en la fiscalia especial antidroga",
+        "dos plazas de segunda categoria en la fiscalia provincial de granada"
+      ],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "a categoria adscrita al fiscal de sala de trata de personas y extranjeria dos plazas de segunda categoria adscritas al fiscal de sala de criminalidad informatica dos plazas de segunda categoria adscritas al fiscal de sala de cooperacion penal internacional una plaza de segunda categoria adscrita al fiscal de s"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -682,6 +757,76 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-14878",
+      "boeId": "BOE-A-2026-14878",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Real Decreto 559/2026, de 8 de julio, de creación de quinientas unidades judiciales correspondientes a la programación de 2026 y de adecuación de la planta judicial.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14878",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14878.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14878",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14878",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "seis plazas de magistrado o magistrada en organos colegiados, de las cuales, siete corresponden al tribunal supremo, cuatro a la audiencia nacional, nueve a los tribunales superiores de justicia y setenta y seis a las audiencias provinciales",
+        "cuatro plazas de jueces o juezas de adscripcion territorial",
+        "16 plazas de magistrado en tribunales superiores de justicia y audiencias provinciales correspondientes a la programacion del ano 2010 y 50 plazas de juez adscripcion territorial, pero su constitucion fue suspendida por real decreto 876/2011, de 24 de junio, por el que se suspende la constitucion y la entrada en funcionamiento de 1",
+        "16 plazas de magistrado en tribunales superiores de justicia y audiencias provinciales correspondientes a la programacion del ano 2010 y 50 plazas de juez de adscripcion territorial, cuya constitucion fue suspendida por real decreto 876/2011, de 24 de junio, por el que se suspende la constitucion y la entrada en funcionamiento de 1",
+        "tres plazas de magistrado o magistrada en la sala 1",
+        "dos plazas de magistrado o magistrada en la sala 2",
+        "dos plazas de magistrado o magistrada en la sala 4",
+        "cuatro plazas de magistrado o magistrada en la sala de lo penal de la audiencia nacional",
+        "dos plazas de magistrado o magistrada en la seccion de instruccion del tribunal central de instancia",
+        "una plaza de magistrado o magistrada en la sala de lo social del tribunal superior de justicia de canarias, con sede en santa cruz de tenerife",
+        "dos plazas de magistrado o magistrada en la sala de lo social del tribunal superior de justicia de canarias, con sede en las palmas de gran canaria",
+        "una plaza de magistrado o magistrada en la seccion de apelacion penal de la sala de lo civil y penal del tribunal superior de justicia de cataluna",
+        "una plaza de magistrado o magistrada en la sala de lo contencioso-administrativo del tribunal superior de justicia de illes balears",
+        "una plaza de magistrado o magistrada en la seccion de apelacion penal de la sala de lo civil y penal en el tribunal superior de justicia de madrid",
+        "una plaza de magistrado o magistrada presidente en la seccion de apelacion penal de la sala de lo civil y penal del tribunal superior de justicia de la comunidad valenciana"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|seis plazas de magistrado o magistrada en organos colegiados, de las cuales, siete corresponden al tribunal supremo, cuatro a la audiencia nacional, nueve a los tribunales superiores de justicia y setenta y seis a las audiencias provinciales cuatro plazas de jueces o juezas de adscripcion territorial|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-14786",
       "boeId": "BOE-A-2026-14786",
       "fechaPublicacion": "2026-07-08",
@@ -868,6 +1013,62 @@
       "fingerprint": "ayuntamiento de albacete|ocho plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14887",
+      "boeId": "BOE-A-2026-14887",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Resolución de 7 de julio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Administradores Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14887",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14887.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14887",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14887",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 7 de julio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
@@ -942,6 +1143,81 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 19 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14879",
+      "boeId": "BOE-A-2026-14879",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14879.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14879",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [
+        "una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala",
+        "dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia",
+        "ocho plazas de fiscales para esas ocho plazas judiciales en las secciones de violencia sobre la mujer de los tribunales de instancia de lugo, pontevedra, inca, lorca, santa cruz de tenerife, badalona, lucena y vitoria-gasteiz",
+        "una plaza de primera categoria de fiscal de sala responsable de la unidad de proteccion de datos",
+        "dos plazas de segunda categoria en la inspeccion fiscal",
+        "una plaza de segunda categoria adscrita al fiscal de sala de violencia sobre la mujer",
+        "una plaza de segunda categoria adscrita al fiscal de sala de trata de personas y extranjeria",
+        "dos plazas de segunda categoria adscritas al fiscal de sala de criminalidad informatica",
+        "dos plazas de segunda categoria adscritas al fiscal de sala de cooperacion penal internacional",
+        "una plaza de segunda categoria adscrita al fiscal de sala contra los delitos de odio y discriminacion",
+        "una plaza de segunda categoria adscrita al fiscal de sala responsable de la unidad de proteccion de datos",
+        "dos plazas de segunda categoria en la fiscalia del tribunal supremo (seccion penal)",
+        "dos plazas de segunda categoria en la fiscalia de la audiencia nacional",
+        "tres plazas de segunda categoria en la fiscalia especial antidroga",
+        "dos plazas de segunda categoria en la fiscalia provincial de granada"
+      ],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "a categoria adscrita al fiscal de sala de trata de personas y extranjeria dos plazas de segunda categoria adscritas al fiscal de sala de criminalidad informatica dos plazas de segunda categoria adscritas al fiscal de sala de cooperacion penal internacional una plaza de segunda categoria adscrita al fiscal de s"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1199,6 +1475,81 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 19 de junio de 2026, del departamento de gestion tributaria de la agencia estatal de administracion tribut|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14879",
+      "boeId": "BOE-A-2026-14879",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14879.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14879",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [
+        "una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala",
+        "dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia",
+        "ocho plazas de fiscales para esas ocho plazas judiciales en las secciones de violencia sobre la mujer de los tribunales de instancia de lugo, pontevedra, inca, lorca, santa cruz de tenerife, badalona, lucena y vitoria-gasteiz",
+        "una plaza de primera categoria de fiscal de sala responsable de la unidad de proteccion de datos",
+        "dos plazas de segunda categoria en la inspeccion fiscal",
+        "una plaza de segunda categoria adscrita al fiscal de sala de violencia sobre la mujer",
+        "una plaza de segunda categoria adscrita al fiscal de sala de trata de personas y extranjeria",
+        "dos plazas de segunda categoria adscritas al fiscal de sala de criminalidad informatica",
+        "dos plazas de segunda categoria adscritas al fiscal de sala de cooperacion penal internacional",
+        "una plaza de segunda categoria adscrita al fiscal de sala contra los delitos de odio y discriminacion",
+        "una plaza de segunda categoria adscrita al fiscal de sala responsable de la unidad de proteccion de datos",
+        "dos plazas de segunda categoria en la fiscalia del tribunal supremo (seccion penal)",
+        "dos plazas de segunda categoria en la fiscalia de la audiencia nacional",
+        "tres plazas de segunda categoria en la fiscalia especial antidroga",
+        "dos plazas de segunda categoria en la fiscalia provincial de granada"
+      ],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "a categoria adscrita al fiscal de sala de trata de personas y extranjeria dos plazas de segunda categoria adscritas al fiscal de sala de criminalidad informatica dos plazas de segunda categoria adscritas al fiscal de sala de cooperacion penal internacional una plaza de segunda categoria adscrita al fiscal de s"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1780,6 +2131,76 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-14878",
+      "boeId": "BOE-A-2026-14878",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Real Decreto 559/2026, de 8 de julio, de creación de quinientas unidades judiciales correspondientes a la programación de 2026 y de adecuación de la planta judicial.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14878",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14878.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14878",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14878",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "seis plazas de magistrado o magistrada en organos colegiados, de las cuales, siete corresponden al tribunal supremo, cuatro a la audiencia nacional, nueve a los tribunales superiores de justicia y setenta y seis a las audiencias provinciales",
+        "cuatro plazas de jueces o juezas de adscripcion territorial",
+        "16 plazas de magistrado en tribunales superiores de justicia y audiencias provinciales correspondientes a la programacion del ano 2010 y 50 plazas de juez adscripcion territorial, pero su constitucion fue suspendida por real decreto 876/2011, de 24 de junio, por el que se suspende la constitucion y la entrada en funcionamiento de 1",
+        "16 plazas de magistrado en tribunales superiores de justicia y audiencias provinciales correspondientes a la programacion del ano 2010 y 50 plazas de juez de adscripcion territorial, cuya constitucion fue suspendida por real decreto 876/2011, de 24 de junio, por el que se suspende la constitucion y la entrada en funcionamiento de 1",
+        "tres plazas de magistrado o magistrada en la sala 1",
+        "dos plazas de magistrado o magistrada en la sala 2",
+        "dos plazas de magistrado o magistrada en la sala 4",
+        "cuatro plazas de magistrado o magistrada en la sala de lo penal de la audiencia nacional",
+        "dos plazas de magistrado o magistrada en la seccion de instruccion del tribunal central de instancia",
+        "una plaza de magistrado o magistrada en la sala de lo social del tribunal superior de justicia de canarias, con sede en santa cruz de tenerife",
+        "dos plazas de magistrado o magistrada en la sala de lo social del tribunal superior de justicia de canarias, con sede en las palmas de gran canaria",
+        "una plaza de magistrado o magistrada en la seccion de apelacion penal de la sala de lo civil y penal del tribunal superior de justicia de cataluna",
+        "una plaza de magistrado o magistrada en la sala de lo contencioso-administrativo del tribunal superior de justicia de illes balears",
+        "una plaza de magistrado o magistrada en la seccion de apelacion penal de la sala de lo civil y penal en el tribunal superior de justicia de madrid",
+        "una plaza de magistrado o magistrada presidente en la seccion de apelacion penal de la sala de lo civil y penal del tribunal superior de justicia de la comunidad valenciana"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|seis plazas de magistrado o magistrada en organos colegiados, de las cuales, siete corresponden al tribunal supremo, cuatro a la audiencia nacional, nueve a los tribunales superiores de justicia y setenta y seis a las audiencias provinciales cuatro plazas de jueces o juezas de adscripcion territorial|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-14786",
       "boeId": "BOE-A-2026-14786",
       "fechaPublicacion": "2026-07-08",
@@ -1964,6 +2385,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete|ocho plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-14887",
+      "boeId": "BOE-A-2026-14887",
+      "fechaPublicacion": "2026-07-09",
+      "titulo": "Resolución de 7 de julio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Administradores Civiles del Estado.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14887",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14887.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14887",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/09/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260709",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14887",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 7 de julio de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcionar|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }

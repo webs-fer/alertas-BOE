@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **4**
+Total alertas prioritarias/secundarias: **5**
 
 Filtro aplicado:
 
@@ -17,6 +17,21 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14094
 - **PDF:** https://www.boe.es/boe/dias/2026/06/29/pdfs/BOE-A-2026-14094.pdf
+
+## Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.
+
+- **Fecha:** 2026-07-09
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **Plazas/frases detectadas:**
+  - una plaza de fiscal de sala coordinador de delitos economicos y de otra plaza de fiscal de sala coordinador de delitos contra la administracion publica, asi como de las plazas precisas para el adecuado funcionamiento de dichas fiscalias de sala
+  - dos plazas de fiscal, todas de segunda categoria, derivadas de la creacion de cuarenta y dos plazas judiciales en secciones de violencia sobre la mujer de los tribunales de instancia
+  - ocho plazas de fiscales para esas ocho plazas judiciales en las secciones de violencia sobre la mujer de los tribunales de instancia de lugo, pontevedra, inca, lorca, santa cruz de tenerife, badalona, lucena y vitoria-gasteiz
+  - una plaza de primera categoria de fiscal de sala responsable de la unidad de proteccion de datos
+  - dos plazas de segunda categoria en la inspeccion fiscal
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879
+- **PDF:** https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14879.pdf
 
 ## Resolución de 25 de junio de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema de promoción interna, del Cuerpo Administrativo de la Administración de la Seguridad Social.
 
