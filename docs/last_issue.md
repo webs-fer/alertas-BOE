@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **5**
+Total alertas prioritarias/secundarias: **4**
 
 Filtro aplicado:
 
@@ -9,16 +9,7 @@ Filtro aplicado:
 - Auxiliar administrativo C2: oculto por defecto.
 - Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.
 
-## Resolución de 19 de junio de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.
-
-- **Fecha:** 2026-06-29
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 1
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14094
-- **PDF:** https://www.boe.es/boe/dias/2026/06/29/pdfs/BOE-A-2026-14094.pdf
-
-## Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.
+## Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes. Ver texto consolidado
 
 - **Fecha:** 2026-07-09
 - **Perfil detectado:** informatica_tic
