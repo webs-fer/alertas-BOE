@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-07-14T09:34:01+00:00",
+    "lastRun": "2026-07-15T09:40:27+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-07-04",
-      "hasta": "2026-07-14"
+      "desde": "2026-07-05",
+      "hasta": "2026-07-15"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalAlertasDetectadasTerritorialmente": 13,
     "totalVisiblesParaUsuario": 3,
     "totalPrioritarias": 2,
     "totalSecundarias": 1,
-    "totalDescartadas": 11,
+    "totalDescartadas": 10,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -572,62 +572,6 @@
       ],
       "prioridad": 7,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|promocion_interna_no_prioritaria|comision_servicios",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-14543",
-      "boeId": "BOE-A-2026-14543",
-      "fechaPublicacion": "2026-07-04",
-      "titulo": "Orden INT/675/2026, de 22 de junio, por la que se declaran de utilidad pública diversas asociaciones.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14543",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/04/pdfs/BOE-A-2026-14543.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14543",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260704",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14543",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "musica"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|orden int/675/2026, de 22 de junio, por la que se declaran de utilidad publica diversas asociaciones.|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1673,62 +1617,6 @@
       ],
       "prioridad": 7,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|promocion_interna_no_prioritaria|comision_servicios",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-14543",
-      "boeId": "BOE-A-2026-14543",
-      "fechaPublicacion": "2026-07-04",
-      "titulo": "Orden INT/675/2026, de 22 de junio, por la que se declaran de utilidad pública diversas asociaciones.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14543",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/04/pdfs/BOE-A-2026-14543.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-14543",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260704",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14543",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "musica"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|orden int/675/2026, de 22 de junio, por la que se declaran de utilidad publica diversas asociaciones.|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
