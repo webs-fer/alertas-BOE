@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-07-17T09:36:09+00:00",
+    "lastRun": "2026-07-18T09:14:16+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-07-07",
-      "hasta": "2026-07-17"
+      "desde": "2026-07-08",
+      "hasta": "2026-07-18"
     },
     "provinciasVigiladas": [
       "Albacete"
