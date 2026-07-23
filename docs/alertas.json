@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-07-22T09:55:50+00:00",
+    "lastRun": "2026-07-23T09:51:50+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-07-12",
-      "hasta": "2026-07-22"
+      "desde": "2026-07-13",
+      "hasta": "2026-07-23"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalAlertasDetectadasTerritorialmente": 18,
     "totalVisiblesParaUsuario": 4,
     "totalPrioritarias": 3,
     "totalSecundarias": 1,
-    "totalDescartadas": 13,
+    "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -1039,6 +1039,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de villarrobledo|cuatro plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-16021",
+      "boeId": "BOE-A-2026-16021",
+      "fechaPublicacion": "2026-07-23",
+      "titulo": "Orden PJC/741/2026, de 6 de julio, por la que se otorga destino al personal funcionario del Cuerpo de Médicos Forenses que superó el proceso selectivo, convocado por Orden PJC/1446/2024, de 10 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16021",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-A-2026-16021.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16021",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260723",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "veinte dias habiles contados desde el siguiente al de la publicacion de esta orden en el boletin oficial del estado , de acuerdo con lo establecido en el articulo 29 del citado reglamento y en el articulo 30 de la ley 39/2015, de 1 de octubre, del procedimiento administrativo co",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16021",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "medico"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden pjc/741/2026, de 6 de julio, por la que se otorga destino al personal funcionario del cuerpo de medicos forenses q|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -2313,6 +2369,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de villarrobledo|cuatro plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-16021",
+      "boeId": "BOE-A-2026-16021",
+      "fechaPublicacion": "2026-07-23",
+      "titulo": "Orden PJC/741/2026, de 6 de julio, por la que se otorga destino al personal funcionario del Cuerpo de Médicos Forenses que superó el proceso selectivo, convocado por Orden PJC/1446/2024, de 10 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16021",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-A-2026-16021.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16021",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/07/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260723",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "veinte dias habiles contados desde el siguiente al de la publicacion de esta orden en el boletin oficial del estado , de acuerdo con lo establecido en el articulo 29 del citado reglamento y en el articulo 30 de la ley 39/2015, de 1 de octubre, del procedimiento administrativo co",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16021",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "medico"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden pjc/741/2026, de 6 de julio, por la que se otorga destino al personal funcionario del cuerpo de medicos forenses q|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
