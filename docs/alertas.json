@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-03T11:06:07+00:00",
+    "lastRun": "2026-08-04T10:16:44+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-07-24",
-      "hasta": "2026-08-03"
+      "desde": "2026-07-25",
+      "hasta": "2026-08-04"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 10,
+    "totalAlertasDetectadasTerritorialmente": 11,
     "totalVisiblesParaUsuario": 2,
     "totalPrioritarias": 2,
     "totalSecundarias": 0,
-    "totalDescartadas": 8,
+    "totalDescartadas": 9,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -626,6 +626,68 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de funcion publica|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 7 puntos en la primera fase y de 8 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-16939",
+      "boeId": "BOE-A-2026-16939",
+      "fechaPublicacion": "2026-08-04",
+      "titulo": "Resolución de 29 de julio de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 28 de enero de 2026, en el Servicio Público de Empleo Estatal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-A-2026-16939.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16939",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260804",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "veinte dias habiles, debiendo comunicarse esta a la unidad competente",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "movilidad",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "letrada",
+        "letrado",
+        "maestro"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 29 de julio de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resolu|otro_no_interesante|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1361,6 +1423,68 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de funcion publica|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 7 puntos en la primera fase y de 8 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-16939",
+      "boeId": "BOE-A-2026-16939",
+      "fechaPublicacion": "2026-08-04",
+      "titulo": "Resolución de 29 de julio de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 28 de enero de 2026, en el Servicio Público de Empleo Estatal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-A-2026-16939.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16939",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/04/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260804",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "veinte dias habiles, debiendo comunicarse esta a la unidad competente",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "movilidad",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "letrada",
+        "letrado",
+        "maestro"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 29 de julio de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resolu|otro_no_interesante|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
