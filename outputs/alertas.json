@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-11T08:29:11+00:00",
+    "lastRun": "2026-08-12T08:55:23+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-01",
-      "hasta": "2026-08-11"
+      "desde": "2026-08-02",
+      "hasta": "2026-08-12"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalAlertasDetectadasTerritorialmente": 15,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 13,
+    "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -162,6 +162,63 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "direccion general de ordenacion profesional de la secretaria de estado de sanidad|676 plazas de las especialidades relacionadas en los apartados 1 y 5 del anexo i del real decreto 183/2008, de 8 de febrero, por el que se determinan y clasifican las especialidades en ciencias de la salud y se desarrollan determinados aspectos del sistema de formacion sanitaria especializada, conforme sigue 377 plazas de titularidad publica y 300 pertenecientes a centros de titularidad privada, distribuidas por comunidades autonomas en los centros y unidades docentes que se indican en el anexo i|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-17586",
+      "boeId": "BOE-A-2026-17586",
+      "fechaPublicacion": "2026-08-12",
+      "titulo": "Resolución de 5 de agosto de 2026, del Consorcio de Servicio de Atención Ciudadana (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17586",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/12/pdfs/BOE-A-2026-17586.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17586",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260812",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17586",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de auxiliar administrivo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|una plaza de auxiliar administrivo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1078,6 +1135,63 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "direccion general de ordenacion profesional de la secretaria de estado de sanidad|676 plazas de las especialidades relacionadas en los apartados 1 y 5 del anexo i del real decreto 183/2008, de 8 de febrero, por el que se determinan y clasifican las especialidades en ciencias de la salud y se desarrollan determinados aspectos del sistema de formacion sanitaria especializada, conforme sigue 377 plazas de titularidad publica y 300 pertenecientes a centros de titularidad privada, distribuidas por comunidades autonomas en los centros y unidades docentes que se indican en el anexo i|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-17586",
+      "boeId": "BOE-A-2026-17586",
+      "fechaPublicacion": "2026-08-12",
+      "titulo": "Resolución de 5 de agosto de 2026, del Consorcio de Servicio de Atención Ciudadana (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17586",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/12/pdfs/BOE-A-2026-17586.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17586",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/12/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260812",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17586",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de auxiliar administrivo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|una plaza de auxiliar administrivo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
