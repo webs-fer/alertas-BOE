@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-13T08:58:23+00:00",
+    "lastRun": "2026-08-14T08:54:28+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-03",
-      "hasta": "2026-08-13"
+      "desde": "2026-08-04",
+      "hasta": "2026-08-14"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 15,
+    "totalAlertasDetectadasTerritorialmente": 16,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 14,
+    "totalDescartadas": 15,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -223,6 +223,65 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-17735",
+      "boeId": "BOE-A-2026-17735",
+      "fechaPublicacion": "2026-08-14",
+      "titulo": "Resolución de 7 de agosto de 2026, del Ayuntamiento de Bonete (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17735",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/14/pdfs/BOE-A-2026-17735.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17735",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/14/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260814",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Bonete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17735",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Bonete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de operario/a de servicios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de operario/a de servicios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de bonete|una plaza de operario/a de servicios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17383",
       "boeId": "BOE-A-2026-17383",
       "fechaPublicacion": "2026-08-10",
@@ -327,72 +386,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|orden pjc/852/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de tramitacion proce|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-16861",
-      "boeId": "BOE-A-2026-16861",
-      "fechaPublicacion": "2026-08-03",
-      "titulo": "Resolución de 23 de julio de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Intervención General de la Seguridad Social.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16861",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/03/pdfs/BOE-A-2026-16861.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16861",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/03/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260803",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Función Pública",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16861",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Función Pública",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 7 puntos en la primera fase y de 8 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
-      ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "direccion general de funcion publica|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 7 puntos en la primera fase y de 8 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -931,6 +924,63 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete reservado al personal funcionario de administracion local con habilitacion de caracter nacional|resolucion de 4 de agosto de 2026, de la direccion general de la funcion publica, por la que se publica la adjudicacion |otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-17753",
+      "boeId": "BOE-A-2026-17753",
+      "fechaPublicacion": "2026-08-14",
+      "titulo": "Orden APA/863/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios del seguro de explotaciones de cultivos herbáceos extensivos, comprendido en el Cuadragésimo Séptimo Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17753",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/14/pdfs/BOE-A-2026-17753.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17753",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/14/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260814",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17753",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra",
+        "peon"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/863/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1196,6 +1246,65 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-17735",
+      "boeId": "BOE-A-2026-17735",
+      "fechaPublicacion": "2026-08-14",
+      "titulo": "Resolución de 7 de agosto de 2026, del Ayuntamiento de Bonete (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17735",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/14/pdfs/BOE-A-2026-17735.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17735",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/14/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260814",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Bonete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17735",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Bonete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de operario/a de servicios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de operario/a de servicios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de bonete|una plaza de operario/a de servicios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17383",
       "boeId": "BOE-A-2026-17383",
       "fechaPublicacion": "2026-08-10",
@@ -1300,72 +1409,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|orden pjc/852/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de tramitacion proce|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-16861",
-      "boeId": "BOE-A-2026-16861",
-      "fechaPublicacion": "2026-08-03",
-      "titulo": "Resolución de 23 de julio de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Intervención General de la Seguridad Social.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16861",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/03/pdfs/BOE-A-2026-16861.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16861",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/03/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260803",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Función Pública",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16861",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Función Pública",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 7 puntos en la primera fase y de 8 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
-      ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "direccion general de funcion publica|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 7 puntos en la primera fase y de 8 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1904,6 +1947,63 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete reservado al personal funcionario de administracion local con habilitacion de caracter nacional|resolucion de 4 de agosto de 2026, de la direccion general de la funcion publica, por la que se publica la adjudicacion |otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-17753",
+      "boeId": "BOE-A-2026-17753",
+      "fechaPublicacion": "2026-08-14",
+      "titulo": "Orden APA/863/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios del seguro de explotaciones de cultivos herbáceos extensivos, comprendido en el Cuadragésimo Séptimo Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17753",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/14/pdfs/BOE-A-2026-17753.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17753",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/14/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260814",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17753",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra",
+        "peon"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/863/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
