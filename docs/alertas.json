@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-14T08:54:28+00:00",
+    "lastRun": "2026-08-15T08:01:04+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-04",
-      "hasta": "2026-08-14"
+      "desde": "2026-08-05",
+      "hasta": "2026-08-15"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -282,6 +282,63 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-17813",
+      "boeId": "BOE-A-2026-17813",
+      "fechaPublicacion": "2026-08-15",
+      "titulo": "Resolución de 23 de julio de 2026, de la Presidencia del Consejo Superior de Deportes, por la que se publica el Convenio con el Club Atletismo Albacete-Diputación, para la realización del módulo de formación práctica del Ciclo de Grado Superior de Enseñanzas Deportivas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/15/pdfs/BOE-A-2026-17813.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17813",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/15/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260815",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Deportes",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Deportes",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "direccion general de deportes|un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17383",
       "boeId": "BOE-A-2026-17383",
       "fechaPublicacion": "2026-08-10",
@@ -386,68 +443,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|orden pjc/852/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de tramitacion proce|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-16939",
-      "boeId": "BOE-A-2026-16939",
-      "fechaPublicacion": "2026-08-04",
-      "titulo": "Resolución de 29 de julio de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 28 de enero de 2026, en el Servicio Público de Empleo Estatal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-A-2026-16939.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16939",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260804",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles, debiendo comunicarse esta a la unidad competente",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "movilidad",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado",
-        "maestro"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|resolucion de 29 de julio de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resolu|otro_no_interesante|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1305,6 +1300,63 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-17813",
+      "boeId": "BOE-A-2026-17813",
+      "fechaPublicacion": "2026-08-15",
+      "titulo": "Resolución de 23 de julio de 2026, de la Presidencia del Consejo Superior de Deportes, por la que se publica el Convenio con el Club Atletismo Albacete-Diputación, para la realización del módulo de formación práctica del Ciclo de Grado Superior de Enseñanzas Deportivas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/15/pdfs/BOE-A-2026-17813.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17813",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/15/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260815",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Deportes",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Deportes",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "direccion general de deportes|un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17383",
       "boeId": "BOE-A-2026-17383",
       "fechaPublicacion": "2026-08-10",
@@ -1409,68 +1461,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|orden pjc/852/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de tramitacion proce|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-16939",
-      "boeId": "BOE-A-2026-16939",
-      "fechaPublicacion": "2026-08-04",
-      "titulo": "Resolución de 29 de julio de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 28 de enero de 2026, en el Servicio Público de Empleo Estatal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-A-2026-16939.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16939",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260804",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles, debiendo comunicarse esta a la unidad competente",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16939",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "movilidad",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "letrada",
-        "letrado",
-        "maestro"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|resolucion de 29 de julio de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resolu|otro_no_interesante|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
