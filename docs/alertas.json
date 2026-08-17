@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-15T08:01:04+00:00",
+    "lastRun": "2026-08-17T08:13:12+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-05",
-      "hasta": "2026-08-15"
+      "desde": "2026-08-07",
+      "hasta": "2026-08-17"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 16,
+    "totalAlertasDetectadasTerritorialmente": 13,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 15,
+    "totalDescartadas": 12,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -447,250 +447,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-17011",
-      "boeId": "BOE-A-2026-17011",
-      "fechaPublicacion": "2026-08-05",
-      "titulo": "Orden TDF/821/2026, de 28 de julio, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, de la Escala de funcionarios de administración local con habilitación de carácter nacional, Subescala de Secretaría-Intervención, y se asigna primer destino.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17011",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/05/pdfs/BOE-A-2026-17011.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17011",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/05/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260805",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Tercera R",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17011",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Tercera R",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "un puesto de oficio, de entre aquellos puestos que han quedado vacantes",
-        "se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de secretaria-intervencion, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "habilitacion de caracter nacional",
-        "secretaria-intervencion"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de tercera r|un puesto de oficio, de entre aquellos puestos que han quedado vacantes se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de secretaria-intervencion, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17012",
-      "boeId": "BOE-A-2026-17012",
-      "fechaPublicacion": "2026-08-05",
-      "titulo": "Orden TDF/822/2026, de 28 de julio, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, de la Escala de funcionarios de administración local con habilitación de carácter nacional, Subescala de Intervención-Tesorería, categoría de Entrada, y se asigna primer destino.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17012",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/05/pdfs/BOE-A-2026-17012.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17012",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/05/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260805",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Segunda R",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17012",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Segunda R",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "un puesto de oficio, de entre aquellos puestos que han quedado vacantes",
-        "se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de intervencion-tesoreria, categoria de entrada, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num",
-        "plaza delgado, lara patricia ciudad real membrilla intervencion de clase 2"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "habilitacion de caracter nacional"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de segunda r|un puesto de oficio, de entre aquellos puestos que han quedado vacantes se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de intervencion-tesoreria, categoria de entrada, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17077",
-      "boeId": "BOE-A-2026-17077",
-      "fechaPublicacion": "2026-08-06",
-      "titulo": "Orden PJC/826/2026, de 29 de julio, por la que se nombran Abogados Fiscales sustitutos para el año 2026-2027.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17077",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/06/pdfs/BOE-A-2026-17077.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17077",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260806",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17077",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [
-        "se convocan plazas de abogadas y abogados fiscales sustitutos correspondientes al ano judicial 2026-2027, este ministerio ha resuelto"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "abogada",
-        "abogado"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|se convocan plazas de abogadas y abogados fiscales sustitutos correspondientes al ano judicial 2026-2027, este ministerio ha resuelto|otro_no_interesante|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17112",
-      "boeId": "BOE-A-2026-17112",
-      "fechaPublicacion": "2026-08-06",
-      "titulo": "Resolución de 30 de julio de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17112",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/06/pdfs/BOE-A-2026-17112.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17112",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260806",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17112",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "cinco plazas de oficial de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "una plaza de subinspector/a de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de oficial de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "plaza de subinspector/a de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "policia local"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de albacete|cinco plazas de oficial de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna una plaza de subinspector/a de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-17291",
       "boeId": "BOE-A-2026-17291",
       "fechaPublicacion": "2026-08-08",
@@ -976,6 +732,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|orden apa/863/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-17873",
+      "boeId": "BOE-A-2026-17873",
+      "fechaPublicacion": "2026-08-17",
+      "titulo": "Orden APA/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios del seguro de explotaciones de frutos secos, comprendido en el Cuadragésimo Séptimo Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17873.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17873",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/17/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260817",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1465,250 +1277,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-17011",
-      "boeId": "BOE-A-2026-17011",
-      "fechaPublicacion": "2026-08-05",
-      "titulo": "Orden TDF/821/2026, de 28 de julio, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, de la Escala de funcionarios de administración local con habilitación de carácter nacional, Subescala de Secretaría-Intervención, y se asigna primer destino.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17011",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/05/pdfs/BOE-A-2026-17011.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17011",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/05/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260805",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Tercera R",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17011",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Tercera R",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "un puesto de oficio, de entre aquellos puestos que han quedado vacantes",
-        "se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de secretaria-intervencion, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "habilitacion de caracter nacional",
-        "secretaria-intervencion"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de tercera r|un puesto de oficio, de entre aquellos puestos que han quedado vacantes se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de secretaria-intervencion, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17012",
-      "boeId": "BOE-A-2026-17012",
-      "fechaPublicacion": "2026-08-05",
-      "titulo": "Orden TDF/822/2026, de 28 de julio, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, de la Escala de funcionarios de administración local con habilitación de carácter nacional, Subescala de Intervención-Tesorería, categoría de Entrada, y se asigna primer destino.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17012",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/05/pdfs/BOE-A-2026-17012.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17012",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/05/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260805",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Segunda R",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17012",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Segunda R",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "un puesto de oficio, de entre aquellos puestos que han quedado vacantes",
-        "se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de intervencion-tesoreria, categoria de entrada, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num",
-        "plaza delgado, lara patricia ciudad real membrilla intervencion de clase 2"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "habilitacion de caracter nacional"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de segunda r|un puesto de oficio, de entre aquellos puestos que han quedado vacantes se convocan pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de intervencion-tesoreria, categoria de entrada, de la escala de funcionarios de administracion local con habilitacion de caracter nacional, (boe num|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17077",
-      "boeId": "BOE-A-2026-17077",
-      "fechaPublicacion": "2026-08-06",
-      "titulo": "Orden PJC/826/2026, de 29 de julio, por la que se nombran Abogados Fiscales sustitutos para el año 2026-2027.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17077",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/06/pdfs/BOE-A-2026-17077.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17077",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260806",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17077",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [
-        "se convocan plazas de abogadas y abogados fiscales sustitutos correspondientes al ano judicial 2026-2027, este ministerio ha resuelto"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "abogada",
-        "abogado"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|se convocan plazas de abogadas y abogados fiscales sustitutos correspondientes al ano judicial 2026-2027, este ministerio ha resuelto|otro_no_interesante|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17112",
-      "boeId": "BOE-A-2026-17112",
-      "fechaPublicacion": "2026-08-06",
-      "titulo": "Resolución de 30 de julio de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17112",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/06/pdfs/BOE-A-2026-17112.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17112",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/06/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260806",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17112",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [
-        "cinco plazas de oficial de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "una plaza de subinspector/a de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de oficial de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "plaza de subinspector/a de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna"
-      ],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "policia local"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de albacete|cinco plazas de oficial de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna una plaza de subinspector/a de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-17291",
       "boeId": "BOE-A-2026-17291",
       "fechaPublicacion": "2026-08-08",
@@ -1994,6 +1562,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|orden apa/863/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-17873",
+      "boeId": "BOE-A-2026-17873",
+      "fechaPublicacion": "2026-08-17",
+      "titulo": "Orden APA/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios del seguro de explotaciones de frutos secos, comprendido en el Cuadragésimo Séptimo Plan de Seguros Agrarios Combinados.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17873.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17873",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/17/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260817",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden apa/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
