@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-18T08:07:55+00:00",
+    "lastRun": "2026-08-19T08:06:30+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-08",
-      "hasta": "2026-08-18"
+      "desde": "2026-08-09",
+      "hasta": "2026-08-19"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 13,
-    "totalVisiblesParaUsuario": 1,
-    "totalPrioritarias": 1,
+    "totalAlertasDetectadasTerritorialmente": 11,
+    "totalVisiblesParaUsuario": 0,
+    "totalPrioritarias": 0,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 11,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -25,72 +25,7 @@
       "modo_estricto": true
     }
   },
-  "alertasPrioritarias": [
-    {
-      "id": "BOE-A-2026-17301",
-      "boeId": "BOE-A-2026-17301",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Resolución de 30 de julio de 2026, del Ayuntamiento de Casas de Ves (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17301",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17301.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17301",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Casas de Ves",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la ultima publicacion en el boletin oficial de la provincia de albacete o en el diario oficial de castilla-la mancha o en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17301",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Casas de Ves",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de auxiliar administrativo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administrativo/a"
-      ],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar administrativo",
-        "auxiliar administrativo/a"
-      ],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de casas de ves|una plaza de auxiliar administrativo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    }
-  ],
+  "alertasPrioritarias": [],
   "alertasSecundarias": [],
   "alertasDescartadas": [
     {
@@ -339,6 +274,63 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-17934",
+      "boeId": "BOE-A-2026-17934",
+      "fechaPublicacion": "2026-08-19",
+      "titulo": "Resolución de 13 de agosto de 2026, del Ayuntamiento de Molinicos (Albacete), que deja sin efecto la de 15 de julio de 2026, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/19/pdfs/BOE-A-2026-17934.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17934",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260819",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Molinicos",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Molinicos",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "convocatoria para proveer varias plazas"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de molinicos|convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17383",
       "boeId": "BOE-A-2026-17383",
       "fechaPublicacion": "2026-08-10",
@@ -443,124 +435,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|orden pjc/852/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de tramitacion proce|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17291",
-      "boeId": "BOE-A-2026-17291",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Orden TDF/843/2026, de 6 de agosto, por la que se corrigen errores en la Orden TDF/821/2026, de 28 de julio, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, de la Escala de funcionarios de administración local con habilitación de carácter nacional, Subescala de Secretaría-Intervención, y se asigna primer destino.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17291",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17291.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17291",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Tercera",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17291",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Tercera",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "habilitacion de caracter nacional",
-        "maestra",
-        "secretaria-intervencion"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de tercera|orden tdf/843/2026, de 6 de agosto, por la que se corrigen errores en la orden tdf/821/2026, de 28 de julio, por la que |otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17326",
-      "boeId": "BOE-A-2026-17326",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Resolución de 29 de julio de 2026, de la Universidad Autónoma de Madrid, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17326",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17326.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17326",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Las Palmas de Gran Canaria",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes y mantenerse hasta el momento de la toma de posesion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17326",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Universidad de Las Palmas de Gran Canaria",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medico"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "C1"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "universidad de las palmas de gran canaria|resolucion de 29 de julio de 2026, de la universidad autonoma de madrid, por la que se convoca concurso de acceso a plaz|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -792,137 +666,8 @@
       "duplicadoDe": ""
     }
   ],
-  "alertas": [
-    {
-      "id": "BOE-A-2026-17301",
-      "boeId": "BOE-A-2026-17301",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Resolución de 30 de julio de 2026, del Ayuntamiento de Casas de Ves (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17301",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17301.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17301",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Casas de Ves",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la ultima publicacion en el boletin oficial de la provincia de albacete o en el diario oficial de castilla-la mancha o en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17301",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Casas de Ves",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de auxiliar administrativo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administrativo/a"
-      ],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar administrativo",
-        "auxiliar administrativo/a"
-      ],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de casas de ves|una plaza de auxiliar administrativo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    }
-  ],
+  "alertas": [],
   "todasLasAlertas": [
-    {
-      "id": "BOE-A-2026-17301",
-      "boeId": "BOE-A-2026-17301",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Resolución de 30 de julio de 2026, del Ayuntamiento de Casas de Ves (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17301",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17301.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17301",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Casas de Ves",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la ultima publicacion en el boletin oficial de la provincia de albacete o en el diario oficial de castilla-la mancha o en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17301",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Casas de Ves",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de auxiliar administrativo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administrativo/a"
-      ],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar administrativo",
-        "auxiliar administrativo/a"
-      ],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de casas de ves|una plaza de auxiliar administrativo/a de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-17429",
       "boeId": "BOE-A-2026-17429",
@@ -1169,6 +914,63 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-17934",
+      "boeId": "BOE-A-2026-17934",
+      "fechaPublicacion": "2026-08-19",
+      "titulo": "Resolución de 13 de agosto de 2026, del Ayuntamiento de Molinicos (Albacete), que deja sin efecto la de 15 de julio de 2026, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/19/pdfs/BOE-A-2026-17934.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17934",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260819",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Molinicos",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Molinicos",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "convocatoria para proveer varias plazas"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de molinicos|convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17383",
       "boeId": "BOE-A-2026-17383",
       "fechaPublicacion": "2026-08-10",
@@ -1273,124 +1075,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|orden pjc/852/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de tramitacion proce|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17291",
-      "boeId": "BOE-A-2026-17291",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Orden TDF/843/2026, de 6 de agosto, por la que se corrigen errores en la Orden TDF/821/2026, de 28 de julio, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, de la Escala de funcionarios de administración local con habilitación de carácter nacional, Subescala de Secretaría-Intervención, y se asigna primer destino.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17291",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17291.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17291",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Tercera",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17291",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Tercera",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "habilitacion de caracter nacional",
-        "maestra",
-        "secretaria-intervencion"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de tercera|orden tdf/843/2026, de 6 de agosto, por la que se corrigen errores en la orden tdf/821/2026, de 28 de julio, por la que |otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-17326",
-      "boeId": "BOE-A-2026-17326",
-      "fechaPublicacion": "2026-08-08",
-      "titulo": "Resolución de 29 de julio de 2026, de la Universidad Autónoma de Madrid, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17326",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17326.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17326",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260808",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Las Palmas de Gran Canaria",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes y mantenerse hasta el momento de la toma de posesion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17326",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Universidad de Las Palmas de Gran Canaria",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medico"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "C1"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "universidad de las palmas de gran canaria|resolucion de 29 de julio de 2026, de la universidad autonoma de madrid, por la que se convoca concurso de acceso a plaz|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
