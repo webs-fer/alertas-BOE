@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-25T08:07:59+00:00",
+    "lastRun": "2026-08-26T08:09:19+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-15",
-      "hasta": "2026-08-25"
+      "desde": "2026-08-16",
+      "hasta": "2026-08-26"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 10,
+    "totalAlertasDetectadasTerritorialmente": 9,
     "totalVisiblesParaUsuario": 0,
     "totalPrioritarias": 0,
     "totalSecundarias": 0,
-    "totalDescartadas": 10,
+    "totalDescartadas": 9,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -28,63 +28,6 @@
   "alertasPrioritarias": [],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-17813",
-      "boeId": "BOE-A-2026-17813",
-      "fechaPublicacion": "2026-08-15",
-      "titulo": "Resolución de 23 de julio de 2026, de la Presidencia del Consejo Superior de Deportes, por la que se publica el Convenio con el Club Atletismo Albacete-Diputación, para la realización del módulo de formación práctica del Ciclo de Grado Superior de Enseñanzas Deportivas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/15/pdfs/BOE-A-2026-17813.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17813",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260815",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Deportes",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Deportes",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de deportes|un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-17934",
       "boeId": "BOE-A-2026-17934",
@@ -602,63 +545,6 @@
   ],
   "alertas": [],
   "todasLasAlertas": [
-    {
-      "id": "BOE-A-2026-17813",
-      "boeId": "BOE-A-2026-17813",
-      "fechaPublicacion": "2026-08-15",
-      "titulo": "Resolución de 23 de julio de 2026, de la Presidencia del Consejo Superior de Deportes, por la que se publica el Convenio con el Club Atletismo Albacete-Diputación, para la realización del módulo de formación práctica del Ciclo de Grado Superior de Enseñanzas Deportivas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/15/pdfs/BOE-A-2026-17813.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17813",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/15/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260815",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Deportes",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17813",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Deportes",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de deportes|un puesto de trabajo en plantilla con el alumno que realice actividades formativas en la empresa, salvo que se establezca al efecto una relacion laboral de contraprestacion economica por servicios contratados|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-17934",
       "boeId": "BOE-A-2026-17934",
