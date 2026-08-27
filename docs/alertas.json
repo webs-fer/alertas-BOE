@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-26T08:09:19+00:00",
+    "lastRun": "2026-08-27T18:25:46+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-16",
-      "hasta": "2026-08-26"
+      "desde": "2026-08-17",
+      "hasta": "2026-08-27"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 9,
-    "totalVisiblesParaUsuario": 0,
-    "totalPrioritarias": 0,
+    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalVisiblesParaUsuario": 1,
+    "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 9,
+    "totalDescartadas": 13,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -25,7 +25,69 @@
       "modo_estricto": true
     }
   },
-  "alertasPrioritarias": [],
+  "alertasPrioritarias": [
+    {
+      "id": "BOE-A-2026-18205",
+      "boeId": "BOE-A-2026-18205",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18205",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "sistema informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago",
+        "n la que tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    }
+  ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
     {
@@ -308,6 +370,241 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-18226",
+      "boeId": "BOE-A-2026-18226",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 19 de agosto de 2026, del Ayuntamiento de Almansa (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18226.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18226",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Almansa",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Almansa",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer varias plazas"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de almansa|tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18230",
+      "boeId": "BOE-A-2026-18230",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18230.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18230",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de albacete|una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18229",
+      "boeId": "BOE-A-2026-18229",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18229.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18229",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer varias plazas",
+        "plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de albacete|dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18231",
+      "boeId": "BOE-A-2026-18231",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18231.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18231",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer varias plazas",
+        "plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de albacete|cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-17873",
       "boeId": "BOE-A-2026-17873",
       "fechaPublicacion": "2026-08-17",
@@ -543,8 +840,131 @@
       "duplicadoDe": ""
     }
   ],
-  "alertas": [],
+  "alertas": [
+    {
+      "id": "BOE-A-2026-18205",
+      "boeId": "BOE-A-2026-18205",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18205",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "sistema informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago",
+        "n la que tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    }
+  ],
   "todasLasAlertas": [
+    {
+      "id": "BOE-A-2026-18205",
+      "boeId": "BOE-A-2026-18205",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18205",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "sistema informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago",
+        "n la que tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
     {
       "id": "BOE-A-2026-17934",
       "boeId": "BOE-A-2026-17934",
@@ -821,6 +1241,241 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "direccion general de trabajo|un puesto de trabajo no liberaran al titular del mismo de su cumplimiento a no ser que se demuestre que no sabe o no puede llevarlas a cabo un puesto de trabajo hayan de pasar a desempenar otros puestos o trabajos en el mismo o distinto departamento, con el mismo o distinto regimen de jornada|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18226",
+      "boeId": "BOE-A-2026-18226",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 19 de agosto de 2026, del Ayuntamiento de Almansa (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18226.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18226",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Almansa",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Almansa",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer varias plazas"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de almansa|tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18230",
+      "boeId": "BOE-A-2026-18230",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18230.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18230",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de albacete|una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18229",
+      "boeId": "BOE-A-2026-18229",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18229.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18229",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer varias plazas",
+        "plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de albacete|dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18231",
+      "boeId": "BOE-A-2026-18231",
+      "fechaPublicacion": "2026-08-27",
+      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18231.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18231",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer varias plazas",
+        "plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de albacete|cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
