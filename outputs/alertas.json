@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-27T18:25:46+00:00",
+    "lastRun": "2026-08-28T19:34:11+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-17",
-      "hasta": "2026-08-27"
+      "desde": "2026-08-18",
+      "hasta": "2026-08-28"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -605,62 +605,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-17873",
-      "boeId": "BOE-A-2026-17873",
-      "fechaPublicacion": "2026-08-17",
-      "titulo": "Orden APA/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios del seguro de explotaciones de frutos secos, comprendido en el Cuadragésimo Séptimo Plan de Seguros Agrarios Combinados.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17873.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17873",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260817",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|orden apa/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-18005",
       "boeId": "BOE-A-2026-18005",
       "fechaPublicacion": "2026-08-21",
@@ -836,6 +780,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 10 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18270",
+      "boeId": "BOE-A-2026-18270",
+      "fechaPublicacion": "2026-08-28",
+      "titulo": "Resolución de 18 de agosto de 2026, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas en el proceso selectivo para ingreso, como personal laboral fijo fuera de convenio, con la categoría de Médico de Sanidad Marítima en el Instituto Social de la Marina, convocado por Resolución de 24 de junio de 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/28/pdfs/BOE-A-2026-18270.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18270",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/28/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260828",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "medico"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 18 de agosto de 2026, de la subsecretaria, por la que se aprueba la relacion provisional de personas admit|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1480,62 +1480,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-17873",
-      "boeId": "BOE-A-2026-17873",
-      "fechaPublicacion": "2026-08-17",
-      "titulo": "Orden APA/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones técnicas mínimas de cultivo, el ámbito de aplicación, los periodos de garantía, las fechas de suscripción y los precios unitarios del seguro de explotaciones de frutos secos, comprendido en el Cuadragésimo Séptimo Plan de Seguros Agrarios Combinados.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17873.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17873",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260817",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17873",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|orden apa/867/2026, de 3 de agosto, por la que se definen los bienes y los rendimientos asegurables, las condiciones tec|otro_no_interesante|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-18005",
       "boeId": "BOE-A-2026-18005",
       "fechaPublicacion": "2026-08-21",
@@ -1711,6 +1655,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 10 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18270",
+      "boeId": "BOE-A-2026-18270",
+      "fechaPublicacion": "2026-08-28",
+      "titulo": "Resolución de 18 de agosto de 2026, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas en el proceso selectivo para ingreso, como personal laboral fijo fuera de convenio, con la categoría de Médico de Sanidad Marítima en el Instituto Social de la Marina, convocado por Resolución de 24 de junio de 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/28/pdfs/BOE-A-2026-18270.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18270",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/28/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260828",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "medico"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 18 de agosto de 2026, de la subsecretaria, por la que se aprueba la relacion provisional de personas admit|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
