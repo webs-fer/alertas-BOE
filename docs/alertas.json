@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-28T19:34:11+00:00",
+    "lastRun": "2026-08-29T13:16:11+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-18",
-      "hasta": "2026-08-28"
+      "desde": "2026-08-19",
+      "hasta": "2026-08-29"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalAlertasDetectadasTerritorialmente": 15,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 13,
+    "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -836,6 +836,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|resolucion de 18 de agosto de 2026, de la subsecretaria, por la que se aprueba la relacion provisional de personas admit|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18290",
+      "boeId": "BOE-A-2026-18290",
+      "fechaPublicacion": "2026-08-29",
+      "titulo": "Resolución de 26 de agosto de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, del Cuerpo Técnico de Hacienda.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18290",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/29/pdfs/BOE-A-2026-18290.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18290",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260829",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18290",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestro"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 26 de agosto de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcion|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1711,6 +1767,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|resolucion de 18 de agosto de 2026, de la subsecretaria, por la que se aprueba la relacion provisional de personas admit|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18290",
+      "boeId": "BOE-A-2026-18290",
+      "fechaPublicacion": "2026-08-29",
+      "titulo": "Resolución de 26 de agosto de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, del Cuerpo Técnico de Hacienda.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18290",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/29/pdfs/BOE-A-2026-18290.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18290",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260829",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18290",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestro"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 26 de agosto de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcion|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
