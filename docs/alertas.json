@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-08-29T13:16:11+00:00",
+    "lastRun": "2026-08-31T15:14:42+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-19",
-      "hasta": "2026-08-29"
+      "desde": "2026-08-21",
+      "hasta": "2026-08-31"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 15,
+    "totalAlertasDetectadasTerritorialmente": 16,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 14,
+    "totalDescartadas": 15,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -90,63 +90,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-17934",
-      "boeId": "BOE-A-2026-17934",
-      "fechaPublicacion": "2026-08-19",
-      "titulo": "Resolución de 13 de agosto de 2026, del Ayuntamiento de Molinicos (Albacete), que deja sin efecto la de 15 de julio de 2026, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/19/pdfs/BOE-A-2026-17934.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17934",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/19/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260819",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Molinicos",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Molinicos",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "convocatoria para proveer varias plazas"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de molinicos|convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-18030",
       "boeId": "BOE-A-2026-18030",
@@ -892,6 +835,132 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|resolucion de 26 de agosto de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcion|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18318",
+      "boeId": "BOE-A-2026-18318",
+      "fechaPublicacion": "2026-08-31",
+      "titulo": "Resolución de 6 de agosto de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18318",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-A-2026-18318.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18318",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/31/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260831",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18318",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a un funcionario o funcionaria en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1",
+        "C1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18322",
+      "boeId": "BOE-A-2026-18322",
+      "fechaPublicacion": "2026-08-31",
+      "titulo": "Resolución de 24 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18322",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-A-2026-18322.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18322",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/31/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260831",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de quince dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18322",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "un puesto de oficial jefe/a de la unidad canina de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares",
+        "dos puestos de policia adiestrador/a guia de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares",
+        "convocatoria para proveer puestos de trabajo por el sistema de concurso",
+        "convocatoria para proveer por concurso"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|un puesto de oficial jefe/a de la unidad canina de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares dos puestos de policia adiestrador/a guia de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1022,63 +1091,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-17934",
-      "boeId": "BOE-A-2026-17934",
-      "fechaPublicacion": "2026-08-19",
-      "titulo": "Resolución de 13 de agosto de 2026, del Ayuntamiento de Molinicos (Albacete), que deja sin efecto la de 15 de julio de 2026, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/19/pdfs/BOE-A-2026-17934.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17934",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/19/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260819",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Molinicos",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17934",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Molinicos",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "convocatoria para proveer varias plazas"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de molinicos|convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-18030",
       "boeId": "BOE-A-2026-18030",
       "fechaPublicacion": "2026-08-22",
@@ -1823,6 +1835,132 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|resolucion de 26 de agosto de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcion|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18318",
+      "boeId": "BOE-A-2026-18318",
+      "fechaPublicacion": "2026-08-31",
+      "titulo": "Resolución de 6 de agosto de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18318",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-A-2026-18318.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18318",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/31/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260831",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18318",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a un funcionario o funcionaria en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1",
+        "C1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18322",
+      "boeId": "BOE-A-2026-18322",
+      "fechaPublicacion": "2026-08-31",
+      "titulo": "Resolución de 24 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18322",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-A-2026-18322.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18322",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/31/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260831",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de quince dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18322",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "un puesto de oficial jefe/a de la unidad canina de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares",
+        "dos puestos de policia adiestrador/a guia de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares",
+        "convocatoria para proveer puestos de trabajo por el sistema de concurso",
+        "convocatoria para proveer por concurso"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|un puesto de oficial jefe/a de la unidad canina de la policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares dos puestos de policia adiestrador/a guia de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
