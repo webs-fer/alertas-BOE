@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-03T12:14:26+00:00",
+    "lastRun": "2026-09-04T12:15:14+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-24",
-      "hasta": "2026-09-03"
+      "desde": "2026-08-25",
+      "hasta": "2026-09-04"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalAlertasDetectadasTerritorialmente": 12,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 11,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -90,60 +90,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-18041",
-      "boeId": "BOE-A-2026-18041",
-      "fechaPublicacion": "2026-08-24",
-      "titulo": "Orden PJC/884/2026, de 31 de julio, por la que se otorga destino al personal funcionario del Cuerpo de Auxilio Judicial de la Administración de Justicia, que superó el proceso selectivo extraordinario para acceso, por el sistema de concurso-oposición, turno libre, convocado por Orden JUS/1327/2022, de 28 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18041",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/24/pdfs/BOE-A-2026-18041.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18041",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/24/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260824",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles contados a partir del 1 de septiembre de 2026, de acuerdo con lo establecido en el articulo 29 del citado real decreto, y en el articulo 30 de la ley 39/2015, de 1 de octubre, del procedimiento administrativo comun de las administraciones publicas, para lo cu",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18041",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|orden pjc/884/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de auxilio judicial |sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-18141",
       "boeId": "BOE-A-2026-18141",
@@ -938,60 +884,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18041",
-      "boeId": "BOE-A-2026-18041",
-      "fechaPublicacion": "2026-08-24",
-      "titulo": "Orden PJC/884/2026, de 31 de julio, por la que se otorga destino al personal funcionario del Cuerpo de Auxilio Judicial de la Administración de Justicia, que superó el proceso selectivo extraordinario para acceso, por el sistema de concurso-oposición, turno libre, convocado por Orden JUS/1327/2022, de 28 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18041",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/24/pdfs/BOE-A-2026-18041.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18041",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/24/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260824",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles contados a partir del 1 de septiembre de 2026, de acuerdo con lo establecido en el articulo 29 del citado real decreto, y en el articulo 30 de la ley 39/2015, de 1 de octubre, del procedimiento administrativo comun de las administraciones publicas, para lo cu",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18041",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|orden pjc/884/2026, de 31 de julio, por la que se otorga destino al personal funcionario del cuerpo de auxilio judicial |sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
