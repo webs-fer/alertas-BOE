@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-04T12:15:14+00:00",
+    "lastRun": "2026-09-05T11:24:54+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-25",
-      "hasta": "2026-09-04"
+      "desde": "2026-08-26",
+      "hasta": "2026-09-05"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 12,
+    "totalAlertasDetectadasTerritorialmente": 11,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 11,
+    "totalDescartadas": 10,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -90,64 +90,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-18141",
-      "boeId": "BOE-A-2026-18141",
-      "fechaPublicacion": "2026-08-25",
-      "titulo": "Resolución de 30 de julio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Imerys Diatomita Alicante, SA.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18141",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18141.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18141",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260825",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Trabajo",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18141",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Trabajo",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo no liberaran al titular del mismo de su cumplimiento a no ser que se demuestre que no sabe o no puede llevarlas a cabo",
-        "un puesto de trabajo hayan de pasar a desempenar otros puestos o trabajos en el mismo o distinto departamento, con el mismo o distinto regimen de jornada"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de trabajo|un puesto de trabajo no liberaran al titular del mismo de su cumplimiento a no ser que se demuestre que no sabe o no puede llevarlas a cabo un puesto de trabajo hayan de pasar a desempenar otros puestos o trabajos en el mismo o distinto departamento, con el mismo o distinto regimen de jornada|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-18226",
       "boeId": "BOE-A-2026-18226",
@@ -384,21 +326,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18113",
-      "boeId": "BOE-A-2026-18113",
-      "fechaPublicacion": "2026-08-25",
-      "titulo": "Resolución de 14 de agosto de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Dirección General de la Policía.",
+      "id": "BOE-A-2026-18649",
+      "boeId": "BOE-A-2026-18649",
+      "fechaPublicacion": "2026-09-05",
+      "titulo": "Resolución de 26 de agosto de 2026, del Ayuntamiento de Albacete, Gerencia Municipal de Urbanismo y Vivienda, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18113",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18113.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18113",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260825",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18649.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18649",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/05/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260905",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -406,47 +348,51 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18113",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de quince dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivo": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
       "tags": [
         "Albacete",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
+        "Ayuntamiento de Albacete",
+        "auxiliar_administrativo_c2_probable",
+        "oposicion",
+        "oposiciones"
       ],
       "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 10 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan",
-        "2716661 puesto de trabajo n26 - madrid - madrid 26 10"
+        "dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
+        "dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
+        "un puesto de jefatura de departamento, perteneciente a la escala de administracion general, subescala gestion y clase media",
+        "ocho puestos de auxiliar de administracion general, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar",
+        "un puesto de inspector de urbanismo, perteneciente a la escala de administracion general, subescala servicios especiales y clase cometidos especiales",
+        "tres puestos de ingeniero tecnico industrial, pertenecientes a la escala de administracion especial, subescala tecnica y clase media",
+        "un puesto de jefatura de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase superior",
+        "dos puestos de arquitecto, pertenecientes a la escala de administracion especial, subescala tecnica y clase superior",
+        "un puesto de adjunto de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase media",
+        "convocatoria para proveer puestos de trabajo por el sistema de concurso",
+        "convocatoria para proveer por concurso"
       ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
+      "perfilReal": "auxiliar_administrativo_c2_probable",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivoRelevanciaUsuario": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
+      "matchesAuxiliarAdministrativo": [
+        "auxiliar de administracion general"
       ],
+      "matchesDescarte": [
+        "arquitecto"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 10 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de albacete|dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior|auxiliar_administrativo_c2_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -888,64 +834,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18141",
-      "boeId": "BOE-A-2026-18141",
-      "fechaPublicacion": "2026-08-25",
-      "titulo": "Resolución de 30 de julio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Imerys Diatomita Alicante, SA.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18141",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18141.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18141",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260825",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Trabajo",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18141",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Trabajo",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo no liberaran al titular del mismo de su cumplimiento a no ser que se demuestre que no sabe o no puede llevarlas a cabo",
-        "un puesto de trabajo hayan de pasar a desempenar otros puestos o trabajos en el mismo o distinto departamento, con el mismo o distinto regimen de jornada"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de trabajo|un puesto de trabajo no liberaran al titular del mismo de su cumplimiento a no ser que se demuestre que no sabe o no puede llevarlas a cabo un puesto de trabajo hayan de pasar a desempenar otros puestos o trabajos en el mismo o distinto departamento, con el mismo o distinto regimen de jornada|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-18226",
       "boeId": "BOE-A-2026-18226",
       "fechaPublicacion": "2026-08-27",
@@ -1181,21 +1069,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18113",
-      "boeId": "BOE-A-2026-18113",
-      "fechaPublicacion": "2026-08-25",
-      "titulo": "Resolución de 14 de agosto de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Dirección General de la Policía.",
+      "id": "BOE-A-2026-18649",
+      "boeId": "BOE-A-2026-18649",
+      "fechaPublicacion": "2026-09-05",
+      "titulo": "Resolución de 26 de agosto de 2026, del Ayuntamiento de Albacete, Gerencia Municipal de Urbanismo y Vivienda, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18113",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18113.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18113",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/25/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260825",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18649.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18649",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/05/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260905",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1203,47 +1091,51 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Albacete",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18113",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de quince dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivo": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
       "tags": [
         "Albacete",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
+        "Ayuntamiento de Albacete",
+        "auxiliar_administrativo_c2_probable",
+        "oposicion",
+        "oposiciones"
       ],
       "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 10 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan",
-        "2716661 puesto de trabajo n26 - madrid - madrid 26 10"
+        "dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
+        "dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
+        "un puesto de jefatura de departamento, perteneciente a la escala de administracion general, subescala gestion y clase media",
+        "ocho puestos de auxiliar de administracion general, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar",
+        "un puesto de inspector de urbanismo, perteneciente a la escala de administracion general, subescala servicios especiales y clase cometidos especiales",
+        "tres puestos de ingeniero tecnico industrial, pertenecientes a la escala de administracion especial, subescala tecnica y clase media",
+        "un puesto de jefatura de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase superior",
+        "dos puestos de arquitecto, pertenecientes a la escala de administracion especial, subescala tecnica y clase superior",
+        "un puesto de adjunto de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase media",
+        "convocatoria para proveer puestos de trabajo por el sistema de concurso",
+        "convocatoria para proveer por concurso"
       ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
+      "perfilReal": "auxiliar_administrativo_c2_probable",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivoRelevanciaUsuario": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
+      "matchesAuxiliarAdministrativo": [
+        "auxiliar de administracion general"
       ],
+      "matchesDescarte": [
+        "arquitecto"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 10 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de albacete|dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior|auxiliar_administrativo_c2_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
