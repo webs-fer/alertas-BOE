@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-05T11:24:54+00:00",
+    "lastRun": "2026-09-07T13:40:35+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-26",
-      "hasta": "2026-09-05"
+      "desde": "2026-08-28",
+      "hasta": "2026-09-07"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 11,
-    "totalVisiblesParaUsuario": 1,
-    "totalPrioritarias": 1,
+    "totalAlertasDetectadasTerritorialmente": 9,
+    "totalVisiblesParaUsuario": 3,
+    "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 10,
+    "totalDescartadas": 6,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -27,21 +27,21 @@
   },
   "alertasPrioritarias": [
     {
-      "id": "BOE-A-2026-18205",
-      "boeId": "BOE-A-2026-18205",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+      "id": "BOE-A-2026-18715",
+      "boeId": "BOE-A-2026-18715",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18205",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18715",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -52,15 +52,15 @@
       "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
+        "concurso_general",
         "informatica",
         "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "movilidad"
       ],
       "plazasExtraidas": [],
       "perfilReal": "informatica_tic",
@@ -70,261 +70,164 @@
       "visibleParaUsuario": true,
       "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "matchesInformatica": [
-        "informatico",
-        "sistema informatico"
+        "informatica",
+        "programador",
+        "programadora",
+        "tecnica auxiliar de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [
+        "del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv",
+        "marina orden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identifica",
+        "identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identificacion del pues",
+        "rden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv"
+      ],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion 430/38377/2026, de 1 de septiembre, de la subsecretaria, por la que se resuelve el concurso general, convocad|informatica_tic|concurso_general",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18721",
+      "boeId": "BOE-A-2026-18721",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18721",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
       ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [
-        "tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago",
-        "n la que tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago"
+        "ez. 02006 albacete. castilla y leon. valladolid. edificio de tecnologia de la informacion y las telecomunicaciones. (e.t.s.i. telecomunicacion y e.i. informatica). campus miguel delibes. paseo de belen, 15. 47011 valladolid. burgos. escuela politecnica superior. edificio milanera. c/ villadiego s/n. 09001 burg"
       ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 1,
-      "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
+      "fingerprint": "universidad de sevilla - facultad de filosofia y facultad de psicologia|orden pjc/937/2026, de 28 de agosto, por la que se aprueba la relacion definitiva de personas admitidas y excluidas y se|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18718",
+      "boeId": "BOE-A-2026-18718",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18718",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "libre_designacion",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "matchesInformatica": [
+        "analista programador",
+        "informatica",
+        "programador",
+        "tecnica auxiliar de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "ecretaria general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
+        "co. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3573276). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. jefe / jefa de ne",
+        "general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
+        "730252). 18 c1 c2 gijon. asturias. ministerio transportes y mov. sostenible. demarcaciones de carreteras. demarcacion cantabria. santander. tecnico / tecnica auxiliar de informatica (5772243). 16 santander. cantabria. paneda martinez, alvaro ***6440** 1188 c1 19 jefatura central de trafico. gerencia de informatica. jefe / jefa de"
+      ],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 2,
+      "fingerprint": "|resolucion de 21 de agosto de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resol|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-18226",
-      "boeId": "BOE-A-2026-18226",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 19 de agosto de 2026, del Ayuntamiento de Almansa (Albacete), referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18226.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18226",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Almansa",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Almansa",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer varias plazas"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de almansa|tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18230",
-      "boeId": "BOE-A-2026-18230",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18230.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18230",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de albacete|una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18229",
-      "boeId": "BOE-A-2026-18229",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18229.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18229",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [
-        "dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "ayuntamiento de albacete|dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18231",
-      "boeId": "BOE-A-2026-18231",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18231.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18231",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [
-        "cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "ayuntamiento de albacete|cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-18649",
       "boeId": "BOE-A-2026-18649",
@@ -710,21 +613,21 @@
   ],
   "alertas": [
     {
-      "id": "BOE-A-2026-18205",
-      "boeId": "BOE-A-2026-18205",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+      "id": "BOE-A-2026-18715",
+      "boeId": "BOE-A-2026-18715",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18205",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18715",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -735,15 +638,15 @@
       "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
+        "concurso_general",
         "informatica",
         "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "movilidad"
       ],
       "plazasExtraidas": [],
       "perfilReal": "informatica_tic",
@@ -753,41 +656,179 @@
       "visibleParaUsuario": true,
       "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "matchesInformatica": [
-        "informatico",
-        "sistema informatico"
+        "informatica",
+        "programador",
+        "programadora",
+        "tecnica auxiliar de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [
+        "del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv",
+        "marina orden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identifica",
+        "identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identificacion del pues",
+        "rden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv"
+      ],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion 430/38377/2026, de 1 de septiembre, de la subsecretaria, por la que se resuelve el concurso general, convocad|informatica_tic|concurso_general",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18721",
+      "boeId": "BOE-A-2026-18721",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18721",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
       ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [
-        "tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago",
-        "n la que tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago"
+        "ez. 02006 albacete. castilla y leon. valladolid. edificio de tecnologia de la informacion y las telecomunicaciones. (e.t.s.i. telecomunicacion y e.i. informatica). campus miguel delibes. paseo de belen, 15. 47011 valladolid. burgos. escuela politecnica superior. edificio milanera. c/ villadiego s/n. 09001 burg"
       ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 1,
-      "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
+      "fingerprint": "universidad de sevilla - facultad de filosofia y facultad de psicologia|orden pjc/937/2026, de 28 de agosto, por la que se aprueba la relacion definitiva de personas admitidas y excluidas y se|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18718",
+      "boeId": "BOE-A-2026-18718",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18718",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "libre_designacion",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "matchesInformatica": [
+        "analista programador",
+        "informatica",
+        "programador",
+        "tecnica auxiliar de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "ecretaria general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
+        "co. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3573276). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. jefe / jefa de ne",
+        "general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
+        "730252). 18 c1 c2 gijon. asturias. ministerio transportes y mov. sostenible. demarcaciones de carreteras. demarcacion cantabria. santander. tecnico / tecnica auxiliar de informatica (5772243). 16 santander. cantabria. paneda martinez, alvaro ***6440** 1188 c1 19 jefatura central de trafico. gerencia de informatica. jefe / jefa de"
+      ],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 2,
+      "fingerprint": "|resolucion de 21 de agosto de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resol|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
     {
-      "id": "BOE-A-2026-18205",
-      "boeId": "BOE-A-2026-18205",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+      "id": "BOE-A-2026-18715",
+      "boeId": "BOE-A-2026-18715",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18205",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18715",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -798,15 +839,15 @@
       "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
+        "concurso_general",
         "informatica",
         "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "movilidad"
       ],
       "plazasExtraidas": [],
       "perfilReal": "informatica_tic",
@@ -816,39 +857,108 @@
       "visibleParaUsuario": true,
       "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "matchesInformatica": [
-        "informatico",
-        "sistema informatico"
+        "informatica",
+        "programador",
+        "programadora",
+        "tecnica auxiliar de informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestra"
+      ],
+      "contextosInformatica": [
+        "del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv",
+        "marina orden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identifica",
+        "identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identificacion del pues",
+        "rden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv"
+      ],
+      "gruposDetectados": [
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion 430/38377/2026, de 1 de septiembre, de la subsecretaria, por la que se resuelve el concurso general, convocad|informatica_tic|concurso_general",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18721",
+      "boeId": "BOE-A-2026-18721",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18721",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
       ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [
-        "tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago",
-        "n la que tuvo lugar el arranque. para la verificacion de este criterio, la comunidad autonoma donde se presente la solicitud comprobara, a traves del sistema informatico de intercambio de informacion para el regimen de autorizaciones de plantaciones de vinedo (siavi), si los solicitantes han sido beneficiarios de pago"
+        "ez. 02006 albacete. castilla y leon. valladolid. edificio de tecnologia de la informacion y las telecomunicaciones. (e.t.s.i. telecomunicacion y e.i. informatica). campus miguel delibes. paseo de belen, 15. 47011 valladolid. burgos. escuela politecnica superior. edificio milanera. c/ villadiego s/n. 09001 burg"
       ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 1,
-      "fingerprint": "|real decreto 684/2026, de 26 de agosto, por el que se modifica el real decreto 1338/2018, de 29 de octubre, por el que s|informatica_tic|sin_clasificar",
+      "fingerprint": "universidad de sevilla - facultad de filosofia y facultad de psicologia|orden pjc/937/2026, de 28 de agosto, por la que se aprueba la relacion definitiva de personas admitidas y excluidas y se|informatica_tic|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18226",
-      "boeId": "BOE-A-2026-18226",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 19 de agosto de 2026, del Ayuntamiento de Almansa (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "id": "BOE-A-2026-18718",
+      "boeId": "BOE-A-2026-18718",
+      "fechaPublicacion": "2026-09-07",
+      "titulo": "Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18226.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18226",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18718",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -856,215 +966,49 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Almansa",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18226",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Almansa",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
+        "informatica",
+        "informatica_tic",
+        "libre_designacion",
+        "movilidad"
       ],
-      "plazasExtraidas": [
-        "tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer varias plazas"
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "matchesInformatica": [
+        "analista programador",
+        "informatica",
+        "programador",
+        "tecnica auxiliar de informatica"
       ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
+      "contextosInformatica": [
+        "ecretaria general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
+        "co. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3573276). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. jefe / jefa de ne",
+        "general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
+        "730252). 18 c1 c2 gijon. asturias. ministerio transportes y mov. sostenible. demarcaciones de carreteras. demarcacion cantabria. santander. tecnico / tecnica auxiliar de informatica (5772243). 16 santander. cantabria. paneda martinez, alvaro ***6440** 1188 c1 19 jefatura central de trafico. gerencia de informatica. jefe / jefa de"
+      ],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de almansa|tres plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18230",
-      "boeId": "BOE-A-2026-18230",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18230.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18230",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18230",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de albacete|una plaza de oficial del servicio contra incendios, perteneciente a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18229",
-      "boeId": "BOE-A-2026-18229",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18229.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18229",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18229",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [
-        "dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "ayuntamiento de albacete|dos plazas de oficial del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18231",
-      "boeId": "BOE-A-2026-18231",
-      "fechaPublicacion": "2026-08-27",
-      "titulo": "Resolución de 20 de agosto de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18231.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18231",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260827",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18231",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [
-        "cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "ayuntamiento de albacete|cuatro plazas de sargento del servicio contra incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|promocion_interna_no_prioritaria|oposicion",
+      "prioridad": 2,
+      "fingerprint": "|resolucion de 21 de agosto de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resol|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
