@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-07T13:40:35+00:00",
+    "lastRun": "2026-09-08T12:17:32+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-08-28",
-      "hasta": "2026-09-07"
+      "desde": "2026-08-29",
+      "hasta": "2026-09-08"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -300,62 +300,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18270",
-      "boeId": "BOE-A-2026-18270",
-      "fechaPublicacion": "2026-08-28",
-      "titulo": "Resolución de 18 de agosto de 2026, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas en el proceso selectivo para ingreso, como personal laboral fijo fuera de convenio, con la categoría de Médico de Sanidad Marítima en el Instituto Social de la Marina, convocado por Resolución de 24 de junio de 2026.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/28/pdfs/BOE-A-2026-18270.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18270",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260828",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medico"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|resolucion de 18 de agosto de 2026, de la subsecretaria, por la que se aprueba la relacion provisional de personas admit|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-18290",
       "boeId": "BOE-A-2026-18290",
       "fechaPublicacion": "2026-08-29",
@@ -607,6 +551,64 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18782",
+      "boeId": "BOE-A-2026-18782",
+      "fechaPublicacion": "2026-09-08",
+      "titulo": "Resolución de 1 de septiembre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-A-2026-18782.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18782",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260908",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "quince dias habiles a partir del siguiente al de la publicacion de la presente resolucion en el boletin oficial del estado , acompanando a la solicitud la documentacion acreditativa de reunir los requisitos para su desempeno, en los terminos que figuren en la convocatoria",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "libre_designacion",
+        "movilidad",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "funcionario de administracion local con habilitacion de caracter nacional",
+        "habilitacion de caracter nacional"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|resolucion de 1 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocato|otro_no_interesante|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1084,62 +1086,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18270",
-      "boeId": "BOE-A-2026-18270",
-      "fechaPublicacion": "2026-08-28",
-      "titulo": "Resolución de 18 de agosto de 2026, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas en el proceso selectivo para ingreso, como personal laboral fijo fuera de convenio, con la categoría de Médico de Sanidad Marítima en el Instituto Social de la Marina, convocado por Resolución de 24 de junio de 2026.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/08/28/pdfs/BOE-A-2026-18270.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18270",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/08/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260828",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18270",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "medico"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|resolucion de 18 de agosto de 2026, de la subsecretaria, por la que se aprueba la relacion provisional de personas admit|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-18290",
       "boeId": "BOE-A-2026-18290",
       "fechaPublicacion": "2026-08-29",
@@ -1391,6 +1337,64 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-18782",
+      "boeId": "BOE-A-2026-18782",
+      "fechaPublicacion": "2026-09-08",
+      "titulo": "Resolución de 1 de septiembre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-A-2026-18782.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18782",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/08/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260908",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "quince dias habiles a partir del siguiente al de la publicacion de la presente resolucion en el boletin oficial del estado , acompanando a la solicitud la documentacion acreditativa de reunir los requisitos para su desempeno, en los terminos que figuren en la convocatoria",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "libre_designacion",
+        "movilidad",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "funcionario de administracion local con habilitacion de caracter nacional",
+        "habilitacion de caracter nacional"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|resolucion de 1 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocato|otro_no_interesante|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
