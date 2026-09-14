@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **3**
+Total alertas prioritarias/secundarias: **6**
 
 Filtro aplicado:
 
@@ -26,6 +26,33 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721
 - **PDF:** https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf
+
+## Resolución de 2 de septiembre de 2026, de la Universidad de Castilla-La Mancha, por la que se publica la modificación del plan de estudios de Graduado o Graduada en Ingeniería Eléctrica.
+
+- **Fecha:** 2026-09-14
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19194
+- **PDF:** https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19194.pdf
+
+## Resolución de 2 de septiembre de 2026, de la Universidad de Castilla-La Mancha, por la que se publica la modificación del plan de estudios de Graduado o Graduada en Ingeniería Electrónica Industrial y Automática.
+
+- **Fecha:** 2026-09-14
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19195
+- **PDF:** https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19195.pdf
+
+## Resolución de 2 de septiembre de 2026, de la Universidad de Castilla-La Mancha, por la que se publica la modificación del plan de estudios de Graduado o Graduada en Ingeniería Mecánica.
+
+- **Fecha:** 2026-09-14
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19196
+- **PDF:** https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19196.pdf
 
 ## Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.
 
