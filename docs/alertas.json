@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-15T12:52:02+00:00",
+    "lastRun": "2026-09-16T12:47:38+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-05",
-      "hasta": "2026-09-15"
+      "desde": "2026-09-06",
+      "hasta": "2026-09-16"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 15,
+    "totalAlertasDetectadasTerritorialmente": 16,
     "totalVisiblesParaUsuario": 6,
     "totalPrioritarias": 6,
     "totalSecundarias": 0,
-    "totalDescartadas": 9,
+    "totalDescartadas": 10,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -691,21 +691,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18649",
-      "boeId": "BOE-A-2026-18649",
-      "fechaPublicacion": "2026-09-05",
-      "titulo": "Resolución de 26 de agosto de 2026, del Ayuntamiento de Albacete, Gerencia Municipal de Urbanismo y Vivienda, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "id": "BOE-A-2026-19313",
+      "boeId": "BOE-A-2026-19313",
+      "fechaPublicacion": "2026-09-16",
+      "titulo": "Resolución de 24 de agosto de 2026, de la Confederación Hidrográfica del Guadiana, O.A., por la que se modifican las de 10 de agosto de 2020 y 13 de julio de 2026, sobre limitaciones y condiciones al ejercicio de la navegación deportiva o de recreo en aguas continentales de la cuenca del río Guadiana.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18649.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18649",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/05/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260905",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19313",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19313.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19313",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/16/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260916",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -713,51 +713,34 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de quince dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19313",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Albacete",
-        "auxiliar_administrativo_c2_probable",
-        "oposicion",
-        "oposiciones"
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [
-        "dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
-        "dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
-        "un puesto de jefatura de departamento, perteneciente a la escala de administracion general, subescala gestion y clase media",
-        "ocho puestos de auxiliar de administracion general, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar",
-        "un puesto de inspector de urbanismo, perteneciente a la escala de administracion general, subescala servicios especiales y clase cometidos especiales",
-        "tres puestos de ingeniero tecnico industrial, pertenecientes a la escala de administracion especial, subescala tecnica y clase media",
-        "un puesto de jefatura de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase superior",
-        "dos puestos de arquitecto, pertenecientes a la escala de administracion especial, subescala tecnica y clase superior",
-        "un puesto de adjunto de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase media",
-        "convocatoria para proveer puestos de trabajo por el sistema de concurso",
-        "convocatoria para proveer por concurso"
-      ],
-      "perfilReal": "auxiliar_administrativo_c2_probable",
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar de administracion general"
-      ],
-      "matchesDescarte": [
-        "arquitecto"
-      ],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "ayuntamiento de albacete|dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior|auxiliar_administrativo_c2_probable|oposicion",
+      "prioridad": 6,
+      "fingerprint": "|resolucion de 24 de agosto de 2026, de la confederacion hidrografica del guadiana, o.a., por la que se modifican las de |sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -935,6 +918,70 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete|resolucion de 1 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocato|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-19275",
+      "boeId": "BOE-A-2026-19275",
+      "fechaPublicacion": "2026-09-16",
+      "titulo": "Orden PJC/962/2026, de 11 de septiembre, por la que se convoca concurso de traslados para la cobertura de plazas en el Ministerio Fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19275",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19275.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19275",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/16/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260916",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes y podran solicitar, de la vigente plantilla del ministerio fiscal y de acuerdo con su categoria: a) los destinos vacantes en el momento de efectuarse esta convocatoria, que se anuncian en el anexo i",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19275",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "una plaza de fiscal o abogado fiscal cuando quien hubiere ganado el concurso a dicha plaza debiera dedicar atencion preferente al puesto de procedencia, atendidos los retrasos producidos por causa imputable al mismo",
+        "plazas de fiscal jefe o teniente fiscal, cuando la plaza se haya generado por el sistema de resultas, con preferencia a posibles peticionarios mas antiguos en el escalafon",
+        "plazas ofertadas, se resolvera por orden de antiguedad en el escalafon",
+        "plazas objeto de concurso se adjudicaran entre los fiscales de la categoria que corresponda atendiendo al mejor puesto en el escalafon, conforme a lo establecido en los articulos 63",
+        "plazas de segunda categoria ofrecidas, esta sera adjudicada al fiscal o abogado fiscal que ocupe plaza de la categoria tercera mas antiguo en el escalafon destinado en la propia fiscalia o seccion territorial, sin que sea de aplicacion, a estos efectos, lo dispuesto en el articulo 67 del citado real decreto"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|una plaza de fiscal o abogado fiscal cuando quien hubiere ganado el concurso a dicha plaza debiera dedicar atencion preferente al puesto de procedencia, atendidos los retrasos producidos por causa imputable al mismo plazas de fiscal jefe o teniente fiscal, cuando la plaza se haya generado por el sistema de resultas, con preferencia a posibles peticionarios mas antiguos en el escalafon|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1987,21 +2034,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18649",
-      "boeId": "BOE-A-2026-18649",
-      "fechaPublicacion": "2026-09-05",
-      "titulo": "Resolución de 26 de agosto de 2026, del Ayuntamiento de Albacete, Gerencia Municipal de Urbanismo y Vivienda, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "id": "BOE-A-2026-19313",
+      "boeId": "BOE-A-2026-19313",
+      "fechaPublicacion": "2026-09-16",
+      "titulo": "Resolución de 24 de agosto de 2026, de la Confederación Hidrográfica del Guadiana, O.A., por la que se modifican las de 10 de agosto de 2020 y 13 de julio de 2026, sobre limitaciones y condiciones al ejercicio de la navegación deportiva o de recreo en aguas continentales de la cuenca del río Guadiana.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18649.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18649",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/05/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260905",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19313",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19313.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19313",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/16/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260916",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -2009,51 +2056,34 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de quince dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18649",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19313",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Albacete",
-        "auxiliar_administrativo_c2_probable",
-        "oposicion",
-        "oposiciones"
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
-      "plazasExtraidas": [
-        "dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
-        "dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior",
-        "un puesto de jefatura de departamento, perteneciente a la escala de administracion general, subescala gestion y clase media",
-        "ocho puestos de auxiliar de administracion general, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar",
-        "un puesto de inspector de urbanismo, perteneciente a la escala de administracion general, subescala servicios especiales y clase cometidos especiales",
-        "tres puestos de ingeniero tecnico industrial, pertenecientes a la escala de administracion especial, subescala tecnica y clase media",
-        "un puesto de jefatura de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase superior",
-        "dos puestos de arquitecto, pertenecientes a la escala de administracion especial, subescala tecnica y clase superior",
-        "un puesto de adjunto de seccion, perteneciente a la escala de administracion especial, subescala tecnica y clase media",
-        "convocatoria para proveer puestos de trabajo por el sistema de concurso",
-        "convocatoria para proveer por concurso"
-      ],
-      "perfilReal": "auxiliar_administrativo_c2_probable",
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Detectada plaza de Auxiliar Administrativo/a. Suele ser C2, por eso queda como secundaria u oculta según configuración.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar de administracion general"
-      ],
-      "matchesDescarte": [
-        "arquitecto"
-      ],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "ayuntamiento de albacete|dos puestos de adjuntia de seccion, pertenecientes a la escala de administracion general, subescala tecnica y clase superior dos puestos de tecnico superior, pertenecientes a la escala de administracion general, subescala tecnica y clase superior|auxiliar_administrativo_c2_probable|oposicion",
+      "prioridad": 6,
+      "fingerprint": "|resolucion de 24 de agosto de 2026, de la confederacion hidrografica del guadiana, o.a., por la que se modifican las de |sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2231,6 +2261,70 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete|resolucion de 1 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocato|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-19275",
+      "boeId": "BOE-A-2026-19275",
+      "fechaPublicacion": "2026-09-16",
+      "titulo": "Orden PJC/962/2026, de 11 de septiembre, por la que se convoca concurso de traslados para la cobertura de plazas en el Ministerio Fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19275",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19275.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19275",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/16/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260916",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes y podran solicitar, de la vigente plantilla del ministerio fiscal y de acuerdo con su categoria: a) los destinos vacantes en el momento de efectuarse esta convocatoria, que se anuncian en el anexo i",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19275",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "una plaza de fiscal o abogado fiscal cuando quien hubiere ganado el concurso a dicha plaza debiera dedicar atencion preferente al puesto de procedencia, atendidos los retrasos producidos por causa imputable al mismo",
+        "plazas de fiscal jefe o teniente fiscal, cuando la plaza se haya generado por el sistema de resultas, con preferencia a posibles peticionarios mas antiguos en el escalafon",
+        "plazas ofertadas, se resolvera por orden de antiguedad en el escalafon",
+        "plazas objeto de concurso se adjudicaran entre los fiscales de la categoria que corresponda atendiendo al mejor puesto en el escalafon, conforme a lo establecido en los articulos 63",
+        "plazas de segunda categoria ofrecidas, esta sera adjudicada al fiscal o abogado fiscal que ocupe plaza de la categoria tercera mas antiguo en el escalafon destinado en la propia fiscalia o seccion territorial, sin que sea de aplicacion, a estos efectos, lo dispuesto en el articulo 67 del citado real decreto"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|una plaza de fiscal o abogado fiscal cuando quien hubiere ganado el concurso a dicha plaza debiera dedicar atencion preferente al puesto de procedencia, atendidos los retrasos producidos por causa imputable al mismo plazas de fiscal jefe o teniente fiscal, cuando la plaza se haya generado por el sistema de resultas, con preferencia a posibles peticionarios mas antiguos en el escalafon|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
