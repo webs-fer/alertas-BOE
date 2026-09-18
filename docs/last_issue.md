@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **6**
+Total alertas prioritarias/secundarias: **4**
 
 Filtro aplicado:
 
@@ -8,24 +8,6 @@ Filtro aplicado:
 - Administrativo C1: prioridad secundaria.
 - Auxiliar administrativo C2: oculto por defecto.
 - Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.
-
-## Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.
-
-- **Fecha:** 2026-09-07
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 1
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715
-- **PDF:** https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf
-
-## Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.
-
-- **Fecha:** 2026-09-07
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 1
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721
-- **PDF:** https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf
 
 ## Resolución de 2 de septiembre de 2026, de la Universidad de Castilla-La Mancha, por la que se publica la modificación del plan de estudios de Graduado o Graduada en Ingeniería Eléctrica.
 
@@ -54,11 +36,15 @@ Filtro aplicado:
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19196
 - **PDF:** https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19196.pdf
 
-## Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.
+## Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.
 
-- **Fecha:** 2026-09-07
-- **Perfil detectado:** informatica_tic
+- **Fecha:** 2026-09-18
+- **Perfil detectado:** administrativo_c1_probable
 - **Prioridad:** 2
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718
-- **PDF:** https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf
+- **Motivo:** Detectada plaza real de Administrativo/a o subescala administrativa.
+- **Plazas/frases detectadas:**
+  - una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre
+  - convocatoria para proveer una plaza
+  - plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443
+- **PDF:** https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf

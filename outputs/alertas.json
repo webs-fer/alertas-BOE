@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-17T12:46:45+00:00",
+    "lastRun": "2026-09-18T12:27:59+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-07",
-      "hasta": "2026-09-17"
+      "desde": "2026-09-08",
+      "hasta": "2026-09-18"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 18,
-    "totalVisiblesParaUsuario": 6,
-    "totalPrioritarias": 6,
+    "totalAlertasDetectadasTerritorialmente": 16,
+    "totalVisiblesParaUsuario": 4,
+    "totalPrioritarias": 4,
     "totalSecundarias": 0,
     "totalDescartadas": 12,
     "errores": [],
@@ -26,136 +26,6 @@
     }
   },
   "alertasPrioritarias": [
-    {
-      "id": "BOE-A-2026-18715",
-      "boeId": "BOE-A-2026-18715",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18715",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "informatica",
-        "informatica_tic",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "programador",
-        "programadora",
-        "tecnica auxiliar de informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [
-        "del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv",
-        "marina orden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identifica",
-        "identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identificacion del pues",
-        "rden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv"
-      ],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion 430/38377/2026, de 1 de septiembre, de la subsecretaria, por la que se resuelve el concurso general, convocad|informatica_tic|concurso_general",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18721",
-      "boeId": "BOE-A-2026-18721",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18721",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "ez. 02006 albacete. castilla y leon. valladolid. edificio de tecnologia de la informacion y las telecomunicaciones. (e.t.s.i. telecomunicacion y e.i. informatica). campus miguel delibes. paseo de belen, 15. 47011 valladolid. burgos. escuela politecnica superior. edificio milanera. c/ villadiego s/n. 09001 burg"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "universidad de sevilla - facultad de filosofia y facultad de psicologia|orden pjc/937/2026, de 28 de agosto, por la que se aprueba la relacion definitiva de personas admitidas y excluidas y se|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-19194",
       "boeId": "BOE-A-2026-19194",
@@ -341,21 +211,21 @@
       "duplicadoDe": "BOE-A-2026-19194"
     },
     {
-      "id": "BOE-A-2026-18718",
-      "boeId": "BOE-A-2026-18718",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
+      "id": "BOE-A-2026-19443",
+      "boeId": "BOE-A-2026-19443",
+      "fechaPublicacion": "2026-09-18",
+      "titulo": "Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18718",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19443",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260918",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -363,49 +233,46 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Alborea",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "tags": [
         "Albacete",
-        "informatica",
-        "informatica_tic",
-        "libre_designacion",
-        "movilidad"
+        "Ayuntamiento de Alborea",
+        "administrativo",
+        "administrativo_c1_probable",
+        "oposicion",
+        "oposiciones"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
+      "plazasExtraidas": [
+        "una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "administrativo_c1_probable",
       "relevanciaUsuario": "alta",
       "prioridadUsuario": 2,
       "descartadaParaUsuario": false,
       "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "matchesInformatica": [
-        "analista programador",
-        "informatica",
-        "programador",
-        "tecnica auxiliar de informatica"
+      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [
+        "administracion general, subescala administrativa",
+        "escala de administracion general, subescala administrativa",
+        "subescala administrativa"
       ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [
+        "auxiliar administrativo"
+      ],
       "matchesDescarte": [],
-      "contextosInformatica": [
-        "ecretaria general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
-        "co. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3573276). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. jefe / jefa de ne",
-        "general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
-        "730252). 18 c1 c2 gijon. asturias. ministerio transportes y mov. sostenible. demarcaciones de carreteras. demarcacion cantabria. santander. tecnico / tecnica auxiliar de informatica (5772243). 16 santander. cantabria. paneda martinez, alvaro ***6440** 1188 c1 19 jefatura central de trafico. gerencia de informatica. jefe / jefa de"
-      ],
-      "gruposDetectados": [
-        "A2",
-        "C1",
-        "C2"
-      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 2,
-      "fingerprint": "|resolucion de 21 de agosto de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resol|informatica_tic|libre_designacion",
+      "fingerprint": "ayuntamiento de alborea|una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1096,136 +963,6 @@
   ],
   "alertas": [
     {
-      "id": "BOE-A-2026-18715",
-      "boeId": "BOE-A-2026-18715",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18715",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "informatica",
-        "informatica_tic",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "programador",
-        "programadora",
-        "tecnica auxiliar de informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [
-        "del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv",
-        "marina orden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identifica",
-        "identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identificacion del pues",
-        "rden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv"
-      ],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion 430/38377/2026, de 1 de septiembre, de la subsecretaria, por la que se resuelve el concurso general, convocad|informatica_tic|concurso_general",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18721",
-      "boeId": "BOE-A-2026-18721",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18721",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "ez. 02006 albacete. castilla y leon. valladolid. edificio de tecnologia de la informacion y las telecomunicaciones. (e.t.s.i. telecomunicacion y e.i. informatica). campus miguel delibes. paseo de belen, 15. 47011 valladolid. burgos. escuela politecnica superior. edificio milanera. c/ villadiego s/n. 09001 burg"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "universidad de sevilla - facultad de filosofia y facultad de psicologia|orden pjc/937/2026, de 28 de agosto, por la que se aprueba la relacion definitiva de personas admitidas y excluidas y se|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-19194",
       "boeId": "BOE-A-2026-19194",
       "fechaPublicacion": "2026-09-14",
@@ -1410,21 +1147,21 @@
       "duplicadoDe": "BOE-A-2026-19194"
     },
     {
-      "id": "BOE-A-2026-18718",
-      "boeId": "BOE-A-2026-18718",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
+      "id": "BOE-A-2026-19443",
+      "boeId": "BOE-A-2026-19443",
+      "fechaPublicacion": "2026-09-18",
+      "titulo": "Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18718",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19443",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260918",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1432,185 +1169,52 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Alborea",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "tags": [
         "Albacete",
-        "informatica",
-        "informatica_tic",
-        "libre_designacion",
-        "movilidad"
+        "Ayuntamiento de Alborea",
+        "administrativo",
+        "administrativo_c1_probable",
+        "oposicion",
+        "oposiciones"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
+      "plazasExtraidas": [
+        "una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "administrativo_c1_probable",
       "relevanciaUsuario": "alta",
       "prioridadUsuario": 2,
       "descartadaParaUsuario": false,
       "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "matchesInformatica": [
-        "analista programador",
-        "informatica",
-        "programador",
-        "tecnica auxiliar de informatica"
+      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [
+        "administracion general, subescala administrativa",
+        "escala de administracion general, subescala administrativa",
+        "subescala administrativa"
       ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [
+        "auxiliar administrativo"
+      ],
       "matchesDescarte": [],
-      "contextosInformatica": [
-        "ecretaria general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
-        "co. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3573276). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. jefe / jefa de ne",
-        "general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
-        "730252). 18 c1 c2 gijon. asturias. ministerio transportes y mov. sostenible. demarcaciones de carreteras. demarcacion cantabria. santander. tecnico / tecnica auxiliar de informatica (5772243). 16 santander. cantabria. paneda martinez, alvaro ***6440** 1188 c1 19 jefatura central de trafico. gerencia de informatica. jefe / jefa de"
-      ],
-      "gruposDetectados": [
-        "A2",
-        "C1",
-        "C2"
-      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 2,
-      "fingerprint": "|resolucion de 21 de agosto de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resol|informatica_tic|libre_designacion",
+      "fingerprint": "ayuntamiento de alborea|una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
     {
-      "id": "BOE-A-2026-18715",
-      "boeId": "BOE-A-2026-18715",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Resolución 430/38377/2026, de 1 de septiembre, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución 430/38258/2026, de 21 de mayo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18715.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18715",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18715",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "informatica",
-        "informatica_tic",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "programador",
-        "programadora",
-        "tecnica auxiliar de informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [
-        "del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv",
-        "marina orden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identifica",
-        "identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00153 programador/programadora de segunda (3264429) 16 c1 cadiz eco 16 madrid mateo del pino, manuel jesus ***7133*57 01188 c1 mando naval de canarias orden identificacion del pues",
-        "rden identificacion del puesto adjudicado nv grp/sb. localidad minis.cese nivel localidad cese apellidos y nombre n.r.p. cuerpo grp/sb. 00009 tecnico/tecnica auxiliar de informatica (2055335) 16 c1 madrid pjr 16 madrid haro yebras, antonio jose ***6425*35 01188 c1 subsecretaria de defensa intervencion general de la defensa interv"
-      ],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion 430/38377/2026, de 1 de septiembre, de la subsecretaria, por la que se resuelve el concurso general, convocad|informatica_tic|concurso_general",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18721",
-      "boeId": "BOE-A-2026-18721",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Orden PJC/937/2026, de 28 de agosto, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se publican las sedes de examen de los procesos selectivos para ingreso, por el sistema general de acceso libre, en los Cuerpos de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia, convocado por Orden PJC/1549/2025, de 22 de diciembre.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18721.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18721",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18721",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Universidad de Sevilla - Facultad de Filosofía y Facultad de Psicología",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "ez. 02006 albacete. castilla y leon. valladolid. edificio de tecnologia de la informacion y las telecomunicaciones. (e.t.s.i. telecomunicacion y e.i. informatica). campus miguel delibes. paseo de belen, 15. 47011 valladolid. burgos. escuela politecnica superior. edificio milanera. c/ villadiego s/n. 09001 burg"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "universidad de sevilla - facultad de filosofia y facultad de psicologia|orden pjc/937/2026, de 28 de agosto, por la que se aprueba la relacion definitiva de personas admitidas y excluidas y se|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-19194",
       "boeId": "BOE-A-2026-19194",
       "fechaPublicacion": "2026-09-14",
@@ -1795,21 +1399,21 @@
       "duplicadoDe": "BOE-A-2026-19194"
     },
     {
-      "id": "BOE-A-2026-18718",
-      "boeId": "BOE-A-2026-18718",
-      "fechaPublicacion": "2026-09-07",
-      "titulo": "Resolución de 21 de agosto de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 19 de mayo de 2026, en el Organismo Autónomo Jefatura Central de Tráfico.",
+      "id": "BOE-A-2026-19443",
+      "boeId": "BOE-A-2026-19443",
+      "fechaPublicacion": "2026-09-18",
+      "titulo": "Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18718.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18718",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260907",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19443",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260918",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1817,49 +1421,46 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Alborea",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18718",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
       "tags": [
         "Albacete",
-        "informatica",
-        "informatica_tic",
-        "libre_designacion",
-        "movilidad"
+        "Ayuntamiento de Alborea",
+        "administrativo",
+        "administrativo_c1_probable",
+        "oposicion",
+        "oposiciones"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
+      "plazasExtraidas": [
+        "una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "administrativo_c1_probable",
       "relevanciaUsuario": "alta",
       "prioridadUsuario": 2,
       "descartadaParaUsuario": false,
       "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
-      "matchesInformatica": [
-        "analista programador",
-        "informatica",
-        "programador",
-        "tecnica auxiliar de informatica"
+      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [
+        "administracion general, subescala administrativa",
+        "escala de administracion general, subescala administrativa",
+        "subescala administrativa"
       ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [
+        "auxiliar administrativo"
+      ],
       "matchesDescarte": [],
-      "contextosInformatica": [
-        "ecretaria general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
-        "co. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3573276). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. jefe / jefa de ne",
-        "general. jefe / jefa de negociado n18 (5007654). 18 c1 c2 madrid. ministerio del interior. jefatura central de trafico. secretaria general. analista programador (3352736). 18 madrid. santos sotelo, saray ***9541** 1135 c1 16 jefatura central de trafico. gerencia de informatica. jefe / jefa de negociado n18 (3",
-        "730252). 18 c1 c2 gijon. asturias. ministerio transportes y mov. sostenible. demarcaciones de carreteras. demarcacion cantabria. santander. tecnico / tecnica auxiliar de informatica (5772243). 16 santander. cantabria. paneda martinez, alvaro ***6440** 1188 c1 19 jefatura central de trafico. gerencia de informatica. jefe / jefa de"
-      ],
-      "gruposDetectados": [
-        "A2",
-        "C1",
-        "C2"
-      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 2,
-      "fingerprint": "|resolucion de 21 de agosto de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por resol|informatica_tic|libre_designacion",
+      "fingerprint": "ayuntamiento de alborea|una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
