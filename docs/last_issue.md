@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **4**
+Total alertas prioritarias/secundarias: **5**
 
 Filtro aplicado:
 
@@ -35,6 +35,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19196
 - **PDF:** https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19196.pdf
+
+## Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.
+
+- **Fecha:** 2026-09-19
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507
+- **PDF:** https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf
 
 ## Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.
 

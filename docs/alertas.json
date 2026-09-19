@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-18T12:27:59+00:00",
+    "lastRun": "2026-09-19T12:06:16+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-08",
-      "hasta": "2026-09-18"
+      "desde": "2026-09-09",
+      "hasta": "2026-09-19"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
     "totalAlertasDetectadasTerritorialmente": 16,
-    "totalVisiblesParaUsuario": 4,
-    "totalPrioritarias": 4,
+    "totalVisiblesParaUsuario": 5,
+    "totalPrioritarias": 5,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 11,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -209,6 +209,75 @@
       "fingerprint": "universidad de castilla-la mancha|resolucion de 2 de septiembre de 2026, de la universidad de castilla-la mancha, por la que se publica la modificacion de|informatica_tic|sin_clasificar",
       "posibleDuplicado": true,
       "duplicadoDe": "BOE-A-2026-19194"
+    },
+    {
+      "id": "BOE-A-2026-19507",
+      "boeId": "BOE-A-2026-19507",
+      "fechaPublicacion": "2026-09-19",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19507",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260919",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Aviación Civil",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Aviación Civil",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "ciberseguridad",
+        "desarrollo de aplicaciones",
+        "informatico",
+        "soporte informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "rmacion. la digitalizacion, la innovacion tecnologica, la sostenibilidad ambiental y la adaptacion al cambio climatico, la resiliencia operativa y la ciberseguridad son ahora elementos inseparables al transporte aereo del futuro y, por ende, de la operacion aeroportuaria. es precisamente en este escenario donde a",
+        "ra de procesos y calidad. 0,000 0,000 3,274 3,274 3,274 9,823 (o) actuaciones en campo de vuelo y plataforma. 3,669 4,065 1,140 0,533 0,100 9,508 (o) desarrollo de aplicaciones y licencias. 19,055 23,669 22,242 19,011 20,583 104,559 (o) inversiones de apoyo, reposicion y mejora. 1,153 0,616 0,732 0,340 0,334 3,175 (o) servic",
+        "io de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas",
+        "e servicio de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de aviacion civil|resolucion de 16 de septiembre de 2026, de la direccion general de aviacion civil, por la que se publica el acuerdo del |informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     },
     {
       "id": "BOE-A-2026-19443",
@@ -839,64 +908,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-18782",
-      "boeId": "BOE-A-2026-18782",
-      "fechaPublicacion": "2026-09-08",
-      "titulo": "Resolución de 1 de septiembre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-A-2026-18782.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18782",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260908",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "quince dias habiles a partir del siguiente al de la publicacion de la presente resolucion en el boletin oficial del estado , acompanando a la solicitud la documentacion acreditativa de reunir los requisitos para su desempeno, en los terminos que figuren en la convocatoria",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "libre_designacion",
-        "movilidad",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "funcionario de administracion local con habilitacion de caracter nacional",
-        "habilitacion de caracter nacional"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de albacete|resolucion de 1 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocato|otro_no_interesante|libre_designacion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-19275",
       "boeId": "BOE-A-2026-19275",
       "fechaPublicacion": "2026-09-16",
@@ -1145,6 +1156,75 @@
       "fingerprint": "universidad de castilla-la mancha|resolucion de 2 de septiembre de 2026, de la universidad de castilla-la mancha, por la que se publica la modificacion de|informatica_tic|sin_clasificar",
       "posibleDuplicado": true,
       "duplicadoDe": "BOE-A-2026-19194"
+    },
+    {
+      "id": "BOE-A-2026-19507",
+      "boeId": "BOE-A-2026-19507",
+      "fechaPublicacion": "2026-09-19",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19507",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260919",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Aviación Civil",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Aviación Civil",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "ciberseguridad",
+        "desarrollo de aplicaciones",
+        "informatico",
+        "soporte informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "rmacion. la digitalizacion, la innovacion tecnologica, la sostenibilidad ambiental y la adaptacion al cambio climatico, la resiliencia operativa y la ciberseguridad son ahora elementos inseparables al transporte aereo del futuro y, por ende, de la operacion aeroportuaria. es precisamente en este escenario donde a",
+        "ra de procesos y calidad. 0,000 0,000 3,274 3,274 3,274 9,823 (o) actuaciones en campo de vuelo y plataforma. 3,669 4,065 1,140 0,533 0,100 9,508 (o) desarrollo de aplicaciones y licencias. 19,055 23,669 22,242 19,011 20,583 104,559 (o) inversiones de apoyo, reposicion y mejora. 1,153 0,616 0,732 0,340 0,334 3,175 (o) servic",
+        "io de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas",
+        "e servicio de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de aviacion civil|resolucion de 16 de septiembre de 2026, de la direccion general de aviacion civil, por la que se publica el acuerdo del |informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     },
     {
       "id": "BOE-A-2026-19443",
@@ -1397,6 +1477,75 @@
       "fingerprint": "universidad de castilla-la mancha|resolucion de 2 de septiembre de 2026, de la universidad de castilla-la mancha, por la que se publica la modificacion de|informatica_tic|sin_clasificar",
       "posibleDuplicado": true,
       "duplicadoDe": "BOE-A-2026-19194"
+    },
+    {
+      "id": "BOE-A-2026-19507",
+      "boeId": "BOE-A-2026-19507",
+      "fechaPublicacion": "2026-09-19",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19507",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260919",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Aviación Civil",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Aviación Civil",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "ciberseguridad",
+        "desarrollo de aplicaciones",
+        "informatico",
+        "soporte informatico"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "rmacion. la digitalizacion, la innovacion tecnologica, la sostenibilidad ambiental y la adaptacion al cambio climatico, la resiliencia operativa y la ciberseguridad son ahora elementos inseparables al transporte aereo del futuro y, por ende, de la operacion aeroportuaria. es precisamente en este escenario donde a",
+        "ra de procesos y calidad. 0,000 0,000 3,274 3,274 3,274 9,823 (o) actuaciones en campo de vuelo y plataforma. 3,669 4,065 1,140 0,533 0,100 9,508 (o) desarrollo de aplicaciones y licencias. 19,055 23,669 22,242 19,011 20,583 104,559 (o) inversiones de apoyo, reposicion y mejora. 1,153 0,616 0,732 0,340 0,334 3,175 (o) servic",
+        "io de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas",
+        "e servicio de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de aviacion civil|resolucion de 16 de septiembre de 2026, de la direccion general de aviacion civil, por la que se publica el acuerdo del |informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     },
     {
       "id": "BOE-A-2026-19443",
@@ -2020,64 +2169,6 @@
       "nivelesDetectados": [],
       "prioridad": 7,
       "fingerprint": "|resolucion de 11 de septiembre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal fun|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-18782",
-      "boeId": "BOE-A-2026-18782",
-      "fechaPublicacion": "2026-09-08",
-      "titulo": "Resolución de 1 de septiembre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-A-2026-18782.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18782",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/08/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260908",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Albacete",
-      "precision": "alta",
-      "plazoInscripcion": "quince dias habiles a partir del siguiente al de la publicacion de la presente resolucion en el boletin oficial del estado , acompanando a la solicitud la documentacion acreditativa de reunir los requisitos para su desempeno, en los terminos que figuren en la convocatoria",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18782",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Albacete",
-        "libre_designacion",
-        "movilidad",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "funcionario de administracion local con habilitacion de caracter nacional",
-        "habilitacion de caracter nacional"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "ayuntamiento de albacete|resolucion de 1 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocato|otro_no_interesante|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
