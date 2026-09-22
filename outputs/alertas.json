@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-21T14:27:16+00:00",
+    "lastRun": "2026-09-22T12:50:57+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-11",
-      "hasta": "2026-09-21"
+      "desde": "2026-09-12",
+      "hasta": "2026-09-22"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 18,
+    "totalAlertasDetectadasTerritorialmente": 17,
     "totalVisiblesParaUsuario": 5,
     "totalPrioritarias": 5,
     "totalSecundarias": 0,
-    "totalDescartadas": 13,
+    "totalDescartadas": 12,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -676,64 +676,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "|resolucion de 11 de septiembre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal fun|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-19038",
-      "boeId": "BOE-A-2026-19038",
-      "fechaPublicacion": "2026-09-11",
-      "titulo": "Resolución de 8 de septiembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19038",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-19038.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19038",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260911",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19038",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "otros",
-        "promocion_interna_no_prioritaria",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [
-        "22412225 plaza de san pedro 5 s"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|22412225 plaza de san pedro 5 s|promocion_interna_no_prioritaria|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2057,64 +1999,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "|resolucion de 11 de septiembre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal fun|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-19038",
-      "boeId": "BOE-A-2026-19038",
-      "fechaPublicacion": "2026-09-11",
-      "titulo": "Resolución de 8 de septiembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19038",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-19038.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19038",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260911",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19038",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "otros",
-        "promocion_interna_no_prioritaria",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [
-        "22412225 plaza de san pedro 5 s"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|22412225 plaza de san pedro 5 s|promocion_interna_no_prioritaria|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
