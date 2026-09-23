@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-22T12:50:57+00:00",
+    "lastRun": "2026-09-23T12:55:42+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-12",
-      "hasta": "2026-09-22"
+      "desde": "2026-09-13",
+      "hasta": "2026-09-23"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -680,21 +680,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-19093",
-      "boeId": "BOE-A-2026-19093",
-      "fechaPublicacion": "2026-09-12",
-      "titulo": "Resolución de 4 de septiembre de 2026, de la Diputación Provincial de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "id": "BOE-A-2026-19696",
+      "boeId": "BOE-A-2026-19696",
+      "fechaPublicacion": "2026-09-23",
+      "titulo": "Orden de 8 de septiembre de 2026, por la que se destina a los Jueces y Juezas que se relacionan, como consecuencia del concurso resuelto por Acuerdo de la Comisión Permanente del Consejo General del Poder Judicial.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19093",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/12/pdfs/BOE-A-2026-19093.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19093",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/12/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260912",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19696",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/23/pdfs/BOE-A-2026-19696.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19696",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260923",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -702,32 +702,31 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Diputación Provincial de Albacete",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19093",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19696",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "Diputación Provincial de Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
       "plazasExtraidas": [
-        "dos plazas de cabo servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "siete plazas de sargento/a servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de cabo servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "plazas de sargento/a servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
+        "plaza numero 5 de la seccion de instruccion del tribunal de instancia de badalona, el juez ignacio ruir villar, con numero de escalafon 444, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 4 de la seccion de lo contencioso-administrativo del tribunal de instancia barcelona, la jueza nuria alonso reverter, con numero de escalafon 530, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 9 de la seccion de lo contencioso-administrativo del tribunal de instancia de barcelona, la jueza raquel silvestre vercher, con numero de escalafon 460, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 1 de la seccion de instruccion del tribunal de instancia de orihuela, la jueza irene osado munoz, con numero de escalafon 473, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 4 de la seccion civil y de instruccion del tribunal de instancia de requena, el juez felix checa arminana, con numero de escalafon 385, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon"
       ],
-      "perfilReal": "promocion_interna_no_prioritaria",
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -735,8 +734,8 @@
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "diputacion provincial de albacete|dos plazas de cabo servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna siete plazas de sargento/a servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna|promocion_interna_no_prioritaria|oposicion",
+      "prioridad": 6,
+      "fingerprint": "|plaza numero 5 de la seccion de instruccion del tribunal de instancia de badalona, el juez ignacio ruir villar, con numero de escalafon 444, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon plaza numero 4 de la seccion de lo contencioso-administrativo del tribunal de instancia barcelona, la jueza nuria alonso reverter, con numero de escalafon 530, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2003,21 +2002,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-19093",
-      "boeId": "BOE-A-2026-19093",
-      "fechaPublicacion": "2026-09-12",
-      "titulo": "Resolución de 4 de septiembre de 2026, de la Diputación Provincial de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "id": "BOE-A-2026-19696",
+      "boeId": "BOE-A-2026-19696",
+      "fechaPublicacion": "2026-09-23",
+      "titulo": "Orden de 8 de septiembre de 2026, por la que se destina a los Jueces y Juezas que se relacionan, como consecuencia del concurso resuelto por Acuerdo de la Comisión Permanente del Consejo General del Poder Judicial.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19093",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/12/pdfs/BOE-A-2026-19093.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19093",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/12/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260912",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19696",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/23/pdfs/BOE-A-2026-19696.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19696",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260923",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -2025,32 +2024,31 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Diputación Provincial de Albacete",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19093",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19696",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "Diputación Provincial de Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
       "plazasExtraidas": [
-        "dos plazas de cabo servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "siete plazas de sargento/a servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "convocatoria para proveer varias plazas",
-        "plazas de cabo servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna",
-        "plazas de sargento/a servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna"
+        "plaza numero 5 de la seccion de instruccion del tribunal de instancia de badalona, el juez ignacio ruir villar, con numero de escalafon 444, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 4 de la seccion de lo contencioso-administrativo del tribunal de instancia barcelona, la jueza nuria alonso reverter, con numero de escalafon 530, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 9 de la seccion de lo contencioso-administrativo del tribunal de instancia de barcelona, la jueza raquel silvestre vercher, con numero de escalafon 460, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 1 de la seccion de instruccion del tribunal de instancia de orihuela, la jueza irene osado munoz, con numero de escalafon 473, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon",
+        "plaza numero 4 de la seccion civil y de instruccion del tribunal de instancia de requena, el juez felix checa arminana, con numero de escalafon 385, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon"
       ],
-      "perfilReal": "promocion_interna_no_prioritaria",
+      "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -2058,8 +2056,8 @@
       "contextosInformatica": [],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "diputacion provincial de albacete|dos plazas de cabo servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna siete plazas de sargento/a servicios especiales de prevencion y extincion de incendios, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase servicio de extincion de incendios, por el sistema de concurso-oposicion, en turno de promocion interna|promocion_interna_no_prioritaria|oposicion",
+      "prioridad": 6,
+      "fingerprint": "|plaza numero 5 de la seccion de instruccion del tribunal de instancia de badalona, el juez ignacio ruir villar, con numero de escalafon 444, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon plaza numero 4 de la seccion de lo contencioso-administrativo del tribunal de instancia barcelona, la jueza nuria alonso reverter, con numero de escalafon 530, con preferencia sobre los/las juezas/zas con mejor puesto en el escalafon|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
