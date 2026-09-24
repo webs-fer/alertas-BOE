@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-23T12:55:42+00:00",
+    "lastRun": "2026-09-24T12:55:35+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-13",
-      "hasta": "2026-09-23"
+      "desde": "2026-09-14",
+      "hasta": "2026-09-24"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalAlertasDetectadasTerritorialmente": 20,
     "totalVisiblesParaUsuario": 5,
     "totalPrioritarias": 5,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 15,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -740,6 +740,60 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-19835",
+      "boeId": "BOE-A-2026-19835",
+      "fechaPublicacion": "2026-09-24",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Confederación Hidrográfica del Júcar, O.A., por la que se publica la Adenda de modificación del Convenio de encomienda de gestión con la Junta Central de Regantes de la Mancha Oriental, para la entrega de las futuras obras relativas a los proyectos constructivos de infraestructuras de terminación de la segunda fase de la sustitución de bombeos de la Mancha Oriental, para su mantenimiento, conservación y explotación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19835",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19835.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19835",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/24/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260924",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19835",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|resolucion de 16 de septiembre de 2026, de la confederacion hidrografica del jucar, o.a., por la que se publica la adend|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-19337",
       "boeId": "BOE-A-2026-19337",
       "fechaPublicacion": "2026-09-17",
@@ -1025,6 +1079,125 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de elche de la sierra|una plaza de oficial policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer una plaza|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-19782",
+      "boeId": "BOE-A-2026-19782",
+      "fechaPublicacion": "2026-09-24",
+      "titulo": "Resolución de 18 de septiembre de 2026, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19782",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19782.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19782",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/24/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260924",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "las solicitudes deberan presentarse dentro del plazo de quince dias habiles, contados desde el dia siguiente al de la publicacion de esta resolucion en el boletin oficial del estado , segun lo establecido en el articulo 16 de la ley 39/2015, de 1 de octub",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19782",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "se convocan por la presente resolucion podran ser solicitados por el personal funcionario que reuna los requisitos establecidos para el desempeno de los mismos"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|se convocan por la presente resolucion podran ser solicitados por el personal funcionario que reuna los requisitos establecidos para el desempeno de los mismos|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-19804",
+      "boeId": "BOE-A-2026-19804",
+      "fechaPublicacion": "2026-09-24",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19804",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19804.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19804",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/24/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260924",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19804",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de intendente de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer varias plazas",
+        "plazas de intendente de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|tres plazas de intendente de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -2062,6 +2235,60 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-19835",
+      "boeId": "BOE-A-2026-19835",
+      "fechaPublicacion": "2026-09-24",
+      "titulo": "Resolución de 16 de septiembre de 2026, de la Confederación Hidrográfica del Júcar, O.A., por la que se publica la Adenda de modificación del Convenio de encomienda de gestión con la Junta Central de Regantes de la Mancha Oriental, para la entrega de las futuras obras relativas a los proyectos constructivos de infraestructuras de terminación de la segunda fase de la sustitución de bombeos de la Mancha Oriental, para su mantenimiento, conservación y explotación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19835",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19835.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19835",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/24/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260924",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19835",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|resolucion de 16 de septiembre de 2026, de la confederacion hidrografica del jucar, o.a., por la que se publica la adend|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-19337",
       "boeId": "BOE-A-2026-19337",
       "fechaPublicacion": "2026-09-17",
@@ -2347,6 +2574,125 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de elche de la sierra|una plaza de oficial policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer una plaza|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-19782",
+      "boeId": "BOE-A-2026-19782",
+      "fechaPublicacion": "2026-09-24",
+      "titulo": "Resolución de 18 de septiembre de 2026, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19782",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19782.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19782",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/24/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260924",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "las solicitudes deberan presentarse dentro del plazo de quince dias habiles, contados desde el dia siguiente al de la publicacion de esta resolucion en el boletin oficial del estado , segun lo establecido en el articulo 16 de la ley 39/2015, de 1 de octub",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19782",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "se convocan por la presente resolucion podran ser solicitados por el personal funcionario que reuna los requisitos establecidos para el desempeno de los mismos"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|se convocan por la presente resolucion podran ser solicitados por el personal funcionario que reuna los requisitos establecidos para el desempeno de los mismos|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-19804",
+      "boeId": "BOE-A-2026-19804",
+      "fechaPublicacion": "2026-09-24",
+      "titulo": "Resolución de 17 de septiembre de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19804",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-A-2026-19804.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19804",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/24/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260924",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19804",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de intendente de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer varias plazas",
+        "plazas de intendente de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|tres plazas de intendente de la policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
