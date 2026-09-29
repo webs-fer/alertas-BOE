@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-28T15:45:48+00:00",
+    "lastRun": "2026-09-29T14:17:37+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-18",
-      "hasta": "2026-09-28"
+      "desde": "2026-09-19",
+      "hasta": "2026-09-29"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
+    "totalAlertasDetectadasTerritorialmente": 16,
     "totalVisiblesParaUsuario": 3,
     "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 11,
+    "totalDescartadas": 13,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -96,21 +96,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-19443",
-      "boeId": "BOE-A-2026-19443",
-      "fechaPublicacion": "2026-09-18",
-      "titulo": "Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.",
+      "id": "BOE-A-2026-20247",
+      "boeId": "BOE-A-2026-20247",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 18 de mayo de 2026, del Centro de Estudios y Experimentación de Obras Públicas, O.A., M.P., por la que se publica el Convenio con la Demarcación en Castilla-La Mancha del Colegio de Ingenieros de Caminos, Canales y Puertos, para la realización de una exposición sobre «Historia de la Obra Civil en la ciudad de Albacete».",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19443",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/18/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260918",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20247.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20247",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -118,46 +118,43 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Alborea",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Alborea",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
       ],
-      "plazasExtraidas": [
-        "una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
       "descartadaParaUsuario": false,
       "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administracion general, subescala administrativa",
-        "escala de administracion general, subescala administrativa",
-        "subescala administrativa"
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "soporte informatico"
       ],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar administrativo"
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "ingeniero de caminos"
       ],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "contextosInformatica": [
+        "a y la ciencia, las realizaciones y las figuras mas relevantes a lo largo de la historia; realizar exposiciones y publicaciones impresas o en soporte informatico y audiovisual; transferir la tecnologia espanola en los ambitos nacional e internacional a traves de publicaciones, talleres, jornadas, seminarios, s",
+        "a tecnica y la ciencia, las realizaciones y las figuras mas relevantes a lo largo de la historia; realizar exposiciones y publicaciones impresas o en soporte informatico y audiovisual; transferir la tecnologia espanola en los ambitos nacional e internacional a traves de publicaciones, talleres, jornadas, seminarios, s"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de alborea|una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 18 de mayo de 2026, del centro de estudios y experimentacion de obras publicas, o.a., m.p., por la que se |informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -518,6 +515,65 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-20181",
+      "boeId": "BOE-A-2026-20181",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 22 de septiembre de 2026, del Ayuntamiento de Caudete (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20181",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20181.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20181",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Caudete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20181",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Caudete",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "una plaza de oficial de segunda-oficios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer una plaza",
+        "plaza de oficial de segunda-oficios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de caudete|una plaza de oficial de segunda-oficios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer una plaza|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-19556",
       "boeId": "BOE-A-2026-19556",
       "fechaPublicacion": "2026-09-21",
@@ -868,6 +924,67 @@
       "fingerprint": "diputacion provincial de albacete|resolucion de 17 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocat|otro_no_interesante|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20187",
+      "boeId": "BOE-A-2026-20187",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 23 de septiembre de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20187",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20187.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20187",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20187",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|tres plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
@@ -941,21 +1058,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-19443",
-      "boeId": "BOE-A-2026-19443",
-      "fechaPublicacion": "2026-09-18",
-      "titulo": "Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.",
+      "id": "BOE-A-2026-20247",
+      "boeId": "BOE-A-2026-20247",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 18 de mayo de 2026, del Centro de Estudios y Experimentación de Obras Públicas, O.A., M.P., por la que se publica el Convenio con la Demarcación en Castilla-La Mancha del Colegio de Ingenieros de Caminos, Canales y Puertos, para la realización de una exposición sobre «Historia de la Obra Civil en la ciudad de Albacete».",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19443",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/18/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260918",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20247.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20247",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -963,46 +1080,43 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Alborea",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Alborea",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
       ],
-      "plazasExtraidas": [
-        "una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
       "descartadaParaUsuario": false,
       "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administracion general, subescala administrativa",
-        "escala de administracion general, subescala administrativa",
-        "subescala administrativa"
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "soporte informatico"
       ],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar administrativo"
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "ingeniero de caminos"
       ],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "contextosInformatica": [
+        "a y la ciencia, las realizaciones y las figuras mas relevantes a lo largo de la historia; realizar exposiciones y publicaciones impresas o en soporte informatico y audiovisual; transferir la tecnologia espanola en los ambitos nacional e internacional a traves de publicaciones, talleres, jornadas, seminarios, s",
+        "a tecnica y la ciencia, las realizaciones y las figuras mas relevantes a lo largo de la historia; realizar exposiciones y publicaciones impresas o en soporte informatico y audiovisual; transferir la tecnologia espanola en los ambitos nacional e internacional a traves de publicaciones, talleres, jornadas, seminarios, s"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de alborea|una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 18 de mayo de 2026, del centro de estudios y experimentacion de obras publicas, o.a., m.p., por la que se |informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1151,21 +1265,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-19443",
-      "boeId": "BOE-A-2026-19443",
-      "fechaPublicacion": "2026-09-18",
-      "titulo": "Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.",
+      "id": "BOE-A-2026-20247",
+      "boeId": "BOE-A-2026-20247",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 18 de mayo de 2026, del Centro de Estudios y Experimentación de Obras Públicas, O.A., M.P., por la que se publica el Convenio con la Demarcación en Castilla-La Mancha del Colegio de Ingenieros de Caminos, Canales y Puertos, para la realización de una exposición sobre «Historia de la Obra Civil en la ciudad de Albacete».",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19443",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/18/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260918",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20247.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20247",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1173,46 +1287,43 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de Alborea",
+      "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de Alborea",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
       ],
-      "plazasExtraidas": [
-        "una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
       "descartadaParaUsuario": false,
       "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administracion general, subescala administrativa",
-        "escala de administracion general, subescala administrativa",
-        "subescala administrativa"
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatico",
+        "soporte informatico"
       ],
-      "matchesAuxiliarAdministrativo": [
-        "auxiliar administrativo"
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "ingeniero de caminos"
       ],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
+      "contextosInformatica": [
+        "a y la ciencia, las realizaciones y las figuras mas relevantes a lo largo de la historia; realizar exposiciones y publicaciones impresas o en soporte informatico y audiovisual; transferir la tecnologia espanola en los ambitos nacional e internacional a traves de publicaciones, talleres, jornadas, seminarios, s",
+        "a tecnica y la ciencia, las realizaciones y las figuras mas relevantes a lo largo de la historia; realizar exposiciones y publicaciones impresas o en soporte informatico y audiovisual; transferir la tecnologia espanola en los ambitos nacional e internacional a traves de publicaciones, talleres, jornadas, seminarios, s"
+      ],
       "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de alborea|una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 18 de mayo de 2026, del centro de estudios y experimentacion de obras publicas, o.a., m.p., por la que se |informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1570,6 +1681,65 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-20181",
+      "boeId": "BOE-A-2026-20181",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 22 de septiembre de 2026, del Ayuntamiento de Caudete (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20181",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20181.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20181",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Caudete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20181",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Caudete",
+        "oposicion",
+        "oposiciones",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "una plaza de oficial de segunda-oficios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de concurso-oposicion, en turno de promocion interna",
+        "convocatoria para proveer una plaza",
+        "plaza de oficial de segunda-oficios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de concurso-oposicion, en turno de promocion interna"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "ayuntamiento de caudete|una plaza de oficial de segunda-oficios multiples, perteneciente a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de concurso-oposicion, en turno de promocion interna convocatoria para proveer una plaza|promocion_interna_no_prioritaria|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-19556",
       "boeId": "BOE-A-2026-19556",
       "fechaPublicacion": "2026-09-21",
@@ -1918,6 +2088,67 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "diputacion provincial de albacete|resolucion de 17 de septiembre de 2026, de la direccion general de la funcion publica, por la que se publica la convocat|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20187",
+      "boeId": "BOE-A-2026-20187",
+      "fechaPublicacion": "2026-09-29",
+      "titulo": "Resolución de 23 de septiembre de 2026, del Ayuntamiento de Albacete, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20187",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20187.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20187",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260929",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20187",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete|tres plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }

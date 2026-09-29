@@ -18,18 +18,14 @@ Filtro aplicado:
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507
 - **PDF:** https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf
 
-## Resolución de 2 de septiembre de 2026, del Ayuntamiento de Alborea (Albacete), referente a la convocatoria para proveer una plaza.
+## Resolución de 18 de mayo de 2026, del Centro de Estudios y Experimentación de Obras Públicas, O.A., M.P., por la que se publica el Convenio con la Demarcación en Castilla-La Mancha del Colegio de Ingenieros de Caminos, Canales y Puertos, para la realización de una exposición sobre «Historia de la Obra Civil en la ciudad de Albacete».
 
-- **Fecha:** 2026-09-18
-- **Perfil detectado:** administrativo_c1_probable
-- **Prioridad:** 2
-- **Motivo:** Detectada plaza real de Administrativo/a o subescala administrativa.
-- **Plazas/frases detectadas:**
-  - una plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre
-  - convocatoria para proveer una plaza
-  - plaza de auxiliar administrativo, perteneciente a la escala de administracion general, subescala administrativa/auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19443
-- **PDF:** https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19443.pdf
+- **Fecha:** 2026-09-29
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20247
+- **PDF:** https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-A-2026-20247.pdf
 
 ## Resolución de 18 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.
 
