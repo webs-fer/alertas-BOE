@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-29T14:17:37+00:00",
+    "lastRun": "2026-09-30T14:06:29+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-19",
-      "hasta": "2026-09-29"
+      "desde": "2026-09-20",
+      "hasta": "2026-09-30"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 16,
-    "totalVisiblesParaUsuario": 3,
-    "totalPrioritarias": 3,
+    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalVisiblesParaUsuario": 2,
+    "totalPrioritarias": 2,
     "totalSecundarias": 0,
-    "totalDescartadas": 13,
+    "totalDescartadas": 15,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -26,75 +26,6 @@
     }
   },
   "alertasPrioritarias": [
-    {
-      "id": "BOE-A-2026-19507",
-      "boeId": "BOE-A-2026-19507",
-      "fechaPublicacion": "2026-09-19",
-      "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19507",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/19/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260919",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Aviación Civil",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Aviación Civil",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "ciberseguridad",
-        "desarrollo de aplicaciones",
-        "informatico",
-        "soporte informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "rmacion. la digitalizacion, la innovacion tecnologica, la sostenibilidad ambiental y la adaptacion al cambio climatico, la resiliencia operativa y la ciberseguridad son ahora elementos inseparables al transporte aereo del futuro y, por ende, de la operacion aeroportuaria. es precisamente en este escenario donde a",
-        "ra de procesos y calidad. 0,000 0,000 3,274 3,274 3,274 9,823 (o) actuaciones en campo de vuelo y plataforma. 3,669 4,065 1,140 0,533 0,100 9,508 (o) desarrollo de aplicaciones y licencias. 19,055 23,669 22,242 19,011 20,583 104,559 (o) inversiones de apoyo, reposicion y mejora. 1,153 0,616 0,732 0,340 0,334 3,175 (o) servic",
-        "io de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas",
-        "e servicio de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas"
-      ],
-      "gruposDetectados": [
-        "A1",
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "direccion general de aviacion civil|resolucion de 16 de septiembre de 2026, de la direccion general de aviacion civil, por la que se publica el acuerdo del |informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-20247",
       "boeId": "BOE-A-2026-20247",
@@ -461,6 +392,66 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-20345",
+      "boeId": "BOE-A-2026-20345",
+      "fechaPublicacion": "2026-09-30",
+      "titulo": "Resolución de 24 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20345.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20345",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre",
+        "dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-19539",
       "boeId": "BOE-A-2026-19539",
       "fechaPublicacion": "2026-09-21",
@@ -985,25 +976,23 @@
       "fingerprint": "ayuntamiento de albacete|tres plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    }
-  ],
-  "alertas": [
+    },
     {
-      "id": "BOE-A-2026-19507",
-      "boeId": "BOE-A-2026-19507",
-      "fechaPublicacion": "2026-09-19",
-      "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.",
+      "id": "BOE-A-2026-20316",
+      "boeId": "BOE-A-2026-20316",
+      "fechaPublicacion": "2026-09-30",
+      "titulo": "Acuerdo de 24 de septiembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se aprueba la relación definitiva de personas admitidas y excluidas para tomar parte en las pruebas selectivas para el ingreso en la Escuela Judicial y en el Centro de Estudios Jurídicos, convocadas por Acuerdo de 4 de junio de 2026, se nombra el Tribunal calificador número 1 y se señalan los lugares de celebración del primer ejercicio.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19507",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/19/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260919",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20316.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20316",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1011,52 +1000,43 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Dirección General de Aviación Civil",
+      "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
       "tags": [
         "Albacete",
-        "Dirección General de Aviación Civil",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "ciberseguridad",
-        "desarrollo de aplicaciones",
-        "informatico",
-        "soporte informatico"
+      "plazasExtraidas": [
+        "375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin"
       ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "rmacion. la digitalizacion, la innovacion tecnologica, la sostenibilidad ambiental y la adaptacion al cambio climatico, la resiliencia operativa y la ciberseguridad son ahora elementos inseparables al transporte aereo del futuro y, por ende, de la operacion aeroportuaria. es precisamente en este escenario donde a",
-        "ra de procesos y calidad. 0,000 0,000 3,274 3,274 3,274 9,823 (o) actuaciones en campo de vuelo y plataforma. 3,669 4,065 1,140 0,533 0,100 9,508 (o) desarrollo de aplicaciones y licencias. 19,055 23,669 22,242 19,011 20,583 104,559 (o) inversiones de apoyo, reposicion y mejora. 1,153 0,616 0,732 0,340 0,334 3,175 (o) servic",
-        "io de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas",
-        "e servicio de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas"
+      "matchesDescarte": [
+        "abogado"
       ],
-      "gruposDetectados": [
-        "A1",
-        "A2"
-      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
       "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "direccion general de aviacion civil|resolucion de 16 de septiembre de 2026, de la direccion general de aviacion civil, por la que se publica el acuerdo del |informatica_tic|sin_clasificar",
+      "prioridad": 9,
+      "fingerprint": "|375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
+    }
+  ],
+  "alertas": [
     {
       "id": "BOE-A-2026-20247",
       "boeId": "BOE-A-2026-20247",
@@ -1195,75 +1175,6 @@
     }
   ],
   "todasLasAlertas": [
-    {
-      "id": "BOE-A-2026-19507",
-      "boeId": "BOE-A-2026-19507",
-      "fechaPublicacion": "2026-09-19",
-      "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Aviación Civil, por la que se publica el Acuerdo del Consejo de Ministros de 15 de septiembre de 2026, por el que se aprueba el Documento de Regulación Aeroportuaria 2027-2031.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/19/pdfs/BOE-A-2026-19507.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19507",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/19/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260919",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Aviación Civil",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19507",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Aviación Civil",
-        "informatica",
-        "informatica_tic",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "ciberseguridad",
-        "desarrollo de aplicaciones",
-        "informatico",
-        "soporte informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "rmacion. la digitalizacion, la innovacion tecnologica, la sostenibilidad ambiental y la adaptacion al cambio climatico, la resiliencia operativa y la ciberseguridad son ahora elementos inseparables al transporte aereo del futuro y, por ende, de la operacion aeroportuaria. es precisamente en este escenario donde a",
-        "ra de procesos y calidad. 0,000 0,000 3,274 3,274 3,274 9,823 (o) actuaciones en campo de vuelo y plataforma. 3,669 4,065 1,140 0,533 0,100 9,508 (o) desarrollo de aplicaciones y licencias. 19,055 23,669 22,242 19,011 20,583 104,559 (o) inversiones de apoyo, reposicion y mejora. 1,153 0,616 0,732 0,340 0,334 3,175 (o) servic",
-        "io de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas",
-        "e servicio de las infraestructuras aeroportuarias, respecto a lo previsto en el dora 2027-2031. los informes anuales contaran ademas con un anexo, en soporte informatico, que permita hacer un seguimiento de las desviaciones provisionales sobre la bar prevista y de las subvenciones con las que se han financiado nuevas"
-      ],
-      "gruposDetectados": [
-        "A1",
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "direccion general de aviacion civil|resolucion de 16 de septiembre de 2026, de la direccion general de aviacion civil, por la que se publica el acuerdo del |informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-20247",
       "boeId": "BOE-A-2026-20247",
@@ -1627,6 +1538,66 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-20345",
+      "boeId": "BOE-A-2026-20345",
+      "fechaPublicacion": "2026-09-30",
+      "titulo": "Resolución de 24 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20345.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20345",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre",
+        "dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-19539",
       "boeId": "BOE-A-2026-19539",
       "fechaPublicacion": "2026-09-21",
@@ -2149,6 +2120,64 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de albacete|tres plazas de policia local, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20316",
+      "boeId": "BOE-A-2026-20316",
+      "fechaPublicacion": "2026-09-30",
+      "titulo": "Acuerdo de 24 de septiembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se aprueba la relación definitiva de personas admitidas y excluidas para tomar parte en las pruebas selectivas para el ingreso en la Escuela Judicial y en el Centro de Estudios Jurídicos, convocadas por Acuerdo de 4 de junio de 2026, se nombra el Tribunal calificador número 1 y se señalan los lugares de celebración del primer ejercicio.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20316.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20316",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
