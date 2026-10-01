@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-09-30T14:06:29+00:00",
+    "lastRun": "2026-10-01T14:46:10+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-20",
-      "hasta": "2026-09-30"
+      "desde": "2026-09-21",
+      "hasta": "2026-10-01"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalAlertasDetectadasTerritorialmente": 18,
     "totalVisiblesParaUsuario": 2,
     "totalPrioritarias": 2,
     "totalSecundarias": 0,
-    "totalDescartadas": 15,
+    "totalDescartadas": 16,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -392,18 +392,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-20345",
-      "boeId": "BOE-A-2026-20345",
-      "fechaPublicacion": "2026-09-30",
-      "titulo": "Resolución de 24 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "id": "BOE-A-2026-20413",
+      "boeId": "BOE-A-2026-20413",
+      "fechaPublicacion": "2026-10-01",
+      "titulo": "Resolución de 14 de septiembre de 2026, del Ayuntamiento de Pozuelo (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20345.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20345",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20413",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20413.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20413",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/01/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261001",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -414,24 +414,22 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de La Roda",
+      "entidadDetectada": "Ayuntamiento de Pozuelo",
       "precision": "alta",
       "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20413",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de La Roda",
+        "Ayuntamiento de Pozuelo",
         "oposicion",
         "oposiciones",
         "sin_perfil_claro"
       ],
       "plazasExtraidas": [
-        "una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre",
-        "dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer varias plazas",
-        "plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre"
+        "una plaza de operario/a servicios varios de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
       ],
       "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
@@ -447,7 +445,66 @@
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 6,
-      "fingerprint": "ayuntamiento de la roda|una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre|sin_perfil_claro|oposicion",
+      "fingerprint": "ayuntamiento de pozuelo|una plaza de operario/a servicios varios de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20441",
+      "boeId": "BOE-A-2026-20441",
+      "fechaPublicacion": "2026-10-01",
+      "titulo": "Resolución de 25 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20441",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20441.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20441",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/01/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261001",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20441",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|tres plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -978,21 +1035,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-20316",
-      "boeId": "BOE-A-2026-20316",
-      "fechaPublicacion": "2026-09-30",
-      "titulo": "Acuerdo de 24 de septiembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se aprueba la relación definitiva de personas admitidas y excluidas para tomar parte en las pruebas selectivas para el ingreso en la Escuela Judicial y en el Centro de Estudios Jurídicos, convocadas por Acuerdo de 4 de junio de 2026, se nombra el Tribunal calificador número 1 y se señalan los lugares de celebración del primer ejercicio.",
+      "id": "BOE-A-2026-20406",
+      "boeId": "BOE-A-2026-20406",
+      "fechaPublicacion": "2026-10-01",
+      "titulo": "Resolución de 23 de septiembre de 2026, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20316.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20316",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20406",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20406.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20406",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/01/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261001",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1002,36 +1059,39 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
+      "plazoInscripcion": "las solicitudes, ajustadas al modelo publicado como anexo ii de esta resolucion, se presentaran dentro del plazo de quince dias habiles, contados a partir del dia siguiente a aquel en que tenga lugar la publicacion de esta resolucion en el boletin oficial del estado , en el registro de la agencia estatal de admini",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20406",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
       "tags": [
         "Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
       ],
       "plazasExtraidas": [
-        "375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin"
+        "se convocan podran ser solicitados por los funcionarios que reunan los requisitos establecidos para el desempeno de los mismos",
+        "plazas localidad subgrupo admon"
       ],
-      "perfilReal": "otro_no_interesante",
+      "perfilReal": "libre_designacion_no_prioritaria",
       "relevanciaUsuario": "descartar",
       "prioridadUsuario": 9,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "abogado"
-      ],
+      "matchesDescarte": [],
       "contextosInformatica": [],
-      "gruposDetectados": [],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1"
+      ],
       "nivelesDetectados": [],
       "prioridad": 9,
-      "fingerprint": "|375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin|otro_no_interesante|oposicion",
+      "fingerprint": "|se convocan podran ser solicitados por los funcionarios que reunan los requisitos establecidos para el desempeno de los mismos plazas localidad subgrupo admon|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1538,18 +1598,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-20345",
-      "boeId": "BOE-A-2026-20345",
-      "fechaPublicacion": "2026-09-30",
-      "titulo": "Resolución de 24 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "id": "BOE-A-2026-20413",
+      "boeId": "BOE-A-2026-20413",
+      "fechaPublicacion": "2026-10-01",
+      "titulo": "Resolución de 14 de septiembre de 2026, del Ayuntamiento de Pozuelo (Albacete), referente a la convocatoria para proveer una plaza.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20345.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20345",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20413",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20413.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20413",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/01/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261001",
       "fuente": "BOE",
       "categoria": "oposiciones",
       "tipo": "oposicion",
@@ -1560,24 +1620,22 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Ayuntamiento de La Roda",
+      "entidadDetectada": "Ayuntamiento de Pozuelo",
       "precision": "alta",
       "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20345",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20413",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "Ayuntamiento de La Roda",
+        "Ayuntamiento de Pozuelo",
         "oposicion",
         "oposiciones",
         "sin_perfil_claro"
       ],
       "plazasExtraidas": [
-        "una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre",
-        "dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer varias plazas",
-        "plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre"
+        "una plaza de operario/a servicios varios de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
       ],
       "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
@@ -1593,7 +1651,66 @@
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 6,
-      "fingerprint": "ayuntamiento de la roda|una plaza de trabajador/a social, perteneciente a la escala de administracion especial, subescala tecnica y clase media, por el sistema de concurso-oposicion, en turno libre dos plazas de trabajador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre|sin_perfil_claro|oposicion",
+      "fingerprint": "ayuntamiento de pozuelo|una plaza de operario/a servicios varios de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20441",
+      "boeId": "BOE-A-2026-20441",
+      "fechaPublicacion": "2026-10-01",
+      "titulo": "Resolución de 25 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20441",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20441.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20441",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/01/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261001",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20441",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "tres plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer varias plazas",
+        "plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|tres plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2124,21 +2241,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-20316",
-      "boeId": "BOE-A-2026-20316",
-      "fechaPublicacion": "2026-09-30",
-      "titulo": "Acuerdo de 24 de septiembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se aprueba la relación definitiva de personas admitidas y excluidas para tomar parte en las pruebas selectivas para el ingreso en la Escuela Judicial y en el Centro de Estudios Jurídicos, convocadas por Acuerdo de 4 de junio de 2026, se nombra el Tribunal calificador número 1 y se señalan los lugares de celebración del primer ejercicio.",
+      "id": "BOE-A-2026-20406",
+      "boeId": "BOE-A-2026-20406",
+      "fechaPublicacion": "2026-10-01",
+      "titulo": "Resolución de 23 de septiembre de 2026, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20316.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20316",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/09/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20260930",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20406",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20406.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20406",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/01/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261001",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -2148,36 +2265,39 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20316",
+      "plazoInscripcion": "las solicitudes, ajustadas al modelo publicado como anexo ii de esta resolucion, se presentaran dentro del plazo de quince dias habiles, contados a partir del dia siguiente a aquel en que tenga lugar la publicacion de esta resolucion en el boletin oficial del estado , en el registro de la agencia estatal de admini",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20406",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
       "tags": [
         "Albacete",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
       ],
       "plazasExtraidas": [
-        "375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin"
+        "se convocan podran ser solicitados por los funcionarios que reunan los requisitos establecidos para el desempeno de los mismos",
+        "plazas localidad subgrupo admon"
       ],
-      "perfilReal": "otro_no_interesante",
+      "perfilReal": "libre_designacion_no_prioritaria",
       "relevanciaUsuario": "descartar",
       "prioridadUsuario": 9,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "abogado"
-      ],
+      "matchesDescarte": [],
       "contextosInformatica": [],
-      "gruposDetectados": [],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1"
+      ],
       "nivelesDetectados": [],
       "prioridad": 9,
-      "fingerprint": "|375 plazas de alumnas y alumnos de la escuela judicial, para su posterior acceso a la carrera judicial por la categoria de juez, y 200 plazas de alumnas y alumnos del centro de estudios juridicos, para su posterior ingreso en la carrera fiscal por la categoria de abogado fiscal, convocadas por acuerdo de 4 de junio de 2026 ( boletin|otro_no_interesante|oposicion",
+      "fingerprint": "|se convocan podran ser solicitados por los funcionarios que reunan los requisitos establecidos para el desempeno de los mismos plazas localidad subgrupo admon|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
