@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-02T14:08:23+00:00",
+    "lastRun": "2026-10-03T12:47:01+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-22",
-      "hasta": "2026-10-02"
+      "desde": "2026-09-23",
+      "hasta": "2026-10-03"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 15,
+    "totalAlertasDetectadasTerritorialmente": 16,
     "totalVisiblesParaUsuario": 2,
     "totalPrioritarias": 2,
     "totalSecundarias": 0,
-    "totalDescartadas": 13,
+    "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -505,6 +505,65 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "ayuntamiento de la roda|tres plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20573",
+      "boeId": "BOE-A-2026-20573",
+      "fechaPublicacion": "2026-10-03",
+      "titulo": "Resolución de 29 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), de corrección de errores de la de 23 de septiembre de 2026, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/03/pdfs/BOE-A-2026-20573.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20573",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/03/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261003",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "veinte dias habiles a partir del siguiente a la publicacion de la presente resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "convocatoria para proveer varias plazas",
+        "convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion",
+        "convocatoria para proveer varias plazas , debe decir"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|convocatoria para proveer varias plazas convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1540,6 +1599,65 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "ayuntamiento de la roda|tres plazas de oficial/a servicio obras, pertenecientes a la escala de administracion especial, subescala servicios especiales y clase personal de oficios, por el sistema de oposicion, en turno libre convocatoria para proveer varias plazas|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20573",
+      "boeId": "BOE-A-2026-20573",
+      "fechaPublicacion": "2026-10-03",
+      "titulo": "Resolución de 29 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), de corrección de errores de la de 23 de septiembre de 2026, referente a la convocatoria para proveer varias plazas.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/03/pdfs/BOE-A-2026-20573.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20573",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/03/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261003",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "veinte dias habiles a partir del siguiente a la publicacion de la presente resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "convocatoria para proveer varias plazas",
+        "convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion",
+        "convocatoria para proveer varias plazas , debe decir"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|convocatoria para proveer varias plazas convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
