@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-06T14:25:15+00:00",
+    "lastRun": "2026-10-07T14:45:28+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-09-26",
-      "hasta": "2026-10-06"
+      "desde": "2026-09-27",
+      "hasta": "2026-10-07"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalAlertasDetectadasTerritorialmente": 15,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -496,6 +496,122 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "|se convocan elecciones a ambas camaras, que se celebraran el domingo 29 de noviembre de 2026|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20852",
+      "boeId": "BOE-A-2026-20852",
+      "fechaPublicacion": "2026-10-07",
+      "titulo": "Resolución de 30 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20852.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20852",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20893",
+      "boeId": "BOE-A-2026-20893",
+      "fechaPublicacion": "2026-10-07",
+      "titulo": "Resolución de 30 de septiembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20893.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20893",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1330,6 +1446,122 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "|se convocan elecciones a ambas camaras, que se celebraran el domingo 29 de noviembre de 2026|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20852",
+      "boeId": "BOE-A-2026-20852",
+      "fechaPublicacion": "2026-10-07",
+      "titulo": "Resolución de 30 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20852.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20852",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de La Roda",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de La Roda",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de la roda|una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-20893",
+      "boeId": "BOE-A-2026-20893",
+      "fechaPublicacion": "2026-10-07",
+      "titulo": "Resolución de 30 de septiembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20893.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20893",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
