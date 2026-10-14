@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-13T15:22:19+00:00",
+    "lastRun": "2026-10-14T13:07:27+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-03",
-      "hasta": "2026-10-13"
+      "desde": "2026-10-04",
+      "hasta": "2026-10-14"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -96,65 +96,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-20573",
-      "boeId": "BOE-A-2026-20573",
-      "fechaPublicacion": "2026-10-03",
-      "titulo": "Resolución de 29 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), de corrección de errores de la de 23 de septiembre de 2026, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/03/pdfs/BOE-A-2026-20573.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20573",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/03/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261003",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de La Roda",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles a partir del siguiente a la publicacion de la presente resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de La Roda",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "convocatoria para proveer varias plazas",
-        "convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion",
-        "convocatoria para proveer varias plazas , debe decir"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de la roda|convocatoria para proveer varias plazas convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-20614",
       "boeId": "BOE-A-2026-20614",
@@ -670,6 +611,65 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "|resolucion de 5 de octubre de 2026, del banco de espana, por la que se publica la relacion de participantes en target-ba|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21371",
+      "boeId": "BOE-A-2026-21371",
+      "fechaPublicacion": "2026-10-14",
+      "titulo": "Resolución de 8 de octubre de 2026, del Ayuntamiento de Villarrobledo (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21371",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-A-2026-21371.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21371",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/14/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261014",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Villarrobledo",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21371",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Villarrobledo",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de tecnico/a de administracion general-urbanismo, perteneciente a la escala de administracion general, subescala tecnica y clase superior, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de tecnico/a de administracion general-urbanismo, perteneciente a la escala de administracion general, subescala tecnica y clase superior, por el sistema de concurso-oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de villarrobledo|una plaza de tecnico/a de administracion general-urbanismo, perteneciente a la escala de administracion general, subescala tecnica y clase superior, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -928,65 +928,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-20573",
-      "boeId": "BOE-A-2026-20573",
-      "fechaPublicacion": "2026-10-03",
-      "titulo": "Resolución de 29 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), de corrección de errores de la de 23 de septiembre de 2026, referente a la convocatoria para proveer varias plazas.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/03/pdfs/BOE-A-2026-20573.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20573",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/03/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261003",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de La Roda",
-      "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles a partir del siguiente a la publicacion de la presente resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20573",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de La Roda",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "convocatoria para proveer varias plazas",
-        "convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion",
-        "convocatoria para proveer varias plazas , debe decir"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de la roda|convocatoria para proveer varias plazas convocatoria para proveer varias plazas, publicada en el boletin oficial del estado numero 240, de 29 de septiembre de 2026 (boe-a-2026-20187), se procede a su rectificacion|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-20614",
       "boeId": "BOE-A-2026-20614",
       "fechaPublicacion": "2026-10-05",
@@ -1501,6 +1442,65 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "|resolucion de 5 de octubre de 2026, del banco de espana, por la que se publica la relacion de participantes en target-ba|sin_perfil_claro|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21371",
+      "boeId": "BOE-A-2026-21371",
+      "fechaPublicacion": "2026-10-14",
+      "titulo": "Resolución de 8 de octubre de 2026, del Ayuntamiento de Villarrobledo (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21371",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-A-2026-21371.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21371",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/14/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261014",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Villarrobledo",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21371",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Villarrobledo",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [
+        "una plaza de tecnico/a de administracion general-urbanismo, perteneciente a la escala de administracion general, subescala tecnica y clase superior, por el sistema de concurso-oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de tecnico/a de administracion general-urbanismo, perteneciente a la escala de administracion general, subescala tecnica y clase superior, por el sistema de concurso-oposicion, en turno libre"
+      ],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "ayuntamiento de villarrobledo|una plaza de tecnico/a de administracion general-urbanismo, perteneciente a la escala de administracion general, subescala tecnica y clase superior, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
