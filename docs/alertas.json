@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-14T13:07:27+00:00",
+    "lastRun": "2026-10-15T12:56:39+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-04",
-      "hasta": "2026-10-14"
+      "desde": "2026-10-05",
+      "hasta": "2026-10-15"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalAlertasDetectadasTerritorialmente": 15,
     "totalVisiblesParaUsuario": 1,
     "totalPrioritarias": 1,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 14,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -674,6 +674,80 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-21459",
+      "boeId": "BOE-A-2026-21459",
+      "fechaPublicacion": "2026-10-15",
+      "titulo": "Resolución de 5 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 23 de enero de 2026, en la Administración de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21459",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/15/pdfs/BOE-A-2026-21459.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21459",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/15/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261015",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes del concurso hasta la resolucion de adjudicacion hayan sido nombrados o sean nombrados, por promocion interna, funcionarios de carrera de cuerpos o escalas pertenecientes al subgrupo inmediato superior al cuerpo o escala desde el que han concursado y hayan obtenido un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran pose",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21459",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "movilidad",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan",
+        "una puesto de trabajo (2820613) 16 a coruna matos iglesias, ana isabel 7517 1622 c2 2 inst",
+        "una puesto de trabajo (4673639) 16 a coruna rodriguez varela, julia 5616 1622 c2 2 inst",
+        "una puesto de trabajo (2093824) 16 a coruna arce sancho, alberto 8799 1622 c2 2 inst",
+        "una puesto de trabajo (2416690) 16 a coruna barros freijo, m",
+        "una puesto de trabajo (1039406) 16 a coruna gonzalez prado, m",
+        "una puesto de trabajo (2467660) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo (3976863) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo n15 (3591954) 15 a coruna rodriguez fernandez, juan carlos 7816 1622 c2 4 inst",
+        "una puesto de trabajo (1638801) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo (948114) 16 a coruna espineira nogueira, m",
+        "una puesto de trabajo (3456568) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo n14 (1546729) 14 a coruna leira arias, jose luis 7817 1441 c2 4 inst",
+        "una puesto de trabajo (3610522) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo (4469279) 16 a coruna llerafo gomez, m"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "|un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan una puesto de trabajo (2820613) 16 a coruna matos iglesias, ana isabel 7517 1622 c2 2 inst|promocion_interna_no_prioritaria|concurso_general",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-20809",
       "boeId": "BOE-A-2026-20809",
       "fechaPublicacion": "2026-10-06",
@@ -786,6 +860,67 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|se convocan podran ser solicitados por los funcionarios pertenecientes al cuerpo de letrados de la administracion de justicia de la categoria primera y de la categoria segunda que lleven al menos diez anos en el cuerpo, y como minimo hayan estado cinco anos en puestos de segunda categoria|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21500",
+      "boeId": "BOE-A-2026-21500",
+      "fechaPublicacion": "2026-10-15",
+      "titulo": "Resolución de 9 de octubre de 2026, del Ayuntamiento de Caudete (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21500",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/15/pdfs/BOE-A-2026-21500.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21500",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/15/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261015",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Caudete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21500",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Caudete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "una plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de caudete|una plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1505,6 +1640,80 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-21459",
+      "boeId": "BOE-A-2026-21459",
+      "fechaPublicacion": "2026-10-15",
+      "titulo": "Resolución de 5 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 23 de enero de 2026, en la Administración de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21459",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/15/pdfs/BOE-A-2026-21459.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21459",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/15/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261015",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes del concurso hasta la resolucion de adjudicacion hayan sido nombrados o sean nombrados, por promocion interna, funcionarios de carrera de cuerpos o escalas pertenecientes al subgrupo inmediato superior al cuerpo o escala desde el que han concursado y hayan obtenido un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran pose",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21459",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Promoción interna sin perfil informático detectado.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "movilidad",
+        "promocion_interna_no_prioritaria"
+      ],
+      "plazasExtraidas": [
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan",
+        "una puesto de trabajo (2820613) 16 a coruna matos iglesias, ana isabel 7517 1622 c2 2 inst",
+        "una puesto de trabajo (4673639) 16 a coruna rodriguez varela, julia 5616 1622 c2 2 inst",
+        "una puesto de trabajo (2093824) 16 a coruna arce sancho, alberto 8799 1622 c2 2 inst",
+        "una puesto de trabajo (2416690) 16 a coruna barros freijo, m",
+        "una puesto de trabajo (1039406) 16 a coruna gonzalez prado, m",
+        "una puesto de trabajo (2467660) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo (3976863) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo n15 (3591954) 15 a coruna rodriguez fernandez, juan carlos 7816 1622 c2 4 inst",
+        "una puesto de trabajo (1638801) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo (948114) 16 a coruna espineira nogueira, m",
+        "una puesto de trabajo (3456568) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo n14 (1546729) 14 a coruna leira arias, jose luis 7817 1441 c2 4 inst",
+        "una puesto de trabajo (3610522) 16 c1c2 a coruna ministerio de inclus",
+        "una puesto de trabajo (4469279) 16 a coruna llerafo gomez, m"
+      ],
+      "perfilReal": "promocion_interna_no_prioritaria",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 7,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 7,
+      "fingerprint": "|un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan una puesto de trabajo (2820613) 16 a coruna matos iglesias, ana isabel 7517 1622 c2 2 inst|promocion_interna_no_prioritaria|concurso_general",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-20809",
       "boeId": "BOE-A-2026-20809",
       "fechaPublicacion": "2026-10-06",
@@ -1617,6 +1826,67 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|se convocan podran ser solicitados por los funcionarios pertenecientes al cuerpo de letrados de la administracion de justicia de la categoria primera y de la categoria segunda que lleven al menos diez anos en el cuerpo, y como minimo hayan estado cinco anos en puestos de segunda categoria|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21500",
+      "boeId": "BOE-A-2026-21500",
+      "fechaPublicacion": "2026-10-15",
+      "titulo": "Resolución de 9 de octubre de 2026, del Ayuntamiento de Caudete (Albacete), referente a la convocatoria para proveer una plaza.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21500",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/15/pdfs/BOE-A-2026-21500.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21500",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/15/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261015",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Caudete",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21500",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Caudete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [
+        "una plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre",
+        "convocatoria para proveer una plaza",
+        "plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre"
+      ],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "policia local"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de caudete|una plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
