@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-17T11:54:49+00:00",
+    "lastRun": "2026-10-19T14:55:41+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-07",
-      "hasta": "2026-10-17"
+      "desde": "2026-10-09",
+      "hasta": "2026-10-19"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
-    "totalVisiblesParaUsuario": 1,
-    "totalPrioritarias": 1,
+    "totalAlertasDetectadasTerritorialmente": 15,
+    "totalVisiblesParaUsuario": 2,
+    "totalPrioritarias": 2,
     "totalSecundarias": 0,
     "totalDescartadas": 13,
     "errores": [],
@@ -26,6 +26,66 @@
     }
   },
   "alertasPrioritarias": [
+    {
+      "id": "BOE-A-2026-21686",
+      "boeId": "BOE-A-2026-21686",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Resolución de 14 de octubre de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21686.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21686",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "relaciones con las cortes, en la direccion: https://sede.mjusticia.gob.es/es/tramites/comunicaciones-notarios. a los efectos de su previa validacion informatica, las solicitudes que se presenten suscritas con la firma electronica notarial deberan dirigirse a la plataforma electronica del notariado habilitada"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 14 de octubre de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca c|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
     {
       "id": "BOE-A-2026-21268",
       "boeId": "BOE-A-2026-21268",
@@ -97,122 +157,6 @@
   "alertasSecundarias": [],
   "alertasDescartadas": [
     {
-      "id": "BOE-A-2026-20852",
-      "boeId": "BOE-A-2026-20852",
-      "fechaPublicacion": "2026-10-07",
-      "titulo": "Resolución de 30 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20852.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20852",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de La Roda",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de La Roda",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de la roda|una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-20893",
-      "boeId": "BOE-A-2026-20893",
-      "fechaPublicacion": "2026-10-07",
-      "titulo": "Resolución de 30 de septiembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20893.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20893",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-20981",
       "boeId": "BOE-A-2026-20981",
       "fechaPublicacion": "2026-10-09",
@@ -664,6 +608,60 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-21750",
+      "boeId": "BOE-A-2026-21750",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Resolución 420/38421/2026, de 8 de octubre, de la Secretaría General Técnica, por la que se publica la Adenda de modificación y prórroga del Convenio con Airbus Defence and Space, SAU, y Airbus Helicopters España, SAU, para la prestación de apoyos.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21750",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21750.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21750",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21750",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|resolucion 420/38421/2026, de 8 de octubre, de la secretaria general tecnica, por la que se publica la adenda de modific|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-21459",
       "boeId": "BOE-A-2026-21459",
       "fechaPublicacion": "2026-10-15",
@@ -855,9 +853,131 @@
       "fingerprint": "ayuntamiento de caudete|una plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21687",
+      "boeId": "BOE-A-2026-21687",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Orden PJC/1094/2026, de 5 de octubre, por la que se aprueba la relación provisional de personas admitidas y excluidas, se anuncia fecha y hora de celebración del primer ejercicio de la fase de oposición y se nombra el Tribunal calificador del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, como personal laboral fijo en los grupos profesionales M3, M2 y M1, sujetos al IV Convenio colectivo único para el personal laboral de la Administración General del Estado, convocado por Orden PJC/705/2026, de 9 de julio.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21687",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21687.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21687",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21687",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "letrado",
+        "medico",
+        "psicologa",
+        "psicologo",
+        "trabajador social"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden pjc/1094/2026, de 5 de octubre, por la que se aprueba la relacion provisional de personas admitidas y excluidas, s|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
+    {
+      "id": "BOE-A-2026-21686",
+      "boeId": "BOE-A-2026-21686",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Resolución de 14 de octubre de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21686.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21686",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "relaciones con las cortes, en la direccion: https://sede.mjusticia.gob.es/es/tramites/comunicaciones-notarios. a los efectos de su previa validacion informatica, las solicitudes que se presenten suscritas con la firma electronica notarial deberan dirigirse a la plataforma electronica del notariado habilitada"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 14 de octubre de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca c|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
     {
       "id": "BOE-A-2026-21268",
       "boeId": "BOE-A-2026-21268",
@@ -928,6 +1048,66 @@
   ],
   "todasLasAlertas": [
     {
+      "id": "BOE-A-2026-21686",
+      "boeId": "BOE-A-2026-21686",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Resolución de 14 de octubre de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21686.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21686",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Seguridad Jurídica y Fe Pública",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Seguridad Jurídica y Fe Pública",
+        "informatica",
+        "informatica_tic",
+        "oposicion",
+        "oposiciones"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "relaciones con las cortes, en la direccion: https://sede.mjusticia.gob.es/es/tramites/comunicaciones-notarios. a los efectos de su previa validacion informatica, las solicitudes que se presenten suscritas con la firma electronica notarial deberan dirigirse a la plataforma electronica del notariado habilitada"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 14 de octubre de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca c|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-21268",
       "boeId": "BOE-A-2026-21268",
       "fechaPublicacion": "2026-10-13",
@@ -991,122 +1171,6 @@
       "nivelesDetectados": [],
       "prioridad": 2,
       "fingerprint": "diputacion provincial de albacete|ocho plazas de auxiliar administrativo/a, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre dos plazas de auxiliar administrativo/a, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar, por el sistema de oposicion, en turno reservado a personas con discapacidad|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-20852",
-      "boeId": "BOE-A-2026-20852",
-      "fechaPublicacion": "2026-10-07",
-      "titulo": "Resolución de 30 de septiembre de 2026, del Ayuntamiento de La Roda (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20852.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20852",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de La Roda",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20852",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de La Roda",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de la roda|una plaza de educador/a social de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-20893",
-      "boeId": "BOE-A-2026-20893",
-      "fechaPublicacion": "2026-10-07",
-      "titulo": "Resolución de 30 de septiembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20893.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20893",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261007",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20893",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|85082162 plazas de garaje franmabel sl(en constitucion) 18/06/2026 registro mercantil de madrid b85082535 inversiones barcolongo 2007 sl en constitucion 23/06/2026 registro mercantil de madrid b86082807 proyectos y servicios tapez noroeste sl en constitucion 09/07/2026 registro mercantil de madrid b76083104 bar piscolabis san iker grupo|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1562,6 +1626,60 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-21750",
+      "boeId": "BOE-A-2026-21750",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Resolución 420/38421/2026, de 8 de octubre, de la Secretaría General Técnica, por la que se publica la Adenda de modificación y prórroga del Convenio con Airbus Defence and Space, SAU, y Airbus Helicopters España, SAU, para la prestación de apoyos.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21750",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21750.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21750",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21750",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "sin_perfil_claro"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 6,
+      "fingerprint": "|resolucion 420/38421/2026, de 8 de octubre, de la secretaria general tecnica, por la que se publica la adenda de modific|sin_perfil_claro|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-21459",
       "boeId": "BOE-A-2026-21459",
       "fechaPublicacion": "2026-10-15",
@@ -1751,6 +1869,68 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "ayuntamiento de caudete|una plaza de policia local, perteneciente a la escala de administracion especial, subescala servicios especiales y clase policia local y sus auxiliares, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|otro_no_interesante|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21687",
+      "boeId": "BOE-A-2026-21687",
+      "fechaPublicacion": "2026-10-19",
+      "titulo": "Orden PJC/1094/2026, de 5 de octubre, por la que se aprueba la relación provisional de personas admitidas y excluidas, se anuncia fecha y hora de celebración del primer ejercicio de la fase de oposición y se nombra el Tribunal calificador del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, como personal laboral fijo en los grupos profesionales M3, M2 y M1, sujetos al IV Convenio colectivo único para el personal laboral de la Administración General del Estado, convocado por Orden PJC/705/2026, de 9 de julio.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21687",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21687.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21687",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/19/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261019",
+      "fuente": "BOE",
+      "categoria": "oposiciones",
+      "tipo": "oposicion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21687",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "oposicion",
+        "oposiciones",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "letrado",
+        "medico",
+        "psicologa",
+        "psicologo",
+        "trabajador social"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|orden pjc/1094/2026, de 5 de octubre, por la que se aprueba la relacion provisional de personas admitidas y excluidas, s|otro_no_interesante|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
