@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **2**
+Total alertas prioritarias/secundarias: **3**
 
 Filtro aplicado:
 
@@ -17,6 +17,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686
 - **PDF:** https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21686.pdf
+
+## Resolución de 14 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.
+
+- **Fecha:** 2026-10-21
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932
+- **PDF:** https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21932.pdf
 
 ## Resolución de 7 de octubre de 2026, de la Diputación Provincial de Albacete, referente a la convocatoria para proveer varias plazas.
 

@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-20T12:58:13+00:00",
+    "lastRun": "2026-10-21T13:10:30+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-10",
-      "hasta": "2026-10-20"
+      "desde": "2026-10-11",
+      "hasta": "2026-10-21"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
-    "totalVisiblesParaUsuario": 2,
-    "totalPrioritarias": 2,
+    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalVisiblesParaUsuario": 3,
+    "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 12,
+    "totalDescartadas": 10,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -83,6 +83,73 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de seguridad juridica y fe publica|resolucion de 14 de octubre de 2026, de la direccion general de seguridad juridica y fe publica, por la que se convoca c|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-21932",
+      "boeId": "BOE-A-2026-21932",
+      "fechaPublicacion": "2026-10-21",
+      "titulo": "Resolución de 14 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21932.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21932",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/21/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261021",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado",
+        "arquitecto",
+        "maestra",
+        "maestro",
+        "medico",
+        "musica",
+        "psicologo"
+      ],
+      "contextosInformatica": [
+        ".p. 18/08/2026 registro mercantil de las palmas b16736373 plantaciones canarias sostenibles, sl 18/08/2026 registro mercantil de las palmas b98736820 informatica benimaclet, s.l. 15/06/2026 registro mercantil de valencia b85737088 socialapplication sl en constitucion 23/06/2026 registro mercantil de madrid b85"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 14 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -156,122 +223,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-21126",
-      "boeId": "BOE-A-2026-21126",
-      "fechaPublicacion": "2026-10-10",
-      "titulo": "Resolución de 6 de octubre de 2026, del Ayuntamiento de Almansa (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21126",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21126.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21126",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261010",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Almansa",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21126",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Almansa",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de trabajador-a social centro de la mujer de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de almansa|una plaza de trabajador-a social centro de la mujer de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-21145",
-      "boeId": "BOE-A-2026-21145",
-      "fechaPublicacion": "2026-10-10",
-      "titulo": "Orden INT/1069/2026, de 7 de octubre, por la que se publica el Acuerdo del Consejo de Ministros de 6 de octubre de 2026, por el que se aprueba la Directriz Básica de Planificación de Protección Civil ante el riesgo de terremotos. Ver texto consolidado",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21145",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21145.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21145",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261010",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Protección Civil y Emergencias",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21145",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Protección Civil y Emergencias",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "2 puestos de mando avanzados",
-        "2 puesto de mando avanzado (pma)"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de proteccion civil y emergencias|2 puestos de mando avanzados 2 puesto de mando avanzado (pma)|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-21267",
       "boeId": "BOE-A-2026-21267",
@@ -925,6 +876,73 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-21932",
+      "boeId": "BOE-A-2026-21932",
+      "fechaPublicacion": "2026-10-21",
+      "titulo": "Resolución de 14 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21932.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21932",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/21/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261021",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado",
+        "arquitecto",
+        "maestra",
+        "maestro",
+        "medico",
+        "musica",
+        "psicologo"
+      ],
+      "contextosInformatica": [
+        ".p. 18/08/2026 registro mercantil de las palmas b16736373 plantaciones canarias sostenibles, sl 18/08/2026 registro mercantil de las palmas b98736820 informatica benimaclet, s.l. 15/06/2026 registro mercantil de valencia b85737088 socialapplication sl en constitucion 23/06/2026 registro mercantil de madrid b85"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 14 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-21268",
       "boeId": "BOE-A-2026-21268",
       "fechaPublicacion": "2026-10-13",
@@ -1054,6 +1072,73 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-21932",
+      "boeId": "BOE-A-2026-21932",
+      "fechaPublicacion": "2026-10-21",
+      "titulo": "Resolución de 14 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21932.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21932",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/21/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261021",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado",
+        "arquitecto",
+        "maestra",
+        "maestro",
+        "medico",
+        "musica",
+        "psicologo"
+      ],
+      "contextosInformatica": [
+        ".p. 18/08/2026 registro mercantil de las palmas b16736373 plantaciones canarias sostenibles, sl 18/08/2026 registro mercantil de las palmas b98736820 informatica benimaclet, s.l. 15/06/2026 registro mercantil de valencia b85737088 socialapplication sl en constitucion 23/06/2026 registro mercantil de madrid b85"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 14 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-21268",
       "boeId": "BOE-A-2026-21268",
       "fechaPublicacion": "2026-10-13",
@@ -1117,122 +1202,6 @@
       "nivelesDetectados": [],
       "prioridad": 2,
       "fingerprint": "diputacion provincial de albacete|ocho plazas de auxiliar administrativo/a, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar, por el sistema de oposicion, en turno libre dos plazas de auxiliar administrativo/a, pertenecientes a la escala de administracion general, subescala auxiliar y clase auxiliar, por el sistema de oposicion, en turno reservado a personas con discapacidad|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-21126",
-      "boeId": "BOE-A-2026-21126",
-      "fechaPublicacion": "2026-10-10",
-      "titulo": "Resolución de 6 de octubre de 2026, del Ayuntamiento de Almansa (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21126",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21126.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21126",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261010",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Almansa",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias habiles a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21126",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Almansa",
-        "oposicion",
-        "oposiciones",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "una plaza de trabajador-a social centro de la mujer de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre",
-        "convocatoria para proveer una plaza"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "ayuntamiento de almansa|una plaza de trabajador-a social centro de la mujer de la plantilla de personal laboral fijo, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-21145",
-      "boeId": "BOE-A-2026-21145",
-      "fechaPublicacion": "2026-10-10",
-      "titulo": "Orden INT/1069/2026, de 7 de octubre, por la que se publica el Acuerdo del Consejo de Ministros de 6 de octubre de 2026, por el que se aprueba la Directriz Básica de Planificación de Protección Civil ante el riesgo de terremotos. Ver texto consolidado",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21145",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21145.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21145",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/10/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261010",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Protección Civil y Emergencias",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21145",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Protección Civil y Emergencias",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "2 puestos de mando avanzados",
-        "2 puesto de mando avanzado (pma)"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de proteccion civil y emergencias|2 puestos de mando avanzados 2 puesto de mando avanzado (pma)|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
