@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **3**
+Total alertas prioritarias/secundarias: **4**
 
 Filtro aplicado:
 
@@ -26,6 +26,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21932
 - **PDF:** https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21932.pdf
+
+## Orden EFD/1109/2026, de 14 de octubre, por la que, a propuesta del Departamento de Educación y Formación Profesional de la Comunidad Autónoma de Cataluña, se nombra personal funcionario de carrera de los Cuerpos de Profesores de Enseñanza Secundaria, Profesores de Escuelas Oficiales de Idiomas, Profesores de Artes Plásticas y Diseño, Maestros de Taller de Artes Plásticas y Diseño, Profesores Especialistas en Sectores Singulares de Formación Profesional y Maestros, a las personas seleccionadas en los procedimientos selectivos convocados por Resolución EDU/4103/2022, de 23 de diciembre.
+
+- **Fecha:** 2026-10-23
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22091
+- **PDF:** https://www.boe.es/boe/dias/2026/10/23/pdfs/BOE-A-2026-22091.pdf
 
 ## Resolución de 7 de octubre de 2026, de la Diputación Provincial de Albacete, referente a la convocatoria para proveer varias plazas.
 
