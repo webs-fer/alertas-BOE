@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-27T13:35:22+00:00",
+    "lastRun": "2026-10-28T14:19:13+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-17",
-      "hasta": "2026-10-27"
+      "desde": "2026-10-18",
+      "hasta": "2026-10-28"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -221,60 +221,6 @@
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-21624",
-      "boeId": "BOE-A-2026-21624",
-      "fechaPublicacion": "2026-10-17",
-      "titulo": "Corrección de errores del Acuerdo de 8 de octubre de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se designan Vocales de procedencia judicial de las Juntas Electorales Provinciales de A Coruña, Álava, Albacete, Alicante, Almería, Asturias, Ávila, Badajoz, Baleares, Barcelona, Burgos, Cáceres, Cádiz, Cantabria, Castellón, Ciudad Real, Córdoba, Cuenca, Girona, Granada, Guadalajara, Guipúzcoa, Huelva, Huesca, Jaén, La Rioja, Las Palmas de Gran Canaria, León, Lleida, Lugo, Madrid, Málaga, Murcia, Navarra, Ourense, Palencia, Pontevedra, Salamanca, Santa Cruz de Tenerife, Segovia, Sevilla, Soria, Tarragona, Teruel, Toledo, Valencia, Valladolid, Vizcaya, Zamora y Zaragoza, a efectos de intervenir en el proceso de elecciones a Cortes Generales.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21624",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/17/pdfs/BOE-A-2026-21624.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21624",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261017",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21624",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|correccion de errores del acuerdo de 8 de octubre de 2026, de la comision permanente del consejo general del poder judic|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-21750",
       "boeId": "BOE-A-2026-21750",
@@ -858,6 +804,63 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 11 puntos en la primera fase y de 12 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-22607",
+      "boeId": "BOE-A-2026-22607",
+      "fechaPublicacion": "2026-10-28",
+      "titulo": "Candidaturas presentadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22607.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22607",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/28/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261028",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestro",
+        "peon"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|candidaturas presentadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1250,60 +1253,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-21624",
-      "boeId": "BOE-A-2026-21624",
-      "fechaPublicacion": "2026-10-17",
-      "titulo": "Corrección de errores del Acuerdo de 8 de octubre de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se designan Vocales de procedencia judicial de las Juntas Electorales Provinciales de A Coruña, Álava, Albacete, Alicante, Almería, Asturias, Ávila, Badajoz, Baleares, Barcelona, Burgos, Cáceres, Cádiz, Cantabria, Castellón, Ciudad Real, Córdoba, Cuenca, Girona, Granada, Guadalajara, Guipúzcoa, Huelva, Huesca, Jaén, La Rioja, Las Palmas de Gran Canaria, León, Lleida, Lugo, Madrid, Málaga, Murcia, Navarra, Ourense, Palencia, Pontevedra, Salamanca, Santa Cruz de Tenerife, Segovia, Sevilla, Soria, Tarragona, Teruel, Toledo, Valencia, Valladolid, Vizcaya, Zamora y Zaragoza, a efectos de intervenir en el proceso de elecciones a Cortes Generales.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21624",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/17/pdfs/BOE-A-2026-21624.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21624",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/17/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261017",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21624",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|correccion de errores del acuerdo de 8 de octubre de 2026, de la comision permanente del consejo general del poder judic|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-21750",
       "boeId": "BOE-A-2026-21750",
       "fechaPublicacion": "2026-10-19",
@@ -1886,6 +1835,63 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 11 puntos en la primera fase y de 12 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-22607",
+      "boeId": "BOE-A-2026-22607",
+      "fechaPublicacion": "2026-10-28",
+      "titulo": "Candidaturas presentadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22607.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22607",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/28/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261028",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "maestro",
+        "peon"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|candidaturas presentadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
