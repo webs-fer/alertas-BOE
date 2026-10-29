@@ -2,10 +2,10 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-10-28T14:19:13+00:00",
+    "lastRun": "2026-10-29T14:39:58+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-18",
-      "hasta": "2026-10-28"
+      "desde": "2026-10-19",
+      "hasta": "2026-10-29"
     },
     "provinciasVigiladas": [
       "Albacete"
@@ -808,18 +808,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22607",
-      "boeId": "BOE-A-2026-22607",
-      "fechaPublicacion": "2026-10-28",
-      "titulo": "Candidaturas presentadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre.",
+      "id": "BOE-A-2026-22614",
+      "boeId": "BOE-A-2026-22614",
+      "fechaPublicacion": "2026-10-29",
+      "titulo": "Real Decreto 925/2026, de 28 de octubre, por el que se desarrolla la Red Nacional de Vías Pecuarias. Ver texto consolidado",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22607.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22607",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261028",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/29/pdfs/BOE-A-2026-22614.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22614",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261029",
       "fuente": "BOE",
       "categoria": "otros",
       "tipo": "sin_clasificar",
@@ -830,14 +830,15 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Dirección General de Biodiversidad",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
       "tags": [
         "Albacete",
+        "Dirección General de Biodiversidad",
         "otro_no_interesante",
         "otros",
         "sin_clasificar"
@@ -853,14 +854,17 @@
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [
-        "maestro",
-        "peon"
+        "maestra"
       ],
       "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [
+        26
+      ],
       "prioridad": 9,
-      "fingerprint": "|candidaturas presentadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
+      "fingerprint": "direccion general de biodiversidad|real decreto 925/2026, de 28 de octubre, por el que se desarrolla la red nacional de vias pecuarias. ver texto consolida|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1839,18 +1843,18 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22607",
-      "boeId": "BOE-A-2026-22607",
-      "fechaPublicacion": "2026-10-28",
-      "titulo": "Candidaturas presentadas para las elecciones al Congreso de los Diputados y al Senado, convocadas por Real Decreto 806/2026, de 5 de octubre.",
+      "id": "BOE-A-2026-22614",
+      "boeId": "BOE-A-2026-22614",
+      "fechaPublicacion": "2026-10-29",
+      "titulo": "Real Decreto 925/2026, de 28 de octubre, por el que se desarrolla la Red Nacional de Vías Pecuarias. Ver texto consolidado",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22607.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22607",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/28/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261028",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/29/pdfs/BOE-A-2026-22614.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22614",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/29/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261029",
       "fuente": "BOE",
       "categoria": "otros",
       "tipo": "sin_clasificar",
@@ -1861,14 +1865,15 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Dirección General de Biodiversidad",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
       "tags": [
         "Albacete",
+        "Dirección General de Biodiversidad",
         "otro_no_interesante",
         "otros",
         "sin_clasificar"
@@ -1884,14 +1889,17 @@
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [
-        "maestro",
-        "peon"
+        "maestra"
       ],
       "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [
+        26
+      ],
       "prioridad": 9,
-      "fingerprint": "|candidaturas presentadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
+      "fingerprint": "direccion general de biodiversidad|real decreto 925/2026, de 28 de octubre, por el que se desarrolla la red nacional de vias pecuarias. ver texto consolida|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
