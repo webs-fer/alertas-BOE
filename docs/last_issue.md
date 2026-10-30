@@ -9,15 +9,6 @@ Filtro aplicado:
 - Auxiliar administrativo C2: oculto por defecto.
 - Policía, bomberos, peones, letrados, FHN y ruido similar: descartado.
 
-## Resolución de 14 de octubre de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se convoca concurso para la provisión de notarías vacantes.
-
-- **Fecha:** 2026-10-19
-- **Perfil detectado:** informatica_tic
-- **Prioridad:** 1
-- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
-- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21686
-- **PDF:** https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21686.pdf
-
 ## Resolución de 14 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.
 
 - **Fecha:** 2026-10-21
@@ -35,3 +26,12 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22091
 - **PDF:** https://www.boe.es/boe/dias/2026/10/23/pdfs/BOE-A-2026-22091.pdf
+
+## Resolución de 23 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 12 de junio de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.
+
+- **Fecha:** 2026-10-30
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726
+- **PDF:** https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22726.pdf
