@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-04T15:41:40+00:00",
+    "lastRun": "2026-11-05T15:47:48+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-25",
-      "hasta": "2026-11-04"
+      "desde": "2026-10-26",
+      "hasta": "2026-11-05"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 12,
+    "totalAlertasDetectadasTerritorialmente": 11,
     "totalVisiblesParaUsuario": 3,
     "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 9,
+    "totalDescartadas": 8,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -335,21 +335,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-23163",
-      "boeId": "BOE-A-2026-23163",
-      "fechaPublicacion": "2026-11-04",
-      "titulo": "Resolución de 30 de octubre de 2026, del Instituto de Mayores y Servicios Sociales, por la que se convocan plazas para participar en el Programa de Termalismo.",
+      "id": "BOE-A-2026-23226",
+      "boeId": "BOE-A-2026-23226",
+      "fechaPublicacion": "2026-11-05",
+      "titulo": "Resolución de 22 de julio de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación del registrador de la propiedad de Albacete n.º 4, por la que se suspende la inscripción de escritura de rectificación de obra nueva.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23163",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23163.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23163",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261104",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23226",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23226.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23226",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/05/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261105",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -357,21 +357,20 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Barrax",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes, para cada uno de los periodos, la correspondiente resolucion de adjudicacion de plazas, que sera notificada a las personas interesadas",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23163",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23226",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "oposicion",
-        "oposiciones",
+        "Ayuntamiento de Barrax",
+        "otros",
+        "sin_clasificar",
         "sin_perfil_claro"
       ],
-      "plazasExtraidas": [
-        "se convocan plazas para participar en el programa de termalismo"
-      ],
+      "plazasExtraidas": [],
       "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
       "prioridadUsuario": 6,
@@ -386,7 +385,7 @@
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 6,
-      "fingerprint": "|se convocan plazas para participar en el programa de termalismo|sin_perfil_claro|oposicion",
+      "fingerprint": "ayuntamiento de barrax|resolucion de 22 de julio de 2026, de la direccion general de seguridad juridica y fe publica, en el recurso interpuesto|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -682,76 +681,6 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|candidaturas proclamadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-23129",
-      "boeId": "BOE-A-2026-23129",
-      "fechaPublicacion": "2026-11-04",
-      "titulo": "Resolución 430/38444/2026, de 28 de octubre, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23129",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23129.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23129",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261104",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Personal designados por la autoridad convocante",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23129",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Personal designados por la autoridad convocante",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 10 puntos en la primera fase y de 10 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a un funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
-      ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [
-        2,
-        3
-      ],
-      "prioridad": 9,
-      "fingerprint": "direccion general de personal designados por la autoridad convocante|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 10 puntos en la primera fase y de 10 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -1260,21 +1189,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-23163",
-      "boeId": "BOE-A-2026-23163",
-      "fechaPublicacion": "2026-11-04",
-      "titulo": "Resolución de 30 de octubre de 2026, del Instituto de Mayores y Servicios Sociales, por la que se convocan plazas para participar en el Programa de Termalismo.",
+      "id": "BOE-A-2026-23226",
+      "boeId": "BOE-A-2026-23226",
+      "fechaPublicacion": "2026-11-05",
+      "titulo": "Resolución de 22 de julio de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación del registrador de la propiedad de Albacete n.º 4, por la que se suspende la inscripción de escritura de rectificación de obra nueva.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23163",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23163.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23163",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261104",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23226",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23226.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23226",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/05/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261105",
       "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1282,21 +1211,20 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Ayuntamiento de Barrax",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes, para cada uno de los periodos, la correspondiente resolucion de adjudicacion de plazas, que sera notificada a las personas interesadas",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23163",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23226",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "oposicion",
-        "oposiciones",
+        "Ayuntamiento de Barrax",
+        "otros",
+        "sin_clasificar",
         "sin_perfil_claro"
       ],
-      "plazasExtraidas": [
-        "se convocan plazas para participar en el programa de termalismo"
-      ],
+      "plazasExtraidas": [],
       "perfilReal": "sin_perfil_claro",
       "relevanciaUsuario": "baja",
       "prioridadUsuario": 6,
@@ -1311,7 +1239,7 @@
       "gruposDetectados": [],
       "nivelesDetectados": [],
       "prioridad": 6,
-      "fingerprint": "|se convocan plazas para participar en el programa de termalismo|sin_perfil_claro|oposicion",
+      "fingerprint": "ayuntamiento de barrax|resolucion de 22 de julio de 2026, de la direccion general de seguridad juridica y fe publica, en el recurso interpuesto|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1607,76 +1535,6 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|candidaturas proclamadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-23129",
-      "boeId": "BOE-A-2026-23129",
-      "fechaPublicacion": "2026-11-04",
-      "titulo": "Resolución 430/38444/2026, de 28 de octubre, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23129",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23129.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23129",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/04/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261104",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Personal designados por la autoridad convocante",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23129",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Personal designados por la autoridad convocante",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
-      ],
-      "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 10 puntos en la primera fase y de 10 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a un funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
-      ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [
-        2,
-        3
-      ],
-      "prioridad": 9,
-      "fingerprint": "direccion general de personal designados por la autoridad convocante|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 10 puntos en la primera fase y de 10 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
