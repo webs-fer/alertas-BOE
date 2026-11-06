@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-05T15:47:48+00:00",
+    "lastRun": "2026-11-06T15:22:14+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-26",
-      "hasta": "2026-11-05"
+      "desde": "2026-10-27",
+      "hasta": "2026-11-06"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 11,
-    "totalVisiblesParaUsuario": 3,
-    "totalPrioritarias": 3,
+    "totalAlertasDetectadasTerritorialmente": 12,
+    "totalVisiblesParaUsuario": 4,
+    "totalPrioritarias": 4,
     "totalSecundarias": 0,
     "totalDescartadas": 8,
     "errores": [],
@@ -153,6 +153,71 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de recursos humanos de la consejeria de educacion|orden efd/1153/2026, de 19 de octubre, por la que, a propuesta de la consejeria de educacion, ciencia y universidades de|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23324",
+      "boeId": "BOE-A-2026-23324",
+      "fechaPublicacion": "2026-11-06",
+      "titulo": "Resolución de 29 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23324.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23324",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261106",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica",
+        "tecnologias de la informacion"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado",
+        "maestra",
+        "medica"
+      ],
+      "contextosInformatica": [
+        "constitucion 15/07/2026 registro mercantil de madrid b76214469 bienvenido al sur, sl 27/08/2026 registro mercantil de las palmas b87215604 bestphone informatica y telecomunicaciones sl 15/07/2026 registro mercantil de madrid b85216133 polcascar sl en constitucion 10/07/2026 registro mercantil de madrid b76216",
+        "ntil de madrid b67892877 alquileres e inversiones arousa, sl 27/08/2026 registro mercantil de pontevedra b86893245 seventycity gestion y direccion de tecnologias de la informacion sl 22/07/2026 registro mercantil de madrid b22893291 dalas leader sl 26/08/2026 registro mercantil de madrid b35893353 don lois lanzarote sl 02/09/20"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -390,60 +455,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22316",
-      "boeId": "BOE-A-2026-22316",
-      "fechaPublicacion": "2026-10-26",
-      "titulo": "Resolución de 16 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, por promoción interna y para el cambio de régimen jurídico del personal laboral fijo incluido en el anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado, de la Escala de Agentes Medioambientales de Organismos Autónomos del Ministerio de Medio Ambiente.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22316",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/26/pdfs/BOE-A-2026-22316.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22316",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/26/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261026",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22316",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|resolucion de 16 de octubre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcio|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-22466",
       "boeId": "BOE-A-2026-22466",
       "fechaPublicacion": "2026-10-27",
@@ -683,6 +694,62 @@
       "fingerprint": "|candidaturas proclamadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23323",
+      "boeId": "BOE-A-2026-23323",
+      "fechaPublicacion": "2026-11-06",
+      "titulo": "Resolución de 29 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la rehabilitación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23323",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23323.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23323",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261106",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23323",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "alertas": [
@@ -813,6 +880,71 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de recursos humanos de la consejeria de educacion|orden efd/1153/2026, de 19 de octubre, por la que, a propuesta de la consejeria de educacion, ciencia y universidades de|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23324",
+      "boeId": "BOE-A-2026-23324",
+      "fechaPublicacion": "2026-11-06",
+      "titulo": "Resolución de 29 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23324.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23324",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261106",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica",
+        "tecnologias de la informacion"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado",
+        "maestra",
+        "medica"
+      ],
+      "contextosInformatica": [
+        "constitucion 15/07/2026 registro mercantil de madrid b76214469 bienvenido al sur, sl 27/08/2026 registro mercantil de las palmas b87215604 bestphone informatica y telecomunicaciones sl 15/07/2026 registro mercantil de madrid b85216133 polcascar sl en constitucion 10/07/2026 registro mercantil de madrid b76216",
+        "ntil de madrid b67892877 alquileres e inversiones arousa, sl 27/08/2026 registro mercantil de pontevedra b86893245 seventycity gestion y direccion de tecnologias de la informacion sl 22/07/2026 registro mercantil de madrid b22893291 dalas leader sl 26/08/2026 registro mercantil de madrid b35893353 don lois lanzarote sl 02/09/20"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1010,6 +1142,71 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de recursos humanos de la consejeria de educacion|orden efd/1153/2026, de 19 de octubre, por la que, a propuesta de la consejeria de educacion, ciencia y universidades de|informatica_tic|oposicion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23324",
+      "boeId": "BOE-A-2026-23324",
+      "fechaPublicacion": "2026-11-06",
+      "titulo": "Resolución de 29 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23324.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23324",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261106",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica",
+        "tecnologias de la informacion"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "abogado",
+        "maestra",
+        "medica"
+      ],
+      "contextosInformatica": [
+        "constitucion 15/07/2026 registro mercantil de madrid b76214469 bienvenido al sur, sl 27/08/2026 registro mercantil de las palmas b87215604 bestphone informatica y telecomunicaciones sl 15/07/2026 registro mercantil de madrid b85216133 polcascar sl en constitucion 10/07/2026 registro mercantil de madrid b76216",
+        "ntil de madrid b67892877 alquileres e inversiones arousa, sl 27/08/2026 registro mercantil de pontevedra b86893245 seventycity gestion y direccion de tecnologias de la informacion sl 22/07/2026 registro mercantil de madrid b22893291 dalas leader sl 26/08/2026 registro mercantil de madrid b35893353 don lois lanzarote sl 02/09/20"
+      ],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1244,60 +1441,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22316",
-      "boeId": "BOE-A-2026-22316",
-      "fechaPublicacion": "2026-10-26",
-      "titulo": "Resolución de 16 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, por promoción interna y para el cambio de régimen jurídico del personal laboral fijo incluido en el anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado, de la Escala de Agentes Medioambientales de Organismos Autónomos del Ministerio de Medio Ambiente.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22316",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/26/pdfs/BOE-A-2026-22316.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22316",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/26/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261026",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22316",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "oposicion",
-        "oposiciones",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|resolucion de 16 de octubre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcio|promocion_interna_no_prioritaria|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-22466",
       "boeId": "BOE-A-2026-22466",
       "fechaPublicacion": "2026-10-27",
@@ -1535,6 +1678,62 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|candidaturas proclamadas para las elecciones al congreso de los diputados y al senado, convocadas por real decreto 806/2|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23323",
+      "boeId": "BOE-A-2026-23323",
+      "fechaPublicacion": "2026-11-06",
+      "titulo": "Resolución de 29 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la rehabilitación de números de identificación fiscal.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23323",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23323.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23323",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/06/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261106",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23323",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "otro_no_interesante",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "musica"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }

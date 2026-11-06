@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **3**
+Total alertas prioritarias/secundarias: **4**
 
 Filtro aplicado:
 
@@ -26,6 +26,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894
 - **PDF:** https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22894.pdf
+
+## Resolución de 29 de octubre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.
+
+- **Fecha:** 2026-11-06
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23324
+- **PDF:** https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23324.pdf
 
 ## Resolución de 28 de octubre de 2026, del Ayuntamiento de Villamalea (Albacete), referente a la convocatoria para proveer una plaza.
 
