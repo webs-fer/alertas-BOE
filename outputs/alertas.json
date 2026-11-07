@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-06T15:22:14+00:00",
+    "lastRun": "2026-11-07T14:18:42+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-27",
-      "hasta": "2026-11-06"
+      "desde": "2026-10-28",
+      "hasta": "2026-11-07"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 12,
-    "totalVisiblesParaUsuario": 4,
-    "totalPrioritarias": 4,
+    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalVisiblesParaUsuario": 5,
+    "totalPrioritarias": 5,
     "totalSecundarias": 0,
     "totalDescartadas": 8,
     "errores": [],
@@ -218,6 +218,70 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23367",
+      "boeId": "BOE-A-2026-23367",
+      "fechaPublicacion": "2026-11-07",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Planificación y Coordinación Energética, por la que se establecen los coeficientes de corrección con factor multiplicador para actuaciones en edificios residenciales por la sustitución de caldera por una bomba de calor hidrónica de accionamiento eléctrico.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23367.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23367",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Planificación y Coordinación Energética",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Planificación y Coordinación Energética",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "stado previo al inicio de la rehabilitacion, con el justificante de registro. (3) para la elaboracion del certificado se debe emplear una herramienta informatica de las registradas como documentos reconocidos para la certificacion de la eficiencia energetica de los edificios. 9. certificado de eficiencia energ"
+      ],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -455,21 +519,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22466",
-      "boeId": "BOE-A-2026-22466",
-      "fechaPublicacion": "2026-10-27",
-      "titulo": "Resolución de 19 de octubre de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Abogacía General del Estado.",
+      "id": "BOE-A-2026-23370",
+      "boeId": "BOE-A-2026-23370",
+      "fechaPublicacion": "2026-11-07",
+      "titulo": "Orden TED/1179/2026, de 5 de noviembre, por la que se establecen los servicios mínimos en el sector de hidrocarburos ante la convocatoria de huelga general prevista para el 11 de noviembre de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22466",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/27/pdfs/BOE-A-2026-22466.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22466",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261027",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23370.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23370",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -477,32 +541,28 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Dirección General de Política Energética y Minas",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22466",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
+        "Dirección General de Política Energética y Minas",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
       "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 11 puntos en la primera fase y de 12 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+        "dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre"
       ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -510,13 +570,11 @@
       "contextosInformatica": [],
       "gruposDetectados": [
         "A1",
-        "A2",
-        "C1",
-        "C2"
+        "A2"
       ],
       "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 11 puntos en la primera fase y de 12 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "prioridad": 6,
+      "fingerprint": "direccion general de politica energetica y minas|dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -949,6 +1007,70 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-23367",
+      "boeId": "BOE-A-2026-23367",
+      "fechaPublicacion": "2026-11-07",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Planificación y Coordinación Energética, por la que se establecen los coeficientes de corrección con factor multiplicador para actuaciones en edificios residenciales por la sustitución de caldera por una bomba de calor hidrónica de accionamiento eléctrico.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23367.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23367",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Planificación y Coordinación Energética",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Planificación y Coordinación Energética",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "stado previo al inicio de la rehabilitacion, con el justificante de registro. (3) para la elaboracion del certificado se debe emplear una herramienta informatica de las registradas como documentos reconocidos para la certificacion de la eficiencia energetica de los edificios. 9. certificado de eficiencia energ"
+      ],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-22951",
       "boeId": "BOE-A-2026-22951",
       "fechaPublicacion": "2026-11-02",
@@ -1211,6 +1333,70 @@
       "duplicadoDe": ""
     },
     {
+      "id": "BOE-A-2026-23367",
+      "boeId": "BOE-A-2026-23367",
+      "fechaPublicacion": "2026-11-07",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Planificación y Coordinación Energética, por la que se establecen los coeficientes de corrección con factor multiplicador para actuaciones en edificios residenciales por la sustitución de caldera por una bomba de calor hidrónica de accionamiento eléctrico.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23367.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23367",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
+      "fuente": "BOE",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Dirección General de Planificación y Coordinación Energética",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "Dirección General de Planificación y Coordinación Energética",
+        "informatica",
+        "informatica_tic",
+        "otros",
+        "sin_clasificar"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "stado previo al inicio de la rehabilitacion, con el justificante de registro. (3) para la elaboracion del certificado se debe emplear una herramienta informatica de las registradas como documentos reconocidos para la certificacion de la eficiencia energetica de los edificios. 9. certificado de eficiencia energ"
+      ],
+      "gruposDetectados": [
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
       "id": "BOE-A-2026-22951",
       "boeId": "BOE-A-2026-22951",
       "fechaPublicacion": "2026-11-02",
@@ -1441,21 +1627,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22466",
-      "boeId": "BOE-A-2026-22466",
-      "fechaPublicacion": "2026-10-27",
-      "titulo": "Resolución de 19 de octubre de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Abogacía General del Estado.",
+      "id": "BOE-A-2026-23370",
+      "boeId": "BOE-A-2026-23370",
+      "fechaPublicacion": "2026-11-07",
+      "titulo": "Orden TED/1179/2026, de 5 de noviembre, por la que se establecen los servicios mínimos en el sector de hidrocarburos ante la convocatoria de huelga general prevista para el 11 de noviembre de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22466",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/27/pdfs/BOE-A-2026-22466.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22466",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/27/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261027",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23370.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23370",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
       "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "libre_designacion",
+      "categoria": "otros",
+      "tipo": "sin_clasificar",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1463,32 +1649,28 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "",
+      "entidadDetectada": "Dirección General de Política Energética y Minas",
       "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22466",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "tags": [
         "Albacete",
-        "libre_designacion",
-        "libre_designacion_no_prioritaria",
-        "movilidad"
+        "Dirección General de Política Energética y Minas",
+        "otros",
+        "sin_clasificar",
+        "sin_perfil_claro"
       ],
       "plazasExtraidas": [
-        "un puesto de trabajo en la misma localidad",
-        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 11 puntos en la primera fase y de 12 puntos en la segunda",
-        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
-        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
-        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+        "dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre"
       ],
-      "perfilReal": "libre_designacion_no_prioritaria",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
+      "perfilReal": "sin_perfil_claro",
+      "relevanciaUsuario": "baja",
+      "prioridadUsuario": 6,
       "descartadaParaUsuario": true,
       "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
       "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
@@ -1496,13 +1678,11 @@
       "contextosInformatica": [],
       "gruposDetectados": [
         "A1",
-        "A2",
-        "C1",
-        "C2"
+        "A2"
       ],
       "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 11 puntos en la primera fase y de 12 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "prioridad": 6,
+      "fingerprint": "direccion general de politica energetica y minas|dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
