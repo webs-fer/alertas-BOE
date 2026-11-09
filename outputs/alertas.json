@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-07T14:18:42+00:00",
+    "lastRun": "2026-11-09T17:49:00+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-28",
-      "hasta": "2026-11-07"
+      "desde": "2026-10-30",
+      "hasta": "2026-11-09"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalAlertasDetectadasTerritorialmente": 12,
     "totalVisiblesParaUsuario": 5,
     "totalPrioritarias": 5,
     "totalSecundarias": 0,
-    "totalDescartadas": 8,
+    "totalDescartadas": 7,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -575,67 +575,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "direccion general de politica energetica y minas|dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-22614",
-      "boeId": "BOE-A-2026-22614",
-      "fechaPublicacion": "2026-10-29",
-      "titulo": "Real Decreto 925/2026, de 28 de octubre, por el que se desarrolla la Red Nacional de Vías Pecuarias. Ver texto consolidado",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/29/pdfs/BOE-A-2026-22614.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22614",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261029",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Biodiversidad",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Biodiversidad",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1"
-      ],
-      "nivelesDetectados": [
-        26
-      ],
-      "prioridad": 9,
-      "fingerprint": "direccion general de biodiversidad|real decreto 925/2026, de 28 de octubre, por el que se desarrolla la red nacional de vias pecuarias. ver texto consolida|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1683,67 +1622,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "direccion general de politica energetica y minas|dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-22614",
-      "boeId": "BOE-A-2026-22614",
-      "fechaPublicacion": "2026-10-29",
-      "titulo": "Real Decreto 925/2026, de 28 de octubre, por el que se desarrolla la Red Nacional de Vías Pecuarias. Ver texto consolidado",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/29/pdfs/BOE-A-2026-22614.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22614",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/29/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261029",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Biodiversidad",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22614",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Biodiversidad",
-        "otro_no_interesante",
-        "otros",
-        "sin_clasificar"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestra"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1"
-      ],
-      "nivelesDetectados": [
-        26
-      ],
-      "prioridad": 9,
-      "fingerprint": "direccion general de biodiversidad|real decreto 925/2026, de 28 de octubre, por el que se desarrolla la red nacional de vias pecuarias. ver texto consolida|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
