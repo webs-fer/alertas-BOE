@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-09T17:49:00+00:00",
+    "lastRun": "2026-11-10T15:51:43+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-10-30",
-      "hasta": "2026-11-09"
+      "desde": "2026-10-31",
+      "hasta": "2026-11-10"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 12,
-    "totalVisiblesParaUsuario": 5,
-    "totalPrioritarias": 5,
+    "totalAlertasDetectadasTerritorialmente": 13,
+    "totalVisiblesParaUsuario": 4,
+    "totalPrioritarias": 4,
     "totalSecundarias": 0,
-    "totalDescartadas": 7,
+    "totalDescartadas": 9,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -26,70 +26,6 @@
     }
   },
   "alertasPrioritarias": [
-    {
-      "id": "BOE-A-2026-22726",
-      "boeId": "BOE-A-2026-22726",
-      "fechaPublicacion": "2026-10-30",
-      "titulo": "Resolución de 23 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 12 de junio de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22726.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22726",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261030",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "informatica",
-        "informatica_tic",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "tecnica auxiliar de informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "467). 17 c1 c2 badajoz. ministerio del interior. s.de e. de seguridad d.g. de la policia. s.g. de logistica e innovacion. tecnico/tecnica auxiliar de informatica (5770482). 16 madrid. garcia garcia, eduardo ***7445** 1188 c1 13 muface o.a. direccion general. servicio provincial de badajoz. jefe/jefa de negocia",
-        "de informacion (3098467). 17 c1 c2 badajoz. ministerio del interior. s.de e. de seguridad d.g. de la policia. s.g. de logistica e innovacion. tecnico/tecnica auxiliar de informatica (5770482). 16 madrid. garcia garcia, eduardo ***7445** 1188 c1 13 muface o.a. direccion general. servicio provincial de badajoz. jefe/jefa de negocia"
-      ],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion de 23 de octubre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por reso|informatica_tic|concurso_general",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-22894",
       "boeId": "BOE-A-2026-22894",
@@ -579,63 +515,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22723",
-      "boeId": "BOE-A-2026-22723",
-      "fechaPublicacion": "2026-10-30",
-      "titulo": "Resolución de 23 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, del Cuerpo de Arquitectos Técnicos al servicio de la Hacienda Pública.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22723",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22723.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22723",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261030",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Patrimonio del Estado",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22723",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Patrimonio del Estado",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "arquitecto"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "direccion general de patrimonio del estado|resolucion de 23 de octubre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcio|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-23103",
       "boeId": "BOE-A-2026-23103",
       "fechaPublicacion": "2026-11-03",
@@ -747,25 +626,81 @@
       "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|otro_no_interesante|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    }
-  ],
-  "alertas": [
+    },
     {
-      "id": "BOE-A-2026-22726",
-      "boeId": "BOE-A-2026-22726",
-      "fechaPublicacion": "2026-10-30",
-      "titulo": "Resolución de 23 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 12 de junio de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.",
+      "id": "BOE-A-2026-23534",
+      "boeId": "BOE-A-2026-23534",
+      "fechaPublicacion": "2026-11-10",
+      "titulo": "Resolución de 4 de noviembre de 2026, de la Dirección General de la Función Pública, por la que se publica la adjudicación de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22726.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22726",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261030",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23534",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23534.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23534",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/10/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261110",
       "fuente": "BOE",
       "categoria": "movilidad",
-      "tipo": "concurso_general",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete reservado al personal funcionario de Administración Local con habilitación de carácter nacional",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23534",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete reservado al personal funcionario de Administración Local con habilitación de carácter nacional",
+        "libre_designacion",
+        "movilidad",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "funcionario de administracion local con habilitacion de caracter nacional",
+        "habilitacion de caracter nacional"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete reservado al personal funcionario de administracion local con habilitacion de caracter nacional|resolucion de 4 de noviembre de 2026, de la direccion general de la funcion publica, por la que se publica la adjudicaci|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23543",
+      "boeId": "BOE-A-2026-23543",
+      "fechaPublicacion": "2026-11-10",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23543",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23543.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23543",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/10/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261110",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -775,45 +710,112 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23543",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
       "tags": [
         "Albacete",
-        "concurso_general",
-        "informatica",
-        "informatica_tic",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
         "movilidad"
       ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "tecnica auxiliar de informatica"
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
       ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
-      "contextosInformatica": [
-        "467). 17 c1 c2 badajoz. ministerio del interior. s.de e. de seguridad d.g. de la policia. s.g. de logistica e innovacion. tecnico/tecnica auxiliar de informatica (5770482). 16 madrid. garcia garcia, eduardo ***7445** 1188 c1 13 muface o.a. direccion general. servicio provincial de badajoz. jefe/jefa de negocia",
-        "de informacion (3098467). 17 c1 c2 badajoz. ministerio del interior. s.de e. de seguridad d.g. de la policia. s.g. de logistica e innovacion. tecnico/tecnica auxiliar de informatica (5770482). 16 madrid. garcia garcia, eduardo ***7445** 1188 c1 13 muface o.a. direccion general. servicio provincial de badajoz. jefe/jefa de negocia"
-      ],
+      "contextosInformatica": [],
       "gruposDetectados": [
+        "A1",
+        "A2",
         "C1",
         "C2"
       ],
       "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion de 23 de octubre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por reso|informatica_tic|concurso_general",
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
+    {
+      "id": "BOE-A-2026-23548",
+      "boeId": "BOE-A-2026-23548",
+      "fechaPublicacion": "2026-11-10",
+      "titulo": "Resolución de 30 de octubre de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Instituto Nacional de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23548",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23548.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23548",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/10/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261110",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23548",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 5 puntos en la primera fase y 6 puntos en la segunda",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo, en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 5 puntos en la primera fase y 6 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    }
+  ],
+  "alertas": [
     {
       "id": "BOE-A-2026-22894",
       "boeId": "BOE-A-2026-22894",
@@ -1076,70 +1078,6 @@
     }
   ],
   "todasLasAlertas": [
-    {
-      "id": "BOE-A-2026-22726",
-      "boeId": "BOE-A-2026-22726",
-      "fechaPublicacion": "2026-10-30",
-      "titulo": "Resolución de 23 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 12 de junio de 2026, en la Mutualidad General de Funcionarios Civiles del Estado.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22726.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22726",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261030",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_general",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22726",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "concurso_general",
-        "informatica",
-        "informatica_tic",
-        "movilidad"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "tecnica auxiliar de informatica"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [
-        "467). 17 c1 c2 badajoz. ministerio del interior. s.de e. de seguridad d.g. de la policia. s.g. de logistica e innovacion. tecnico/tecnica auxiliar de informatica (5770482). 16 madrid. garcia garcia, eduardo ***7445** 1188 c1 13 muface o.a. direccion general. servicio provincial de badajoz. jefe/jefa de negocia",
-        "de informacion (3098467). 17 c1 c2 badajoz. ministerio del interior. s.de e. de seguridad d.g. de la policia. s.g. de logistica e innovacion. tecnico/tecnica auxiliar de informatica (5770482). 16 madrid. garcia garcia, eduardo ***7445** 1188 c1 13 muface o.a. direccion general. servicio provincial de badajoz. jefe/jefa de negocia"
-      ],
-      "gruposDetectados": [
-        "C1",
-        "C2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "|resolucion de 23 de octubre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por reso|informatica_tic|concurso_general",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-22894",
       "boeId": "BOE-A-2026-22894",
@@ -1626,63 +1564,6 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-22723",
-      "boeId": "BOE-A-2026-22723",
-      "fechaPublicacion": "2026-10-30",
-      "titulo": "Resolución de 23 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, del Cuerpo de Arquitectos Técnicos al servicio de la Hacienda Pública.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22723",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22723.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22723",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/10/30/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261030",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Patrimonio del Estado",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22723",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Patrimonio del Estado",
-        "oposicion",
-        "oposiciones",
-        "otro_no_interesante"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "otro_no_interesante",
-      "relevanciaUsuario": "descartar",
-      "prioridadUsuario": 9,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "arquitecto"
-      ],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 9,
-      "fingerprint": "direccion general de patrimonio del estado|resolucion de 23 de octubre de 2026, de la secretaria de estado de funcion publica, por la que se nombra personal funcio|otro_no_interesante|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-23103",
       "boeId": "BOE-A-2026-23103",
       "fechaPublicacion": "2026-11-03",
@@ -1792,6 +1673,193 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "|resolucion de 29 de octubre de 2026, del departamento de gestion tributaria de la agencia estatal de administracion trib|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23534",
+      "boeId": "BOE-A-2026-23534",
+      "fechaPublicacion": "2026-11-10",
+      "titulo": "Resolución de 4 de noviembre de 2026, de la Dirección General de la Función Pública, por la que se publica la adjudicación de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23534",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23534.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23534",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/10/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261110",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Albacete reservado al personal funcionario de Administración Local con habilitación de carácter nacional",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23534",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Albacete reservado al personal funcionario de Administración Local con habilitación de carácter nacional",
+        "libre_designacion",
+        "movilidad",
+        "otro_no_interesante"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "otro_no_interesante",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Perfil no relacionado con informática/TIC, TAI, Administrativo C1 ni movilidad útil para el usuario.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "funcionario de administracion local con habilitacion de caracter nacional",
+        "habilitacion de caracter nacional"
+      ],
+      "contextosInformatica": [],
+      "gruposDetectados": [],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de albacete reservado al personal funcionario de administracion local con habilitacion de caracter nacional|resolucion de 4 de noviembre de 2026, de la direccion general de la funcion publica, por la que se publica la adjudicaci|otro_no_interesante|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23543",
+      "boeId": "BOE-A-2026-23543",
+      "fechaPublicacion": "2026-11-10",
+      "titulo": "Resolución de 3 de noviembre de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23543",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23543.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23543",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/10/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261110",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23543",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo, supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 15 puntos en la primera fase y de 12,5 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-23548",
+      "boeId": "BOE-A-2026-23548",
+      "fechaPublicacion": "2026-11-10",
+      "titulo": "Resolución de 30 de octubre de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en el Instituto Nacional de la Seguridad Social.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23548",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23548.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23548",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/10/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261110",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "plazo de presentacion de solicitudes han transcurrido al menos dos anos desde el inicio en dicha situacion",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23548",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de trabajo en la misma localidad",
+        "un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 5 puntos en la primera fase y 6 puntos en la segunda",
+        "un puesto de trabajo con caracter provisional (adscripcion provisional o comision de servicios) en el municipio donde residan los menores o familiares objeto de cuidado, o de destino definitivo del conyuge",
+        "varios puestos de trabajo unicamente cuando se hayan estado realizando durante seis meses o mas",
+        "un puesto de trabajo de la presente convocatoria a funcionario en situacion distinta a la de servicio activo supondra su reingreso, sin perjuicio de la posibilidad prevista en el articulo 23",
+        "un puesto de doble adscripcion a subgrupo, en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "|un puesto de trabajo en la misma localidad un puesto de trabajo en el concurso habra de alcanzarse una valoracion minima de 5 puntos en la primera fase y 6 puntos en la segunda|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
