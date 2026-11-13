@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-12T16:12:33+00:00",
+    "lastRun": "2026-11-13T15:40:04+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-11-02",
-      "hasta": "2026-11-12"
+      "desde": "2026-11-03",
+      "hasta": "2026-11-13"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 14,
-    "totalVisiblesParaUsuario": 4,
-    "totalPrioritarias": 4,
+    "totalAlertasDetectadasTerritorialmente": 11,
+    "totalVisiblesParaUsuario": 2,
+    "totalPrioritarias": 2,
     "totalSecundarias": 0,
-    "totalDescartadas": 10,
+    "totalDescartadas": 9,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -26,72 +26,6 @@
     }
   },
   "alertasPrioritarias": [
-    {
-      "id": "BOE-A-2026-22894",
-      "boeId": "BOE-A-2026-22894",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Orden EFD/1153/2026, de 19 de octubre, por la que, a propuesta de la Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid, se nombra personal funcionario de carrera de los Cuerpos de Profesores de Enseñanza Secundaria, Profesores Especialistas en Sectores Singulares de Formación Profesional, Profesores de Escuelas Oficiales de Idiomas, Profesores de Música y Artes Escénicas, Profesores de Artes Plásticas y Diseño y Maestros de Taller de Artes Plásticas y Diseño, a las personas seleccionadas en los procedimientos selectivos convocados por Resolución de 20 de febrero de 2025.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22894.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22894",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Recursos Humanos de la Consejería de Educación",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Recursos Humanos de la Consejería de Educación",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestro",
-        "musica",
-        "tesorero"
-      ],
-      "contextosInformatica": [
-        "683** 01 5,0326 ***6716*46 a0590 santos bueno, javier ***6716** 01 4,8930 ***2056*24 a0590 cruz hidalgo, alicia ***2056** 01 4,5589 especialidad: 107 informatica ***3857*46 a0590 lopez martin, isabel ***3857** 01 8,1254 ***2078*57 a0590 perez fuentes, jose antonio ***2078** 01 7,3370 ***0749*13 a0590 hornos bl",
-        "isuales ***0937*24 a0595 gomez gomez, elia ***0937** 01 5,6204 ***6751*46 a0595 merino fernandez, aurora ***6751** 01 4,9797 especialidad: 522 medios informaticos ***5966*02 a0595 garcia garcia, daniel ***5966** 01 5,9479 ***9737*68 a0595 suja thauvin, theo ***9737** 01 5,8518 ***8703*68 a0595 rosillo daza, ed"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "direccion general de recursos humanos de la consejeria de educacion|orden efd/1153/2026, de 19 de octubre, por la que, a propuesta de la consejeria de educacion, ciencia y universidades de|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-23324",
       "boeId": "BOE-A-2026-23324",
@@ -220,130 +154,10 @@
       "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-22951",
-      "boeId": "BOE-A-2026-22951",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Resolución de 28 de octubre de 2026, del Ayuntamiento de Villamalea (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22951",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22951.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22951",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Villamalea",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias naturales a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22951",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Villamalea",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administracion general, subescala administrativa",
-        "administrativo/a",
-        "escala de administracion general, subescala administrativa",
-        "subescala administrativa"
-      ],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de villamalea|una plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
     }
   ],
   "alertasSecundarias": [],
   "alertasDescartadas": [
-    {
-      "id": "BOE-A-2026-22964",
-      "boeId": "BOE-A-2026-22964",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Orden DEF/1154/2026, de 20 de octubre, por la que se establecen las normas para la aplicación de los anticipos de Caja fija y la expedición de libramientos a justificar en el Ministerio de Defensa.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22964",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22964.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22964",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Asuntos Económicos",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22964",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Asuntos Económicos",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de asuntos economicos|orden def/1154/2026, de 20 de octubre, por la que se establecen las normas para la aplicacion de los anticipos de caja f|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
     {
       "id": "BOE-A-2026-23226",
       "boeId": "BOE-A-2026-23226",
@@ -878,72 +692,6 @@
   ],
   "alertas": [
     {
-      "id": "BOE-A-2026-22894",
-      "boeId": "BOE-A-2026-22894",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Orden EFD/1153/2026, de 19 de octubre, por la que, a propuesta de la Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid, se nombra personal funcionario de carrera de los Cuerpos de Profesores de Enseñanza Secundaria, Profesores Especialistas en Sectores Singulares de Formación Profesional, Profesores de Escuelas Oficiales de Idiomas, Profesores de Música y Artes Escénicas, Profesores de Artes Plásticas y Diseño y Maestros de Taller de Artes Plásticas y Diseño, a las personas seleccionadas en los procedimientos selectivos convocados por Resolución de 20 de febrero de 2025.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22894.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22894",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Recursos Humanos de la Consejería de Educación",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Recursos Humanos de la Consejería de Educación",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestro",
-        "musica",
-        "tesorero"
-      ],
-      "contextosInformatica": [
-        "683** 01 5,0326 ***6716*46 a0590 santos bueno, javier ***6716** 01 4,8930 ***2056*24 a0590 cruz hidalgo, alicia ***2056** 01 4,5589 especialidad: 107 informatica ***3857*46 a0590 lopez martin, isabel ***3857** 01 8,1254 ***2078*57 a0590 perez fuentes, jose antonio ***2078** 01 7,3370 ***0749*13 a0590 hornos bl",
-        "isuales ***0937*24 a0595 gomez gomez, elia ***0937** 01 5,6204 ***6751*46 a0595 merino fernandez, aurora ***6751** 01 4,9797 especialidad: 522 medios informaticos ***5966*02 a0595 garcia garcia, daniel ***5966** 01 5,9479 ***9737*68 a0595 suja thauvin, theo ***9737** 01 5,8518 ***8703*68 a0595 rosillo daza, ed"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "direccion general de recursos humanos de la consejeria de educacion|orden efd/1153/2026, de 19 de octubre, por la que, a propuesta de la consejeria de educacion, ciencia y universidades de|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-23324",
       "boeId": "BOE-A-2026-23324",
       "fechaPublicacion": "2026-11-06",
@@ -1069,143 +817,12 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-22951",
-      "boeId": "BOE-A-2026-22951",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Resolución de 28 de octubre de 2026, del Ayuntamiento de Villamalea (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22951",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22951.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22951",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Villamalea",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias naturales a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22951",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Villamalea",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administracion general, subescala administrativa",
-        "administrativo/a",
-        "escala de administracion general, subescala administrativa",
-        "subescala administrativa"
-      ],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de villamalea|una plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
     {
-      "id": "BOE-A-2026-22894",
-      "boeId": "BOE-A-2026-22894",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Orden EFD/1153/2026, de 19 de octubre, por la que, a propuesta de la Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid, se nombra personal funcionario de carrera de los Cuerpos de Profesores de Enseñanza Secundaria, Profesores Especialistas en Sectores Singulares de Formación Profesional, Profesores de Escuelas Oficiales de Idiomas, Profesores de Música y Artes Escénicas, Profesores de Artes Plásticas y Diseño y Maestros de Taller de Artes Plásticas y Diseño, a las personas seleccionadas en los procedimientos selectivos convocados por Resolución de 20 de febrero de 2025.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22894.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22894",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Recursos Humanos de la Consejería de Educación",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22894",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Recursos Humanos de la Consejería de Educación",
-        "informatica",
-        "informatica_tic",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "informatica_tic",
-      "relevanciaUsuario": "muy_alta",
-      "prioridadUsuario": 1,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
-      "matchesInformatica": [
-        "informatica",
-        "informatico"
-      ],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [
-        "maestro",
-        "musica",
-        "tesorero"
-      ],
-      "contextosInformatica": [
-        "683** 01 5,0326 ***6716*46 a0590 santos bueno, javier ***6716** 01 4,8930 ***2056*24 a0590 cruz hidalgo, alicia ***2056** 01 4,5589 especialidad: 107 informatica ***3857*46 a0590 lopez martin, isabel ***3857** 01 8,1254 ***2078*57 a0590 perez fuentes, jose antonio ***2078** 01 7,3370 ***0749*13 a0590 hornos bl",
-        "isuales ***0937*24 a0595 gomez gomez, elia ***0937** 01 5,6204 ***6751*46 a0595 merino fernandez, aurora ***6751** 01 4,9797 especialidad: 522 medios informaticos ***5966*02 a0595 garcia garcia, daniel ***5966** 01 5,9479 ***9737*68 a0595 suja thauvin, theo ***9737** 01 5,8518 ***8703*68 a0595 rosillo daza, ed"
-      ],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 1,
-      "fingerprint": "direccion general de recursos humanos de la consejeria de educacion|orden efd/1153/2026, de 19 de octubre, por la que, a propuesta de la consejeria de educacion, ciencia y universidades de|informatica_tic|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-23324",
       "boeId": "BOE-A-2026-23324",
       "fechaPublicacion": "2026-11-06",
@@ -1331,126 +948,6 @@
       "nivelesDetectados": [],
       "prioridad": 1,
       "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-22951",
-      "boeId": "BOE-A-2026-22951",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Resolución de 28 de octubre de 2026, del Ayuntamiento de Villamalea (Albacete), referente a la convocatoria para proveer una plaza.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22951",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22951.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22951",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "oposiciones",
-      "tipo": "oposicion",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Ayuntamiento de Villamalea",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes sera de veinte dias naturales a contar desde el siguiente al de la publicacion de esta resolucion en el boletin oficial del estado",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22951",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "tags": [
-        "Albacete",
-        "Ayuntamiento de Villamalea",
-        "administrativo",
-        "administrativo_c1_probable",
-        "oposicion",
-        "oposiciones"
-      ],
-      "plazasExtraidas": [
-        "una plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre",
-        "convocatoria para proveer una plaza",
-        "plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre"
-      ],
-      "perfilReal": "administrativo_c1_probable",
-      "relevanciaUsuario": "alta",
-      "prioridadUsuario": 2,
-      "descartadaParaUsuario": false,
-      "visibleParaUsuario": true,
-      "motivoRelevanciaUsuario": "Detectada plaza real de Administrativo/a o subescala administrativa.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [
-        "administracion general, subescala administrativa",
-        "administrativo/a",
-        "escala de administracion general, subescala administrativa",
-        "subescala administrativa"
-      ],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 2,
-      "fingerprint": "ayuntamiento de villamalea|una plaza de gestor/a administrativo/a general, perteneciente a la escala de administracion general, subescala administrativa, por el sistema de oposicion, en turno libre convocatoria para proveer una plaza|administrativo_c1_probable|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-22964",
-      "boeId": "BOE-A-2026-22964",
-      "fechaPublicacion": "2026-11-02",
-      "titulo": "Orden DEF/1154/2026, de 20 de octubre, por la que se establecen las normas para la aplicación de los anticipos de Caja fija y la expedición de libramientos a justificar en el Ministerio de Defensa.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22964",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22964.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22964",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/02/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261102",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Asuntos Económicos",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22964",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Asuntos Económicos",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de asuntos economicos|orden def/1154/2026, de 20 de octubre, por la que se establecen las normas para la aplicacion de los anticipos de caja f|sin_perfil_claro|sin_clasificar",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
