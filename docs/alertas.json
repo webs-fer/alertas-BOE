@@ -2,18 +2,18 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-17T17:06:57+00:00",
+    "lastRun": "2026-11-18T16:42:21+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-11-07",
-      "hasta": "2026-11-17"
+      "desde": "2026-11-08",
+      "hasta": "2026-11-18"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 16,
-    "totalVisiblesParaUsuario": 1,
-    "totalPrioritarias": 1,
+    "totalAlertasDetectadasTerritorialmente": 17,
+    "totalVisiblesParaUsuario": 2,
+    "totalPrioritarias": 2,
     "totalSecundarias": 0,
     "totalDescartadas": 15,
     "errores": [],
@@ -27,21 +27,21 @@
   },
   "alertasPrioritarias": [
     {
-      "id": "BOE-A-2026-23367",
-      "boeId": "BOE-A-2026-23367",
-      "fechaPublicacion": "2026-11-07",
-      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Planificación y Coordinación Energética, por la que se establecen los coeficientes de corrección con factor multiplicador para actuaciones en edificios residenciales por la sustitución de caldera por una bomba de calor hidrónica de accionamiento eléctrico.",
+      "id": "BOE-A-2026-24127",
+      "boeId": "BOE-A-2026-24127",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 12 de noviembre de 2026, la Subsecretaría, por la que se resuelve concurso específico, convocado por Resolución de 2 de marzo de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23367.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23367",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24127",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24127.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24127",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -49,19 +49,18 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Dirección General de Planificación y Coordinación Energética",
+      "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24127",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
-        "Dirección General de Planificación y Coordinación Energética",
+        "concurso_especifico",
         "informatica",
         "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "movilidad"
       ],
       "plazasExtraidas": [],
       "perfilReal": "informatica_tic",
@@ -71,13 +70,102 @@
       "visibleParaUsuario": true,
       "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "matchesInformatica": [
-        "informatica"
+        "administracion electronica",
+        "analista de sistemas",
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "sistemas informaticos",
+        "tecnica de sistemas"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "interventor",
+        "interventora"
+      ],
+      "contextosInformatica": [
+        "***8081**. 1177 a2 i/65 s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.territor. jefe/jefa de area de administracion electronica (4986184). 28 a1 madrid. desierta. i/66 s. de e. de hacienda d.g. de tributos. unidad de apoyo. secretario/secretaria de puesto de trabajo n30 (27464",
+        "aguado, miguel angel. ***5168**. 1122 a2 i/63 s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.territor. analista de sistemas (4986192). 22 a2 c1 madrid. ministerio de hacienda. s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.ter",
+        "(1124623). 22 a2 c1 zaragoza. agencia estatal de meteorologia. direccion. dpto. de coord. de las deleg. territ. deleg. territ. de la aemet en aragon. analista programador (3462569). 20 zaragoza. castro oyaga, sergio. ***2539**. 1177 a2 i/407 delegaciones de economia y hacienda. delegacion economia y hacienda en ceuta.",
+        "7**. 1166 a1 i/22 subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron. jefe/jefa de area de arquitectura informatica standares (5085957). 28 a1 madrid. ministerio de hacienda. subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. el",
+        "5**. 1135 c1 i/17 subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron. jefe/jefa de servicio de sistemas informaticos (5602969). 26 a1 a2 madrid. ministerio de hacienda. subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron",
+        ". 22 a2 c1 zaragoza. agencia estatal de meteorologia. direccion. dpto. de coord. de las deleg. territ. deleg. territ. de la aemet en aragon. analista programador (3462569). 20 zaragoza. castro oyaga, sergio. ***2539**. 1177 a2 i/407 delegaciones de economia y hacienda. delegacion economia y hacienda en ceuta."
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, la subsecretaria, por la que se resuelve concurso especifico, convocado por resol|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-24128",
+      "boeId": "BOE-A-2026-24128",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 2 de marzo de 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24128.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24128",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "programadora",
+        "tecnica auxiliar de informatica"
       ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [
-        "stado previo al inicio de la rehabilitacion, con el justificante de registro. (3) para la elaboracion del certificado se debe emplear una herramienta informatica de las registradas como documentos reconocidos para la certificacion de la eficiencia energetica de los edificios. 9. certificado de eficiencia energ"
+        "efa de negociado (863812) 16 c1 c2 madrid desierta 5 subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. analista programador (1135532) 18 c1 c2 madrid ministerio de hacienda subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. ana",
+        "196 delegaciones de economia y hacienda del esp. ec. y hac. en murcia - murcia del.esp.ec.y hac.murcia-murcia-ger.reg. tecnico / tecnica auxiliar de informatica (2816588) 16 c1 murcia ministerio de hacienda subsecretaria de hacienda d.g. de racionaliz. y centr. contratac. s.g. coordin. proc. y anal. informaci",
+        "esierta 15 s. de e. de hacienda tribunal economico-admtvo.central t.econ.-admtvo.reg.la rioja sede-logrono administrador / administradora de recursos informaticos y comunicaciones (2790580) 16 c1 logrono la rioja desierta 16 s. de e. de hacienda tribunal economico-admtvo.central t.econ.-admtvo.reg. madrid sede",
+        "gociado (863812) 16 c1 c2 madrid desierta 5 subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. analista programador (1135532) 18 c1 c2 madrid ministerio de hacienda subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. ana",
+        "bacete desierta 64 delegaciones de economia y hacienda del. de economia y hacienda en albacete del. ec. y hacienda albacete - ger.terr. programador / programadora de primera (4150000) 17 c1 albacete ministerio de hacienda delegaciones de economia y hacienda del. de economia y hacienda en albacete del. ec. y hac",
+        "ia ***1652** 1135 c1 196 delegaciones de economia y hacienda del esp. ec. y hac. en murcia - murcia del.esp.ec.y hac.murcia-murcia-ger.reg. tecnico / tecnica auxiliar de informatica (2816588) 16 c1 murcia ministerio de hacienda subsecretaria de hacienda d.g. de racionaliz. y centr. contratac. s.g. coordin. proc. y anal. informaci"
       ],
       "gruposDetectados": [
         "A2",
@@ -86,7 +174,7 @@
       ],
       "nivelesDetectados": [],
       "prioridad": 1,
-      "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por re|informatica_tic|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
@@ -94,66 +182,6 @@
   "alertasSecundarias": [],
   "alertasDescartadas": [
     {
-      "id": "BOE-A-2026-23370",
-      "boeId": "BOE-A-2026-23370",
-      "fechaPublicacion": "2026-11-07",
-      "titulo": "Orden TED/1179/2026, de 5 de noviembre, por la que se establecen los servicios mínimos en el sector de hidrocarburos ante la convocatoria de huelga general prevista para el 11 de noviembre de 2026.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23370.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23370",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Política Energética y Minas",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Política Energética y Minas",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de politica energetica y minas|dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre|sin_perfil_claro|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
       "id": "BOE-A-2026-23610",
       "boeId": "BOE-A-2026-23610",
       "fechaPublicacion": "2026-11-11",
@@ -983,27 +1011,91 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de planificacion|resolucion de 5 de noviembre de 2026, de la subsecretaria, por la que se publica el convenio entre el ministerio de defe|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-24145",
+      "boeId": "BOE-A-2026-24145",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 16 de noviembre de 2026, de la Dirección General de la Función Pública, por la que se convoca concurso unitario de provisión de puestos de trabajo reservados a personal funcionario de administración local con habilitación de carácter nacional para el año 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24145",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24145.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24145",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Primera",
+      "precision": "alta",
+      "plazoInscripcion": "quince dias habiles, contados a partir del siguiente al de la publicacion de la presente resolucion en el boletin oficial del estado , el personal funcionario de administracion local con habilitacion de caracter nacional que desee tomar parte en el concurso presentara su solicit",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24145",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Primera",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de dicha categoria, dejara de pertenecer a la categoria de entrada de acuerdo con lo establecido en el articulo 20",
+        "un puesto de trabajo en las instituciones propias de la comunidad autonoma de aragon en situacion de servicios en comunidades autonomas, o en las entidades locales sitas en su territorio que impliquen el conocimiento de las especialidades de la organizacion territorial y de la normativa de aragon, con distincion entre las desarroll",
+        "un puesto de trabajo en las instituciones propias de la comunidad autonoma de aragon en situacion de servicios en comunidades autonomas, o en las entidades locales sitas en su territorio que impliquen el conocimiento de las especialidades de la organizacion territorial y de la normativa de aragon, con distincion entre las desarrolladas en"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de primera|un puesto de dicha categoria, dejara de pertenecer a la categoria de entrada de acuerdo con lo establecido en el articulo 20 un puesto de trabajo en las instituciones propias de la comunidad autonoma de aragon en situacion de servicios en comunidades autonomas, o en las entidades locales sitas en su territorio que impliquen el conocimiento de las especialidades de la organizacion territorial y de la normativa de aragon, con distincion entre las desarroll|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "alertas": [
     {
-      "id": "BOE-A-2026-23367",
-      "boeId": "BOE-A-2026-23367",
-      "fechaPublicacion": "2026-11-07",
-      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Planificación y Coordinación Energética, por la que se establecen los coeficientes de corrección con factor multiplicador para actuaciones en edificios residenciales por la sustitución de caldera por una bomba de calor hidrónica de accionamiento eléctrico.",
+      "id": "BOE-A-2026-24127",
+      "boeId": "BOE-A-2026-24127",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 12 de noviembre de 2026, la Subsecretaría, por la que se resuelve concurso específico, convocado por Resolución de 2 de marzo de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23367.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23367",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24127",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24127.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24127",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1011,19 +1103,18 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Dirección General de Planificación y Coordinación Energética",
+      "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24127",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
-        "Dirección General de Planificación y Coordinación Energética",
+        "concurso_especifico",
         "informatica",
         "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "movilidad"
       ],
       "plazasExtraidas": [],
       "perfilReal": "informatica_tic",
@@ -1033,13 +1124,102 @@
       "visibleParaUsuario": true,
       "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "matchesInformatica": [
-        "informatica"
+        "administracion electronica",
+        "analista de sistemas",
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "sistemas informaticos",
+        "tecnica de sistemas"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "interventor",
+        "interventora"
+      ],
+      "contextosInformatica": [
+        "***8081**. 1177 a2 i/65 s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.territor. jefe/jefa de area de administracion electronica (4986184). 28 a1 madrid. desierta. i/66 s. de e. de hacienda d.g. de tributos. unidad de apoyo. secretario/secretaria de puesto de trabajo n30 (27464",
+        "aguado, miguel angel. ***5168**. 1122 a2 i/63 s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.territor. analista de sistemas (4986192). 22 a2 c1 madrid. ministerio de hacienda. s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.ter",
+        "(1124623). 22 a2 c1 zaragoza. agencia estatal de meteorologia. direccion. dpto. de coord. de las deleg. territ. deleg. territ. de la aemet en aragon. analista programador (3462569). 20 zaragoza. castro oyaga, sergio. ***2539**. 1177 a2 i/407 delegaciones de economia y hacienda. delegacion economia y hacienda en ceuta.",
+        "7**. 1166 a1 i/22 subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron. jefe/jefa de area de arquitectura informatica standares (5085957). 28 a1 madrid. ministerio de hacienda. subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. el",
+        "5**. 1135 c1 i/17 subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron. jefe/jefa de servicio de sistemas informaticos (5602969). 26 a1 a2 madrid. ministerio de hacienda. subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron",
+        ". 22 a2 c1 zaragoza. agencia estatal de meteorologia. direccion. dpto. de coord. de las deleg. territ. deleg. territ. de la aemet en aragon. analista programador (3462569). 20 zaragoza. castro oyaga, sergio. ***2539**. 1177 a2 i/407 delegaciones de economia y hacienda. delegacion economia y hacienda en ceuta."
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, la subsecretaria, por la que se resuelve concurso especifico, convocado por resol|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-24128",
+      "boeId": "BOE-A-2026-24128",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 2 de marzo de 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24128.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24128",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "programadora",
+        "tecnica auxiliar de informatica"
       ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [
-        "stado previo al inicio de la rehabilitacion, con el justificante de registro. (3) para la elaboracion del certificado se debe emplear una herramienta informatica de las registradas como documentos reconocidos para la certificacion de la eficiencia energetica de los edificios. 9. certificado de eficiencia energ"
+        "efa de negociado (863812) 16 c1 c2 madrid desierta 5 subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. analista programador (1135532) 18 c1 c2 madrid ministerio de hacienda subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. ana",
+        "196 delegaciones de economia y hacienda del esp. ec. y hac. en murcia - murcia del.esp.ec.y hac.murcia-murcia-ger.reg. tecnico / tecnica auxiliar de informatica (2816588) 16 c1 murcia ministerio de hacienda subsecretaria de hacienda d.g. de racionaliz. y centr. contratac. s.g. coordin. proc. y anal. informaci",
+        "esierta 15 s. de e. de hacienda tribunal economico-admtvo.central t.econ.-admtvo.reg.la rioja sede-logrono administrador / administradora de recursos informaticos y comunicaciones (2790580) 16 c1 logrono la rioja desierta 16 s. de e. de hacienda tribunal economico-admtvo.central t.econ.-admtvo.reg. madrid sede",
+        "gociado (863812) 16 c1 c2 madrid desierta 5 subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. analista programador (1135532) 18 c1 c2 madrid ministerio de hacienda subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. ana",
+        "bacete desierta 64 delegaciones de economia y hacienda del. de economia y hacienda en albacete del. ec. y hacienda albacete - ger.terr. programador / programadora de primera (4150000) 17 c1 albacete ministerio de hacienda delegaciones de economia y hacienda del. de economia y hacienda en albacete del. ec. y hac",
+        "ia ***1652** 1135 c1 196 delegaciones de economia y hacienda del esp. ec. y hac. en murcia - murcia del.esp.ec.y hac.murcia-murcia-ger.reg. tecnico / tecnica auxiliar de informatica (2816588) 16 c1 murcia ministerio de hacienda subsecretaria de hacienda d.g. de racionaliz. y centr. contratac. s.g. coordin. proc. y anal. informaci"
       ],
       "gruposDetectados": [
         "A2",
@@ -1048,28 +1228,28 @@
       ],
       "nivelesDetectados": [],
       "prioridad": 1,
-      "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por re|informatica_tic|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
     {
-      "id": "BOE-A-2026-23367",
-      "boeId": "BOE-A-2026-23367",
-      "fechaPublicacion": "2026-11-07",
-      "titulo": "Resolución de 3 de noviembre de 2026, de la Dirección General de Planificación y Coordinación Energética, por la que se establecen los coeficientes de corrección con factor multiplicador para actuaciones en edificios residenciales por la sustitución de caldera por una bomba de calor hidrónica de accionamiento eléctrico.",
+      "id": "BOE-A-2026-24127",
+      "boeId": "BOE-A-2026-24127",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 12 de noviembre de 2026, la Subsecretaría, por la que se resuelve concurso específico, convocado por Resolución de 2 de marzo de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23367.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23367",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24127",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24127.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24127",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "concurso_especifico",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1077,19 +1257,18 @@
       "provinciasConfirmadasDocumento": [
         "Albacete"
       ],
-      "entidadDetectada": "Dirección General de Planificación y Coordinación Energética",
+      "entidadDetectada": "",
       "precision": "alta",
       "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23367",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24127",
       "enlaceInscripcionTipo": "BOE / bases",
       "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "tags": [
         "Albacete",
-        "Dirección General de Planificación y Coordinación Energética",
+        "concurso_especifico",
         "informatica",
         "informatica_tic",
-        "otros",
-        "sin_clasificar"
+        "movilidad"
       ],
       "plazasExtraidas": [],
       "perfilReal": "informatica_tic",
@@ -1099,13 +1278,102 @@
       "visibleParaUsuario": true,
       "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
       "matchesInformatica": [
-        "informatica"
+        "administracion electronica",
+        "analista de sistemas",
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "sistemas informaticos",
+        "tecnica de sistemas"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [
+        "interventor",
+        "interventora"
+      ],
+      "contextosInformatica": [
+        "***8081**. 1177 a2 i/65 s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.territor. jefe/jefa de area de administracion electronica (4986184). 28 a1 madrid. desierta. i/66 s. de e. de hacienda d.g. de tributos. unidad de apoyo. secretario/secretaria de puesto de trabajo n30 (27464",
+        "aguado, miguel angel. ***5168**. 1122 a2 i/63 s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.territor. analista de sistemas (4986192). 22 a2 c1 madrid. ministerio de hacienda. s. de e. de hacienda s.gral. de financiac. autonomica y local. s.g. sist.y apl. para la finan.ter",
+        "(1124623). 22 a2 c1 zaragoza. agencia estatal de meteorologia. direccion. dpto. de coord. de las deleg. territ. deleg. territ. de la aemet en aragon. analista programador (3462569). 20 zaragoza. castro oyaga, sergio. ***2539**. 1177 a2 i/407 delegaciones de economia y hacienda. delegacion economia y hacienda en ceuta.",
+        "7**. 1166 a1 i/22 subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron. jefe/jefa de area de arquitectura informatica standares (5085957). 28 a1 madrid. ministerio de hacienda. subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. el",
+        "5**. 1135 c1 i/17 subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron. jefe/jefa de servicio de sistemas informaticos (5602969). 26 a1 a2 madrid. ministerio de hacienda. subsecretaria de hacienda d.g. del patrimonio del estado. s.g. de coordinac. contratac. electron",
+        ". 22 a2 c1 zaragoza. agencia estatal de meteorologia. direccion. dpto. de coord. de las deleg. territ. deleg. territ. de la aemet en aragon. analista programador (3462569). 20 zaragoza. castro oyaga, sergio. ***2539**. 1177 a2 i/407 delegaciones de economia y hacienda. delegacion economia y hacienda en ceuta."
+      ],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 1,
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, la subsecretaria, por la que se resuelve concurso especifico, convocado por resol|informatica_tic|concurso_especifico",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-24128",
+      "boeId": "BOE-A-2026-24128",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 2 de marzo de 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24128.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24128",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "concurso_general",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "tags": [
+        "Albacete",
+        "concurso_general",
+        "informatica",
+        "informatica_tic",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "muy_alta",
+      "prioridadUsuario": 1,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.",
+      "matchesInformatica": [
+        "analista programador",
+        "informatica",
+        "informatico",
+        "programador",
+        "programadora",
+        "tecnica auxiliar de informatica"
       ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
       "contextosInformatica": [
-        "stado previo al inicio de la rehabilitacion, con el justificante de registro. (3) para la elaboracion del certificado se debe emplear una herramienta informatica de las registradas como documentos reconocidos para la certificacion de la eficiencia energetica de los edificios. 9. certificado de eficiencia energ"
+        "efa de negociado (863812) 16 c1 c2 madrid desierta 5 subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. analista programador (1135532) 18 c1 c2 madrid ministerio de hacienda subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. ana",
+        "196 delegaciones de economia y hacienda del esp. ec. y hac. en murcia - murcia del.esp.ec.y hac.murcia-murcia-ger.reg. tecnico / tecnica auxiliar de informatica (2816588) 16 c1 murcia ministerio de hacienda subsecretaria de hacienda d.g. de racionaliz. y centr. contratac. s.g. coordin. proc. y anal. informaci",
+        "esierta 15 s. de e. de hacienda tribunal economico-admtvo.central t.econ.-admtvo.reg.la rioja sede-logrono administrador / administradora de recursos informaticos y comunicaciones (2790580) 16 c1 logrono la rioja desierta 16 s. de e. de hacienda tribunal economico-admtvo.central t.econ.-admtvo.reg. madrid sede",
+        "gociado (863812) 16 c1 c2 madrid desierta 5 subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. analista programador (1135532) 18 c1 c2 madrid ministerio de hacienda subsecretaria de hacienda d.g. del patrimonio del estado s.g. de coordinac. contratac. electron. ana",
+        "bacete desierta 64 delegaciones de economia y hacienda del. de economia y hacienda en albacete del. ec. y hacienda albacete - ger.terr. programador / programadora de primera (4150000) 17 c1 albacete ministerio de hacienda delegaciones de economia y hacienda del. de economia y hacienda en albacete del. ec. y hac",
+        "ia ***1652** 1135 c1 196 delegaciones de economia y hacienda del esp. ec. y hac. en murcia - murcia del.esp.ec.y hac.murcia-murcia-ger.reg. tecnico / tecnica auxiliar de informatica (2816588) 16 c1 murcia ministerio de hacienda subsecretaria de hacienda d.g. de racionaliz. y centr. contratac. s.g. coordin. proc. y anal. informaci"
       ],
       "gruposDetectados": [
         "A2",
@@ -1114,67 +1382,7 @@
       ],
       "nivelesDetectados": [],
       "prioridad": 1,
-      "fingerprint": "direccion general de planificacion y coordinacion energetica|resolucion de 3 de noviembre de 2026, de la direccion general de planificacion y coordinacion energetica, por la que se |informatica_tic|sin_clasificar",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-23370",
-      "boeId": "BOE-A-2026-23370",
-      "fechaPublicacion": "2026-11-07",
-      "titulo": "Orden TED/1179/2026, de 5 de noviembre, por la que se establecen los servicios mínimos en el sector de hidrocarburos ante la convocatoria de huelga general prevista para el 11 de noviembre de 2026.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/07/pdfs/BOE-A-2026-23370.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23370",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/07/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261107",
-      "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "Dirección General de Política Energética y Minas",
-      "precision": "alta",
-      "plazoInscripcion": "",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23370",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "tags": [
-        "Albacete",
-        "Dirección General de Política Energética y Minas",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
-      ],
-      "plazasExtraidas": [
-        "dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre"
-      ],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "direccion general de politica energetica y minas|dos puestos de trabajo, efectuaran el comienzo de la huelga para dichos puestos en el primer turno que se vea afectado por la huelga, aunque este empezase antes del dia 11 de noviembre, y su finalizacion tuviese lugar una vez acabado el ultimo turno, aun cuando se prolongase despues de las 24 horas del 11 de noviembre|sin_perfil_claro|sin_clasificar",
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por re|informatica_tic|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -2008,6 +2216,70 @@
       "nivelesDetectados": [],
       "prioridad": 9,
       "fingerprint": "direccion general de planificacion|resolucion de 5 de noviembre de 2026, de la subsecretaria, por la que se publica el convenio entre el ministerio de defe|otro_no_interesante|sin_clasificar",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-24145",
+      "boeId": "BOE-A-2026-24145",
+      "fechaPublicacion": "2026-11-18",
+      "titulo": "Resolución de 16 de noviembre de 2026, de la Dirección General de la Función Pública, por la que se convoca concurso unitario de provisión de puestos de trabajo reservados a personal funcionario de administración local con habilitación de carácter nacional para el año 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24145",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24145.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24145",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/18/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261118",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "Ayuntamiento de Primera",
+      "precision": "alta",
+      "plazoInscripcion": "quince dias habiles, contados a partir del siguiente al de la publicacion de la presente resolucion en el boletin oficial del estado , el personal funcionario de administracion local con habilitacion de caracter nacional que desee tomar parte en el concurso presentara su solicit",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24145",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "tags": [
+        "Albacete",
+        "Ayuntamiento de Primera",
+        "libre_designacion",
+        "libre_designacion_no_prioritaria",
+        "movilidad"
+      ],
+      "plazasExtraidas": [
+        "un puesto de dicha categoria, dejara de pertenecer a la categoria de entrada de acuerdo con lo establecido en el articulo 20",
+        "un puesto de trabajo en las instituciones propias de la comunidad autonoma de aragon en situacion de servicios en comunidades autonomas, o en las entidades locales sitas en su territorio que impliquen el conocimiento de las especialidades de la organizacion territorial y de la normativa de aragon, con distincion entre las desarroll",
+        "un puesto de trabajo en las instituciones propias de la comunidad autonoma de aragon en situacion de servicios en comunidades autonomas, o en las entidades locales sitas en su territorio que impliquen el conocimiento de las especialidades de la organizacion territorial y de la normativa de aragon, con distincion entre las desarrolladas en"
+      ],
+      "perfilReal": "libre_designacion_no_prioritaria",
+      "relevanciaUsuario": "descartar",
+      "prioridadUsuario": 9,
+      "descartadaParaUsuario": true,
+      "visibleParaUsuario": false,
+      "motivoRelevanciaUsuario": "Libre designación sin perfil informático ni administrativo C1 claro.",
+      "matchesInformatica": [],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [],
+      "gruposDetectados": [
+        "A1",
+        "A2",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 9,
+      "fingerprint": "ayuntamiento de primera|un puesto de dicha categoria, dejara de pertenecer a la categoria de entrada de acuerdo con lo establecido en el articulo 20 un puesto de trabajo en las instituciones propias de la comunidad autonoma de aragon en situacion de servicios en comunidades autonomas, o en las entidades locales sitas en su territorio que impliquen el conocimiento de las especialidades de la organizacion territorial y de la normativa de aragon, con distincion entre las desarroll|libre_designacion_no_prioritaria|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     }
