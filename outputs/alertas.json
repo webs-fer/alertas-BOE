@@ -2,20 +2,20 @@
   "metadata": {
     "generatedBy": "scripts/scan_boe.py",
     "versionFiltro": "v5-perfil-informatica-prioritario",
-    "lastRun": "2026-11-21T15:37:12+00:00",
+    "lastRun": "2026-11-23T19:33:54+00:00",
     "rangoUltimaRevision": {
-      "desde": "2026-11-11",
-      "hasta": "2026-11-21"
+      "desde": "2026-11-13",
+      "hasta": "2026-11-23"
     },
     "provinciasVigiladas": [
       "Albacete"
     ],
     "fuente": "BOE - sumario diario + documento HTML",
-    "totalAlertasDetectadasTerritorialmente": 17,
-    "totalVisiblesParaUsuario": 2,
-    "totalPrioritarias": 2,
+    "totalAlertasDetectadasTerritorialmente": 16,
+    "totalVisiblesParaUsuario": 3,
+    "totalPrioritarias": 3,
     "totalSecundarias": 0,
-    "totalDescartadas": 15,
+    "totalDescartadas": 13,
     "errores": [],
     "configResumen": {
       "priorizar_informatica": true,
@@ -177,26 +177,23 @@
       "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por re|informatica_tic|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    }
-  ],
-  "alertasSecundarias": [],
-  "alertasDescartadas": [
+    },
     {
-      "id": "BOE-A-2026-23610",
-      "boeId": "BOE-A-2026-23610",
-      "fechaPublicacion": "2026-11-11",
-      "titulo": "Resolución de 5 de noviembre de 2026, de la Subsecretaría, por la que se resuelve el concurso, convocado por Resolución de 3 de julio de 2026, en el Organismo Estatal Inspección de Trabajo y Seguridad Social.",
+      "id": "BOE-A-2026-24511",
+      "boeId": "BOE-A-2026-24511",
+      "fechaPublicacion": "2026-11-23",
+      "titulo": "Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 18 de septiembre de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23610",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23610.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23610",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261111",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24511",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/23/pdfs/BOE-A-2026-24511.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24511",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261123",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -206,37 +203,47 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles, debiendo comunicarse a la unidad a la que haya sido destinado el funcionario o la funcionaria",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23610",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24511",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
       "tags": [
         "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
+        "informatica",
+        "informatica_tic",
+        "libre_designacion",
+        "movilidad"
       ],
       "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "matchesInformatica": [
+        "informatica"
+      ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
-      "contextosInformatica": [],
+      "contextosInformatica": [
+        "rea (5865511). 29 madrid. oeitss. barturen antepara, inmaculada. ***3811* a1111 a1 1111 ac 11 secretaria general. jefe adjunto/jefa adjunta de unidad informatica (5865524). 29 madrid. oeitss. sanchez castano, alberto. ***1031* a1166 a1 1166 ac 12 dir.territ.insp.trab.y s.s de illes balears-inspeccion provinc.t"
+      ],
       "gruposDetectados": [
-        "A1"
+        "A1",
+        "C1",
+        "C2"
       ],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|resolucion de 5 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso, convocado por resolucion |sin_perfil_claro|sin_clasificar",
+      "prioridad": 2,
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve la convocatoria de libre designacion,|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
-    },
+    }
+  ],
+  "alertasSecundarias": [],
+  "alertasDescartadas": [
     {
       "id": "BOE-A-2026-23914",
       "boeId": "BOE-A-2026-23914",
@@ -710,66 +717,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "ayuntamiento de lietor|una plaza de guardia urbano/a, perteneciente a la escala de administracion general, subescala subalterna, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-23613",
-      "boeId": "BOE-A-2026-23613",
-      "fechaPublicacion": "2026-11-11",
-      "titulo": "Resolución de 30 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 23 de julio de 2026, en la Intervención General de la Seguridad Social.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23613",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23613.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23613",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261111",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_especifico",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes del concurso hasta la resolucion de adjudicacion hayan sido nombrados o sean nombrados, por promocion interna, funcionarios de carrera de cuerpos o escalas pertenecientes al subgrupo inmediato superior al cuerpo o escala desde el que han concursado y hayan obtenido un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran pose",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23613",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "concurso_especifico",
-        "movilidad",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan|promocion_interna_no_prioritaria|concurso_especifico",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1226,6 +1173,69 @@
       "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso general, convocado por re|informatica_tic|concurso_general",
       "posibleDuplicado": false,
       "duplicadoDe": ""
+    },
+    {
+      "id": "BOE-A-2026-24511",
+      "boeId": "BOE-A-2026-24511",
+      "fechaPublicacion": "2026-11-23",
+      "titulo": "Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 18 de septiembre de 2026.",
+      "departamento": "",
+      "seccion": "",
+      "epigrafe": "",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24511",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/23/pdfs/BOE-A-2026-24511.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24511",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261123",
+      "fuente": "BOE",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
+      "perfiles": [],
+      "provinciasDetectadas": [
+        "Albacete"
+      ],
+      "provinciasConfirmadasDocumento": [
+        "Albacete"
+      ],
+      "entidadDetectada": "",
+      "precision": "alta",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24511",
+      "enlaceInscripcionTipo": "BOE / bases",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "tags": [
+        "Albacete",
+        "informatica",
+        "informatica_tic",
+        "libre_designacion",
+        "movilidad"
+      ],
+      "plazasExtraidas": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "matchesInformatica": [
+        "informatica"
+      ],
+      "matchesAdministrativo": [],
+      "matchesAuxiliarAdministrativo": [],
+      "matchesDescarte": [],
+      "contextosInformatica": [
+        "rea (5865511). 29 madrid. oeitss. barturen antepara, inmaculada. ***3811* a1111 a1 1111 ac 11 secretaria general. jefe adjunto/jefa adjunta de unidad informatica (5865524). 29 madrid. oeitss. sanchez castano, alberto. ***1031* a1166 a1 1166 ac 12 dir.territ.insp.trab.y s.s de illes balears-inspeccion provinc.t"
+      ],
+      "gruposDetectados": [
+        "A1",
+        "C1",
+        "C2"
+      ],
+      "nivelesDetectados": [],
+      "prioridad": 2,
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve la convocatoria de libre designacion,|informatica_tic|libre_designacion",
+      "posibleDuplicado": false,
+      "duplicadoDe": ""
     }
   ],
   "todasLasAlertas": [
@@ -1382,21 +1392,21 @@
       "duplicadoDe": ""
     },
     {
-      "id": "BOE-A-2026-23610",
-      "boeId": "BOE-A-2026-23610",
-      "fechaPublicacion": "2026-11-11",
-      "titulo": "Resolución de 5 de noviembre de 2026, de la Subsecretaría, por la que se resuelve el concurso, convocado por Resolución de 3 de julio de 2026, en el Organismo Estatal Inspección de Trabajo y Seguridad Social.",
+      "id": "BOE-A-2026-24511",
+      "boeId": "BOE-A-2026-24511",
+      "fechaPublicacion": "2026-11-23",
+      "titulo": "Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 18 de septiembre de 2026.",
       "departamento": "",
       "seccion": "",
       "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23610",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23610.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23610",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261111",
+      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24511",
+      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/23/pdfs/BOE-A-2026-24511.pdf",
+      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24511",
+      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/23/",
+      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261123",
       "fuente": "BOE",
-      "categoria": "otros",
-      "tipo": "sin_clasificar",
+      "categoria": "movilidad",
+      "tipo": "libre_designacion",
       "perfiles": [],
       "provinciasDetectadas": [
         "Albacete"
@@ -1406,34 +1416,41 @@
       ],
       "entidadDetectada": "",
       "precision": "alta",
-      "plazoInscripcion": "veinte dias habiles, debiendo comunicarse a la unidad a la que haya sido destinado el funcionario o la funcionaria",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23610",
+      "plazoInscripcion": "",
+      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24511",
       "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
+      "motivo": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
       "tags": [
         "Albacete",
-        "otros",
-        "sin_clasificar",
-        "sin_perfil_claro"
+        "informatica",
+        "informatica_tic",
+        "libre_designacion",
+        "movilidad"
       ],
       "plazasExtraidas": [],
-      "perfilReal": "sin_perfil_claro",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 6,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Provincia de interés detectada, pero no se ha identificado plaza de informática/TIC ni Administrativo C1.",
-      "matchesInformatica": [],
+      "perfilReal": "informatica_tic",
+      "relevanciaUsuario": "alta",
+      "prioridadUsuario": 2,
+      "descartadaParaUsuario": false,
+      "visibleParaUsuario": true,
+      "motivoRelevanciaUsuario": "Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo. Es libre designación: revisar requisitos y nivel antes de considerarla viable.",
+      "matchesInformatica": [
+        "informatica"
+      ],
       "matchesAdministrativo": [],
       "matchesAuxiliarAdministrativo": [],
       "matchesDescarte": [],
-      "contextosInformatica": [],
+      "contextosInformatica": [
+        "rea (5865511). 29 madrid. oeitss. barturen antepara, inmaculada. ***3811* a1111 a1 1111 ac 11 secretaria general. jefe adjunto/jefa adjunta de unidad informatica (5865524). 29 madrid. oeitss. sanchez castano, alberto. ***1031* a1166 a1 1166 ac 12 dir.territ.insp.trab.y s.s de illes balears-inspeccion provinc.t"
+      ],
       "gruposDetectados": [
-        "A1"
+        "A1",
+        "C1",
+        "C2"
       ],
       "nivelesDetectados": [],
-      "prioridad": 6,
-      "fingerprint": "|resolucion de 5 de noviembre de 2026, de la subsecretaria, por la que se resuelve el concurso, convocado por resolucion |sin_perfil_claro|sin_clasificar",
+      "prioridad": 2,
+      "fingerprint": "|resolucion de 12 de noviembre de 2026, de la subsecretaria, por la que se resuelve la convocatoria de libre designacion,|informatica_tic|libre_designacion",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
@@ -1910,66 +1927,6 @@
       "nivelesDetectados": [],
       "prioridad": 6,
       "fingerprint": "ayuntamiento de lietor|una plaza de guardia urbano/a, perteneciente a la escala de administracion general, subescala subalterna, por el sistema de concurso-oposicion, en turno libre convocatoria para proveer una plaza|sin_perfil_claro|oposicion",
-      "posibleDuplicado": false,
-      "duplicadoDe": ""
-    },
-    {
-      "id": "BOE-A-2026-23613",
-      "boeId": "BOE-A-2026-23613",
-      "fechaPublicacion": "2026-11-11",
-      "titulo": "Resolución de 30 de octubre de 2026, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 23 de julio de 2026, en la Intervención General de la Seguridad Social.",
-      "departamento": "",
-      "seccion": "",
-      "epigrafe": "",
-      "enlaceBoeHtml": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23613",
-      "enlacePdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23613.pdf",
-      "enlaceXml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23613",
-      "enlaceSumario": "https://www.boe.es/boe/dias/2026/11/11/",
-      "enlaceApi": "https://www.boe.es/datosabiertos/api/boe/sumario/20261111",
-      "fuente": "BOE",
-      "categoria": "movilidad",
-      "tipo": "concurso_especifico",
-      "perfiles": [],
-      "provinciasDetectadas": [
-        "Albacete"
-      ],
-      "provinciasConfirmadasDocumento": [
-        "Albacete"
-      ],
-      "entidadDetectada": "",
-      "precision": "alta",
-      "plazoInscripcion": "plazo de presentacion de solicitudes del concurso hasta la resolucion de adjudicacion hayan sido nombrados o sean nombrados, por promocion interna, funcionarios de carrera de cuerpos o escalas pertenecientes al subgrupo inmediato superior al cuerpo o escala desde el que han concursado y hayan obtenido un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran pose",
-      "enlaceInscripcion": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23613",
-      "enlaceInscripcionTipo": "BOE / bases",
-      "motivo": "Promoción interna sin perfil informático detectado.",
-      "tags": [
-        "Albacete",
-        "concurso_especifico",
-        "movilidad",
-        "promocion_interna_no_prioritaria"
-      ],
-      "plazasExtraidas": [
-        "un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan"
-      ],
-      "perfilReal": "promocion_interna_no_prioritaria",
-      "relevanciaUsuario": "baja",
-      "prioridadUsuario": 7,
-      "descartadaParaUsuario": true,
-      "visibleParaUsuario": false,
-      "motivoRelevanciaUsuario": "Promoción interna sin perfil informático detectado.",
-      "matchesInformatica": [],
-      "matchesAdministrativo": [],
-      "matchesAuxiliarAdministrativo": [],
-      "matchesDescarte": [],
-      "contextosInformatica": [],
-      "gruposDetectados": [
-        "A1",
-        "A2",
-        "C1"
-      ],
-      "nivelesDetectados": [],
-      "prioridad": 7,
-      "fingerprint": "|un puesto de doble adscripcion a subgrupo en la resolucion del presente concurso tomaran posesion del mismo desde el cuerpo o escala desde el que participan|promocion_interna_no_prioritaria|concurso_especifico",
       "posibleDuplicado": false,
       "duplicadoDe": ""
     },
