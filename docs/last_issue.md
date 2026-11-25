@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **3**
+Total alertas prioritarias/secundarias: **5**
 
 Filtro aplicado:
 
@@ -26,6 +26,24 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24128
 - **PDF:** https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-A-2026-24128.pdf
+
+## Resolución de 17 de noviembre de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, para el cambio de régimen jurídico del personal laboral fijo incluido en el Anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado, en la Escala de Gestión de Organismos Autónomos.
+
+- **Fecha:** 2026-11-25
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24712
+- **PDF:** https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24712.pdf
+
+## Resolución de 18 de noviembre de 2026, del Departamento de Gestión Tributaria de la Agencia Estatal de Administración Tributaria, por la que se publica la revocación de números de identificación fiscal.
+
+- **Fecha:** 2026-11-25
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24770
+- **PDF:** https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24770.pdf
 
 ## Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 18 de septiembre de 2026.
 
