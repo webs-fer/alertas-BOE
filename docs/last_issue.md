@@ -1,6 +1,6 @@
 # Nuevas alertas BOE detectadas
 
-Total alertas prioritarias/secundarias: **5**
+Total alertas prioritarias/secundarias: **6**
 
 Filtro aplicado:
 
@@ -44,6 +44,15 @@ Filtro aplicado:
 - **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
 - **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24770
 - **PDF:** https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24770.pdf
+
+## Real Decreto 1069/2026, de 26 de noviembre, por el que se aprueba el Reglamento de los Museos de titularidad estatal y del Sistema Español de Museos. Ver texto consolidado
+
+- **Fecha:** 2026-11-27
+- **Perfil detectado:** informatica_tic
+- **Prioridad:** 1
+- **Motivo:** Detectada plaza/perfil de informática, TIC, sistemas, redes, soporte o desarrollo.
+- **BOE:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24932
+- **PDF:** https://www.boe.es/boe/dias/2026/11/27/pdfs/BOE-A-2026-24932.pdf
 
 ## Resolución de 12 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 18 de septiembre de 2026.
 
